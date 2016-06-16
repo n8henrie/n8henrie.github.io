@@ -7,8 +7,6 @@ excerpt: While at first blush Drafts may seem like "just another notepad" app th
 layout: post
 guid: http://n8henrie.com/?p=2002
 permalink: /2013/02/send-time-delayed-sms-on-ios-with-drafts-app-and-due-app/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4q
 dsq_thread_id:
   - 1097626631
 ---

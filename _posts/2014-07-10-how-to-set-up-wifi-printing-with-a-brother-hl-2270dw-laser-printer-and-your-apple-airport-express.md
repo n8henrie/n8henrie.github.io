@@ -7,8 +7,6 @@ excerpt: A painless, wireless, CD-free way to set up WiFi printing with a Brothe
 layout: post
 guid: http://n8henrie.com/?p=2570
 permalink: /2014/07/how-to-set-up-wifi-printing-with-a-brother-hl-2270dw-laser-printer-and-your-apple-airport-express/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6d
 dsq_thread_id:
   - 2833081958
 ---

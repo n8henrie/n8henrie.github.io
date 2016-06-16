@@ -7,8 +7,6 @@ excerpt: "This Ruby script turns your iPhone backup folder into regular files so
 layout: post
 guid: http://n8henrie.com/?p=2387
 permalink: /2013/09/restore-app-settings-from-an-iphone-backup-without-jailbreak/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5x
 dsq_thread_id:
   - 1753819498
 ---

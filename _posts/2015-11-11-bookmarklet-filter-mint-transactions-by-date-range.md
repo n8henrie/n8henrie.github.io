@@ -7,8 +7,6 @@ excerpt: "Here's a JavaScript bookmarklet to filter Mint transactions by date ra
 layout: post
 guid: http://n8henrie.com/?p=2768
 permalink: /2015/11/bookmarklet-filter-mint-transactions-by-date-range/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/72
 dsq_thread_id:
   - 4310676971
 ---

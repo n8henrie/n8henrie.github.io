@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/05/kathryn-schulz-on-being-wrong.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4
 dsq_thread_id:
   - 828748606
 ---

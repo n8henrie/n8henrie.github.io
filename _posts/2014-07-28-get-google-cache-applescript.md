@@ -7,8 +7,6 @@ excerpt: This AppleScript will bring up the Google Cache for a page more reliabl
 layout: post
 guid: http://n8henrie.com/?p=2575
 permalink: /2014/07/get-google-cache-applescript/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6e
 dsq_thread_id:
   - 2880278157
 ---

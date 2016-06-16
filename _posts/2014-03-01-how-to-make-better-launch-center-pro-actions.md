@@ -7,8 +7,6 @@ excerpt: Create more intricate LCP actions by using lists that run totally diffe
 layout: post
 guid: http://n8henrie.com/?p=2489
 permalink: /2014/03/how-to-make-better-launch-center-pro-actions/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/66
 dsq_thread_id:
   - 2342146903
 ---

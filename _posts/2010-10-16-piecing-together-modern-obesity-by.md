@@ -14,8 +14,6 @@ blogger_permalink:
   - /2010/10/piecing-together-modern-obesity-by.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1m
 dsq_thread_id:
   - 859404750
 ---

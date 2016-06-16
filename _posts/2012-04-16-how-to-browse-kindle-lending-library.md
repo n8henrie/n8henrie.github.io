@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 816889435
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1q
 ---
 If you have a paid Prime membership (the free student ones don&#8217;t work, the $39 student ones will), you can borrow one book per month for free from the Kindle Lending Library. 
 

@@ -7,8 +7,6 @@ excerpt: "IFTTT's location channels can help you automatically track your work h
 layout: post
 guid: http://n8henrie.com/?p=2627
 permalink: /2014/09/automatically-log-work-hours-with-ifttt/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6n
 dsq_thread_id:
   - 3014811492
 ---

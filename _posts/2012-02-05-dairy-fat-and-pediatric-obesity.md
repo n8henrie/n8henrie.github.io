@@ -22,8 +22,6 @@ dsq_thread_id:
   - 811565497
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/2i
 ---
 <div>
   Excerpt  from a few emails I recently sent in regards to milk, dairy fat, and pediatric obesity.  <a href="http://www.ted.com/talks/kathryn_schulz_on_being_wrong.html" target="_blank">Correct me if I&#8217;m wrong</a>, but my primary contention is that we don&#8217;t have good evidence behind recommending low-fat milk in pediatric populations.

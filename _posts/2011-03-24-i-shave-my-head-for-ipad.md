@@ -23,8 +23,6 @@ enclosure:
         843904
         audio/mpeg
         
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/2c
 ---
 <div>
   <div>

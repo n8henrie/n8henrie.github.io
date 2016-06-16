@@ -7,8 +7,6 @@ excerpt: "Here's how to find your PPP password for a Zyxel C1000Z modem so you c
 layout: post
 guid: http://n8henrie.com/?p=2679
 permalink: /2015/01/how-to-find-your-centurylink-ppp-password-on-a-zyxel-c1000z-modem/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6r
 dsq_thread_id:
   - 3402948536
 ---

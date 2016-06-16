@@ -7,8 +7,6 @@ excerpt: How to use a Google Apps Script to automate making OmniFocus tasks from
 layout: post
 guid: http://n8henrie.com/?p=2592
 permalink: /2014/08/using-google-apps-script-to-send-tasks-to-omnifocus/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6h
 dsq_thread_id:
   - 2894891502
 ---

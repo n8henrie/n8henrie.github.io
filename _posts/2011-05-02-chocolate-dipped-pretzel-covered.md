@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/05/chocolate-dipped-pretzel-covered.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1j
 dsq_thread_id:
   - 829291971
 ---

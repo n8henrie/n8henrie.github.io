@@ -7,8 +7,6 @@ excerpt: I updated a Python script called Fauxmo that lets you control your Rasp
 layout: post
 guid: http://n8henrie.com/?p=2808
 permalink: /2016/02/fauxmo-home-automation-with-the-amazon-echo-raspberry-pi-and-homeassistant/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/77
 dsq_thread_id:
   - 4617353032
 ---

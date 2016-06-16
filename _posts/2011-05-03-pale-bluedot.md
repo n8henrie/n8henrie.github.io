@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/05/pale-bluedot.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/2d
 dsq_thread_id:
   - 831198859
 ---

@@ -6,8 +6,6 @@ author: n8henrie
 layout: post
 guid: http://n8henrie.com/?p=2170
 permalink: /2013/04/blind-leading-the-blind-my-prk-experience-introduction/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/51
 dsq_thread_id:
   - 1225558543
 ---

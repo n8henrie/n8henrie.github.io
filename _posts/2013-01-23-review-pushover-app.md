@@ -17,8 +17,6 @@ al2fb_facebook_link_time:
   - 2013-01-24T01:19:20+00:00
 al2fb_facebook_link_picture:
   - featured=http://n8henrie.com/?al2fb_image=1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4n
 dsq_thread_id:
   - 1043387858
 ---

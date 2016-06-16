@@ -7,8 +7,6 @@ excerpt: "Here's how to write in Markdown using an editor of your choice and pub
 layout: post
 guid: http://n8henrie.com/?p=2761
 permalink: /2015/11/automatically-publish-markdown-with-a-dropbox-webhook-and-heroku/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/71
 dsq_thread_id:
   - 4283171220
 ---

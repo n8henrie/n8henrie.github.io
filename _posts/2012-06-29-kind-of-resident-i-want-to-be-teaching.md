@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 812509622
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1p
 ---
 **Bottom line:** Resident physicians may be the most important part of a medical student’s experience on any given rotation. This post series is about characteristics of my favorite residents that I’d like to embody when it’s my turn. This first post is about having prepared mini-lectures for student teaching.
 

@@ -14,8 +14,6 @@ al2fb_facebook_link_picture:
   - 'avatar=http://0.gravatar.com/avatar/a23e95080d456123bf42bf8cc0f13519?s=96&amp;d=wavatar&amp;r=PG'
 dsq_thread_id:
   - 822338374
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/b
 ---
 **Bottom line:** If your &#8220;Click to Tweet&#8221; button quits working in Mountain Lion, you can fix it by quitting Notification Center with Activity Monitor.
   

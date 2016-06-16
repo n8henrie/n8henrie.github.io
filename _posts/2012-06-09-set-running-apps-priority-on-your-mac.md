@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811661374
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1o
 ---
 I use <a href="http://handbrake.fr/" target="_blank">Handbrake</a> to convert video files all the time.  It works great.  Unfortunately, converting videos takes a lot of computer power, and my trust Macbook Pro is getting a little old (nearly 3 years since I bought it &#8212; that&#8217;s like middle aged in computer years).  That means that when I try to convert a video and simultaneously work on other stuff, things get a little choppy, and sometimes downright unusable.
 

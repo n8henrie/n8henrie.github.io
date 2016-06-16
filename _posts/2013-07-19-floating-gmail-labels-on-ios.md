@@ -7,8 +7,6 @@ excerpt: "Prefix a label with a hashtag and a space to float it to the top of yo
 layout: post
 guid: http://n8henrie.com/?p=2321
 permalink: /2013/07/floating-gmail-labels-on-ios/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5s
 dsq_thread_id:
   - 1513362298
 ---

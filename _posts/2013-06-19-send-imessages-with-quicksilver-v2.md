@@ -7,8 +7,6 @@ excerpt: I’ve been pretty pleased with my Quicksilver action for sending iMess
 layout: post
 guid: http://n8henrie.com/?p=2273
 permalink: /2013/06/send-imessages-with-quicksilver-v2/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5c
   - http://n8henrie.com/n8urls/5c
   - http://n8henrie.com/n8urls/5c
   - http://n8henrie.com/n8urls/5c

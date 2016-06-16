@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/05/how-to-deal-with-people-who-are.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1y
 dsq_thread_id:
   - 832035988
 ---

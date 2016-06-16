@@ -20,8 +20,6 @@ geo_address:
   - Washington Metro (null)
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1u
 dsq_thread_id:
   - 826212121
 ---

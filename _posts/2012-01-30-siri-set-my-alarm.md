@@ -22,8 +22,6 @@ dsq_thread_id:
   - 811565506
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1a
 ---
 **Scene 1**  
 Setting: Monday morning, 6:47am, my kitchen.

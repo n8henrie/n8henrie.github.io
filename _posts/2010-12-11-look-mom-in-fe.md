@@ -14,8 +14,6 @@ blogger_permalink:
   - /2010/12/look-mom-in-fe.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/s
 dsq_thread_id:
   - 834743343
 ---

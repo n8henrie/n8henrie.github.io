@@ -7,8 +7,6 @@ excerpt: When I get a new Raspberry Pi, here is how I get it up and running with
 layout: post
 guid: http://n8henrie.com/?p=2692
 permalink: /2015/02/raspberry-pi-setup-direct-ethernet/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6t
 dsq_thread_id:
   - 3478516068
 ---

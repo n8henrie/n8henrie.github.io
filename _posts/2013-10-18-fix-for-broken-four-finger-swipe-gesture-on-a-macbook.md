@@ -7,8 +7,6 @@ excerpt: Try toggling these settings on and off if your three and four finger sw
 layout: post
 guid: http://n8henrie.com/?p=2398
 permalink: /2013/10/fix-for-broken-four-finger-swipe-gesture-on-a-macbook/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5y
 dsq_thread_id:
   - 1872743288
 ---

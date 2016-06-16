@@ -21,8 +21,6 @@ enclosure:
         1966208
         audio/mpeg
         
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/27
 dsq_thread_id:
   - 1524852494
 ---

@@ -7,8 +7,6 @@ excerpt: Small update to my Pythonista script for sending multiple tasks to Omni
 layout: post
 guid: http://n8henrie.com/?p=2457
 permalink: /2014/01/multilineomnifocus-v2-improved-launch-center-pro-and-callback-support-3/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/63
 dsq_thread_id:
   - 2122217519
 ---

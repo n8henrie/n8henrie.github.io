@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/02/treehugger.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/k
 dsq_thread_id:
   - 826211443
 ---

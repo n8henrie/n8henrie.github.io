@@ -16,8 +16,6 @@ dsq_thread_id:
   - 811565519
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1g
 ---
 This simple question just came to me while I was guiltily snacking on spoonfuls of peanut butter and honey.  It&#8217;s a silly question in some ways because it really revolves around definitions and the use of words in language, both of which are often transient and arbitrary.  Regardless, when we talk about &#8220;communication,&#8221; are we assuming or at least insinuating that the transfer of information is being performed by sentient beings that understand the material?
 

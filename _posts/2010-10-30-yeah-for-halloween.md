@@ -14,8 +14,6 @@ blogger_permalink:
   - /2010/10/yeah-for-halloween.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1-
 dsq_thread_id:
   - 823689411
 ---

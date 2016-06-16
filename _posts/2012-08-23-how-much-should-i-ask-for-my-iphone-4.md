@@ -21,8 +21,6 @@ al2fb_facebook_link_picture:
   - meta=http://www.n8henrie.com/wp-content/uploads/2012/08/Sold-300x235.png
 dsq_thread_id:
   - 816057120
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/p
 ---
 **Bottom line:** If you&#8217;re going to upgrade to a new iPhone, you may be able to get more money by selling it yourself than by going with companies that guarantee you a price.
   

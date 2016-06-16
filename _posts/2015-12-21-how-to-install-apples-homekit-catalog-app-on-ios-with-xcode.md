@@ -7,8 +7,6 @@ excerpt: "Here's how to load open source iOS apps like Apple's HomeKit Catalog o
 layout: post
 guid: http://n8henrie.com/?p=2786
 permalink: /2015/12/how-to-install-apples-homekit-catalog-app-on-ios-with-xcode/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/75
 dsq_thread_id:
   - 4422694673
 ---

@@ -7,8 +7,6 @@ excerpt: "Here's how to use my lcp_export script to batch update your Launch Cen
 layout: post
 guid: http://n8henrie.com/?p=2675
 permalink: /2014/10/update-launch-center-pro-actions-for-drafts-4/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6q
 dsq_thread_id:
   - 3121247923
 ---

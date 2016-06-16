@@ -9,8 +9,6 @@ guid: http://n8henrie.com/?p=2625
 permalink: /2014/09/finding-crashplans-most-frequently-used-directories/
 dsq_thread_id:
   - 2997360055
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6l
 ---
 **Bottom Line:** I wrote a script to go through my CrashPlan log and find out which directories were being backed up most frequently.<!--more-->
 

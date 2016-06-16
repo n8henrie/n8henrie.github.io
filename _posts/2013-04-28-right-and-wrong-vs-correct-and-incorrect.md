@@ -7,8 +7,6 @@ excerpt: 'I think that respectfully disagreeing with somebody is difficult enoug
 layout: post
 guid: http://n8henrie.com/?p=2220
 permalink: /2013/04/right-and-wrong-vs-correct-and-incorrect/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/56
 dsq_thread_id:
   - 1241851557
 ---

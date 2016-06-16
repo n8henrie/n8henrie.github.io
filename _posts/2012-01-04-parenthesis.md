@@ -14,8 +14,6 @@ blogger_permalink:
   - /2012/01/parenthesis.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/n
 dsq_thread_id:
   - 845817240
 ---

@@ -22,8 +22,6 @@ dsq_thread_id:
   - 811565485
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/i
 ---
 **Bottom line:** You can batch import events from a spreadsheet to iCal or Google Calendar by formatting the headers correctly, exporting / import as .csv, then export / import as .ics.
   

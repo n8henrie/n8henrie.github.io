@@ -7,8 +7,6 @@ excerpt: "Here's how to batch import tasks into Reminders.app on your Mac."
 layout: post
 guid: http://n8henrie.com/?p=2542
 permalink: /2014/05/how-to-get-a-spreadsheet-of-tasks-into-reminders-app/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6b
 dsq_thread_id:
   - 2714336802
 ---

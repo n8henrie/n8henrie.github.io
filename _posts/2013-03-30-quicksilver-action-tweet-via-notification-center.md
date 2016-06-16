@@ -7,8 +7,6 @@ excerpt: I like Safari’s “Share via Twitter” button that lets you Tweet a 
 layout: post
 guid: http://n8henrie.com/?p=2101
 permalink: /2013/03/quicksilver-action-tweet-via-notification-center/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4-
 dsq_thread_id:
   - 1175792823
 ---

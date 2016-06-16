@@ -7,8 +7,6 @@ excerpt: "Here's how to control RF switches from your Raspberry Pi without requi
 layout: post
 guid: http://n8henrie.com/?p=2777
 permalink: /2015/12/rf_pi-control-rf-outlets-from-your-raspberry-pi-without-sudo-or-root/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/74
 dsq_thread_id:
   - 4417732678
 ---

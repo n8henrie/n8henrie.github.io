@@ -7,8 +7,6 @@ excerpt: Load Chrome’s cookies into Requests to make scripting bulk downloads 
 layout: post
 guid: http://n8henrie.com/?p=2403
 permalink: /2013/11/use-chromes-cookies-for-easier-downloading-with-python-requests/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5z
 dsq_thread_id:
   - 1930288178
 ---

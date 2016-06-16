@@ -7,8 +7,6 @@ excerpt: "Accessibility to social media archives with APIs and analysis of that 
 layout: post
 guid: http://n8henrie.com/?p=2485
 permalink: /2014/02/laughing-at-my-own-jokes/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/65
 dsq_thread_id:
   - 2335812849
 ---

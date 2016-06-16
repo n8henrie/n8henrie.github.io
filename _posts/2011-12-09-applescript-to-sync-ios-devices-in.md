@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 812402995
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/d
 ---
 <div>
   Found a <i>great</i> applescript the other day, and thought I might as well start posting my favorites / most useful scripts that I come  across.  I found this one [<a href="http://hints.macworld.com/article.php?story=20080423220708741">here</a>] at Macworld.  Super simple little script, just triggers a sync on any iOS devices you have connected to iTunes.  So far it seems to work great, even over WiFi, and simultaneously triggers both my iPhone and iPad to sync.

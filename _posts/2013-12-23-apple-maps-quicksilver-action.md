@@ -7,8 +7,6 @@ excerpt: "If you're running Mavericks, use Quicksilver to search for a location 
 layout: post
 guid: http://n8henrie.com/?p=2424
 permalink: /2013/12/apple-maps-quicksilver-action/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/61
 dsq_thread_id:
   - 2069597627
 ---

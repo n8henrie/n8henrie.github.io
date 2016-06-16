@@ -10,14 +10,6 @@ al2fb_facebook_exclude:
   - 1
 dsq_thread_id:
   - 839051245
-yourls_fetching:
-  - 1
-  - 1
-yourls_shorturl:
-  - 
-  - http://n8henrie.com/n8urls/2n
-  - 
-  - http://n8henrie.com/n8urls/2n
 ---
 **Bottom line:** Improved &#8220;Send to OmniFocus&#8221; bookmarklet that works better with Gmail at the end of the post, the rest is just my workflow.
   

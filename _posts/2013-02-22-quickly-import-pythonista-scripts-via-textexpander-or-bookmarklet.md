@@ -7,11 +7,6 @@ excerpt: "Seems like everyone's first Pythonista script is a way to import other
 layout: post
 guid: http://n8henrie.com/?p=2007
 permalink: /2013/02/quickly-import-pythonista-scripts-via-textexpander-or-bookmarklet/
-yourls_fetching:
-  - 1
-yourls_shorturl:
-  - 
-  - http://n8henrie.com/n8urls/4r
 dsq_thread_id:
   - 1099099544
 ---

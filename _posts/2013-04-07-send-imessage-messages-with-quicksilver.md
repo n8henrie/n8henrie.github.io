@@ -7,8 +7,6 @@ excerpt: I love using Messages.app to text from OSX – much faster than trying 
 layout: post
 guid: http://n8henrie.com/?p=2113
 permalink: /2013/04/send-imessage-messages-with-quicksilver/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/50
 dsq_thread_id:
   - 1193684566
 ---

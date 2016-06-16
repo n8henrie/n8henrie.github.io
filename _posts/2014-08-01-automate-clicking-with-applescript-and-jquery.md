@@ -7,8 +7,6 @@ excerpt: This AppleScript uses jQuery to click a submit button on a webpage over
 layout: post
 guid: http://n8henrie.com/?p=2588
 permalink: /2014/08/automate-clicking-with-applescript-and-jquery/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6g
 dsq_thread_id:
   - 2894796973
 ---

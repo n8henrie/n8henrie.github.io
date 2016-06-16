@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811661485
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6
 ---
 **Bottom line:** Add javascript bookmarklets to Google Chrome’s search engines to allow activation via keyword from the Omnibox.
   

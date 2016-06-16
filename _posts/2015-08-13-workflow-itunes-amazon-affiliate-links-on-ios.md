@@ -7,8 +7,6 @@ excerpt: "Here's a Workflow Extension I made to generate iTunes and Amazon affil
 layout: post
 guid: http://n8henrie.com/?p=2751
 permalink: /2015/08/workflow-itunes-amazon-affiliate-links-on-ios/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6-
 dsq_thread_id:
   - 4029226565
 ---

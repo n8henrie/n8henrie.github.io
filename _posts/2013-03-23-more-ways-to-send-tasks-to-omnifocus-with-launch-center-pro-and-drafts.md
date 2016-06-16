@@ -7,8 +7,6 @@ excerpt: "Like Drafts, Launch Center Pro is a pretty popular app with the produc
 layout: post
 guid: http://n8henrie.com/?p=2067
 permalink: /2013/03/more-ways-to-send-tasks-to-omnifocus-with-launch-center-pro-and-drafts/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4w
 dsq_thread_id:
   - 1160210870
 ---

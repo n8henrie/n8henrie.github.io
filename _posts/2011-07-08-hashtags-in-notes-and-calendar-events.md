@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811673162
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/11
 ---
 **Update Oct 09, 2012:** _In contrast to previous versions of iCal, the search function on OSX 10.8&#8217;s Calendar.app seems to be appropriately differentiating between &#8220;hashtag&#8221; and &#8220;#hashtag.&#8221; Nice! &#8211;n8henrie Tue Oct 9 17:41:13 MDT 2012_
 

@@ -9,8 +9,6 @@ guid: http://n8henrie.com/?p=2793
 permalink: /2015/12/control-an-rf-outlet-with-siri-via-homebridge/
 dsq_thread_id:
   - 4439675415
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/76
 ---
 **Bottom Line:** Here&#8217;s how to control cheap RF outlets directly from Siri using HomeKit by way of homebridge.<!--more-->
 

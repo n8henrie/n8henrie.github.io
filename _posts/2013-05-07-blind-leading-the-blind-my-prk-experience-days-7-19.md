@@ -7,8 +7,6 @@ excerpt: Well, I haven’t updated in a while, mostly because there isn’t a wh
 layout: post
 guid: http://n8henrie.com/?p=2249
 permalink: /2013/05/blind-leading-the-blind-my-prk-experience-days-7-19/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/59
 dsq_thread_id:
   - 1269594438
 ---

@@ -6,8 +6,6 @@ author: n8henrie
 layout: post
 guid: http://n8henrie.com/?p=2516
 permalink: /2014/05/favorite-python-packages/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/68
 dsq_thread_id:
   - 2679734909
 ---

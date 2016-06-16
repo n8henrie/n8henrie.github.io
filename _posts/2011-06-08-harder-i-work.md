@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/06/harder-i-work.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/2b
 dsq_thread_id:
   - 833452497
 ---

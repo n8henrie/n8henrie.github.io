@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 819620200
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1h
 ---
 <div>
   I really like the idea of Apple&#8217;s <a href="http://itunes.apple.com/us/app/find-my-iphone/id376101648?mt=8&#038;at=10l5H6">Find My iPhone</a> app, and I have it installed on my iPhone and <span>iPad</span> &#8220;just in case.&#8221; If you don&#8217;t know about it, it&#8217;s a free app provided by Apple that will let you find the location of your <span>iOS</span> device (or your Mac as of 10.7) in case you ever misplace it. You can remotely lock your device, send it a message, locate the device, or if all else fails you can remotely wipe it to keep your data safe.

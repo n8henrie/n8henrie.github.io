@@ -7,8 +7,6 @@ excerpt: "Here's how to get all your WhatsApp ABIDs for use in Launch Center Pro
 layout: post
 guid: http://n8henrie.com/?p=2481
 permalink: /2014/02/how-to-get-the-abid-for-whatsapp-url-schemes/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/64
 dsq_thread_id:
   - 2321138016
 ---

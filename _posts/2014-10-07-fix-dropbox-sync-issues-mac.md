@@ -7,8 +7,6 @@ excerpt: "Try deleting the filecache.dbx file if you have a sync problem that is
 layout: post
 guid: http://n8henrie.com/?p=2652
 permalink: /2014/10/fix-dropbox-sync-issues-mac/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6p
 dsq_thread_id:
   - 3092605726
 ---

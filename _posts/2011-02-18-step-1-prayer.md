@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/02/step-1-prayer.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/2f
 dsq_thread_id:
   - 2127919143
 ---

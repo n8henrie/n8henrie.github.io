@@ -24,8 +24,6 @@ al2fb_facebook_nolike:
   - 1
 al2fb_facebook_nointegrate:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5
 ---
 #### I&#8217;ve been looking for this for a while!
 

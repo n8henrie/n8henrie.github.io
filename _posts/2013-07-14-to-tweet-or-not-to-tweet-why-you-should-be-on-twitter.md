@@ -7,8 +7,6 @@ excerpt: There’s a lot more to Twitter than you might have guessed.
 layout: post
 guid: http://n8henrie.com/?p=2317
 permalink: /2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5r
 dsq_thread_id:
   - 1500601736
 ---

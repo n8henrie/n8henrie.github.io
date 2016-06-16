@@ -7,8 +7,6 @@ excerpt: My experience getting a kind of vision correction surgery called PRK, p
 layout: post
 guid: http://n8henrie.com/?p=2211
 permalink: /2013/04/blind-leading-the-blind-my-prk-experience-day-6/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/55
 dsq_thread_id:
   - 1234426711
 ---

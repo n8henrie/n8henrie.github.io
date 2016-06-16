@@ -9,8 +9,6 @@ excerpt: |
 layout: post
 guid: http://n8henrie.com/?p=2060
 permalink: /2013/03/a-strategy-for-ui-scripting-in-applescript/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4v
 dsq_thread_id:
   - 1153376076
 ---

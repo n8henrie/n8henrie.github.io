@@ -7,8 +7,6 @@ excerpt: On OSX or iOS, use dictation to "type" in long strings of numbers.
 layout: post
 guid: http://n8henrie.com/?p=2500
 permalink: /2014/04/dictate-your-serial-numbers/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/67
 dsq_thread_id:
   - 2643176859
 ---

@@ -9,8 +9,6 @@ guid: http://n8henrie.com/?p=2757
 permalink: /2015/10/how-to-change-the-ssh-port-on-osx-el-capitan/
 dsq_thread_id:
   - 4269717250
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/70
 ---
 **Bottom Line:** Here&#8217;s how to change the SSH port with El Capitan&#8217;s new System Integrity Protection (SIP)<!--more-->
 

@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811757289
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/-
 ---
 <div>
   <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/p2261.jpg.scaled5001.jpg"><img src="http://www.n8henrie.com/wp-content/uploads/2012/09/p2261.jpg.scaled5001.jpg" width="500" height="444" /></a> 

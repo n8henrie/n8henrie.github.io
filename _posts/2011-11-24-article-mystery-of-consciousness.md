@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/11/article-mystery-of-consciousness.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1l
 dsq_thread_id:
   - 842632634
 ---

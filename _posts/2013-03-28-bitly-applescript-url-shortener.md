@@ -7,8 +7,6 @@ excerpt: Just an AppleScript to grab a URL from Chrome or Safari and shorten it 
 layout: post
 guid: http://n8henrie.com/?p=2081
 permalink: /2013/03/bitly-applescript-url-shortener/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4y
 dsq_thread_id:
   - 1170899394
 ---

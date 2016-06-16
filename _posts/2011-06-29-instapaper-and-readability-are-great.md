@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811755422
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/c
 ---
 <div>
   <div style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;">

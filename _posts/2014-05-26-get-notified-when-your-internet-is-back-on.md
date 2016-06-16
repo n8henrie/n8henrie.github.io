@@ -7,8 +7,6 @@ excerpt: This is my method for getting a push notification on my phone when my i
 layout: post
 guid: http://n8henrie.com/?p=2532
 permalink: /2014/05/get-notified-when-your-internet-is-back-on/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6a
 dsq_thread_id:
   - 2713948419
 ---

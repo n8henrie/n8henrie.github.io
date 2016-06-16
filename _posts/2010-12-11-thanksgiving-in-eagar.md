@@ -14,8 +14,6 @@ blogger_permalink:
   - /2010/12/thanksgiving-in-eagar.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/r
 dsq_thread_id:
   - 834738763
 ---

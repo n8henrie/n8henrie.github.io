@@ -7,8 +7,6 @@ excerpt: These are the version of jQuery you can use in a Google Sites HTML box 
 layout: post
 guid: http://n8henrie.com/?p=2607
 permalink: /2014/08/versions-of-jquery-that-work-on-google-sites-html-box/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6i
 dsq_thread_id:
   - 2911716655
 ---

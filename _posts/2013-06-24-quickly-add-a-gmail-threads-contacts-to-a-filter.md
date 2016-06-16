@@ -7,8 +7,6 @@ excerpt: To build a Gmail filter for all participants in a thread, use Reply All
 layout: post
 guid: http://n8henrie.com/?p=2289
 permalink: /2013/06/quickly-add-a-gmail-threads-contacts-to-a-filter/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5l
 dsq_thread_id:
   - 1431555410
 ---

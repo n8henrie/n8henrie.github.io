@@ -7,8 +7,6 @@ excerpt: "Here's a quick and dirty AppleScript to import files to Evernote and p
 layout: post
 guid: http://n8henrie.com/?p=2749
 permalink: /2015/08/converting-osx-finder-tags-to-evernote-tags-with-applescript/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6z
 dsq_thread_id:
   - 4026763541
 ---

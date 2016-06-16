@@ -8,8 +8,6 @@ guid: http://www.n8henrie.com/?p=1315
 permalink: /2012/08/copy-pictures-from-iphone-to-mac-with-terminal-and-ssh/
 al2fb_facebook_exclude:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/2g
 dsq_thread_id:
   - 824818383
 ---

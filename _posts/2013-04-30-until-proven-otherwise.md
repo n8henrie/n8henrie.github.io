@@ -6,8 +6,6 @@ author: n8henrie
 layout: post
 guid: http://n8henrie.com/?p=2225
 permalink: /2013/04/until-proven-otherwise/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/57
 dsq_thread_id:
   - 1250333075
 ---

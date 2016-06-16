@@ -9,8 +9,6 @@ guid: http://www.n8henrie.com/?p=1872
 permalink: /2012/12/pinboard-backups-with-curl-and-launchd/
 al2fb_facebook_exclude:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4g
 dsq_thread_id:
   - 999223363
 ---

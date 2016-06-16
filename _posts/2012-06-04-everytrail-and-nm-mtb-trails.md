@@ -14,8 +14,6 @@ blogger_permalink:
   - /2012/06/everytrail-and-nm-mtb-trails.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1k
 dsq_thread_id:
   - 839682263
 ---

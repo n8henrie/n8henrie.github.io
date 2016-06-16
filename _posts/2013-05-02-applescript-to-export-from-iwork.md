@@ -7,8 +7,6 @@ excerpt: iWork is iWork… but truth be told, I need to export to some other for
 layout: post
 guid: http://n8henrie.com/?p=2227
 permalink: /2013/05/applescript-to-export-from-iwork/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/58
 dsq_thread_id:
   - 1256987071
 ---

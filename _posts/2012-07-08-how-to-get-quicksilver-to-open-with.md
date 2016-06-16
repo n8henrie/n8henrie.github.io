@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 813563671
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/3
 ---
 **Bottom line:** You can get an app to show up in Quicksilver or Finder’s “Open with…” list by editing the app’s info.plist.
 

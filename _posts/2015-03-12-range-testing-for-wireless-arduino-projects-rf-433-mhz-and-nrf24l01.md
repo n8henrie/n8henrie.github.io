@@ -7,8 +7,6 @@ excerpt: "I tested maximum line-of-site range with an NRF24L01+ and a 433 MHz tr
 layout: post
 guid: http://n8henrie.com/?p=2706
 permalink: /2015/03/range-testing-for-wireless-arduino-projects-rf-433-mhz-and-nrf24l01/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6v
 dsq_thread_id:
   - 3594767337
 ---

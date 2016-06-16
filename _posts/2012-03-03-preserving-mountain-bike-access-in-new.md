@@ -20,8 +20,6 @@ geo_address:
   - 515 Columbia Dr SE, Albuquerque, NM 87106, USA
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1r
 dsq_thread_id:
   - 842633460
 ---

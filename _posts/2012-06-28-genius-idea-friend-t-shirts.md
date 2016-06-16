@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 822259568
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/l
 ---
 **Bottom line:** I should make t-shirts of myself and give them to all my friends. <!--more-->
 

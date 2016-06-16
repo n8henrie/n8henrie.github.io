@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 817485847
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/19
 ---
 **This is a work in progress**, and hopefully will always be that way.
 

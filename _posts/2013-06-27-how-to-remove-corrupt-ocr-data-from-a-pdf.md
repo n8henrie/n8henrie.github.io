@@ -7,8 +7,6 @@ excerpt: This posts shows how to remove corrupt OCR data from a .pdf with all fr
 layout: post
 guid: http://n8henrie.com/?p=2304
 permalink: /2013/06/how-to-remove-corrupt-ocr-data-from-a-pdf/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5q
   - http://n8henrie.com/n8urls/5q
   - http://n8henrie.com/n8urls/5q
   - http://n8henrie.com/n8urls/5q

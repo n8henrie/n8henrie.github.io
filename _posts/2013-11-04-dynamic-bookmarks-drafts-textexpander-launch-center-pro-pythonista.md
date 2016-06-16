@@ -7,8 +7,6 @@ excerpt: A variety of iOS apps let you build bookmarks that can navigate directl
 layout: post
 guid: http://n8henrie.com/?p=2411
 permalink: /2013/11/dynamic-bookmarks-drafts-textexpander-launch-center-pro-pythonista/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5-
 dsq_thread_id:
   - 1936122097
 ---

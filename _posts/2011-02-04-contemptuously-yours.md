@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/02/contemptuously-yours.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/25
 dsq_thread_id:
   - 876918711
 ---

@@ -7,8 +7,6 @@ excerpt: "Your GPS coordinates (latitude and longitude) can be found in iOS's bu
 layout: post
 guid: http://n8henrie.com/?p=2613
 permalink: /2014/08/how-to-find-your-gps-coordinates-on-an-iphone/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6j
 dsq_thread_id:
   - 2941052361
 ---

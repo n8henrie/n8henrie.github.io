@@ -7,8 +7,6 @@ excerpt: 'As a *nix novice, I’ve enjoyed learning about aliases, which are lit
 layout: post
 guid: http://n8henrie.com/?p=2296
 permalink: /2013/06/my-three-favorite-bash-aliases/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5m
 dsq_thread_id:
   - 1435041184
 ---

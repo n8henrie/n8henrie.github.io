@@ -9,8 +9,6 @@ guid: http://n8henrie.com/?p=1888
 permalink: /2013/01/pastebin-backups-with-curl-and-launchd/
 al2fb_facebook_exclude:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4i
 dsq_thread_id:
   - 1007454230
 ---

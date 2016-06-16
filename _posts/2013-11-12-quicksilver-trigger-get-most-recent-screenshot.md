@@ -7,8 +7,6 @@ excerpt: Use this Python script as a Quicksilver trigger to quickly get the most
 layout: post
 guid: http://n8henrie.com/?p=2422
 permalink: /2013/11/quicksilver-trigger-get-most-recent-screenshot/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/60
 dsq_thread_id:
   - 1960703908
 ---

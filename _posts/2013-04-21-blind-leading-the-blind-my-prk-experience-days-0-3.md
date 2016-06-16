@@ -7,8 +7,6 @@ excerpt: With this series of posts, I’m hoping to give other potential PRK pat
 layout: post
 guid: http://n8henrie.com/?p=2189
 permalink: /2013/04/blind-leading-the-blind-my-prk-experience-days-0-3/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/53
 dsq_thread_id:
   - 1226873879
 ---

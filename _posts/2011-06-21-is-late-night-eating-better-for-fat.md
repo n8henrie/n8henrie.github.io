@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811742161
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1w
 ---
 *\*Update: Please note that this is \*not* my writing, it&#8217;s a repost from leangains.com. Was just browsing and noticed that the repost formatting isn&#8217;t as obvious on Blogger as it was on Posterous, where my blog was previously hosted. &#8211;n8henrie Thu Aug 2 10:54:07 MDT 2012 
 

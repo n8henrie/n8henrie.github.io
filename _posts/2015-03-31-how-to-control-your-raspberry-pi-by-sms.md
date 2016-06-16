@@ -7,8 +7,6 @@ excerpt: "Here's how to control your Raspberry Pi with text messages!"
 layout: post
 guid: http://n8henrie.com/?p=2713
 permalink: /2015/03/how-to-control-your-raspberry-pi-by-sms/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6w
 dsq_thread_id:
   - 3642951467
 ---

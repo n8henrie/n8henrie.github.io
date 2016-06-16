@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/03/book-review-drive-daniel-pink.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/j
 dsq_thread_id:
   - 827761539
 ---

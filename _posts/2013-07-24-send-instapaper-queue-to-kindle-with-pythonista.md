@@ -7,8 +7,6 @@ excerpt: Trigger Instapaper to send your unread list to your Kindle with this Py
 layout: post
 guid: http://n8henrie.com/?p=2326
 permalink: /2013/07/send-instapaper-queue-to-kindle-with-pythonista/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5t
 dsq_thread_id:
   - 1527134585
 ---

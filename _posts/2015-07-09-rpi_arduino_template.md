@@ -7,8 +7,6 @@ excerpt: "Here's how to program and trigger actions on your Arduino from your Ra
 layout: post
 guid: http://n8henrie.com/?p=2742
 permalink: /2015/07/rpi_arduino_template/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6y
 dsq_thread_id:
   - 3919809008
 ---

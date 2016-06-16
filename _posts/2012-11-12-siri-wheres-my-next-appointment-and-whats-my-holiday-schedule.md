@@ -21,11 +21,6 @@ al2fb_facebook_link_time:
   - 2012-11-13T02:19:28+00:00
 al2fb_facebook_link_picture:
   - meta=http://www.n8henrie.com/wp-content/uploads/2012/11/IMG_0228-3-150x150.jpeg
-yourls_fetching:
-  - 1
-yourls_shorturl:
-  - 
-  - http://n8henrie.com/n8urls/2w
 ---
 **Bottom line: **Siri is smart enough to connect a few dots in telling you details about your schedule.
   

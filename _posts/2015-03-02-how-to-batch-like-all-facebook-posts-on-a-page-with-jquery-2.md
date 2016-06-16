@@ -8,8 +8,6 @@ excerpt: |
 layout: post
 guid: http://n8henrie.com/?p=2702
 permalink: /2015/03/how-to-batch-like-all-facebook-posts-on-a-page-with-jquery-2/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6u
 dsq_thread_id:
   - 3561243276
 ---

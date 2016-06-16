@@ -16,8 +16,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 816539331
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1n
 ---
 <div>
   <p>

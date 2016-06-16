@@ -7,8 +7,6 @@ excerpt: Quicksilver v1.0 has some new options for writing AppleScript actions, 
 layout: post
 guid: http://n8henrie.com/?p=2094
 permalink: /2013/03/template-for-writing-quicksilver-actions-in-applescript/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4z
 dsq_thread_id:
   - 1175753702
 ---

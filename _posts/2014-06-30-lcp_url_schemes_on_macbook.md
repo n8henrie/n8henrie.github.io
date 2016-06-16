@@ -7,8 +7,6 @@ excerpt: "Editing Launch Center Pro URL schemes on your iDevice can be a bit of 
 layout: post
 guid: http://n8henrie.com/?p=2553
 permalink: /2014/06/lcp_url_schemes_on_macbook/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6c
 dsq_thread_id:
   - 2808067008
 ---

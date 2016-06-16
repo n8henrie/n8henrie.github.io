@@ -9,11 +9,6 @@ guid: http://n8henrie.com/?p=2021
 permalink: /2013/02/send-drafts-ios-content-to-quicksilver-or-clipboard-on-osx/
 dsq_thread_id:
   - 1102206669
-yourls_fetching:
-  - 1
-yourls_shorturl:
-  - 
-  - http://n8henrie.com/n8urls/4s
 ---
 **Bottom Line:** This is another way to send text from <a href="https://itunes.apple.com/us/app/drafts/id502385074?mt=8&#038;at=10l5H6" title="Drafts Website" target="_blank">Drafts</a> on iOS to either Quicksilver or your Mac&#8217;s clipboard.
 

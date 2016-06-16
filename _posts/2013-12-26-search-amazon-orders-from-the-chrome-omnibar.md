@@ -7,8 +7,6 @@ excerpt: Use this URL to search your Amazon orders from the Chrome Omnibar.
 layout: post
 guid: http://n8henrie.com/?p=2430
 permalink: /2013/12/search-amazon-orders-from-the-chrome-omnibar/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/62
 dsq_thread_id:
   - 2074786604
 ---

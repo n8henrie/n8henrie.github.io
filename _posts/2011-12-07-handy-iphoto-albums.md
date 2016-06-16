@@ -20,8 +20,6 @@ geo_address:
   - Albuquerque, NM, USA
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/29
 dsq_thread_id:
   - 842634213
 ---

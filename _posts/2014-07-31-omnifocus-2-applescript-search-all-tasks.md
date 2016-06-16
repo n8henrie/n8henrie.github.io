@@ -7,8 +7,6 @@ excerpt: A few tweaks to my OmniFocus 2 "Search All Tasks" AppleScript.
 layout: post
 guid: http://n8henrie.com/?p=2579
 permalink: /2014/07/omnifocus-2-applescript-search-all-tasks/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6f
 dsq_thread_id:
   - 2889121412
 ---

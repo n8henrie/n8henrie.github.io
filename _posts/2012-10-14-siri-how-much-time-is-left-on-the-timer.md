@@ -20,11 +20,6 @@ al2fb_facebook_link_picture:
   - featured=http://www.n8henrie.com/?al2fb_image=1
 dsq_thread_id:
   - 885216743
-yourls_fetching:
-  - 1
-yourls_shorturl:
-  - 
-  - http://n8henrie.com/n8urls/2s
 format: video
 ---
 I&#8217;m going to start posting screenshots when I discover a new Siri trick that impresses me. I think the screenshot is key to show _exactly_ how I spoke the command, and the result.

@@ -7,8 +7,6 @@ excerpt: This post is one in a shorts series intended for MS4s entering intervie
 layout: post
 guid: http://n8henrie.com/?p=2377
 permalink: /2013/09/interview-season-tips-for-fourth-year-medical-students-part-3/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5w
 dsq_thread_id:
   - 1721759634
 ---

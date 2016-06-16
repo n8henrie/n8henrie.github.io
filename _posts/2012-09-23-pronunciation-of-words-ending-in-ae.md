@@ -11,14 +11,6 @@ al2fb_facebook_exclude:
   - 1
 dsq_thread_id:
   - 856729470
-yourls_fetching:
-  - 1
-  - 1
-yourls_shorturl:
-  - 
-  - http://n8henrie.com/n8urls/2r
-  - 
-  - http://n8henrie.com/n8urls/2r
 ---
 **Bottom line:** In American English, the most correct and generally accepted pronunciation of Latin words ending in -ae appears to be the long ē sound, as in &#8220;tea&#8221; or &#8220;C**ae**sar salad.&#8221;
   

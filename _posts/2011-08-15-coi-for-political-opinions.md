@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/08/coi-for-political-opinions.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/24
 dsq_thread_id:
   - 842640028
 ---

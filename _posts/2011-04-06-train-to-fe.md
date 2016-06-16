@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/04/train-to-fe.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/z
 dsq_thread_id:
   - 823722044
 enclosure:

@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 813171675
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1z
 ---
 **Bottom line:** This is an Applescript I pieced together from forum posts and tweaked to get it to **import files with OpenMeta tags into Evernote while retaining the file tags and created / modified dates.**
 

@@ -14,8 +14,6 @@ blogger_permalink:
   - /2011/11/n8henrie-dot-com_23.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/7
 dsq_thread_id:
   - 966532444
 ---

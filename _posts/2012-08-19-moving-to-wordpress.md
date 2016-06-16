@@ -10,8 +10,6 @@ dsq_thread_id:
   - 811639650
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1i
 ---
 **Bottom line:** In case you haven&#8217;t noticed, I moved to WordPress. Hilarity ensues.
   

@@ -7,8 +7,6 @@ excerpt: "Here's how to make an attractive file upload button for Bootstrap."
 layout: post
 guid: http://n8henrie.com/?p=2725
 permalink: /2015/05/better-bootstrap-file-upload-button/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6x
 dsq_thread_id:
   - 3752897026
 ---

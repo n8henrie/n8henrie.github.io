@@ -22,8 +22,6 @@ dsq_thread_id:
   - 811565513
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/m
 ---
 Hopefully this turns out to be a relatively quick post, especially since this little trick was so easy to figure out. In this post i plan on referring to a number of companies that do a great job keeping users up-to-date with their responsive Twitter accounts. For this reason I’ll refer to them by their “@” Twitter handles (making their accounts especially easy to find for you [@Twitter](http://twitter.com/ "Twitter") users), but the hyperlinks will go to their company website, to make that easy to find as well.
   

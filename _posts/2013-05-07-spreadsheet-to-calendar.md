@@ -7,8 +7,6 @@ excerpt: Based on the popularity of my last post on getting a spreadsheet of eve
 layout: post
 guid: http://n8henrie.com/?p=2234
 permalink: /2013/05/spreadsheet-to-calendar/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/5a
 dsq_thread_id:
   - 1269596970
 ---

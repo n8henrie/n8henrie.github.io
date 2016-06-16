@@ -14,8 +14,6 @@ blogger_permalink:
   - /2010/10/real-reason-mcdonalds-burgers-don-go.html
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1t
 dsq_thread_id:
   - 828226443
 ---

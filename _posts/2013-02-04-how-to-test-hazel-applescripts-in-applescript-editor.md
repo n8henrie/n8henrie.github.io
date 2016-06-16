@@ -7,8 +7,6 @@ excerpt: I frequently post about Hazel and the hundreds of menial, repetitive ta
 layout: post
 guid: http://n8henrie.com/?p=1994
 permalink: /2013/02/how-to-test-hazel-applescripts-in-applescript-editor/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/4p
 dsq_thread_id:
   - 1065964845
 ---

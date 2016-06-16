@@ -22,8 +22,6 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811654446
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/1f
 ---
 **Bottom line:** <a href="http://qsapp.com" target="_blank">Quicksilver</a> can index Javascript bookmarklets so you can set keyboard triggers for your favorites ones.
   

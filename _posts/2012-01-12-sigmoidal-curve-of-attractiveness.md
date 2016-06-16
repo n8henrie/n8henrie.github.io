@@ -22,8 +22,6 @@ dsq_thread_id:
   - 811565516
 blogger_images:
   - 1
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/13
 ---
 I’m currently writing a post on why I disagree when people suggest that physical attractiveness is completely irrelevant in considering a partner / SO. Not that it trumps other qualities, just that it is, and _should be_, important. In explaining my reasoning, I realized that I should first publish _this_ post, which I was inspired to write months ago by a discussion with some of my best friends. Look for the followup post called “Beauty is Common” in a few days, I’ll post a link in the comments section below (update: <a href="http://www.n8henrie.com/2012/02/beauty-is-common/" target="_blank">Beauty is Common</a>).
 

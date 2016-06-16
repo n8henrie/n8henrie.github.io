@@ -7,8 +7,6 @@ excerpt: In this post, I wanted to publish my results on a little testing of the
 layout: post
 guid: http://n8henrie.com/?p=2617
 permalink: /2014/09/how-accurate-is-the-iphone-gps/
-yourls_shorturl:
-  - http://n8henrie.com/n8urls/6k
 dsq_thread_id:
   - 2996797342
 ---
