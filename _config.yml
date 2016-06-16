@@ -1,0 +1,28 @@
+title: n8henrie.com
+email: nate@n8henrie.com
+description: >
+  Technology, medicine, science, superstition... and having fun.
+  Brought to you by Nathan Henrie.
+url: "http://n8henrie.com"
+twitter_username: n8henrie
+github_username:  n8henrie
+timezone: America/Denver
+encoding: utf-8
+
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+permalink: /:year/:month/:title/
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+escape_code: true
+
+gems:
+  - jekyll-gist
+  - octopress-escape-code
+
+exclude: [tmp]
