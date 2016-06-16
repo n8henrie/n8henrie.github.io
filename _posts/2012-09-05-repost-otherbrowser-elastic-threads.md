@@ -1,0 +1,85 @@
+---
+id: 1618
+title: 'Repost: OtherBrowser &#8211; elastic threads'
+date: 2012-09-05T16:06:38+00:00
+author: n8henrie
+layout: post
+guid: http://www.n8henrie.com/?p=1618
+permalink: /2012/09/repost-otherbrowser-elastic-threads/
+al2fb_facebook_link_id:
+  - 506452318_10151142871617319
+al2fb_facebook_link_time:
+  - 2012-09-05T22:06:41+00:00
+al2fb_facebook_link_picture:
+  - 'avatar=http://0.gravatar.com/avatar/a23e95080d456123bf42bf8cc0f13519?s=96&amp;d=wavatar&amp;r=PG'
+dsq_thread_id:
+  - 832406356
+yourls_fetching:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+yourls_shorturl:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3j
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3k
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3l
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3m
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3n
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3o
+  - 
+  - http://n8henrie.com/n8urls/3i
+  - http://n8henrie.com/n8urls/3p
+  - 
+  - http://n8henrie.com/n8urls/3i
+---
+**Bottom line:** OtherBrowser installs a few little bookmarklets that take whatever URL you&#8217;re looking at in Chrome and open it in Safari, or vice versa.
+  
+<!--more-->
+
+
+  
+Very handy.  Like the author, I&#8217;ve been trying to use Safari more often since installing Mountain Lion, especially in anticipation of some changes in iOS 6&#8230; but it&#8217;s not easy.  Making it easily to go back and forth is appreciated.
+
+Previously, I was grabbing the URL, pasting into Quicksilver, then &#8220;Open with&#8230;&#8221; and choosing the browser.  With this installed, I can just invoke QS, type in &#8220;#toSafari&#8221; (or whatever you&#8217;ve named your bookmarklet), and &#8220;shift+CMD+J&#8221; which is my QS trigger to &#8220;Run Javascript.&#8221;
+
+Very nice.  Thanks, elasticthreads.
+
+OtherBrowser &#8211; elastic threads.
+
+EDIT: And shout out to [@veritrope](https://twitter.com/veritrope) [[veritrope.com](http://veritrope.com/)] for the find.

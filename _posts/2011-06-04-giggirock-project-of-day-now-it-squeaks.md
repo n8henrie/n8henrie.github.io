@@ -1,0 +1,40 @@
+---
+id: 59
+title: '@giggirock Project of the day. Now it squeaks but at least it flows. #winning'
+date: 2011-06-04T17:32:00+00:00
+author: n8henrie
+layout: post
+guid: http://www.n8henrie.com/?p=59
+permalink: /2011/06/giggirock-project-of-day-now-it-squeaks/
+blogger_blog:
+  - www.n8henrie.com
+blogger_author:
+  - Nathan Henrie
+blogger_permalink:
+  - /2011/06/giggirock-project-of-day-now-it-squeaks.html
+blogger_images:
+  - 1
+dsq_thread_id:
+  - 811733727
+yourls_shorturl:
+  - http://n8henrie.com/n8urls/21
+enclosure:
+  - |
+    |
+        http://www.n8henrie.com/wp-content/uploads/2012/09/movie.mov
+        694716
+        video/quicktime
+        
+---
+<div>
+  <div>
+    <img alt="" src="http://www.n8henrie.com/wp-content/uploads/2012/09/movie.mov" /> 
+    
+    <div>
+      <strong>movie.mov</strong> Watch on Posterous
+    </div></p>
+  </div></p>
+</div>
+
+<div>
+</div>
