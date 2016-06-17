@@ -7,9 +7,6 @@ excerpt: This posts shows how to remove corrupt OCR data from a .pdf with all fr
 layout: post
 guid: http://n8henrie.com/?p=2304
 permalink: /2013/06/how-to-remove-corrupt-ocr-data-from-a-pdf/
-  - http://n8henrie.com/n8urls/5q
-  - http://n8henrie.com/n8urls/5q
-  - http://n8henrie.com/n8urls/5q
 dsq_thread_id:
   - 1442782317
 ---
@@ -21,15 +18,15 @@ I have gone through every step and workflow I could find using Acrobat, Photosho
 
 Luckily, I finally figured out a way that works for me, using a &#8220;print-to-pdf&#8221; utility called <a target="_blank" href="http://sourceforge.net/projects/pdfwriterformac/">PDFwriter</a> and good old Adobe Reader. Basically, you tell Adobe Reader to print the .pdf &#8220;as an image,&#8221; and you print to PDFWriter. Alone, Reader won&#8217;t let you print to .pdf using the system .pdf printer &#8212; like Acrobat, just tells you to &#8220;save&#8221; instead of printing a .pdf to .pdf &#8212; and the system .pdf printer won&#8217;t print &#8220;as an image&#8221; &#8212; instead, it just gives you another exact copy of the .pdf (with the invisible text intact). Together, though, it works out.
 
-Here&#8217;s the workflow: 
+Here&#8217;s the workflow:
 
   1. Download and install <a target="_blank" href="http://sourceforge.net/projects/pdfwriterformac/" title=".pdfwriter">PDFwriter</a>
   2. Open a print dialog (i.e. print something from e.g. Preview), Printer (drop down menu) -> &#8220;add printer&#8221; -> PDFwriter
   3. Open the .pdf to be converted in Adobe Reader
   4. Print -> Advanced -> &#8220;Print as Image&#8221;
   5. By default the file ends up in a strange location,
-  
+
     `/Users/Shared/pdfwriter`, which simlinks to
-  
+
     `/private/var/spool/pdfwriter/[username]/`
   6. You&#8217;re done and can re-OCR the file with whatever OCR tool you prefer.

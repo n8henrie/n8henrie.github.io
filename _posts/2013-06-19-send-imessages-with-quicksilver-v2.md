@@ -7,40 +7,6 @@ excerpt: I’ve been pretty pleased with my Quicksilver action for sending iMess
 layout: post
 guid: http://n8henrie.com/?p=2273
 permalink: /2013/06/send-imessages-with-quicksilver-v2/
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
-  - http://n8henrie.com/n8urls/5c
 dsq_thread_id:
   - 1412899344
 ---
@@ -66,11 +32,11 @@ Luckily, Python comes pre-installed on OSX, so this should probably work just fi
 
 #### Usage<a id="Usage"></a>
 
-The basic usage is the same as before: 
+The basic usage is the same as before:
 
   * First pane: Text to be sent (convenient as you can send content that has been returned to QS, such as URLs)
   * Second pane: Select the action `Send with Messages.scpt`
-  * Third pane: Choose your recipient. 
+  * Third pane: Choose your recipient.
       * Either &#8220;arrow in&#8221; and select an iMessage compatible phone number or email address, or&#8230;
       * Name alone is sufficient if you&#8217;ve put the person into your phonebook, as per below.
 
@@ -84,13 +50,13 @@ If you&#8217;ve set contacts&#8217; phone type to &#8220;iPhone&#8221; in Addres
 
 #### Installation<a id="Installation"></a>
 
-I&#8217;ve put everything you need into [this DMG](http://n8henrie.com/wp-content/uploads/2013/06/qs_messages.dmg), (or you can get most of it from the GitHub Gist that I&#8217;ve embedded below). 
+I&#8217;ve put everything you need into [this DMG](http://n8henrie.com/wp-content/uploads/2013/06/qs_messages.dmg), (or you can get most of it from the GitHub Gist that I&#8217;ve embedded below).
 
 If you have listed contacts as having an &#8220;iPhone,&#8221; this step will populate a phonebook (if you haven&#8217;t feel free to skip this paragraph). The DMG contains an automator action `Create messages_phonebook.app`; as stated, it will populate a phonebook with any contacts that are listed as having an iPhone. It exports your address book to a .vcf file on your desktop, prompts you to select that file, then generates the phonebook and deletes the .vcf. I included the code for the import part of this automator action as `Create messages_phonebook.py` [below](#Code).
 
 Find somewhere you can store away `qs_messages.py` and `messages_phonebook.txt` and move them there. Don&#8217;t forget that you&#8217;ll likely want to add and delete people from the phonebook, so keep it somewhere out-of-the-way but easy to remember.
 
-Open `Send with Messages.scpt` in AppleScript Editor (at /Applications/Utilities/AppleScript Editor.app &#8212; I&#8217;ve had people try to open scripts with a text editor, doesn&#8217;t work). If you&#8217;ve downloaded the script from GitHub, it will probably have a `.applescript` extension &#8212; I think you need to rename it to .scpt for it to work. Once you&#8217;ve got it open, you&#8217;ll see a few properties up top that you&#8217;ll need to fix: 
+Open `Send with Messages.scpt` in AppleScript Editor (at /Applications/Utilities/AppleScript Editor.app &#8212; I&#8217;ve had people try to open scripts with a text editor, doesn&#8217;t work). If you&#8217;ve downloaded the script from GitHub, it will probably have a `.applescript` extension &#8212; I think you need to rename it to .scpt for it to work. Once you&#8217;ve got it open, you&#8217;ll see a few properties up top that you&#8217;ll need to fix:
 
   * your Apple ID is probably an email address.
   * the default path to python is usually `/usr/bin/python`, but you can change this if you know otherwise.
