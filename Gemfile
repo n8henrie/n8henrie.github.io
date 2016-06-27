@@ -4,3 +4,5 @@ group :jekyll_plugins do
     gem 'octopress-escape-code'
 end
 gem 'jekyll-gist'
+gem 'guard'
+gem 'guard-livereload'
