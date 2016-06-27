@@ -19,7 +19,7 @@ dsq_thread_id:
 ---
 <div>
   <div>
-    <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/Photo11.jpg.scaled.5001.jpg"><img alt="Photo1" height="373" src="http://www.n8henrie.com/wp-content/uploads/2012/09/Photo11.jpg.scaled.5001.jpg" width="500" /></a>
+    <a href="http://www.n8henrie.com/uploads/2012/09/Photo11.jpg.scaled.5001.jpg"><img alt="Photo1" height="373" src="http://www.n8henrie.com/uploads/2012/09/Photo11.jpg.scaled.5001.jpg" width="500" /></a>
   </div>
   
   <p>

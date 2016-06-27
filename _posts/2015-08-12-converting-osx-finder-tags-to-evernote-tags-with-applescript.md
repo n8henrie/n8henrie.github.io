@@ -15,7 +15,7 @@ dsq_thread_id:
 Several years ago I posted [this AppleScript for importing OpenMeta-tagged files to Evernote](http://n8henrie.com/2012/06/converting-openmeta-tags-to-evernote) with <a href="http://www.noodlesoft.com/hazel.php" target="_blank" title="Noodlesoft - Hazel">Hazel</a>. It&#8217;s not been particularly popular, which just over 1,000 unique pageviews since posted in 2012, but hopefully it&#8217;s been helpful to some.
 
 
-![](http://n8henrie.com/wp-content/uploads/2015/08/20150812_20150812-ScreenShot-539.jpg) 
+![](http://n8henrie.com/uploads/2015/08/20150812_20150812-ScreenShot-539.jpg) 
 
 At the time, I had been using an app called Leap to add OpenMeta tags to files. Apple gave <a href="https://support.apple.com/en-us/HT202754" target="_blank">Finder the ability to tag files</a> with Mavericks in 2013, which changed things considerably &#8212; no longer do people need to use a 3rd party app to tag files in Finder. However, by that time I&#8217;d already migrated to Evernote, so I didn&#8217;t pay too much attention.
 

@@ -35,6 +35,6 @@ I&#8217;ve had a few &#8212; like 3 &#8212; sites that LastPass consistently did
 
 A few days ago, I tried using the &#8220;Edit Form Fields&#8221; button to fix the issue, but didn&#8217;t have any luck using the form field &#8220;id&#8221; or &#8220;name.&#8221;  However, if I filled in a site, then used the &#8220;Save All Entered Data&#8221; button in the Chrome extension, it seems to do the trick.  Those three sites are now auto-filling the login credentials properly (although the auto-login feature isn&#8217;t working on those sites, not sure why).
 
-[<img class="aligncenter size-full wp-image-1748" title="Screen Shot 2012-09-23 at 12.30.57 PM" src="http://www.n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-23-at-12.30.57-PM.jpg" alt="" width="150" height="26" />](http://www.n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-23-at-12.30.57-PM.jpg) 
+[<img class="aligncenter size-full wp-image-1748" title="Screen Shot 2012-09-23 at 12.30.57 PM" src="http://www.n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-23-at-12.30.57-PM.jpg" alt="" width="150" height="26" />](http://www.n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-23-at-12.30.57-PM.jpg) 
 
 Just thought I&#8217;d pass along this little tip and a shout out to LastPass for being an excellent, affordable service that I wouldn&#8217;t hesitate to recommend to anyone.

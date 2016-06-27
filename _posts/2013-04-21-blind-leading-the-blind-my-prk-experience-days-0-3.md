@@ -31,7 +31,7 @@ Once there, I was reclined, a few more drops in my right eye, and a protective m
 Then came the abrasion of the epithelium &#8212; quite unnerving! I&#8217;m glad I took that valium. My surgeon took some kind of instrument with a metal loop and pressed it into the cornea (which was totally numb), then came at it with what looked like a rotary electric toothbrush.
 
 
-![Yikes!](http://n8henrie.com/wp-content/uploads/2013/04/20130421_electric-toothbrush.png) 
+![Yikes!](http://n8henrie.com/uploads/2013/04/20130421_electric-toothbrush.png) 
 
 He then used this toothbrush-like instrument to do away with the epithelium covering the cornea. While this was painless, it was a bit anxiogenic. After that, he used what looked like a little swab to wipe away the bits and pieces, leaving me with a pretty clear view. Next, he instructed me to center my vision on a blinking orange light on the apparatus positioned over my head. It then made a series of popping noises, and there was a little bit of pressure and a light smell of something burning (&#8230; me &#8230;.). This went on for maybe 30 seconds or so. When it was done, I _think_ I may have gotten an eyedrop&#8230; but then he placed a small disk on my eye (the <a target="_blank" href="http://en.wikipedia.org/wiki/Mitomycin" title="Mitomycin">MMC</a> no doubt). After 15 seconds or so he removed the disk and rinsed the eye with some very cold water. Interestingly, as he washed out my eye, I had some of the clearest, sharpest vision I&#8217;ve ever had &#8212; a phenomenon a few people have mentioned in their experiences. After copious irrigation, he placed a bandage contact over the eye. Lastly, he removed the eye speculum and the tape and switched the mask from the left to the right eye.
 

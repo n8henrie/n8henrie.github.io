@@ -41,12 +41,12 @@ For the project I was interested in, I first purchased a 433 MHz RF receiver (si
 Receiver:
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_IMG_06671.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_IMG_06671.jpg) 
 
 Transmitter:
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_IMG_06701.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_IMG_06701.jpg) 
 
 Once power and ground were wired to the Arduino, I connected a wire to the data pin on the receiver. I connected up my multimeter between this wire and ground, and then powered up the Arduino. Once everything was on, I clicked the button on the RF remote a few times to see how high the voltage was getting up to on the data pin. (Note that there are 2 data pins &#8212; I picked one arbitrarily, I&#8217;m not sure why there are two.) I planned on connecting this pin to my MBP, and I&#8217;ve read that you should have no higher than 1 volt input.
 
@@ -67,7 +67,7 @@ So just to be safe, I took it up an order of magnitude and decided to start with
 For hooking up to the Mac, I used a simple stereo splitter cable:
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_IMG_06611.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_IMG_06611.jpg) 
 
 I hooked that into the headphone jack, then went to `System Preferences` -> `Sound` -> `Input` and set it to use the jack as an input device.
 
@@ -84,19 +84,19 @@ Next, I needed to set up some way to record the information. While there is an a
 In audacity, I opened a new project and made sure to change the sample frequency (bottom left hand corner). I just picked the highest one, figuring the more resolution the better.
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140830-ScreenShot-379.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140830-ScreenShot-379.jpg) 
 
 Then, I started up the Arduino, picked one of sides of the stereo cable, and connected it to the wire (with the resistor on it) coming from the RF receiver&#8217;s data pin. I think either side of the stereo cable will work, it just changes whether it goes to left or right channel. 
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_IMG_06591.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_IMG_06591.jpg) 
 
 Finally, I picked up the RF remote and clicked record in Audacity. Once it started recording, I gave it about 2 seconds, then started clicking a button on the remote every couple of seconds. I eventually figured out that it&#8217;s smart to try to time the clicks so you know where to look at your recording once you&#8217;re all zoomed in (e.g. click at the 2, 4, 6, ad 8 second marks). I stopped recording after a few seconds, then played one of my favorite albums to make sure my sound card wasn&#8217;t fried, and zoomed in on the Audacity data. It looks like it was working, so I went ahead and recorded tracks for the other 9 buttons (5 on buttons and 5 off buttons total) in separate channels (by clicking in a blank spot in audacity and hitting record again).
 
 I ended up with something like this:
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140830-ScreenShot-3831.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140830-ScreenShot-3831.jpg) 
 
 Your first step should be to save the file, and probably make a duplicate. As I&#8217;ve tried to emphasize, this process is probably risky to your computer / sound card, so you don&#8217;t want to risk losing data and having to do it all over again.
 
@@ -104,36 +104,36 @@ You have to zoom in a bit to see that there is a pattern there. Audacity&#8217;s
 
 Sets of about 7 pulses of data
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140830-ScreenShot-3841.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140830-ScreenShot-3841.jpg)
 
 Each of the 7 appears to have a pattern
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140830-ScreenShot-3851.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140830-ScreenShot-3851.jpg)
 
 Appears to be a series of short and long pulses
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140830-ScreenShot-3861.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140830-ScreenShot-3861.jpg)
 
 Short pulses approximately 1/3 the duration of the long pulses, with the short and long lows (pauses) approximately the same duration as the short and long high pulses.
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3891.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3891.jpg)
 
 Cool! Now there are a are a few different ways to analyze this data to get your codes. The first step for me was to get the overall pattern.
 
 One good way to accomplish this is by <a target="_blank" href="http://hblok.net/blog/posts/2012/09/02/home-automation-on-433-92-mhz-with-arduino/">using a label track</a> (`Tracks` -> `Add New` -> `Label Track`). This gives you a little track underneath where you can mark timestamps with arbitrary text. The method described in the link above worked well for me &#8212; just label long pulses as `1`s and short pulses as ``s. Click at the beginning of a pulse, `command b` is the shortcut to add a label, then input the 0 or 1. You can see my label track in progress below, before I had filled in the 0s and 1s.
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3961.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3961.jpg) 
 
 Afterward, you can `File` -> `Export Labels` and end up with a text file marking the exact times.
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3991.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3991.jpg) 
 
 The next step is to figure out the durations of the short and long pulses. One way would be to visually estimate that the short pulses are about 1/3 the duration of the long pulses, and pretty much every short pulse appears to be followed by a long pause, and every long pulse by a short pause. Therefore, we should be able to assume that the intervals between all of the starts of the pulses is about the same (short + long == long + short), and that 1/4 of that entire interval is equal to a short pulse, and 3/4 of that entire interval is equal to a long pulse. Hopefully this makes sense.
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140912-ScreenShot-409.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140912-ScreenShot-409.jpg) 
 
 Based on our label track, the time between the starts of the second and third pulses is `0.001565 - 0.000794 = 0.000771` seconds, or 771 µs. `771 / 4 = 192.75`, so based on that, a short pulse is about 192 µs and a long pulse about 578 µs.
 
@@ -183,36 +183,36 @@ For example,
 
 Picking out a short pulse
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3891.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3891.jpg)
 
 Zooming in
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3901.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3901.jpg) 
 
 Highlighting &#8212; note the `Project Rate` of 384000 and `Length` of 73 samples down below
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3921.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3921.jpg)
 
 73 samples at 384000 samples per second yields 190 µs duration
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3931.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3931.jpg)
 
 The measured short pulse duration is _exactly_ what we had calculated based off the label track. Note where I started and stopped measuring &#8212; I figure I want to capture the signal from the moment it goes high to the instant it is turned off, which in my mind means from the time is starts increasing to the time it starts decreasing. Therefore, I chose to measure **from the first sample that was clearly above baseline to the time it was clearly decreasing**. It definitely helps expand the window vertically and zoom in.
 
 Repeat this process for the long pulses, and we find that we were very close:
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3941.jpg) 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-3951.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3941.jpg) 
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-3951.jpg) 
 
 Finally, the last thing we need to do is measure the _long_ pause after the last pulse in each set.
 
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-4001.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-4001.jpg)
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-4011.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-4011.jpg)
   
-![](http://n8henrie.com/wp-content/uploads/2014/09/20140912_20140831-ScreenShot-402.jpg)
+![](http://n8henrie.com/uploads/2014/09/20140912_20140831-ScreenShot-402.jpg)
 
 5953 is about 31 short pulses, or a little over 7 &#8220;total cycle&#8221; durations (4 * short pulse).
 

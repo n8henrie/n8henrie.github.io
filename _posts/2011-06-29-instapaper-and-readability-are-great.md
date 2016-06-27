@@ -81,7 +81,7 @@ dsq_thread_id:
   
   <p>
     <div>
-      <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg"><img alt="Before_instapaper" height="539" src="http://www.n8henrie.com/wp-content/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg" width="500" /></a> <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg"><img alt="After_instapaper" height="562" src="http://www.n8henrie.com/wp-content/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg" width="500" /></a>
+      <a href="http://www.n8henrie.com/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg"><img alt="Before_instapaper" height="539" src="http://www.n8henrie.com/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg" width="500" /></a> <a href="http://www.n8henrie.com/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg"><img alt="After_instapaper" height="562" src="http://www.n8henrie.com/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg" width="500" /></a>
     </div>
   </p>
 </div>

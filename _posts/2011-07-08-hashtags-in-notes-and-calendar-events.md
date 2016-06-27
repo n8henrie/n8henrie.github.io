@@ -45,6 +45,6 @@ dsq_thread_id:
   <p />
   
   <div>
-    <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/IMG_0877.png.scaled.500.jpg"><img alt="Img_0877" height="750" src="http://www.n8henrie.com/wp-content/uploads/2012/09/IMG_0877.png.scaled.500.jpg" width="500" /></a> <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/IMG_0876.png.scaled.500.jpg"><img alt="Img_0876" height="750" src="http://www.n8henrie.com/wp-content/uploads/2012/09/IMG_0876.png.scaled.500.jpg" width="500" /></a>
+    <a href="http://www.n8henrie.com/uploads/2012/09/IMG_0877.png.scaled.500.jpg"><img alt="Img_0877" height="750" src="http://www.n8henrie.com/uploads/2012/09/IMG_0877.png.scaled.500.jpg" width="500" /></a> <a href="http://www.n8henrie.com/uploads/2012/09/IMG_0876.png.scaled.500.jpg"><img alt="Img_0876" height="750" src="http://www.n8henrie.com/uploads/2012/09/IMG_0876.png.scaled.500.jpg" width="500" /></a>
   </div></p>
 </div>

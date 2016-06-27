@@ -21,7 +21,7 @@ dsq_thread_id:
   <div>
     <blockquote>
       <div>
-        <img name="image" src="http://www.n8henrie.com/wp-content/uploads/2012/09/earthbite1.jpg" border="0" height="375" alt="image" width="500" /> 
+        <img name="image" src="http://www.n8henrie.com/uploads/2012/09/earthbite1.jpg" border="0" height="375" alt="image" width="500" /> 
         
         <p align="right">
           (Photo by <a href="http://www.flickr.com/photos/jdhancock/3653177703/" title="JD Hancock">JD Hancock</a>)

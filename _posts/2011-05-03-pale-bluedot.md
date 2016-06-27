@@ -22,7 +22,7 @@ dsq_thread_id:
     <blockquote>
       <div>
         <p>
-          <span><span><img src="http://n8henrie.com/wp-content/uploads/2012/09/paleblue.jpg" height="676" alt="" width="500" /></span></span>
+          <span><span><img src="http://n8henrie.com/uploads/2012/09/paleblue.jpg" height="676" alt="" width="500" /></span></span>
         </p>
         
         <p>

@@ -27,19 +27,19 @@ LCP&#8217;s recent update support a handful of new actions, one of which is in-a
 
 Here&#8217;s what it will look like if you edit the finalized action (so you can customize the icon).
 
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07421.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07421.PNG)
 
 Whenever you launch this action, it will give you an input prompt, where you type your task:
 
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07431.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07431.PNG)
 
 Upon clicking &#8220;Go&#8221; your email will appear. Click &#8220;Send.&#8221;
 
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07441.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07441.PNG)
 
 You might have noticed that my email body has a nicely formatted timestamp (although I prefer YYYYMMDD for anything that might need sorting). That happened by way of LCP&#8217;s <a target="_blank" href="http://smilesoftware.com/TextExpander/touch/index.html">TextExpander Touch</a> support. To set this up, first make a new TextExpander snippet more or less like this:
 
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07411.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07411.PNG)
 
 Once that&#8217;s done, go through the steps above to create the action, but don&#8217;t finalize it yet. Placing the cursor in the Body field of the action, you can hit the **te** button above the keyboard to the far right, and it will insert **<>**. Between these, put in the name of your TextExpander snippet ( **,timestamp** in my example). I used <a target="_blank" href="http://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior">this key</a> at the bottom of the Python datetime documentation to remind me what all the little percent characters meant.
 
@@ -69,11 +69,11 @@ Also, if you have Drafts set to use a key for added security with incoming URLs,
 
 Don&#8217;t forget to give the action a name (I like QuickFocus) and an icon you like. Here&#8217;s mine:
 
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07401.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07401.PNG)
 
 When you launch the action, you&#8217;ll get the LCP prompt just like before, but this time when you hit Go&#8230;
 
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07451.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07451.PNG)
 
 …you&#8217;ll see the screen launch into Drafts momentarily, then immediately return to LCP.
 
@@ -81,4 +81,4 @@ The upside of this method is not having to hit &#8220;Send.&#8221; The downside 
 
 In closing… here&#8217;s a screenshot of my LCP layout. Just because.
   
- ![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07391.PNG)
+ ![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07391.PNG)

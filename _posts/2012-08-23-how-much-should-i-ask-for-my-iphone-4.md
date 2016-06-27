@@ -18,7 +18,7 @@ al2fb_facebook_link_id:
 al2fb_facebook_link_time:
   - 2012-08-23T18:57:43+00:00
 al2fb_facebook_link_picture:
-  - meta=http://www.n8henrie.com/wp-content/uploads/2012/08/Sold-300x235.png
+  - meta=http://www.n8henrie.com/uploads/2012/08/Sold-300x235.png
 dsq_thread_id:
   - 816057120
 ---
@@ -57,9 +57,9 @@ The average &#8220;Sold&#8221; price for first page was about $313 [N=149, range
 
 Here are a couple histograms. Enjoy.
 
-[<img src="http://www.n8henrie.com/wp-content/uploads/2012/08/Sold-1024x805.jpg" alt="" title="Sold" width="1024" height="805" class="alignnone size-large wp-image-627" srcset="http://n8henrie.com/wp-content/uploads/2012/08/Sold-1024x805.jpg 1024w, http://n8henrie.com/wp-content/uploads/2012/08/Sold-300x235.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://www.n8henrie.com/wp-content/uploads/2012/08/Sold.jpg)
+[<img src="http://www.n8henrie.com/uploads/2012/08/Sold-1024x805.jpg" alt="" title="Sold" width="1024" height="805" class="alignnone size-large wp-image-627" srcset="http://n8henrie.com/uploads/2012/08/Sold-1024x805.jpg 1024w, http://n8henrie.com/uploads/2012/08/Sold-300x235.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://www.n8henrie.com/uploads/2012/08/Sold.jpg)
   
-[<img src="http://www.n8henrie.com/wp-content/uploads/2012/08/NotSold-1024x678.jpg" alt="" title="Not Sold" width="1024" height="678" class="alignnone size-large wp-image-628" srcset="http://n8henrie.com/wp-content/uploads/2012/08/NotSold-1024x678.jpg 1024w, http://n8henrie.com/wp-content/uploads/2012/08/NotSold-300x198.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://www.n8henrie.com/wp-content/uploads/2012/08/NotSold.jpg)
+[<img src="http://www.n8henrie.com/uploads/2012/08/NotSold-1024x678.jpg" alt="" title="Not Sold" width="1024" height="678" class="alignnone size-large wp-image-628" srcset="http://n8henrie.com/uploads/2012/08/NotSold-1024x678.jpg 1024w, http://n8henrie.com/uploads/2012/08/NotSold-300x198.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://www.n8henrie.com/uploads/2012/08/NotSold.jpg)
 
 #### Discussion {#discussion}
 

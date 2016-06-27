@@ -50,7 +50,7 @@ If you&#8217;ve set contacts&#8217; phone type to &#8220;iPhone&#8221; in Addres
 
 #### Installation<a id="Installation"></a>
 
-I&#8217;ve put everything you need into [this DMG](http://n8henrie.com/wp-content/uploads/2013/06/qs_messages.dmg), (or you can get most of it from the GitHub Gist that I&#8217;ve embedded below).
+I&#8217;ve put everything you need into [this DMG](http://n8henrie.com/uploads/2013/06/qs_messages.dmg), (or you can get most of it from the GitHub Gist that I&#8217;ve embedded below).
 
 If you have listed contacts as having an &#8220;iPhone,&#8221; this step will populate a phonebook (if you haven&#8217;t feel free to skip this paragraph). The DMG contains an automator action `Create messages_phonebook.app`; as stated, it will populate a phonebook with any contacts that are listed as having an iPhone. It exports your address book to a .vcf file on your desktop, prompts you to select that file, then generates the phonebook and deletes the .vcf. I included the code for the import part of this automator action as `Create messages_phonebook.py` [below](#Code).
 

@@ -25,7 +25,7 @@ My “Click to Tweet” button in the Notification Center has stopped working a 
 
 Finally, I just gave up and rebooted. Not surprisingly, that worked. Ever since I quit using Windows, I hardly ever need to reboot, so it seems like a much bigger hassle than it really is.<figure>
 
-![](http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2012-08-28at4.06.05PM.jpg "Mountain Lion's "Click to Tweet" Button in the Notification Center")</figure> 
+![](http://www.n8henrie.com/uploads/2012/09/ScreenShot2012-08-28at4.06.05PM.jpg "Mountain Lion's "Click to Tweet" Button in the Notification Center")</figure> 
 
 **Unfortunately**, the bug came right back the next day, after canceling a tweet I’d changed my mind about. There’s no way I’m okay with having to reboot my Mac on a daily basis just to get the Twitter widget working, so I got back on Google. Still no luck.
 
@@ -35,13 +35,13 @@ In case you’re unfamiliar with Activity Monitor, **here’s a step-by-step for
 
   1. Open Spotlight (either by clicking the magnifying glass in the top right corner of your Mac’s screen or by the keyboard shortcut Command + Spacebar) and type in Activity Monitor to pull it up. Click it to open the app.
   
-    ![](http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2012-08-28at4.20.20PM.jpg "Launching Activity Monitor from Spotlight")
+    ![](http://www.n8henrie.com/uploads/2012/09/ScreenShot2012-08-28at4.20.20PM.jpg "Launching Activity Monitor from Spotlight")
   2. You’ll see a screen with a whole bunch of running apps and processes. Use the search box in the top right corner of Activity Monitor to find Notification Center. I only had one match, so I didn’t have to worry about closing the wrong app. If you don’t see it, try changing the dropdown menu to “All Processes” as shown here:
   
-    ![](http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2012-08-28at4.31.26PM.jpg)
+    ![](http://www.n8henrie.com/uploads/2012/09/ScreenShot2012-08-28at4.31.26PM.jpg)
   3. Select “Notification Center” in the main box, then click the big red “Quit Process” button in the top left of Activity Monitor.
   
-    ![](http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2012-08-28at4.40.52PM.jpg)
+    ![](http://www.n8henrie.com/uploads/2012/09/ScreenShot2012-08-28at4.40.52PM.jpg)
   4. You can just click “Quit” in the confirmation box (no need to Force Quit here).
 
 That’s it! The app comes may back so quickly that it looks like it never quit in the first place, but it probably did. Try your “Click to Tweet” button and see if it’s working again.

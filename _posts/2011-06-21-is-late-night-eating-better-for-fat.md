@@ -35,7 +35,7 @@ dsq_thread_id:
         
         <p>
           <div style="clear: both; text-align: center;">
-            <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="400" src="http://www.n8henrie.com/wp-content/uploads/2012/08/LeangainsLateNightEatingMyth.jpg" width="270" /></a><br /><a href="http://www.n8henrie.com/wp-content/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
+            <a href="http://www.n8henrie.com/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="400" src="http://www.n8henrie.com/uploads/2012/08/LeangainsLateNightEatingMyth.jpg" width="270" /></a><br /><a href="http://www.n8henrie.com/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
           </div>
           
           <p>
@@ -181,7 +181,7 @@ dsq_thread_id:
                           As you can see, the PM-setup is quite similar to the <a href="http://www.leangains.com/2010/04/leangains-guide.html" target="_blank">&#8220;One Pre-Workout Meal&#8221; protocol</a> of Leangains. 
                           
                           <div style="clear: both; text-align: center;">
-                            <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="214" src="http://www.n8henrie.com/wp-content/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" width="160" /></a><br /><a href="http://www.n8henrie.com/wp-content/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
+                            <a href="http://www.n8henrie.com/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="214" src="http://www.n8henrie.com/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" width="160" /></a><br /><a href="http://www.n8henrie.com/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
                           </div>
                           
                           <p>

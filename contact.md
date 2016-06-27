@@ -25,4 +25,4 @@ If it&#8217;s short and public:
 
 If it&#8217;s long or private:
           
-<img title="My Email Address" src="http://n8henrie.com/wp-content/uploads/2012/10/20121021-ScreenShot-36.jpg" alt="" width="127" height="18" />
+<img title="My Email Address" src="http://n8henrie.com/uploads/2012/10/20121021-ScreenShot-36.jpg" alt="" width="127" height="18" />

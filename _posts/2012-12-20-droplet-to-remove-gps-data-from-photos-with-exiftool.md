@@ -26,7 +26,7 @@ On a Mac, you can easily check whether or not a given image has GPS data by open
 
 Here&#8217;s an example picture I tool while in Corpus Christi: [[Download Image](http://cl.ly/image/1p3Y1v3q1e0r)]. Open it up in Preview (often the default app to open image files) if you&#8217;d like to see for yourself. You should get a window like this:<figure> 
 
-![](http://n8henrie.com/wp-content/uploads/2012/12/20121220-ScreenShot-50.jpg)</figure> 
+![](http://n8henrie.com/uploads/2012/12/20121220-ScreenShot-50.jpg)</figure> 
 
 Notice that you can even use the handy &#8220;Locate&#8221; button to open a Google Maps window to the _exact hotel I was at when I took the picture._
 
@@ -44,7 +44,7 @@ You should be able to drag and drop images onto the application and it will stri
 
 Also note that **you&#8217;ll still need to install EXIFTool for this to work** (available at the link above, or the link included in the .dmg). The droplet just takes the Terminal stuff &#8220;out of the picture&#8221; (hehe) to make it more user friendly for people unfamiliar or uncomfortable with Terminal.
 
-[Download link for cleanGpsFromExif.app](http://n8henrie.com/wp-content/uploads/2012/12/cleanGPSFromEXIF.dmg)
+[Download link for cleanGpsFromExif.app](http://n8henrie.com/uploads/2012/12/cleanGPSFromEXIF.dmg)
 
 If you want to give the droplet a shot, I encourage you to test it out with the GPS-data-containing photo I linked above. Once downloaded, open it in Preview and verify that the GPS data is indeed there. Then drag and drop the image file onto the droplet, re-open, and verify that the GPS data is gone. Also note that the rest of the EXIF and modification dates are preserved.
 

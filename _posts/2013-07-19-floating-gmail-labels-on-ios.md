@@ -29,6 +29,6 @@ Once I had renamed my labels #Action and #Waiting, Gmail no longer recognized th
 Luckily, the solution ended up being very simple: Just add a space. As you can see below, `# Action` and `# Waiting` float to the top of the list on iOS, and they also work with Gmail&#8217;s keyboard shortcuts and label filtering. 
 
 
-![](http://n8henrie.com/wp-content/uploads/2013/03/20130323_IMG_07111.jpg) 
+![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07111.jpg) 
 
 In the end, it&#8217;s an incredibly simple solution that saves me a bit of extra scrolling a few times per day.

@@ -57,7 +57,7 @@ If you are a coffee drinker, there’s a good chance you’ll be leaving the hou
 ## Tip #15: Sew the corners on your white coat.
 
 
-<img alt="" height="298" src="http://n8henrie.com/wp-content/uploads/2012/04/IMG_1567.jpg" width="400" /> 
+<img alt="" height="298" src="http://n8henrie.com/uploads/2012/04/IMG_1567.jpg" width="400" /> 
 
 I realize this isn’t the best picture, but hopefully you can see what I’m saying. The bottom inside corners of the white coats we’re (generously) given have flaps. For some reason, I catch these flaps on doorknobs _all the time._ My first attempt to fix the problem involved cloth glue, yellow stains, and having to buy a new white coat. My second attempt has worked out nicely – just sew a little “tack” spot as pictures to prevent the flaps from hanging open and catching on things. Then again, this could just be a Nate problem, maybe you should wait to see if it’s an issue for you first.
 

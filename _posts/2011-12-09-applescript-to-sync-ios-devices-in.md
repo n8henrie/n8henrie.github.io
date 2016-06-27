@@ -52,7 +52,7 @@ dsq_thread_id:
 Oh, one last thing.  If you copy this script into ~/library/itunes/scripts (this folder might not exist, I had to create it), it will conveniently show up in your iTunes menu (see below).  Because this folder won&#8217;t be indexed in QuickSilver, you can either just put an _extra_ copy there and keep the other somewhere that QuickSilver searches, or add that folder in your QuickSilver catalog. 
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2011-12-09at5.16.27PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="31" src="http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2011-12-09at5.16.27PM.jpg" width="320" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/09/ScreenShot2011-12-09at5.16.27PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="31" src="http://www.n8henrie.com/uploads/2012/09/ScreenShot2011-12-09at5.16.27PM.jpg" width="320" /></a>
 </div>
 
 <div>

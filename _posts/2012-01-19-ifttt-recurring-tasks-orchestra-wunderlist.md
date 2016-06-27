@@ -88,28 +88,28 @@ For the purposes of this post, I bet you can already guess what we’re going to
 A few pics of selected steps and the resulting task in the <a href="http://www.orchestra.com/" target="_blank">@Orchestra</a> webapp and iPhone app:
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/ScreenShot2012-01-19at1.07.15PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="260" src="http://n8henrie.com/wp-content/uploads/2012/01/ScreenShot2012-01-19at1.07.15PM.jpg" width="640" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-01-19at1.07.15PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="260" src="http://n8henrie.com/uploads/2012/01/ScreenShot2012-01-19at1.07.15PM.jpg" width="640" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/ScreenShot2012-01-19at1.07.26PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="348" src="http://n8henrie.com/wp-content/uploads/2012/01/ScreenShot2012-01-19at1.07.26PM.jpg" width="640" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-01-19at1.07.26PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="348" src="http://n8henrie.com/uploads/2012/01/ScreenShot2012-01-19at1.07.26PM.jpg" width="640" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/ScreenShot2012-01-19at1.05.44PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="363" src="http://n8henrie.com/wp-content/uploads/2012/01/ScreenShot2012-01-19at1.05.44PM.jpg" width="640" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-01-19at1.05.44PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="363" src="http://n8henrie.com/uploads/2012/01/ScreenShot2012-01-19at1.05.44PM.jpg" width="640" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/IMG_13841.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://n8henrie.com/wp-content/uploads/2012/01/IMG_1384.png" width="426" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/08/IMG_13841.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://n8henrie.com/uploads/2012/01/IMG_1384.png" width="426" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">

@@ -25,7 +25,7 @@ dsq_thread_id:
   - 1524852494
 ---
 <div>
-  <img src="http://www.n8henrie.com/wp-content/uploads/2012/09/4FBFF85A-08AE-448D-85E0-7E23FCBCF68A-2583-000003A7A46EE95A1.jpg" /><br /> 
+  <img src="http://www.n8henrie.com/uploads/2012/09/4FBFF85A-08AE-448D-85E0-7E23FCBCF68A-2583-000003A7A46EE95A1.jpg" /><br /> 
   
   <div>
     via <a href="http://audioboo.fm/boos/273732-on-originality">AudioBoo</a>

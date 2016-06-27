@@ -26,7 +26,7 @@ enclosure:
 ---
 <div>
   <div>
-    <img alt="Media_httpaudioboofmb_okdnc" height="1" src="http://www.n8henrie.com/wp-content/uploads/2012/09/media_httpaudioboofmb_okdnc.jpg.scaled500.jpg" width="1" />
+    <img alt="Media_httpaudioboofmb_okdnc" height="1" src="http://www.n8henrie.com/uploads/2012/09/media_httpaudioboofmb_okdnc.jpg.scaled500.jpg" width="1" />
   </div>
   
   <p>

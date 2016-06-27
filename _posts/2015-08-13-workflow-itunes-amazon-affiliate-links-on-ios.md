@@ -19,7 +19,7 @@ While my favorite way to generate affiliate links &#8212; no contest &#8212; is 
 However, I recently realized that a <a title="Workflow: Powerful Automation Made Simple" href="https://itunes.apple.com/us/app/workflow-powerful-automation/id915249334?mt=8&uo=4&at=10l5H6" target="_blank">Workflow Extension</a> seems like a pretty smooth way to generate these links. You can send a URL to an extension from the iOS App Store using the share button (top right) followed by choosing your extension down below (Workflow in this case).
 
 
-<img class="aligncenter" src="http://n8henrie.com/wp-content/uploads/2015/08/20150813_File_Aug_13__8_46_24_AM.jpg" alt="" width="227" height="403" /> 
+<img class="aligncenter" src="http://n8henrie.com/uploads/2015/08/20150813_File_Aug_13__8_46_24_AM.jpg" alt="" width="227" height="403" /> 
 
 I also wanted to make sure that my extension could accept URLs from the Safari share button when viewing an Amazon item and return a suitable link.
 

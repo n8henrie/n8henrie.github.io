@@ -44,7 +44,7 @@ Siri: Okay, setting an alarm for 6:30 pm tomorrow.
 Nate: 
 
 <div style="clear: both;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/Image2012.01.3071834AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="http://www.n8henrie.com/wp-content/uploads/2012/09/Image2012.01.3071834AM.png" width="192" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3071834AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3071834AM.png" width="192" /></a>
 </div>
 
 <div style="clear: both;">
@@ -61,7 +61,7 @@ Siri: Okay, setting an alarm for 6:30 am tomorrow.
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/Image2012.01.3072453AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://www.n8henrie.com/wp-content/uploads/2012/09/Image2012.01.3072453AM.png" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3072453AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3072453AM.png" /></a>
 </div>
 
 <div style="clear: both; text-align: left;">

@@ -123,7 +123,7 @@ dsq_thread_id:
   The last step is positioning the message on the image. Luckily, I found a post [<a href="http://www.intridea.com/blog/2010/4/7/ipad-wallpaper-photoshop-template">here</a>] that lead me to [<a href="http://cl.ly/2t3l2a0T3x0S1F2b3x3x">this</a>] handy-dandy pre-made Photoshop smart object of an iPad, complete with guides set to show you where the borders of the screen are, including the upper and lower lock button and clock that get superimposed. <i>Very</i> handy &#8212; here&#8217;s a screenshot to show you what I mean.</p> 
   
   <div style="clear: both; text-align: center;">
-    <a href="http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" width="253" /></a>
+    <a href="http://www.n8henrie.com/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://www.n8henrie.com/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" width="253" /></a>
   </div>
   
   <p>

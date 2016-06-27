@@ -58,7 +58,7 @@ Once you have `converted.ics` open in TextWrangler, open the `Search -> Find` bo
 Here&#8217;s a screenshot of what the first regex should look like in TextWrangler:
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/05/20140526_20140526-ScreenShot-312.jpg) 
+![](http://n8henrie.com/uploads/2014/05/20140526_20140526-ScreenShot-312.jpg) 
 
 Next, take an _existing_ list from Reminders.app with _at least one task_ and `File -> Export`. Open this `.ics` file up in the text editor as well. Find the section 4 or so rows down starting with `BEGIN:VTIMEZONE` and ending at line 20 or so with `END:VTIMEZONE`. Copy this section into your `converted.ics` file right below `PRODID:n8henrie.com`.
 

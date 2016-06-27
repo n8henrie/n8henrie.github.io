@@ -39,38 +39,38 @@ My first GPS location was 34º 17&#8242; 58&#8243; N 108º 36&#8242; 55&#8243; W
 If you don&#8217;t want to follow the links, here&#8217;s what it looks like:
 
 
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/08/20140814_20140814-ScreenShot-358.jpg" alt="" width="557" height="251" /> 
+<img class="" src="http://n8henrie.com/uploads/2014/08/20140814_20140814-ScreenShot-358.jpg" alt="" width="557" height="251" /> 
 
 Here you can see the actual location of my truck:
 
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_IMG_0471.jpg" alt="" width="439" height="329" />
+<img class="" src="http://n8henrie.com/uploads/2014/09/20140907_IMG_0471.jpg" alt="" width="439" height="329" />
   
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_IMG_0470.jpg" alt="" width="441" height="330" />
+<img class="" src="http://n8henrie.com/uploads/2014/09/20140907_IMG_0470.jpg" alt="" width="441" height="330" />
 
 And here&#8217;s one of my 10 screenshots:
 
 
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_IMG_0473.PNG" alt="" width="250" height="445" /> 
+<img class="" src="http://n8henrie.com/uploads/2014/09/20140907_IMG_0473.PNG" alt="" width="250" height="445" /> 
 
-The other 9 are pretty much the same, but if you care, you can download all the pics from this post + the extra / not shown screenshots [here](http://n8henrie.com/wp-content/uploads/2014/09/20140907_GPS.zip).
+The other 9 are pretty much the same, but if you care, you can download all the pics from this post + the extra / not shown screenshots [here](http://n8henrie.com/uploads/2014/09/20140907_GPS.zip).
 
 As you can see, there&#8217;s good agreement between the two services as to where that location is. Here are a few photos of the exact location of my truck for comparison.
 
 Because I was surprised at there being _no_ second-by-second variability when refreshing the location, I decided to drive along the empty dirt road while refreshing until the location changed. Clearly I don&#8217;t recommend anyone drive while using their cellphone; this was along an empty dirt road at about 5 mph&#8230; and in the name of science. Here&#8217;s where it changed:
 
 
-<img class="alignnone" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_IMG_0484.JPG" alt="" width="426" height="320" /> 
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_IMG_0483.PNG" alt="" width="250" height="444" /> 
+<img class="alignnone" src="http://n8henrie.com/uploads/2014/09/20140907_IMG_0484.JPG" alt="" width="426" height="320" /> 
+<img class="" src="http://n8henrie.com/uploads/2014/09/20140907_IMG_0483.PNG" alt="" width="250" height="444" /> 
 
 It looks like that&#8217;s probably about 121 feet. As it is essentially directly South, that is in pretty good agreement with the calculated number of 101 ft that I posted above (and I may have been a little generous on my line).
 
 
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_20140907-ScreenShot-403.jpg" alt="" width="495" height="440" /> 
+<img class="" src="http://n8henrie.com/uploads/2014/09/20140907_20140907-ScreenShot-403.jpg" alt="" width="495" height="440" /> 
 
 My second GPS location was 34º 35&#8242; 9&#8243; N 108º 23&#8242; 14&#8243; W. <a href="http://n8h.me/1uc6Ly4" target="_blank">View in Google Maps</a> || <a href="http://maps.apple.com/?lsp=7618&sll=34.585833,-108.387222&q=34.585833,-108.387222" target="_blank">View in Apple Maps</a>
 
 
-<img class="" src="http://n8henrie.com/wp-content/uploads/2014/09/20140907_IMG_0485.PNG" alt="" width="250" height="444" /> 
+<img class="" src="http://n8henrie.com/uploads/2014/09/20140907_IMG_0485.PNG" alt="" width="250" height="444" /> 
 
 I parked at essentially the same relative location in the intersection, but didn&#8217;t get out and take a picture. As stated above, I again had 100% agreement on the location between 10 refreshes of the Compass app. If you&#8217;ll follow the links above, you&#8217;ll see that both Apple and Google Maps place the location about 50 feet North of where I was in the actual intersection. However, as that 50 feet is less than the margin of accuracy of 1 degree of latitude at this location, they&#8217;re essentially both spot on.
 

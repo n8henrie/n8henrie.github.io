@@ -34,7 +34,7 @@ RSS feeds are an incredibly simple way to have nearly of your favorite websites 
 It’s about time I made a post about RSS. It’s something I use every day and almost take for granted. I think RSS stands for _Really Simple Syndication_. I admit that I don’t know if that’s what it _really_ means, but <a href="http://en.wikipedia.org/wiki/Rss" target="_blank">that’s what I’ve heard</a> at least. You might recognize the RSS symbol:
 
 
-![](http://n8henrie.com/wp-content/uploads/2012/06/images.jpeg) 
+![](http://n8henrie.com/uploads/2012/06/images.jpeg) 
 
 When you see this, it means that the site you’re visiting publishes an RSS feed that can deliver all updates to an “RSS Reader,” which is nothing more than an app that understands how to read all your RSS feeds, and keeps them in one place for you.
 

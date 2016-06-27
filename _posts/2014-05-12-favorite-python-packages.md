@@ -108,7 +108,7 @@ monthly.plot(kind = 'bar', legend = None)
 </pre>
 
 
-![](http://n8henrie.com/wp-content/uploads/2014/05/20140511_20140511-ScreenShot-307.jpg) 
+![](http://n8henrie.com/uploads/2014/05/20140511_20140511-ScreenShot-307.jpg) 
 
 ### <a target="_blank" href="https://github.com/jgorset/facepy" title="jgorset/facepy · GitHub">facepy</a>
 

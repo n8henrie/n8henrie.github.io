@@ -30,4 +30,4 @@ Now give it a shot. You should be able to click in the Omnibar, type your keywor
 <a href="http://xkcd.com/1205/" target="_blank">Relevant xkcd</a>: 
 
 
-![](http://n8henrie.com/wp-content/uploads/2013/12/is_it_worth_the_time7.png)
+![](http://n8henrie.com/uploads/2013/12/is_it_worth_the_time7.png)

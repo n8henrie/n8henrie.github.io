@@ -21,7 +21,7 @@ dsq_thread_id:
   <div>
     <blockquote>
       <div>
-        <img name="image" src="http://www.n8henrie.com/wp-content/uploads/2012/09/boyballoon.jpg" border="0" height="357" alt="image" width="500" /> 
+        <img name="image" src="http://www.n8henrie.com/uploads/2012/09/boyballoon.jpg" border="0" height="357" alt="image" width="500" /> 
         
         <p align="right">
           (Photo by <a href="http://www.flickr.com/photos/h-k-d/2554927006/in/photostream" title="H.koppdelaney">H.koppdelaney</a>)

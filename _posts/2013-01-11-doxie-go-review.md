@@ -28,7 +28,7 @@ One of the popular scanners that I&#8217;ve looked at is the Doxie Go. A few of 
 
 The scanner came packaged in an appealing box along with a carrying case and a few other items as you can see below. They have obviously put lots of thought and care into putting together a package that arrives with a bit of personality. As you can see, there&#8217;s the scanner, a USB cable, a small &#8220;cleaner&#8221; tool (small black square with a white tag), the manuals and other paperwork, and a nice little carrying case.
 
-[<img src="http://n8henrie.com/wp-content/uploads/2013/01/IMG_1638.jpg" alt="This is what came in the box." class="aligncenter size-medium wp-image-1891" />](http://n8henrie.com/wp-content/uploads/2013/01/IMG_1638.jpg) 
+[<img src="http://n8henrie.com/uploads/2013/01/IMG_1638.jpg" alt="This is what came in the box." class="aligncenter size-medium wp-image-1891" />](http://n8henrie.com/uploads/2013/01/IMG_1638.jpg) 
 
 ## Overview {#overview}
 

@@ -54,7 +54,7 @@ I decided to write this as an Automator service for a few reasons. Principally,
 
 Instead of writing this all out, I&#8217;ll just use a screenshot, which was uploaded by my handy workflow. _Like Inception._<figure> 
 
-![](http://n8henrie.com/wp-content/uploads/2013/01/20130119_20130118-ScreenShot-73.jpg)</figure> 
+![](http://n8henrie.com/uploads/2013/01/20130119_20130118-ScreenShot-73.jpg)</figure> 
 
 Note the &#8220;receives files from&#8221; part and the &#8220;pass input&#8221; part.
 

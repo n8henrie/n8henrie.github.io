@@ -70,7 +70,7 @@ I pasted it at the end, between the </dict> and </array>. To see the effect, you
 Then, relaunch Finder (Command + Option + Escape). I don’t think I had to relaunch Quicksilver, but if you’re having problems you can give that a shot, too. (Quicksilver.app : Relaunch)
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/wp-content/uploads/2012/08/ScreenShot2012-07-06at6.30.46PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="268" src="http://www.n8henrie.com/wp-content/uploads/2012/08/ScreenShot2012-07-06at6.30.46PM.jpg" width="640" /></a>
+  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-07-06at6.30.46PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="268" src="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-07-06at6.30.46PM.jpg" width="640" /></a>
 </div>
 
 I’m quite pleased with the result, which gives me the option to open any file type in TextWrangler in a fraction of a second with Quicksilver. If you’re a Mac user, and you haven’t tried <a target="_blank" href="http://qsapp.com/" title="Quicksilver Homepage">Quicksilver</a> or <a target="_blank" href="http://www.barebones.com/products/textwrangler/" title="TextWrangler">TextWrangler</a>… give them a shot.

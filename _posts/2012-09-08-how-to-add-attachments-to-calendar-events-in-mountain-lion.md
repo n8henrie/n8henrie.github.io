@@ -31,10 +31,10 @@ Here are a few screenshots for proof. Seems like a really nice way to add PDF do
   Adding an attachment to the event on my Mac
 </p>
 
-[<img src="http://www.n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM-1024x640.jpg" alt="" title="Adding an attachment to a event in Calendar on Mountain Lion" width="500" class="aligncenter size-large wp-image-1624" srcset="http://n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM-1024x640.jpg 1024w, http://n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM-300x187.jpg 300w, http://n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://www.n8henrie.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM.jpg) 
+[<img src="http://www.n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM-1024x640.jpg" alt="" title="Adding an attachment to a event in Calendar on Mountain Lion" width="500" class="aligncenter size-large wp-image-1624" srcset="http://n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM-1024x640.jpg 1024w, http://n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM-300x187.jpg 300w, http://n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://www.n8henrie.com/uploads/2012/09/Screen-Shot-2012-09-06-at-1.35.03-PM.jpg) 
 
 <p align="center" style="font-size:20px;">
   The attachment syncs to my iPad
 </p>
 
-[<img src="http://www.n8henrie.com/wp-content/uploads/2012/09/IMG_0844.jpg" alt="" title="The Attachment Synced to the iPad" width="500" class="aligncenter size-full wp-image-1623" srcset="http://n8henrie.com/wp-content/uploads/2012/09/IMG_0844.jpg 768w, http://n8henrie.com/wp-content/uploads/2012/09/IMG_0844-225x300.jpg 225w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.n8henrie.com/wp-content/uploads/2012/09/IMG_0844.jpg)
+[<img src="http://www.n8henrie.com/uploads/2012/09/IMG_0844.jpg" alt="" title="The Attachment Synced to the iPad" width="500" class="aligncenter size-full wp-image-1623" srcset="http://n8henrie.com/uploads/2012/09/IMG_0844.jpg 768w, http://n8henrie.com/uploads/2012/09/IMG_0844-225x300.jpg 225w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.n8henrie.com/uploads/2012/09/IMG_0844.jpg)

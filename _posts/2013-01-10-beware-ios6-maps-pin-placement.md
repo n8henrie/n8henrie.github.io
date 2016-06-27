@@ -27,7 +27,7 @@ I&#8217;ve depended on it heavily over the last several months as I did a rural 
 I _have_ had 2 instances where it didn&#8217;t behave like I&#8217;d anticipated, leaving me a bit confused. In both cases, I found that the little red pin that marks the destination was in the correct location, but that the blue path (as well as the turn-by-turn directions) led somewhere nearby but not-quite-right. Here&#8217;s an example:
 
 <div id="attachment_1857" style="width: 179px" class="wp-caption aligncenter">
-  <a href="http://n8henrie.com/wp-content/uploads/2012/12/IMG_0487.png"><img src="http://n8henrie.com/wp-content/uploads/2012/12/IMG_0487-169x300.png" alt="Make sure you&#039;re at the red pin!" width="169" height="300" class="size-medium wp-image-1857" srcset="http://n8henrie.com/wp-content/uploads/2012/12/IMG_0487-169x300.png 169w, http://n8henrie.com/wp-content/uploads/2012/12/IMG_0487-576x1024.png 576w, http://n8henrie.com/wp-content/uploads/2012/12/IMG_0487.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a>
+  <a href="http://n8henrie.com/uploads/2012/12/IMG_0487.png"><img src="http://n8henrie.com/uploads/2012/12/IMG_0487-169x300.png" alt="Make sure you&#039;re at the red pin!" width="169" height="300" class="size-medium wp-image-1857" srcset="http://n8henrie.com/uploads/2012/12/IMG_0487-169x300.png 169w, http://n8henrie.com/uploads/2012/12/IMG_0487-576x1024.png 576w, http://n8henrie.com/uploads/2012/12/IMG_0487.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a>
   
   <p class="wp-caption-text">
     Make sure you&#8217;re at the red pin!

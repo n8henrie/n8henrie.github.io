@@ -19,14 +19,14 @@ dsq_thread_id:
 enclosure:
   - |
     |
-        http://www.n8henrie.com/wp-content/uploads/2012/09/movie.mov
+        http://www.n8henrie.com/uploads/2012/09/movie.mov
         694716
         video/quicktime
         
 ---
 <div>
   <div>
-    <img alt="" src="http://www.n8henrie.com/wp-content/uploads/2012/09/movie.mov" /> 
+    <img alt="" src="http://www.n8henrie.com/uploads/2012/09/movie.mov" /> 
     
     <div>
       <strong>movie.mov</strong> Watch on Posterous

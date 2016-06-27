@@ -32,7 +32,7 @@ I hope this installment is full of several short tips. Here goes.
 ## Tip #5: Make a vide poche
 
 
-<img alt="" height="239" src="http://n8henrie.com/wp-content/uploads/2012/04/IMG_1565.jpg" width="320" /> 
+<img alt="" height="239" src="http://n8henrie.com/uploads/2012/04/IMG_1565.jpg" width="320" /> 
 
 [<a href="http://lifehacker.com/5890455/add-a-vide-poche-next-to-your-door-to-avoid-clutter-around-the-house" target="_blank">Lifehacker post where I discovered the proper name.</a>] Basically, this is a French term for “bucket in which you deposit all your pocket stuff when you get home.” I’ve only recently starting doing this, and it’s made an immediate difference. My desk is _way_ cleaner than it was previously, since I don’t have all my crap scattered across it. More importantly, I can feel pretty confident that I have everything I need when I leave in the morning, no matter how tired I am. I can’t tell you how many times I’ve forgotten to bring a pen, my pager, my stethoscope, etc. (When I’m tired and in a hurry it’s amazing I remember anything at all.) Now, when I get home, the _first_ thing I do is <a href="http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-two-comp/" target="_blank">tear my to-dos out of my mini comp book and set it on my computer</a>, but the next thing is to take everything out of my pockets, take off my pager and stethoscope, and put it all in my cookie-tin-turned-Vide-Poche. The next day I know exactly where I’ve put it all, and I’ll remember it all as long as I remember any of it. Whether or not you use this tip, I suggest you make some morning and afternoon lists, at least until you get the hang of things. Here’s what I mean. 
 

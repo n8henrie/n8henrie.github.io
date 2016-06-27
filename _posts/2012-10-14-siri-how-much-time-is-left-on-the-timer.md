@@ -30,4 +30,4 @@ I&#8217;m going to start posting screenshots when I discover a new Siri trick th
   
 For this one, I had my phone in my pocket and was hoping Siri would actually &#8220;say&#8221; the time (which she didn&#8217;t), but I still think this will be handy. &#8220;Remember&#8230;&#8221; (with OmniFocus integration) and &#8220;set a timer for&#8230;&#8221; are probably my top 2 Siri features, so quickly displaying the timer is nice. 
 
-[<img src="http://www.n8henrie.com/wp-content/uploads/2012/10/20121014-155258.jpg" alt="20121014-155258.jpg" class="alignnone size-full" />](http://www.n8henrie.com/wp-content/uploads/2012/10/20121014-155258.jpg)
+[<img src="http://www.n8henrie.com/uploads/2012/10/20121014-155258.jpg" alt="20121014-155258.jpg" class="alignnone size-full" />](http://www.n8henrie.com/uploads/2012/10/20121014-155258.jpg)

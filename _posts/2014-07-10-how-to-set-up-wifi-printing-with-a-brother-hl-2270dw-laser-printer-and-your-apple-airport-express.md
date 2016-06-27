@@ -30,7 +30,7 @@ Here it is:
   4. Wait for it to finish booting completely (no more blinking lights or sounds).
   5. Use a pen to hold down the hidden button on the back (pic below) for 3 or 4 seconds to activate the &#8220;WPS&#8221; setup.
 
-<img class="aligncenter" src="http://n8henrie.com/wp-content/uploads/2014/07/20140709_IMG_0588.jpg" alt="" width="385" height="725" /> 
+<img class="aligncenter" src="http://n8henrie.com/uploads/2014/07/20140709_IMG_0588.jpg" alt="" width="385" height="725" /> 
 
   6. It should print a sheet of paper &#8212; get the PIN.
   7. Open Airport Utility on your Mac (should be pre-installed 10.9 or later, but you can also <a href="http://support.apple.com/kb/DL1664" target="_blank">download it here</a>), or it looks like even <a href="https://itunes.apple.com/us/app/airport-utility/id427276530?mt=8&at=10l5H6" target="_blank">the iOS version</a> would work.

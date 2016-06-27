@@ -44,7 +44,7 @@ I’m astounded that I didn’t figure this out sooner (especially after [my las
   5. Invoke Quicksilver, type the name of your bookmarklet, then tab over the second pane and select “Run Javascript” as the action. Should look something like this.
 
 <div align="center">
-  <img src="http://www.n8henrie.com/wp-content/uploads/2012/09/ScreenShot2012-08-06at7.24.32AM.jpg" alt="" />
+  <img src="http://www.n8henrie.com/uploads/2012/09/ScreenShot2012-08-06at7.24.32AM.jpg" alt="" />
 </div>
 
 That’s all there is to it! Worked like a charm for me. Now, for a few bonus points, we can make this process even _faster._
