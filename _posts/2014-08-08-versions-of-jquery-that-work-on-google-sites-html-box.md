@@ -21,14 +21,13 @@ For example, I’m learning to use jQuery. In Google Sites, Google lets you put 
 
 “Great!” I thought. I used <a target="_blank" href="http://jsfiddle.net/" title="JSFiddle: Create a new fiddle">jsfiddle</a> to write up a little jQuery `.hover()` function for my first ever mouseover effect. Not knowing any jQuery, I figured I’d start with a pretty recent version. You can see <a target="_blank" href="http://jsfiddle.net/n8henrie/dfo9fqz0/">my jsfiddle here</a>, but it’s something to the effect of:
 
-<pre><div id='jquery_mouseover'>
+```html
+<div id='jquery_mouseover'>
   <p>
     Watch me change!
   </p>
-  
 </div>
-
-</pre>
+```
 
 It worked pretty well, so I threw it in the HTML Box in Google Sites… and got an error: `failed to load external url jquery.min.js`, highlighting my `src=` link to Google’s own hosted jQuery 2.1.0. I saved the HTML Box anyway, and (of course) my little script didn’t work.
 
@@ -44,14 +43,15 @@ For some reason, it _looks_ like it’s going to work, but the script itself jus
 
 Next, I figured I should check the links Google was providing to ensure they were all working. I wrote a quick Bash script so I could copy and paste in the version numbers, and it would echo the http response code.
 
-<pre>for num in 2.1.1, 2.1.0, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.11.1, 1.11.0, 1.10.2, 1.10.1, 1.10.0, 1.9.1, 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.2, 1.7.1, 1.7.0, 1.6.4, 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.5.2, 1.5.1, 1.5.0, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.2, 1.3.1, 1.3.0, 1.2.6, 1.2.3; do echo $num | tr -d ',' | (read clean; echo "$clean: "$(curl -s -o /dev/null -w "%{http_code}" http://ajax.googleapis.com/ajax/libs/jquery/$clean/jquery.min.js)); done
-</pre>
+```bash
+for num in 2.1.1, 2.1.0, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.11.1, 1.11.0, 1.10.2, 1.10.1, 1.10.0, 1.9.1, 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.2, 1.7.1, 1.7.0, 1.6.4, 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.5.2, 1.5.1, 1.5.0, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.2, 1.3.1, 1.3.0, 1.2.6, 1.2.3; do echo $num | tr -d ',' | (read clean; echo "$clean: "$(curl -s -o /dev/null -w "%{http_code}" http://ajax.googleapis.com/ajax/libs/jquery/$clean/jquery.min.js)); done
+```
 
 It gave me `200` for all of them, so the links seem to be working.
 
 Next I decided to just see if I could try to import each different version of jQuery and print out the version number. It took a bit of regex fun in <a target="_blank" href="https://itunes.apple.com/us/app/textwrangler/id404010395?mt=12&uo=4&at=10l5H6" title="TextWrangler">TextWrangler</a>, but it worked. The code ended up being a bit long, so I’m not going to embed it, but you can <a target="_blank" href="https://gist.github.com/n8henrie/d77f547d795ef096e259">see it here</a>. You should be able to C&P it into a Google Sites HTML Box, and it will print out the versions of jQuery that are working. You’ll likely get some duplicates… to be honest, I’m not sure why that is.
 
-Anyway, here is the output I got, 
+Anyway, here is the output I got,
 
 ## Versions of jQuery that are working in Google Sites HTML Box as of Fri Aug 08 2014 12:55:21 GMT-0600 (MDT)
 

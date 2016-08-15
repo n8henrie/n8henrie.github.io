@@ -23,7 +23,8 @@ By tweaking just a couple lines of code, I found I could add an extra parameter 
 
 Here are a few examples:
 
-<pre># Original URL to launch MLOF from Drafts, should still work:
+```
+# Original URL to launch MLOF from Drafts, should still work:
 pythonista://MultiLineOmniFocus?action=run&argv=[[draft]]
 
 # New URL to launch MLOF from Drafts (and return to it):
@@ -31,7 +32,7 @@ pythonista://MultiLineOmniFocus?action=run&argv=[[draft]]&argv=drafts:
 
 # New URL to launch MLOF from Launch Center Pro (and return to it):
 pythonista://MLOF2?action=run&argv=[prompt-fleksy]&argv=launchpro:
-</pre>
+```
 
 As you can see, all you need to add is `&argv=` and the URL of the app you want to launch (including the colon).
 

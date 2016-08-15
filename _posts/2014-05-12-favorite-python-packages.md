@@ -20,8 +20,9 @@ Once you have it, you can `pip search` and it will search <a target="_blank" hre
 
 To avoid breaking things, it’s probably better to upgrade individually, but you can also do a little bash scripting to batch upgrade all outdated packages. For example
 
-<pre>pip3 list --outdated | ack "\(Current.*?\d+\)" | cut -d ' ' -f 1 | xargs -I{} bash -c "pip3 install -U {} || true"
-</pre>
+```
+pip3 list --outdated | ack "\(Current.*?\d+\)" | cut -d ' ' -f 1 | xargs -I{} bash -c "pip3 install -U {} || true"
+```
 
 <a target="_blank" href="http://beyondgrep.com/" title="Beyond grep: ack 2.12, a source code search tool for programmers">ack</a> is pretty great (`brew install ack`), but `grep` would also work. Here I’m just using it to filter out error messages from the pip output and only grab the lines that should reflect an upgradeable package. The `cut` strips out just the package name, and the rest upgrades the packages while always returning True (because otherwise `xargs` will stop the entire process if one of the packages has an error.
 
@@ -31,33 +32,37 @@ So, with that behind, here are a handful of my favorite packages, including link
 
 Makes accessing / form submitting / downloading a webpage as simple as possible, even if the page involves `POST` and cookies and authentication and all sorts of mumbo jumbo.
 
-<pre># Returns the source code of my home page.
+```python
+# Returns the source code of my home page.
 html = requests.get('http://n8henrie.com').content
-</pre>
+```
 
 <!-- -->
 
-<pre># A more complex GET request with simple auth
+```python
+# A more complex GET request with simple auth
 auth = ('user', 'pass')
 payload = { 'query': 'my search term'}
 html = requests.get('http://example.com', params = payload, auth = auth).content
-</pre>
+```
 
 <!-- -->
 
-<pre># A "session" which preserves cookies, so you can log in with a POST form, then 
+```python
+# A "session" which preserves cookies, so you can log in with a POST form, then
 # GET data
 payload = { 'username': 'n8henrie', 'password': 'hunter2'}
 s = requests.Session()
 s.post('http://example.com', data = payload)
 html = s.get('http://example.com/loggedinuser').content
-</pre>
+```
 
 ### <a target="_blank" href="http://www.crummy.com/software/BeautifulSoup/" title="Beautiful Soup: We called him Tortoise because he taught us.">BeautifulSoup</a>
 
 Parses HTML.
 
-<pre># Find the title from the n8henrie.com source code from above...
+```python
+# Find the title from the n8henrie.com source code from above...
 soup = bs4.BeautifulSoup(html)
 title = soup.title.text
 
@@ -67,29 +72,32 @@ urls = [link['href'] for link in links]
 
 # Find the next paragraph element after the fourth link on the page (remember it starts at zero)
 links[3].find_next('p')
-</pre>
+```
 
 ### <a target="_blank" href="https://pypi.python.org/pypi/keyring" title="keyring 3.7 : Python Package Index">Keyring</a>
 
 Provides access to the OSX Keychain, so you can keep your secure / encrypted passwords out of your scripts. Especially handy if you’re sharing the code with others — you don’t have to worry about editing out your passwords.
 
-<pre># Set a password, either from the IDE or from a script, however you want.
+```python
+# Set a password, either from the IDE or from a script, however you want.
 # It will show up in Keychain.app immediately.
 keyring.set_password('example.com', 'n8henrie', 'my_password')
-</pre>
+```
 
 <!-- -->
 
-<pre># Retrieve it later
+```python
+# Retrieve it later
 pass = keyring.get_password('example.com', 'n8henrie')
-</pre>
+```
 
 <!-- -->
 
-<pre># Or, if you want to also mask your username
+```python
+# Or, if you want to also mask your username
 user = keyring.get_password('example.com', 'user')
 pass = keyring.get_password('example.com', user)
-</pre>
+```
 
 ### <a target="_blank" href="http://ipython.org/" title="Announcements — IPython">iPython</a>
 
@@ -97,31 +105,33 @@ I have a hard time describing it, but it’s fundamental to my workflow. iPython
 
 ### <a target="_blank" href="http://pandas.pydata.org/" title="Python Data Analysis Library — pandas: Python Data Analysis Library">Pandas</a> (including its implementations of matplotlib, numpy, etc.)
 
-Code-based spreadsheeting on steroids. Imports excel, csv, and html based tables in a flash. Transform then, do some basic stats, and make some plots in no time. _Highly recommended_ to use with iPython Notebook. For example, even at my amateurish level, in under 15 minutes I was able to figure out how to import my entire <a target="_blank" href="https://mint.com">Mint</a> transaction history (conveniently downloadable as a .csv) and plot my spending history at a given establishment over time for the last several years. 
+Code-based spreadsheeting on steroids. Imports excel, csv, and html based tables in a flash. Transform then, do some basic stats, and make some plots in no time. _Highly recommended_ to use with iPython Notebook. For example, even at my amateurish level, in under 15 minutes I was able to figure out how to import my entire <a target="_blank" href="https://mint.com">Mint</a> transaction history (conveniently downloadable as a .csv) and plot my spending history at a given establishment over time for the last several years.
 
-<pre># My monthly spending on the iTunes Store. 
+```python
+# My monthly spending on the iTunes Store.
 # Axes intentionally omitted :S
 import pandas as pd
 df = pd.DataFrame.from_csv('mint_transactions.csv')
 apple = df[df['Description'].str.contains('iTunes')]
 monthly = apple.resample(rule = 'M', how = 'sum')
 monthly.plot(kind = 'bar', legend = None)
-</pre>
+```
 
 
-![]({{ site.url }}/uploads/2014/05/20140511_20140511-ScreenShot-307.jpg) 
+![]({{ site.url }}/uploads/2014/05/20140511_20140511-ScreenShot-307.jpg)
 
 ### <a target="_blank" href="https://github.com/jgorset/facepy" title="jgorset/facepy · GitHub">facepy</a>
 
 Wrapper for Facebook API
 
-<pre># Get my most recent Facebook posts
+```python
+# Get my most recent Facebook posts
 graph = facepy.GraphAPI(my_api_key)
 graph.get('me/posts')
 
 # How many FB friends do I have?
 len(graph.get('me/friends')['data'])
-</pre>
+```
 
 ### <a target="_blank" href="https://pypi.python.org/pypi/icalendar/3.6.2" title="icalendar 3.6.2 : Python Package Index">icalendar</a>
 
@@ -131,7 +141,8 @@ The basis from my <a target="_blank" href="http://icsConverterWebapp.n8henrie.co
 
 Manipulate audio file metadata. _Really_ nice for batch file renaming when you have 300 files from some podcast that are all named `file_1.mp3 file_2.mp3`… and yet in iTunes you can **see** that they have descriptive titles embedded in the file somewhere…
 
-<pre>from mutagex.easyid3 import EasyID3
+```python
+from mutagex.easyid3 import EasyID3
 
 audio = EasyID3('my_file.mp3')
 
@@ -145,7 +156,7 @@ print(audio['genre'])
 # Manipulate
 audio['title'] = "New Title"
 audio.save()
-</pre>
+```
 
 ### <a target="_blank" href="http://pythonhosted.org/python-pushover/" title="Python-pushover documentation — python-pushover">Pushover</a>
 

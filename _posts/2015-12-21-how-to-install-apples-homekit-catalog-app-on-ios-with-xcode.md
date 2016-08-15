@@ -38,7 +38,8 @@ I will note that I initially tried to give it the name “HomeKit,” which resu
 
 `brew install wget rename git`
 
-<pre><code class="bash"># Very long name
+```bash
+# Very long name
 wget https://developer.apple.com/library/ios/samplecode/HomeKitCatalog/HomeKitCatalogCreatingHomesPairingandControllingAccessoriesandSettingUpTriggers.zip
 unzip HomeKitCatalogCreatingHomesPairingandControllingAccessoriesandSettingUpTriggers.zip
 rm HomeKitCatalogCreatingHomesPairingandControllingAccessoriesandSettingUpTriggers.zip
@@ -57,32 +58,33 @@ find . -type d -iname "*HMCatalog*" | rename -s HMCatalog HKSetup
 find . -type f -iname "*HMCatalog*" | rename -s HMCatalog HKSetup
 
 # Open in Xcode
-open HKSetup.xcodeproj</code></pre>
+open HKSetup.xcodeproj
+```
 
 You’re almost there! Now just have to change one or two settings and load it onto your iOS device.
 
   1. Connect your iOS device by USB
-  2. Select your iOS device in the top left corner (where you see `NatePhone` in the image below) 
-    ![]({{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li> 
-    
+  2. Select your iOS device in the top left corner (where you see `NatePhone` in the image below)
+    ![]({{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li>
+
       * Change the Bundle Identifier (e.g. I used `com.n8henrie.HKSetup`)
       * Select your account from `Team` (if you don’t have one, add one from the dropdown)
-      * `Fix Issue` 
-        <img class="" src="{{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.26.42PM.jpg" alt="" width="699" height="259" /></li> 
-        
-          * Hit the “Play” (triangle) button on the left: 
-            ![]({{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li> 
-            
-              * On first run you’ll likely get an error like this: 
-![]({{ site.url }}/uploads/2015/12/20151211_ScreenShot2015-12-11at5.26.47PM.jpg) 
+      * `Fix Issue`
+        <img class="" src="{{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.26.42PM.jpg" alt="" width="699" height="259" /></li>
+
+          * Hit the “Play” (triangle) button on the left:
+            ![]({{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li>
+
+              * On first run you’ll likely get an error like this:
+![]({{ site.url }}/uploads/2015/12/20151211_ScreenShot2015-12-11at5.26.47PM.jpg)
                 and a corresponding one on your iOS device:
-                
-                <img class="" src="{{ site.url }}/uploads/2015/12/20151217_File_Dec_13__7_24_06_PM.jpg" alt="" width="341" height="274" /></li> 
-                
+
+                <img class="" src="{{ site.url }}/uploads/2015/12/20151217_File_Dec_13__7_24_06_PM.jpg" alt="" width="341" height="274" /></li>
+
                   * To run the app, you’ll need to “trust” yourself in your iOS device’s settings: `Settings` -> `General` -> `Device management`.
-  
-                    1.Reload the app (the “Play” button again from step 6) and it will launch on your iPhone without an error.</ol> 
-                
+
+                    1.Reload the app (the “Play” button again from step 6) and it will launch on your iPhone without an error.</ol>
+
                 That’s it! I found the app itself fairly easy to use and was able to add some existing HomeKit compatible devices with no trouble.
-                
+
                 Also, just FYI, looking around in Xcode, I saw some suggestions to download `HomeKit Accessory Simulator`, but I couldn’t find it at the linked page (<a href="https://developer.apple.com/downloads/?name=for%20Xcode" target="_blank">https://developer.apple.com/downloads/?name=for%20Xcode</a>). Ends up, it’s inside the `Hardware IO Tools for Xcode 7` package. <a href="http://justabeech.com/2015/01/12/hardware-io-tools-for-xcode/" target="_blank">As noted</a> by <a href="https://twitter.com/mbogh" target="_blank">@mbogh</a>, you can download this and move the included applications to `/Applications/Xcode.app/Contents/Applications/` to make them accessible from Xcode’s `Open Developer Tools` menu.

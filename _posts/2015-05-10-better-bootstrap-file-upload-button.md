@@ -43,32 +43,35 @@ The basic idea is this:
 Relevant part of `index.html` (a Jinja2 template)
 
 {% raw %}
-    {% block content %}
-    <div class="row">
-        <form class="form-inline center-block" action="/" method="POST" enctype="multipart/form-data">
-            {{ form.hidden_tag() }}
-            <div class="input-group">
-                <label id="browsebutton" class="btn btn-default input-group-addon" for="my-file-selector">
-                    {{ form.input_file(id="my-file-selector") }}
-                    Browse...
-                </label>
-                <input type="text" class="form-control" readonly>
-            </div>
-            {{ form.submit(class_="btn btn-primary") }}         
-        </form>
-    </div>
-    {% endblock %}
-    {% block scripts %}
-    {{ super() }}
-    <script src="{{ url_for('.static', filename='js/inputFileButton.js') }}" ></script>
-    {% endblock %}
+```html+jinja
+{% block content %}
+<div class="row">
+    <form class="form-inline center-block" action="/" method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <div class="input-group">
+            <label id="browsebutton" class="btn btn-default input-group-addon" for="my-file-selector">
+                {{ form.input_file(id="my-file-selector") }}
+                Browse...
+            </label>
+            <input type="text" class="form-control" readonly>
+        </div>
+        {{ form.submit(class_="btn btn-primary") }}
+    </form>
+</div>
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+<script src="{{ url_for('.static', filename='js/inputFileButton.js') }}" ></script>
+{% endblock %}
+```
 {% endraw %}
 
 Note that the pretty label is `for` the ID of the (ugly) input button.
 
 Relevant part of `views.py`:
 
-<pre><code class="python">from forms import UploadForm
+```python
+from forms import UploadForm
 from flask import request
 
 
@@ -80,13 +83,14 @@ def index():
             # Do stuff
         else:
             return render_template('index.html', form=form)
-</code></pre>
+```
 
 Not a whole lot of surprises here, a `GET` request returns the form, a `POST` to the same URL gets the uploaded file for processing.
 
 `forms.py`:
 
-<pre><code class="python">from flask_wtf import Form
+```python
+from flask_wtf import Form
 from flask_wtf.file import FileField, FileAllowed, FileRequired
 from wtforms import SubmitField
 
@@ -100,17 +104,18 @@ class UploadForm(Form):
 
     input_file = FileField('', validators=validators)
     submit = SubmitField(label="Upload")
-</code></pre>
+```
 
 ## #5
 
 And `inputFileButton.js` (taken directly from Cory LaViska at the link above):
 
-<pre><code class="javascript">$(document).on('change', '#browsebutton :file', function() {
-  var input = $(this),
-      numFiles = input.get(0).files ? input.get(0).files.length : 1,
-      label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-  input.trigger('fileselect', [numFiles, label]);
+```javascript
+$(document).on('change', '#browsebutton :file', function() {
+    var input = $(this),
+        numFiles = input.get(0).files ? input.get(0).files.length : 1,
+        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+    input.trigger('fileselect', [numFiles, label]);
 });
 
 $(document).ready( function() {
@@ -126,31 +131,33 @@ $(document).ready( function() {
 
     });
 });
-</code></pre>
+```
 
 ## #6
 
 Now we just use some CSS (SCSS in my case) to hide the ugly input button and give its new `Browse...` button the nice white color of Bootstrap’s `btn-default` in `style.css`:
 
-<pre><code class="CSS">#browsebutton {
-  background-color: white;
+```css
+#browsebutton {
+    background-color: white;
 }
 
 #my-file-selector {
     display: none;
 }
-</code></pre>
+```
 
 That’s all there is to it! I found <a href="http://www.bootply.com/" target="_blank">Bootply</a> _really_ helpful in getting this all figured out. For those of you not using Flask, below is a simplified version using just Bootstrap, HTML, and the same JS as above, and <a href="http://www.bootply.com/gLB1lB2Ad8" target="_blank">here’s a link</a> to a runnable demo at Bootply.
 
-<pre><code class="html">&lt;form class="form-inline center-block" action="/" method="POST" enctype="multipart/form-data"&gt;
-    &lt;div class="input-group"&gt;
-        &lt;label id="browsebutton" class="btn btn-default input-group-addon" for="my-file-selector" style="background-color:white"&gt;
-            &lt;input id="my-file-selector" type="file" style="display:none;"&gt;
+```html
+<form class="form-inline center-block" action="/" method="POST" enctype="multipart/form-data">
+    <div class="input-group">
+        <label id="browsebutton" class="btn btn-default input-group-addon" for="my-file-selector" style="background-color:white">
+            <input id="my-file-selector" type="file" style="display:none;">
             Browse...
-        &lt;/label&gt;
-        &lt;input type="text" class="form-control" readonly=""&gt;
-    &lt;/div&gt;
-  &lt;button type="submit" class="btn btn-primary"&gt;Convert&lt;/button&gt;
-&lt;/form&gt;
-</code></pre>
+        </label>
+        <input type="text" class="form-control" readonly="">
+    </div>
+    <button type="submit" class="btn btn-primary">Convert</button>
+</form>
+```

@@ -15,13 +15,14 @@ disqus_identifier: 2296 http://n8henrie.com/?p=2296
 
 As a \*nix novice, I’ve enjoyed learning about aliases, which are little shortcuts you can write to make working in Terminal faster, easier, and more personalized. I’ll recommend Googling for more information, because there is more excellent-quality free information on \*nix than you could ever hope for. However, I will say that it probably involves creating a file called .bash\_profile in your home directory that will get read every time you log into a terminal, creating a file called .bash\_aliases in the same directory, then adding something like this to .bash_profile:
 
-<pre>##
-#Add bash aliases
+```bash
+########
+# source bash aliases
 if [ -f ~/.bash_aliases ]; then
 source ~/.bash_aliases
 fi
-##
-</pre>
+########
+```
 
 The square brackets basically mean “a true/false condition is inside,” -f means “this file exists” (excellent overview of these types of operators <a target="_blank" href="http://tldp.org/LDP/abs/html/fto.html">here</a>), and source basically means “read this file.” So .bash\_profile gets read every time you log in, and in it you’re saying “and if .bash\_aliases exists, read it, too.” Regarding the “source” thing, you’ll have to “source” a file after it is changed to make sure it is re-read with the changes you just made.
 

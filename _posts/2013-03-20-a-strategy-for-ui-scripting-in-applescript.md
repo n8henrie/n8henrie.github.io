@@ -19,17 +19,17 @@ disqus_identifier: 2060 http://n8henrie.com/?p=2060
 
 I generally think [AppleScript is a lot of fun](http://n8henrie.com/tag/applescript/). It’s close enough to plain English that even beginners like me can read a script and understand a good amount of what it’s trying to accomplish, then use that as a framework to write their own custom scripts to automate myriad tasks on a Mac.
 
-One of the handy things AppleScript can do is simulate mouse clicks and keyboard keystrokes through a process called UI Scripting, which uses the System Events app. I think Python might be able to accomplish this with Appscript, but other than that, I’d say AppleScript is one of the only ways to do this. One example of putting this to use is my [UpdateiOSApps.scpt](http://n8henrie.com/2012/12/applescript-to-update-ios-apps-in-itunes/) I wrote a few months ago, which uses some UI scripting to get iTunes to the iOS Apps screen (cmd 7), check for new apps (cmd r), and download the updates. 
+One of the handy things AppleScript can do is simulate mouse clicks and keyboard keystrokes through a process called UI Scripting, which uses the System Events app. I think Python might be able to accomplish this with Appscript, but other than that, I’d say AppleScript is one of the only ways to do this. One example of putting this to use is my [UpdateiOSApps.scpt](http://n8henrie.com/2012/12/applescript-to-update-ios-apps-in-itunes/) I wrote a few months ago, which uses some UI scripting to get iTunes to the iOS Apps screen (cmd 7), check for new apps (cmd r), and download the updates.
 
 Now that last part is really the trick. You don’t want to tell it to just click a certain point on the screen, since if the screen layout changed for some reason it might just click the “delete everything and make my Mac explode” button or something. Besides, if you wanted to share your script, everyone with a different screen size or device would have to reinvent the wheel.
 
-Instead, you have to navigate through tons of ambiguously named documents and windows and UI elements and find out what they want to be called and build those into your Applescript. One tool that helps out considerably is <a target="_blank" href="http://developer.apple.com/library/mac/#documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTesting/OSXAXTestingApps.html">Apple’s Accessibility Inspector</a>, which comes as part of Xcode (available for free in the Mac App Store). 
+Instead, you have to navigate through tons of ambiguously named documents and windows and UI elements and find out what they want to be called and build those into your Applescript. One tool that helps out considerably is <a target="_blank" href="http://developer.apple.com/library/mac/#documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTesting/OSXAXTestingApps.html">Apple’s Accessibility Inspector</a>, which comes as part of Xcode (available for free in the Mac App Store).
 
 I’m not inclined to give a comprehensive overview of how Accessibility Inspector works, but I will mention a few things. This will probably make more sense if you start it up as you read along.
 
 ![]({{ site.url }}/uploads/2013/03/20130320_20130320-ScreenShot-120.png)
 
-So this is what Accessibility Inspecture looks like. Both the Hierarchy and Attributes panes are dynamic and will change as you move your mouse cursor over various parts of a given app. Like it says at the bottom, you can lock it (cmd F7) while hovering over a particular item that you’re interested (such as a button you want the script to click) to give you a static display of the hierarchy and attributes of that UI element. 
+So this is what Accessibility Inspecture looks like. Both the Hierarchy and Attributes panes are dynamic and will change as you move your mouse cursor over various parts of a given app. Like it says at the bottom, you can lock it (cmd F7) while hovering over a particular item that you’re interested (such as a button you want the script to click) to give you a static display of the hierarchy and attributes of that UI element.
 
 For example, here’s the Download All Free Updates button in iTunes that I alluded to above…
 
@@ -39,9 +39,11 @@ For example, here’s the Download All Free Updates button in iTunes that I allu
 
 ![]({{ site.url }}/uploads/2013/03/20130320_20130320-ScreenShot-121.jpg)
 
-Notice the four triangles down bottom. These are useful for navigating to parents, children, and siblings of a given UI element. What this means is that you might be looking at a screen with a divider and a button on the right side of the divider. In such a case, it’s possible that the screen UI Element is set up as the “parent” of the divider UI element, which is the parent of the button “UI Element.” You’ll eventually be using these to build a command such as 
+Notice the four triangles down bottom. These are useful for navigating to parents, children, and siblings of a given UI element. What this means is that you might be looking at a screen with a divider and a button on the right side of the divider. In such a case, it’s possible that the screen UI Element is set up as the “parent” of the divider UI element, which is the parent of the button “UI Element.” You’ll eventually be using these to build a command such as
 
-<pre class="lang:applescript decode:true " >tell screen 1 to tell divider 1 to tell button 1 to perform action "AXPress"</pre>
+```applescript
+tell screen 1 to tell divider 1 to tell button 1 to perform action "AXPress"
+```
 
 However, one of the biggest problems is what to call each UI Element. As you can see in the Attributes, there are descriptions and roles and titles…. and while I have seen some scripts employing strategies like ‘tell the first UI element whose role is “AXLink” to…’ and others that just use the title (e.g. ‘tell “loading iTunes store” to…’), I have had _really_ inconsistent results doing this. When they have none of these attributes, you really have no choice but to use a number (as in “tell window 1”). However, this can be problematic as well, as different view options (e.g. sidebars) may change the number of the element you want. _Gah._
 
@@ -74,13 +76,13 @@ I think I’ll end this post here. Again, the main idea is that Accessibility In
 **Update 20151027:** I got [a very good question](http://n8henrie.com/2013/03/a-strategy-for-ui-scripting-in-applescript/#comment-2324286651) in the comments below by Carlo DelPizzo, asking about the best way to figure what “number” a UI element is. In other words, there are often numerous “buttons” or “menu items” or “windows”, and Accessibility Inspector doesn’t help you figure out which number a specific element is going to be. Unfortunately, there’s not a single answer that always works, so some of my strategies are:
 
   * Don’t use the numbers, instead look for the “description” in Accessibility Inspector, and use that instead (assuming it’s unique). For example, instead of \`tell button 2 to…\`, use \`tell first button whose description is “foo” to…\`
-  * Use something like <a href="http://hints.macworld.com/article.php?story=20111208191312748" target="_blank">this suggestion</a> where you write a script something like the below, copy and paste the results into your favorite text editor, and try to search for the relevant button that way. 
+  * Use something like <a href="http://hints.macworld.com/article.php?story=20111208191312748" target="_blank">this suggestion</a> where you write a script something like the below, copy and paste the results into your favorite text editor, and try to search for the relevant button that way.
         tell application "System Events" to tell application process "Google Chrome"
         	set stuff to entire contents of front window
         end tell
         return stuff
 
-  * Finally, you can always just iterate through all the UI elements and have them return something like their \`description\`, \`name\`, or \`value\`, to see if that helps, e.g.: 
+  * Finally, you can always just iterate through all the UI elements and have them return something like their \`description\`, \`name\`, or \`value\`, to see if that helps, e.g.:
         tell application "System Events" to tell application process "Google Chrome"
         	set counter to 1
         	set mybuttons to every button in toolbar 1 of window "Bar"
@@ -89,9 +91,9 @@ I think I’ll end this post here. Again, the main idea is that Accessibility In
         		set counter to counter + 1
         	end repeat
         end tell
-    
+
     .
-  
+
     Afterwards, of course you can verify by \`tell button # to display dialog (description as string)\`.
-    
+
     Hope that helps! If anyone has better suggestions, please put them in the commmnts below!

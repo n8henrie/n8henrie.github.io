@@ -41,7 +41,7 @@ For starters, here are some links to the original tools that I’ve included in 
 
 ## Equipment
 
-  * <a href="http://www.amazon.com/gp/product/B00LPESRUK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LPESRUK&linkCode=as2&tag=o5284-20" target="_blank" title="Raspberry-Pi-Model-512MB-Computer">Raspberry Pi model B+</a> (likely possible with other models, but only tested on B+) 
+  * <a href="http://www.amazon.com/gp/product/B00LPESRUK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LPESRUK&linkCode=as2&tag=o5284-20" target="_blank" title="Raspberry-Pi-Model-512MB-Computer">Raspberry Pi model B+</a> (likely possible with other models, but only tested on B+)
   * Optimized to run on **Raspbian Jessie** (`cat /etc/issue` and look for `GNU/Linux 8`), but also working on Raspbian Wheezy
   * <a href="http://n8h.me/1HWwr7E" target="_blank">433 MHz RF transmitter</a>
   * <a href="http://www.amazon.com/gp/product/B00DQELHBS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DQELHBS&linkCode=as2&tag=o5284-20" target="_blank" title="Etekcity-Wireless-Electrical-Household-Appliances">433 MHz remote controlled outlets</a>
@@ -62,9 +62,12 @@ You’ll need to know the **RF codes** that your remote uses to communicate with
 
 You shouldn’t have any trouble using `RF_Sniffer` to find them on your Pi, but if you wanted, you could also get them from an Arduino. First, install the <a href="https://github.com/sui77/rc-switch" target="_blank">rc-switch Arduino library</a> into your Arduino libraries folder (in your Arduino sketchbook, which you can find in your Arduino preferences). You can manually download and extract the .zip file, or in Terminal:
 
-<pre><code class="bash"># First quit Arduino.app, and replace your sketchbook path below
+
+```bash
+# First quit Arduino.app, and replace your sketchbook path below
 cd $ARDUINO_SKETCHBOOK/libraries
-git clone https://github.com/sui77/rc-switch</code></pre>
+git clone https://github.com/sui77/rc-switch
+```
 
 Re-open Arduino.app, and open `examples` -> `rc-switch` -> `ReceiveDemo_Advanced`, which you can use to help you find your RF codes and pulse length, by wiring up an RF receiver to your Arduino and clicking your remote while watching Arduino’s Serial Monitor.
 

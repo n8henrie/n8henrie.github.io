@@ -29,16 +29,18 @@ The solution I’ve finally come up with is that deleting `~/.dropbox/instance1/
 
 Because people may have different paths for their Dropbox, I can’t say this will work for everyone, but it might be worth a shot if you’re going nuts over this problem like I was. If you know your Dropbox installation is not immediately under your home folder, you’ll need to change the commands slightly, but this should work for a default installation.
 
-  1. If you haven’t already, you should probable try the “official” fixes first (see above).
-  2. Repair Dropbox permissions as described above (`Preferences` -> `Account` -> click something, then hit `escape`, then `option` to reveal the button).
-  3. **Quit Dropbox.**
-  4. Open up `/Applications/Utilities/Terminal.app`. Caution — if you don’t know what you’re doing, typing the wrong command in Terminal could be a disaster.
-  5. Copy and paste in this command: 
-<pre><code class="bash">[ -f ~/.dropbox/instance1/filecache.dbx ] && echo "File exists"'!' || echo "Sorry, I don't see the right file."&lt;/pre>
-&lt;li>If it says that the file exists, type the command below. Otherwise, you'll have to search around and find &lt;code>filecache.dbx</code>.</li>
+1. If you haven’t already, you should probable try the “official” fixes first (see above).
+1. Repair Dropbox permissions as described above (`Preferences` -> `Account` -> click something, then hit `escape`, then `option` to reveal the button).
+1. **Quit Dropbox.**
+1. Open up `/Applications/Utilities/Terminal.app`. Caution — if you don’t know what you’re doing, typing the wrong command in Terminal could be a disaster.
+1. Copy and paste in this command:
 
+    <pre><code class="language-bash highlighter-rouge">[ -f ~/.dropbox/instance1/filecache.dbx ] && echo "File exists"'!' || echo "Sorry, I don't see the right file."</code></pre>
 
-<pre><code class="bash">[ -f ~/.dropbox/instance1/filecache.dbx ] && rm ~/.dropbox/instance1/filecache.dbx</pre>
-<li>Restart Dropbox.</li>
-</ol>
-<p>Hopefully you'll find that Dropbox has to do a little sync to catch up, but afterwards works as expected.</p>
+    If it says that the file exists, type the command below. Otherwise, you'll have to search around and find `filecache.dbx`.
+
+    <pre><code class="language-bash highlighter-rouge">[ -f ~/.dropbox/instance1/filecache.dbx ] && rm ~/.dropbox/instance1/filecache.dbx</code></pre>
+
+1. Restart Dropbox.
+
+Hopefully you'll find that Dropbox has to do a little sync to catch up, but afterwards works as expected.

@@ -19,10 +19,12 @@ Because the modem generally does the PPP authentication, that’s where we have 
 
 Next, I ended up barking up the wrong tree by exporting the config file from the modem and parsing through that. I did find a section that looked promising:
 
-<pre><code class="xml">&lt;DefaultPPPConfig&gt;
-&lt;BackupUsername&gt;lastname_firstname@qwest.net&lt;/BackupUsername&gt;
-&lt;BackupPassword&gt;longpasswordstringwithbunchofstuff=&lt;/BackupPassword&gt;
-&lt;/DefaultPPPConfig&gt;</code></pre>
+```xml
+<DefaultPPPConfig>
+<BackupUsername>lastname_firstname@qwest.net</BackupUsername>
+<BackupPassword>longpasswordstringwithbunchofstuff=</BackupPassword>
+</DefaultPPPConfig>
+```
 
 Noting the `=` at the end of the password section, I figured it was probably base64 encoded. Unfortunately, decoding it only left me with `Salted__bunchofoddcharacters`… which didn’t work at all, since I didn’t know their salt or what algorithm they were using.
 
@@ -33,24 +35,32 @@ Finally, I ran across a few links that were instrumental to me figuring everythi
 
 Basically, I followed their instructions to turn on telnet access (making sure to turn it off again afterwards), and ran the below commands (either / or — they should give you the same password).
 
-    telnet 192.168.0.1
-    ps
-    # Look for the far left number (process id) of the line that has `ppp` somewhere in it
-    # Put it instead of `process_id` in the next command
-    cat proc/process_id/cmdline
+```shell
+telnet 192.168.0.1
+ps
+# Look for the far left number (process id) of the line that has `ppp` somewhere in it
+# Put it instead of `process_id` in the next command
+cat proc/process_id/cmdline
+```
 
 or, alternatively:
 
-    telnet 192.168.0.1
-    sh
-    /usr/bin/pidstat -l -C pppd
+```shell
+telnet 192.168.0.1
+sh
+/usr/bin/pidstat -l -C pppd
+```
 
 However, it _still_ wasn’t working with that password. I eventually figured out that it required one more simple step: just base64 decoding. Being a Python guy, I initially did this:
 
-<pre><code class="bash">python3 -c 'import base64; import sys; print(base64.b64decode(sys.argv[1]).decode('utf8'))' 'encoded_password'</code></pre>
+```python
+python3 -c 'import base64; import sys; print(base64.b64decode(sys.argv[1]).decode('utf8'))' 'encoded_password'
+```
 
 but I later realized I could have saved myself some typing and just done this:
 
-<pre><code class="bash">echo "encoded_password" | base64 --decode</code></pre>
+```bash
+echo "encoded_password" | base64 --decode
+```
 
 Once I had my decoded password, I plugged it into my Airport Extreme with the username from the XML config file `lastname_firstname@qwest.net` and it worked like a charm.

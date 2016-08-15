@@ -17,27 +17,27 @@ If any of you happen to have the same ISP as me, you may have frequent internet 
 
 Because I rely on the internet to get much of my work done, whenever there’s internet trouble I have to go to the local library. I can think of a few ways to remotely check whether or not my house has connectivity (so I can go back home), but this is my favorite way so far.
 
-My method relies on 
+My method relies on
 
   1. A computer at home running:
   * <a target="_blank" href="http://www.noodlesoft.com/hazel.php" title="Noodlesoft - Hazel">Hazel</a>
-  * <a target="_blank" href="https://www.dropbox.com/" title="Dropbox">Dropbox</a></li> 
+  * <a target="_blank" href="https://www.dropbox.com/" title="Dropbox">Dropbox</a></li>
 
   2. A <a target="_blank" href="https://pushover.net/" title="Pushover: Simple Notifications for Android, iOS, and Desktop">Pushover</a> account and their mobile app
   3. A mobile device that can upload a file to Dropbox
 
-If you’ve read [my “Dropbox and Hazel” post](http://n8henrie.com/2011/06/dropvox-dropbox-hazel-and-omnifocus/ "DropVox, DropBox, Hazel, and OmniFocus - n8henrie.com") from a few years back, you can probably see where this is going. Basically, the idea is: 
+If you’ve read [my “Dropbox and Hazel” post](http://n8henrie.com/2011/06/dropvox-dropbox-hazel-and-omnifocus/ "DropVox, DropBox, Hazel, and OmniFocus - n8henrie.com") from a few years back, you can probably see where this is going. Basically, the idea is:
 
   1. Use cellular data on your mobile device to upload a very small file to a Dropbox folder that syncs to your Mac.
   2. Once internet connectivity is restored to your Mac, Dropbox will sync that file relatively quickly.
   3. Use Hazel to detect the appearance of that file.
   4. Use Hazel to send a Pushover notification to your mobile device.
 
-Simple as that. 
+Simple as that.
 
 ### The Trigger File
 
-My trigger file is an empty text file named `Internet Working.txt`. It sits in a folder called “LaunchFiles” in my Dropbox. I use <a target="_blank" href="https://itunes.apple.com/us/app/goodreader-4/id777310222?mt=8&uo=4&at=10l5H6" title="GoodReader 4">Goodreader</a> on my iPhone to move the file from `LaunchFiles` to another folder, `Launch`. 
+My trigger file is an empty text file named `Internet Working.txt`. It sits in a folder called “LaunchFiles” in my Dropbox. I use <a target="_blank" href="https://itunes.apple.com/us/app/goodreader-4/id777310222?mt=8&uo=4&at=10l5H6" title="GoodReader 4">Goodreader</a> on my iPhone to move the file from `LaunchFiles` to another folder, `Launch`.
 
 ### The Launch Folder
 
@@ -50,7 +50,8 @@ Hazel monitors `Launch` for this file (among many others), and upon detecting it
 
 This could probably be accomplished through Growl and its Pushover action, but I find a shell script just as easy with Pushover’s excellent API. First, you’ll need to buy Pushover and set up an account, then make a new Pushover app and get its credentials. Insert your credentials and `cacert` path into the script below. If you don’t know about the `cacert`, I believe you can omit the `--cacert` line as long as you also get rid of the `-s` in `curl -s \`, and it should still work. Don’t forget to `chmod +x pushover.sh`.
 
-<pre>#!/bin/bash
+```bash
+#!/bin/bash
 
 curl -s \
   --cacert "/path/to/cacert.pem" \
@@ -80,6 +81,6 @@ curl -s \
 #priority (optional) - set to "1" to display as high-priority and bypass quiet hours, or "-1" to always send as a quiet notification
 #timestamp (optional) - set to a Unix timestamp to have your message show with a particular time, rather than now
 #sound (optional) - set to the name of one of the sounds supported by device clients to override the user's default sound choice
-</pre>
+```
 
 That’s it! If any of you have clever ideas for improving the script I’d love to hear it — preferably in the comments section below.

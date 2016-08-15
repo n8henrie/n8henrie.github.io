@@ -27,23 +27,25 @@ Here’s my proposed solution, which only requires free software and doesn’t r
   4. Open Terminal.app and `cd` to the directory containing `Contacts.sqlite` (e.g. `cd ~/Desktop`)
   5. Run the following code, line by line:
 
-<pre>sqlite3 Contacts.sqlite
+```bash
+sqlite3 Contacts.sqlite
 .headers on
 .mode csv
 .output whatsapp_addressbook.csv
 select ZFULLNAME, ZABUSERID from ZWACONTACT order by ZFULLNAME;
-</pre>
+```
 
 **Make sure you get the** `;` **on that last line.**
 
 This uses your Mac’s built in `sqlite3` to export a .csv file of all your WhatsApp contacts and their respective `ABID`s, sorted by (first) name.
 
-The output file `whatsapp_addressbook.csv` should be in the same directory, and should look something like: 
+The output file `whatsapp_addressbook.csv` should be in the same directory, and should look something like:
 
-<pre>ZFULLNAME,ZABUSERID
+```csv
+ZFULLNAME,ZABUSERID
 John Doe,592
 Jane Doe,29
-</pre>
+```
 
 You can now make a Launch Center Pro action like `whatsapp://send?text=[prompt:Text]&abid=45` that will prompt you for text and put it into a WhatsApp message to a given contact (you’ll still have to hit the `Send` button afterward).
 

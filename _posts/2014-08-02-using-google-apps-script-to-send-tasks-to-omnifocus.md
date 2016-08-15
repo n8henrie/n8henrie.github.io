@@ -17,9 +17,10 @@ Gmail filters are pretty powerful, and you can easily set one up to forward to y
 
 However, if you want to get into some _really_ powerful email-to-task automation, you ought to look into Google Apps Script. It’s basically JavaScript that Google runs for you, with some really cool integration with things like Gmail and Google Sheets. It basically lets you write scripts that access and are triggered by things like a particular Gmail message or spreadsheet cell and gives you pretty fine control over what you do with the message.
 
-Consider this situation, for example. Let’s say you get emails about bank transactions, and you want to know about them ASAP. Great — set up a Gmail filter to send a notification via <a target="_blank" href="https://itunes.apple.com/us/app/pushover-notifications/id506088175?mt=8&uo=4&at=10l5H6" title="Pushover Notifications">Pushover</a> or use IFTTT. **However**, let’s say instead that you only want notifications for transactions _over a certain dollar amount_. That’s where this type of script may be your best bet, using something like a regex to find the amount of the transaction, `parseFloat()`, and a comparison. For example, 
+Consider this situation, for example. Let’s say you get emails about bank transactions, and you want to know about them ASAP. Great — set up a Gmail filter to send a notification via <a target="_blank" href="https://itunes.apple.com/us/app/pushover-notifications/id506088175?mt=8&uo=4&at=10l5H6" title="Pushover Notifications">Pushover</a> or use IFTTT. **However**, let’s say instead that you only want notifications for transactions _over a certain dollar amount_. That’s where this type of script may be your best bet, using something like a regex to find the amount of the transaction, `parseFloat()`, and a comparison. For example,
 
-<pre>var emailContent = 'You had a transaction for $24.50';
+```javascript
+var emailContent = 'You had a transaction for $24.50';
 
 // Set up the regex (parenthesis indicate a "group")
 var transAmountRegex = /\$(\d+\.\d{2})/;
@@ -37,7 +38,7 @@ if ( transAmount >= 25.00 ) {
 else {
     console.log("Honey badger don't care.");
     }
-</pre>
+```
 
 Don’t worry too much if you don’t know JavaScript. I don’t really know any either (compare my posts tagged `javascript` to those tagged `python` or `AppleScript` for example). But if you have even a _little_ background in scripting and access to Google, you can probably figure it out enough to get a working script using my template. In my script below, I’ve included a template function called `bankEmail` to provide a basic example.
 
@@ -57,7 +58,7 @@ You’ll need to make a new test for each “type” of email you want to match,
 
   1. Go to the `function processMessage(message)` part of the script.
   2. You can leave my example for `bankEmail` (near line 61) there as a template, if you want.
-  3. Change the section `else if ( to == 'youremail@email.com'` section to fit the pattern of emails you want to match. 
+  3. Change the section `else if ( to == 'youremail@email.com'` section to fit the pattern of emails you want to match.
       * You may want to brush up on <a target="_blank" href="http://www.w3schools.com/js/js_regexp.asp">JavaScript regular expressions</a>.
       * The `from` field isn’t _just_ the address — Click the small down arrow to the right of a Gmail message, `Show original`, and look for what it has under `From:`.
       * You’ll probably want to use `/yourRegex/i.test(emailField)` in this portion, as it returns `true` or `false`, which is what you need for matching.
@@ -65,16 +66,16 @@ You’ll need to make a new test for each “type” of email you want to match,
 
 ## Set up your function
 
-Next we’ll make your custom function that is called when your email pattern matches. 
+Next we’ll make your custom function that is called when your email pattern matches.
 
-  1. Make a new function following the pattern demonstrated in `function yourNewFunction(messageId) {`. 
+  1. Make a new function following the pattern demonstrated in `function yourNewFunction(messageId) {`.
   2. In the curly braces `{ }`… do what you want! Get attributes like the message content, the subject, etc. using the <a target="_blank" href="https://developers.google.com/apps-script/reference/gmail/gmail-message">GmailMessage class</a>.
   3. Use this data you’ve extracted from the email to make a concise, informative task.
   4. Consider using the JavaScript `Date()` function to add a “Processed on: ” type line.
-  5. You’ll use <a target="_blank" href="https://developers.google.com/apps-script/reference/mail/mail-app">MailApp.sendEmail</a> to send the task to OmniFocus via Mail Drop. 
+  5. You’ll use <a target="_blank" href="https://developers.google.com/apps-script/reference/mail/mail-app">MailApp.sendEmail</a> to send the task to OmniFocus via Mail Drop.
       * Don’t forget your subject will be the task name, and your email body will be the task note.
       * Consider including using something like `GmailMessage.getPlainBody()` in your note to give your task appropriate context.
-  6. Add a `message.getThread().removeLabel(label);` to the bottom of your function to make sure the label gets removed before the next run. 
+  6. Add a `message.getThread().removeLabel(label);` to the bottom of your function to make sure the label gets removed before the next run.
 
 ## Test and debug
 
@@ -110,8 +111,9 @@ Well, that’s about it. As one last reminder, when you set up your Gmail filter
 
 For example, if I want my custom Google Apps script to run on emails from `person1@gmail.com` that have `cars` in the subject and on emails from `person2@gmail.com` that has the phrase `let's go riding` somewhere in them, a Gmail filter with the following will match **both** of them:
 
-<pre>Has the words: { (from:person1@gmail.com, subject:cars), (from:person2@gmail.com, "let's go riding") }
-</pre>
+```
+Has the words: { (from:person1@gmail.com, subject:cars), (from:person2@gmail.com, "let's go riding") }
+```
 
 Then just have that filter do something like this for its action:
 

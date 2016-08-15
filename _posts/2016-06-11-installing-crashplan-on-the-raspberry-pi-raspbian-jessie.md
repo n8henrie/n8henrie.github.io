@@ -33,5 +33,7 @@ My systemd service file:
 
 Some folks have recommended increasing the number of inotify watches with the commands below; this is another thing that I didn’t do, and it seems to be running okay on my RPi 3.
 
-<pre><code class="bash">echo 1048576 | sudo tee /proc/sys/fs/inotify/max_user_watches
-echo 'fs.inotify.max_user_watches=1048576' | sudo tee -a /etc/sysctl.conf</code></pre>
+```bash
+echo 1048576 | sudo tee /proc/sys/fs/inotify/max_user_watches
+echo 'fs.inotify.max_user_watches=1048576' | sudo tee -a /etc/sysctl.conf
+```
