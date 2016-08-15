@@ -9,13 +9,14 @@ guid: http://n8henrie.com/?p=2793
 permalink: /2015/12/control-an-rf-outlet-with-siri-via-homebridge/
 dsq_thread_id:
   - 4439675415
+disqus_identifier: 2793 http://n8henrie.com/?p=2793
 ---
 **Bottom Line:** Here&#8217;s how to control cheap RF outlets directly from Siri using HomeKit by way of homebridge.<!--more-->
 
 ## Introduction
 
 Apple&#8217;s home automation suite is called <a href="http://www.apple.com/ios/homekit/" target="_blank">HomeKit</a>. It works with Siri, which is great. In true Apple fashion, it seems like they are making it _really_ difficult for third parties to get &#8220;HomeKit Certified,&#8221; and so you won&#8217;t see a _whole_ lot of devices carrying this:  
-![](http://n8henrie.com/uploads/2015/12/20151222_ScreenShot2015-12-22at6.08.11AM.jpg)
+![]({{ site.url }}/uploads/2015/12/20151222_ScreenShot2015-12-22at6.08.11AM.jpg)
 
 Luckily, some people much smarter than me have developed an alternative route to use Siri to control devices around the house: make a server that _emulates_ the HomeKit API: <a href="https://github.com/nfarina/homebridge" target="_blank">homebridge</a>. This tutorial covers how to go about setting up homebridge on a Raspberry Pi, and how to install my version of the nodejs implementation of RCSwitch in order to control cheap RF outlets with Siri.
 

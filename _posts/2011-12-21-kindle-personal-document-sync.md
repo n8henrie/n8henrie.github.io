@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 826212121
+disqus_identifier: 37 http://n8henrie.com/?p=37
 ---
 Thank everything good in the universe, Amazon has finally updated their iOS apps to allow &#8220;personal document&#8221; downloads, and (drum roll please) last read location sync on personal docs. While this has been around a while between Kindles or for ebooks purchased directly from Amazon, you can now email an ebook (or lengthy Word document or what have you) from any source to your Kindle email address and you&#8217;ll be able to access it and and &#8220;pick up where you left off&#8221; on any of your iOS devices. This is really spectacular news for those that prefer to use Google Books or iTunes/iBooks to find or purchase new reading material. Amazon has a list of a few formats that they&#8217;ll convert for you, and for everything else there&#8217;s Calibre [http://calibre-ebook.com/], which I think is developed by an Albuquerque local.
 

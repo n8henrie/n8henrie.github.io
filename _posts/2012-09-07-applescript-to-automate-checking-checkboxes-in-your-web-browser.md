@@ -14,6 +14,7 @@ al2fb_facebook_link_picture:
   - 'avatar=http://0.gravatar.com/avatar/a23e95080d456123bf42bf8cc0f13519?s=96&amp;d=wavatar&amp;r=PG'
 dsq_thread_id:
   - 835124490
+disqus_identifier: 1669 http://n8henrie.com/?p=1669
 ---
 **Bottom line:** I wrote an Applescript that automates clicking a lot of evenly spaced checkboxes in a web browser.
   

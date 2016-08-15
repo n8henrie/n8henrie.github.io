@@ -19,6 +19,7 @@ al2fb_facebook_link_picture:
   - featured=http://n8henrie.com/?al2fb_image=1
 dsq_thread_id:
   - 1033649647
+disqus_identifier: 1915 http://n8henrie.com/?p=1915
 ---
 **Bottom Line:** Easily make your own <a target="_blank" href="http://getcloudapp.com" title="CloudApp Official Site">CloudApp</a> style image (or other file) uploading service using Automator and the below shell script.
   
@@ -54,7 +55,7 @@ I decided to write this as an Automator service for a few reasons. Principally,
 
 Instead of writing this all out, I&#8217;ll just use a screenshot, which was uploaded by my handy workflow. _Like Inception._<figure> 
 
-![](http://n8henrie.com/uploads/2013/01/20130119_20130118-ScreenShot-73.jpg)</figure> 
+![]({{ site.url }}/uploads/2013/01/20130119_20130118-ScreenShot-73.jpg)</figure> 
 
 Note the &#8220;receives files from&#8221; part and the &#8220;pass input&#8221; part.
 

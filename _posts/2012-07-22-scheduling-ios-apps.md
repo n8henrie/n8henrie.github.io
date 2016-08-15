@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811650975
+disqus_identifier: 9 http://n8henrie.com/?p=9
 ---
 **Bottom line:** You can schedule apps to run on a schedule on your jailbroken iOS device by adding a shell script called by a .plist that is run by launchCTL.
   
@@ -45,7 +46,7 @@ This way, on my morning rush to the hospital, I can quickly scan my tasklist and
 On my iPhone, there’s an even more pressing issue: many of the apps I rely on don’t sync in the background. If I don’t remember to launch the app, they don’t reflect any changes that I’ve made on other devices. For example, I have the full <a target="_blank" href="http://www.omnigroup.com/products/omnifocus/" title="OmniFocus">OmniFocus</a> getup – <a href="https://itunes.apple.com/us/app/omnifocus/id402835630?mt=12&#038;at=10l5H6" title="OmniFocus at Mac App Store" target="_blank">Mac</a>, <a href="https://itunes.apple.com/us/app/omnifocus-for-ipad/id383804552?mt=8&#038;at=10l5H6" title="OmniFocus for iPad at iOS App Store" target="_blank">iPad</a>, and <a href="https://itunes.apple.com/us/app/omnifocus-2-for-iphone/id690305341?mt=8&at=10l5H6" title="OmniFocus for iPhone at iOS App Store" target="_blank">iPhone</a>. I love and rely on this app. One nice feature is that the app “badge” that can update to show the sum of your due, overdue, and flagged tasks. I’ll frequently spend a few minutes before I go to bed “flagging” the tasks that are high priority for the next day.
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/PhotoJul2170241PM-11.jpg" style="margin-left:1em; margin-right:1em"><img border="0" height="112" width="400" src="http://n8henrie.com/uploads/2012/07/PhotoJul2170241PM-1.jpg" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/PhotoJul2170241PM-11.jpg" style="margin-left:1em; margin-right:1em"><img border="0" height="112" width="400" src="{{ site.url }}/uploads/2012/07/PhotoJul2170241PM-1.jpg" /></a>
 </div>
 
 However, if I don’t remember to launch OmniFocus… the badge never updates, and I don’t have this handy in-my-face reminder every time I look at my iPhone throughout the day. As a second example from the image above, I use <a target="_blank" href="http://www.dueapp.com/" title="DueReminder App for iPhone, iPad, and Mac">Due</a> to give me reminders of time-sensitive tasks throughout the day (its “auto-snooze” feature is _pure gold_, and I plan post to cover Due at some point in the future, but its video ad is really what sold me… I’m a sucker for cute video ads). Once again, if I add an important reminder on Due for iPad (it’s a universal app so it works on both iOS devices), that reminder is not synced to the iPhone until I launch Due on the iPhone. BTW, this is _not_ the developers’ fault.. it’s an Apple limitation. Regardless, I have definitely missed a reminder or two not because I forgot to set the reminder, but because I forgot to sync the reminder to the device I had with me. Because these apps can be set to sync on launch, being able to automatically launch (and thereby sync) these apps overnight ensures that I am consistently up-to-date each morning.

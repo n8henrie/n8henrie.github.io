@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2398
 permalink: /2013/10/fix-for-broken-four-finger-swipe-gesture-on-a-macbook/
 dsq_thread_id:
   - 1872743288
+disqus_identifier: 2398 http://n8henrie.com/?p=2398
 ---
 **Bottom Line:** Try toggling these settings on and off if your three and four finger swipe gestures stop working on your MacBook.<!--more-->
 

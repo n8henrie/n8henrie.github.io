@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2683
 permalink: /2015/01/search-google-contacts-from-chromes-omnibox/
 dsq_thread_id:
   - 3467067419
+disqus_identifier: 2683 http://n8henrie.com/?p=2683
 ---
 **Bottom Line:** Here&#8217;s a quick and easy way to search your Google Contacts from the Chrome Omnibox (address bar).<!--more-->
 

@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2317
 permalink: /2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter/
 dsq_thread_id:
   - 1500601736
+disqus_identifier: 2317 http://n8henrie.com/?p=2317
 ---
 **Bottom Line:** There&#8217;s a lot more to Twitter than you might have guessed.
   

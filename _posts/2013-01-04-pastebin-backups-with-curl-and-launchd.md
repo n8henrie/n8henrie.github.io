@@ -11,6 +11,7 @@ al2fb_facebook_exclude:
   - 1
 dsq_thread_id:
   - 1007454230
+disqus_identifier: 1888 http://n8henrie.com/?p=1888
 ---
 **Bottom Line:** Just another shell script to back up web content with cURL &#8211; this time for use with Pastebin.
   

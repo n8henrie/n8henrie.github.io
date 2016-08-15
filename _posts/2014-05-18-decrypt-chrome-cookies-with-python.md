@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2522
 permalink: /2014/05/decrypt-chrome-cookies-with-python/
 dsq_thread_id:
   - 2695326330
+disqus_identifier: 2522 http://n8henrie.com/?p=2522
 ---
 **Bottom Line:** Use PyCrypto to decrypt Chrome&#8217;s cookies for easier Python scraping.<!--more-->
 

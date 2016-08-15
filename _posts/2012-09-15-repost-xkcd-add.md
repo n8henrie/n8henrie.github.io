@@ -14,6 +14,7 @@ al2fb_facebook_link_picture:
   - 'avatar=http://0.gravatar.com/avatar/a23e95080d456123bf42bf8cc0f13519?s=96&amp;d=wavatar&amp;r=PG'
 dsq_thread_id:
   - 845714882
+disqus_identifier: 1722 http://n8henrie.com/?p=1722
 ---
 <a target="_blank" href="http://xkcd.com/1106"><img src="http://imgs.xkcd.com/comics/add.png" alt="Click to see original" /></a>
   

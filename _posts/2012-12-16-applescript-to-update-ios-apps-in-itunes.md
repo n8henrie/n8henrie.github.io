@@ -15,6 +15,7 @@ al2fb_facebook_link_picture:
   - featured=http://www.n8henrie.com/?al2fb_image=1
 dsq_thread_id:
   - 977601006
+disqus_identifier: 1831 http://n8henrie.com/?p=1831
 ---
 **Bottom Line:** If you don&#8217;t like having to manually update iOS apps, here&#8217;s an AppleScript to automate the process.
   

@@ -10,6 +10,7 @@ dsq_thread_id:
   - 811639650
 blogger_images:
   - 1
+disqus_identifier: 307 http://n8henrie.com/?p=307
 ---
 **Bottom line:** In case you haven&#8217;t noticed, I moved to WordPress. Hilarity ensues.
   

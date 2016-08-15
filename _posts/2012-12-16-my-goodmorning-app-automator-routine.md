@@ -15,6 +15,7 @@ al2fb_facebook_link_picture:
   - featured=http://www.n8henrie.com/?al2fb_image=1
 dsq_thread_id:
   - 977676720
+disqus_identifier: 1837 http://n8henrie.com/?p=1837
 ---
 **Bottom Line:** This post is about an Automator script that I have run every day before I wake up to make sure my computer is up and running by the time I am.
   

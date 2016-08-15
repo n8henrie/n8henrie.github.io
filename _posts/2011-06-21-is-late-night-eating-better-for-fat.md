@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811742161
+disqus_identifier: 55 http://n8henrie.com/?p=55
 ---
 *\*Update: Please note that this is \*not* my writing, it&#8217;s a repost from leangains.com. Was just browsing and noticed that the repost formatting isn&#8217;t as obvious on Blogger as it was on Posterous, where my blog was previously hosted. &#8211;n8henrie Thu Aug 2 10:54:07 MDT 2012 
 
@@ -35,7 +36,7 @@ dsq_thread_id:
         
         <p>
           <div style="clear: both; text-align: center;">
-            <a href="http://www.n8henrie.com/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="400" src="http://www.n8henrie.com/uploads/2012/08/LeangainsLateNightEatingMyth.jpg" width="270" /></a><br /><a href="http://www.n8henrie.com/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
+            <a href="{{ site.url }}/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="400" src="{{ site.url }}/uploads/2012/08/LeangainsLateNightEatingMyth.jpg" width="270" /></a><br /><a href="{{ site.url }}/uploads/2012/08/LeangainsLateNightEatingMyth1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
           </div>
           
           <p>
@@ -181,7 +182,7 @@ dsq_thread_id:
                           As you can see, the PM-setup is quite similar to the <a href="http://www.leangains.com/2010/04/leangains-guide.html" target="_blank">&#8220;One Pre-Workout Meal&#8221; protocol</a> of Leangains. 
                           
                           <div style="clear: both; text-align: center;">
-                            <a href="http://www.n8henrie.com/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="214" src="http://www.n8henrie.com/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" width="160" /></a><br /><a href="http://www.n8henrie.com/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
+                            <a href="{{ site.url }}/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" height="214" src="{{ site.url }}/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" width="160" /></a><br /><a href="{{ site.url }}/uploads/2012/08/IntermittentFastingLeangainsGaryAfter.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank"></a>
                           </div>
                           
                           <p>

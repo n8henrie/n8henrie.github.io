@@ -16,6 +16,7 @@ dsq_thread_id:
   - 811565477
 blogger_images:
   - 1
+disqus_identifier: 8 http://n8henrie.com/?p=8
 ---
 **Bottom line:** I’m going to use “bottom line” statements at the top of my posts so readers can quickly figure out whether or not the post is worth reading.
   

@@ -16,10 +16,11 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 829291971
+disqus_identifier: 65 http://n8henrie.com/?p=65
 ---
 <div>
   <div>
-    <a href="http://www.n8henrie.com/uploads/2012/09/Photo11.jpg.scaled.5001.jpg"><img alt="Photo1" height="373" src="http://www.n8henrie.com/uploads/2012/09/Photo11.jpg.scaled.5001.jpg" width="500" /></a>
+    <a href="{{ site.url }}/uploads/2012/09/Photo11.jpg.scaled.5001.jpg"><img alt="Photo1" height="373" src="{{ site.url }}/uploads/2012/09/Photo11.jpg.scaled.5001.jpg" width="500" /></a>
   </div>
   
   <p>

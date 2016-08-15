@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2081
 permalink: /2013/03/bitly-applescript-url-shortener/
 dsq_thread_id:
   - 1170899394
+disqus_identifier: 2081 http://n8henrie.com/?p=2081
 ---
 **Bottom Line:** This AppleScript grabs a URL from Chrome or Safari and shortens it with Bit.ly. <!--more-->
 

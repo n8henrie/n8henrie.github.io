@@ -21,6 +21,7 @@ al2fb_facebook_link_time:
   - 2012-11-13T02:19:28+00:00
 al2fb_facebook_link_picture:
   - meta=http://www.n8henrie.com/uploads/2012/11/IMG_0228-3-150x150.jpeg
+disqus_identifier: 1798 http://n8henrie.com/?p=1798
 ---
 **Bottom line: **Siri is smart enough to connect a few dots in telling you details about your schedule.
   
@@ -37,13 +38,13 @@ Although I confess that [Siri and I have not always been the best of friends](ht
 <div id='gallery-1' class='gallery galleryid-1798 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://n8henrie.com/uploads/2012/11/IMG_0228-3.jpeg'><img width="150" height="150" src="http://n8henrie.com/uploads/2012/11/IMG_0228-3-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="IMG_0228-3" srcset="http://n8henrie.com/uploads/2012/11/IMG_0228-3-150x150.jpeg 150w, http://n8henrie.com/uploads/2012/11/IMG_0228-3-125x125.jpeg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='http://n8henrie.com/uploads/2012/11/IMG_0228-3.jpeg'><img width="150" height="150" src="{{ site.url }}/uploads/2012/11/IMG_0228-3-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="IMG_0228-3" srcset="{{ site.url }}/uploads/2012/11/IMG_0228-3-150x150.jpeg 150w, http://n8henrie.com/uploads/2012/11/IMG_0228-3-125x125.jpeg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://n8henrie.com/uploads/2012/11/IMG_0227.jpeg'><img width="150" height="150" src="http://n8henrie.com/uploads/2012/11/IMG_0227-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="IMG_0227" srcset="http://n8henrie.com/uploads/2012/11/IMG_0227-150x150.jpeg 150w, http://n8henrie.com/uploads/2012/11/IMG_0227-125x125.jpeg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href='http://n8henrie.com/uploads/2012/11/IMG_0227.jpeg'><img width="150" height="150" src="{{ site.url }}/uploads/2012/11/IMG_0227-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="IMG_0227" srcset="{{ site.url }}/uploads/2012/11/IMG_0227-150x150.jpeg 150w, http://n8henrie.com/uploads/2012/11/IMG_0227-125x125.jpeg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
     </dt>
   </dl>
   

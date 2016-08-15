@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2607
 permalink: /2014/08/versions-of-jquery-that-work-on-google-sites-html-box/
 dsq_thread_id:
   - 2911716655
+disqus_identifier: 2607 http://n8henrie.com/?p=2607
 ---
 **Bottom Line:** These are the version of jQuery you can use in a Google Sites HTML box as of 20140808 (list at the bottom).<!--more-->
 

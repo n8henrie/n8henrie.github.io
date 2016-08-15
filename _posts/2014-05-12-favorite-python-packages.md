@@ -8,6 +8,7 @@ guid: http://n8henrie.com/?p=2516
 permalink: /2014/05/favorite-python-packages/
 dsq_thread_id:
   - 2679734909
+disqus_identifier: 2516 http://n8henrie.com/?p=2516
 ---
 **Bottom Line:** A brief look at `pip` and a few _sweet_ python3 modules.<!--more-->
 
@@ -108,7 +109,7 @@ monthly.plot(kind = 'bar', legend = None)
 </pre>
 
 
-![](http://n8henrie.com/uploads/2014/05/20140511_20140511-ScreenShot-307.jpg) 
+![]({{ site.url }}/uploads/2014/05/20140511_20140511-ScreenShot-307.jpg) 
 
 ### <a target="_blank" href="https://github.com/jgorset/facepy" title="jgorset/facepy · GitHub">facepy</a>
 

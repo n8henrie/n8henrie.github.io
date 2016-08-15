@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 814892516
+disqus_identifier: 24 http://n8henrie.com/?p=24
 ---
 <div style="clear: both; text-align: center;">
 </div>
@@ -42,7 +43,7 @@ I know it sounds silly, but keep in mind that 50% of your grade on each rotation
 ## Tip #3: Buy a bunch of these mini comp books. 
 
 <div style="clear: both; text-align: center;">
-  <a href="http://f.cl.ly/items/1v3v2W26001E0i0i1t2B/IMG_1555.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://www.n8henrie.com/uploads/2012/09/IMG_1555.jpg" width="239" /></a>
+  <a href="http://f.cl.ly/items/1v3v2W26001E0i0i1t2B/IMG_1555.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/uploads/2012/09/IMG_1555.jpg" width="239" /></a>
 </div>
 
 This tip goes and and hand with the above. Sometimes whipping out the phone-based tasklist to jot down an important tidbit or to-do is just plain inefficient. Good old fashioned pen and paper is what you need. I have been using these little notepads for years, because they’re small enough to fit in your pockets, sturdy enough to use for weeks or months at a time, and cheap enough to not worry about if they get trashed. The size I use (4.5“ x 3.25”) fits perfectly into my breast pocket on my white coat, both UNMH and VA scrubs, and the button-up shirts I use on clinic days. Don’t forget to put your name and a contact number on the cover in case you lose it.

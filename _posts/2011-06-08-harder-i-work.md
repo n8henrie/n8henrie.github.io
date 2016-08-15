@@ -16,10 +16,11 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 833452497
+disqus_identifier: 58 http://n8henrie.com/?p=58
 ---
 <div>
   <div>
-    <a href="http://www.n8henrie.com/uploads/2012/09/harder-i-work-luckier-i-get21.jpg.scaled5001.jpg"><img alt="Harder-i-work-luckier-i-get2" height="281" src="http://www.n8henrie.com/uploads/2012/09/harder-i-work-luckier-i-get21.jpg.scaled5001.jpg" width="500" /></a>
+    <a href="{{ site.url }}/uploads/2012/09/harder-i-work-luckier-i-get21.jpg.scaled5001.jpg"><img alt="Harder-i-work-luckier-i-get2" height="281" src="{{ site.url }}/uploads/2012/09/harder-i-work-luckier-i-get21.jpg.scaled5001.jpg" width="500" /></a>
   </div></p> 
   
   <p>

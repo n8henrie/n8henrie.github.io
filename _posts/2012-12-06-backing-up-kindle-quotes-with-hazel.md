@@ -15,6 +15,7 @@ al2fb_facebook_link_picture:
   - featured=http://www.n8henrie.com/?al2fb_image=1
 dsq_thread_id:
   - 961458300
+disqus_identifier: 1822 http://n8henrie.com/?p=1822
 ---
 **Bottom line:** [Noodlesoft&#8217;s Hazel](http://www.noodlesoft.com/hazel.php) can easily back up your Kindle&#8217;s quotes, highlights, etc. by attaching a script that runs when the Kindle is mounted.
   

@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811661137
+disqus_identifier: 48 http://n8henrie.com/?p=48
 ---
 <div>
   &#8220;The world has lost a visionary. And there may be no greater tribute to Steve’s success than the fact that much of the world learned of his passing on a device he invented.&#8221; -Barack Obama

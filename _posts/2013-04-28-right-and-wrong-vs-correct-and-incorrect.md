@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2220
 permalink: /2013/04/right-and-wrong-vs-correct-and-incorrect/
 dsq_thread_id:
   - 1241851557
+disqus_identifier: 2220 http://n8henrie.com/?p=2220
 ---
 **Bottom Line:** I wish more people (myself included) would tell others they&#8217;re correct and incorrect instead of &#8220;That&#8217;s right!&#8221; or &#8220;I think you&#8217;re wrong.&#8221; <!--more-->
 

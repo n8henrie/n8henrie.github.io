@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2037
 permalink: /2013/03/send-multiple-tasks-to-omnifocus-at-once-with-drafts-and-pythonista/
 dsq_thread_id:
   - 1127956432
+disqus_identifier: 2037 http://n8henrie.com/?p=2037
 ---
 **Bottom Line:** I often come up with several tasks I need to jot down at once, and this script helps me get them all into OmniFocus in one shot. <!--more-->
 

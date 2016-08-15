@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2713
 permalink: /2015/03/how-to-control-your-raspberry-pi-by-sms/
 dsq_thread_id:
   - 3642951467
+disqus_identifier: 2713 http://n8henrie.com/?p=2713
 ---
 **Bottom Line:** Here&#8217;s how to control your Raspberry Pi with text messages!<!--more-->
 

@@ -23,10 +23,11 @@ enclosure:
         
 dsq_thread_id:
   - 842600972
+disqus_identifier: 53 http://n8henrie.com/?p=53
 ---
 <div>
   <div>
-    <img alt="Media_httpaudioboofmb_gctju" height="1" src="http://www.n8henrie.com/uploads/2012/09/media_httpaudioboofmb_GctJu.jpg.scaled500.jpg" width="1" />
+    <img alt="Media_httpaudioboofmb_gctju" height="1" src="{{ site.url }}/uploads/2012/09/media_httpaudioboofmb_GctJu.jpg.scaled500.jpg" width="1" />
   </div>
   
   <p>

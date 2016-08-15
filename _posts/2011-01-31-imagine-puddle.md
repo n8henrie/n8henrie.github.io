@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 812223421
+disqus_identifier: 78 http://n8henrie.com/?p=78
 ---
 <div>
   <blockquote>

@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2227
 permalink: /2013/05/applescript-to-export-from-iwork/
 dsq_thread_id:
   - 1256987071
+disqus_identifier: 2227 http://n8henrie.com/?p=2227
 ---
 **Bottom Line:** I wrote an AppleScript to export from iWork (Pages, Numbers, Keynote) without having to touch the mouse or go through the menu. <!--more-->
 

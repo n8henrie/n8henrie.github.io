@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 842633460
+disqus_identifier: 27 http://n8henrie.com/?p=27
 ---
 For some reason, the <a href="http://www.nmwild.org/" target="_blank">New Mexico Wilderness Alliance</a> seems fixed on eliminating mountain bike access to trails in New Mexico.  This seems to be a longstanding issue, largely debate over the definition of &#8220;mechanical device,&#8221; which was apparently used in legislation in the 1960s intended to protect wilderness areas from motor vehicles.  It&#8217;s important to note that mountain biking didn&#8217;t even really _exist_ at that point.
 

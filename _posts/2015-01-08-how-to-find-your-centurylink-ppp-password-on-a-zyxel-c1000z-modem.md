@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2679
 permalink: /2015/01/how-to-find-your-centurylink-ppp-password-on-a-zyxel-c1000z-modem/
 dsq_thread_id:
   - 3402948536
+disqus_identifier: 2679 http://n8henrie.com/?p=2679
 ---
 **Bottom Line:** Here&#8217;s how to get your PPP password for a Zyxel C1000Z modem so you can put it into bridge mode and use your router instead.<!--more-->
 

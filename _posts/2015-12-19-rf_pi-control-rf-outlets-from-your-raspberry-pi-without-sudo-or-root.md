@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2777
 permalink: /2015/12/rf_pi-control-rf-outlets-from-your-raspberry-pi-without-sudo-or-root/
 dsq_thread_id:
   - 4417732678
+disqus_identifier: 2777 http://n8henrie.com/?p=2777
 ---
 **Bottom Line:** Here&#8217;s how to control RF switches from your Raspberry Pi without requiring sudo or running as root.<!--more-->
 

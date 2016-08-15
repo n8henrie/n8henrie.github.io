@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2205
 permalink: /2013/04/blind-leading-the-blind-my-prk-experience-days-4-5/
 dsq_thread_id:
   - 1232359363
+disqus_identifier: 2205 http://n8henrie.com/?p=2205
 ---
 **Bottom Line:** My experience getting a kind of vision correction surgery called <a target="_blank" href="http://en.wikipedia.org/wiki/Photorefractive_keratectomy" title="Photorefractive keratectomy - Wikipedia, the free encyclopedia">PRK</a>, part 4.<!--more-->
 

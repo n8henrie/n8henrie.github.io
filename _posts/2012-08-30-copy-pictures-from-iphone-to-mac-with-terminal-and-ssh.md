@@ -10,6 +10,7 @@ al2fb_facebook_exclude:
   - 1
 dsq_thread_id:
   - 824818383
+disqus_identifier: 1315 http://n8henrie.com/?p=1315
 ---
 **Bottom line:** Run this command in Terminal to copy your photos from an iDevice to your Mac via SSH.
   

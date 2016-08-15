@@ -22,6 +22,7 @@ dsq_thread_id:
   - 811565502
 blogger_images:
   - 1
+disqus_identifier: 28 http://n8henrie.com/?p=28
 ---
 I got an email request for followup regarding a <a href="http://forums.omnigroup.com/showthread.php?t=23266" target="_blank">post I made on an OmniGroup Forum</a>.  Basically, people running OmniFocus on the iPhone 4S have a cool option that allows OmniFocus for iPhone to retrieve <a href="http://www.omnigroup.com/blog/entry/omnifocus_is_now_on_speaking_terms/" target="_blank">reminders made through Siri and pull them into OmniFocus</a>.  It&#8217;s not perfect, but it&#8217;s pretty cool.  For people that depend on OmniFocus for nearly everything (who, me?), this is a _huge_ bonus.  As a matter of fact, I was planning on upgrading to the iPhone 4S at my earliest available date, largely because of this single feature.  For some reason, this is _only_ enabled on the iPhone 4S, even though the iPhone 4 is running the exact same app.
 

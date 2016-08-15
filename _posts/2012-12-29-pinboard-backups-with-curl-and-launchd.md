@@ -11,6 +11,7 @@ al2fb_facebook_exclude:
   - 1
 dsq_thread_id:
   - 999223363
+disqus_identifier: 1872 http://n8henrie.com/?p=1872
 ---
 **Bottom Line:** If you’re a <a target="_blank" href="https://pinboard.in">Pinboard</a> user, you can automate backing up your bookmarks to Dropbox with cURL and launchd.
   

@@ -16,13 +16,14 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 842610131
+disqus_identifier: 63 http://n8henrie.com/?p=63
 ---
 <div>
   <div>
     <blockquote>
       <div>
         <p>
-          <span> <a href="http://lifehacker.com/" title="Adam Pash" rel="nofollow"> <img src="http://www.n8henrie.com/uploads/2012/09/1068_321.jpg" height="26" width="26" /></a></span>
+          <span> <a href="http://lifehacker.com/" title="Adam Pash" rel="nofollow"> <img src="{{ site.url }}/uploads/2012/09/1068_321.jpg" height="26" width="26" /></a></span>
         </p>
         
         <p>
@@ -30,7 +31,7 @@ dsq_thread_id:
         </p>
         
         <p>
-          <a href="http://lifehacker.com/" title="Click here to read posts written by Adam Pash">Adam Pash</a> — <img title="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" src="http://www.n8henrie.com/uploads/2012/09/medium_1800-pash-misinformation1.jpg" height="169" alt="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" style="display: none;" width="300" />Even if you&#8217;ve never embarrassed yourself by unknowingly spreading an urban legend as fact to friends and family or, say, <a href="http://www.theatlantic.com/national/archive/2011/05/anatomy-of-a-fake-quotation/238257/">retweeting a fake quote by Martin Luther King, Jr</a> after Osama bin Laden&#8217;s death, you&#8217;ve at least been on the receiving end of one of these misinformed messages. Next time an email, tweet, or link seems a little fishy, here&#8217;s how to spot it before your itchy trigger finger sends it to all your friends or followers. (Send this one to your forward- or retweet-happy family and friends.)
+          <a href="http://lifehacker.com/" title="Click here to read posts written by Adam Pash">Adam Pash</a> — <img title="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" src="{{ site.url }}/uploads/2012/09/medium_1800-pash-misinformation1.jpg" height="169" alt="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" style="display: none;" width="300" />Even if you&#8217;ve never embarrassed yourself by unknowingly spreading an urban legend as fact to friends and family or, say, <a href="http://www.theatlantic.com/national/archive/2011/05/anatomy-of-a-fake-quotation/238257/">retweeting a fake quote by Martin Luther King, Jr</a> after Osama bin Laden&#8217;s death, you&#8217;ve at least been on the receiving end of one of these misinformed messages. Next time an email, tweet, or link seems a little fishy, here&#8217;s how to spot it before your itchy trigger finger sends it to all your friends or followers. (Send this one to your forward- or retweet-happy family and friends.)
         </p>
         
         <p>
@@ -90,7 +91,7 @@ dsq_thread_id:
         </h3>
         
         <p>
-          <img title="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" src="http://www.n8henrie.com/uploads/2012/09/snopes.com__urban_legends_reference_pages1.jpg" height="211" alt="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" width="300" style="" /><a href="http://snopes.com/">Snopes</a> is &#8220;the definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation&#8221;—and for the most part, it actually does live up to that goal. Snopes has been around since 1995, and if you&#8217;ve ever attempted to debunk an internet myth or urban legend, you&#8217;ve certainly seen Snopes before. The problem with Snopes, particularly in an instance like the much-tweeted misquote, is that it&#8217;s not so good with the real-time misinformation. It is exceptional, however, for anything that&#8217;s <a href="http://message.snopes.com/showthread.php?p=1455541">even a few days old</a>, thanks to its active forums. Keep in mind, as Lifehacker reader Joel Rollins <a href="https://www.facebook.com/lifehacker/posts/162210337174107">noted</a>, &#8220;Snopes is an internet source to be evaluated like any other source. That being said&#8230;.it stops a lot more stupidity than it starts.&#8221; Which is to say, Snopes is generally a good, trustworthy source, but don&#8217;t throw away your skepticism just because Snopes said so. If you were already dubious, though, it may be enough to tip the scales.
+          <img title="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" src="{{ site.url }}/uploads/2012/09/snopes.com__urban_legends_reference_pages1.jpg" height="211" alt="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" width="300" style="" /><a href="http://snopes.com/">Snopes</a> is &#8220;the definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation&#8221;—and for the most part, it actually does live up to that goal. Snopes has been around since 1995, and if you&#8217;ve ever attempted to debunk an internet myth or urban legend, you&#8217;ve certainly seen Snopes before. The problem with Snopes, particularly in an instance like the much-tweeted misquote, is that it&#8217;s not so good with the real-time misinformation. It is exceptional, however, for anything that&#8217;s <a href="http://message.snopes.com/showthread.php?p=1455541">even a few days old</a>, thanks to its active forums. Keep in mind, as Lifehacker reader Joel Rollins <a href="https://www.facebook.com/lifehacker/posts/162210337174107">noted</a>, &#8220;Snopes is an internet source to be evaluated like any other source. That being said&#8230;.it stops a lot more stupidity than it starts.&#8221; Which is to say, Snopes is generally a good, trustworthy source, but don&#8217;t throw away your skepticism just because Snopes said so. If you were already dubious, though, it may be enough to tip the scales.
         </p>
         
         <p>
@@ -102,7 +103,7 @@ dsq_thread_id:
         </h3>
         
         <p>
-          <img title="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" src="http://www.n8henrie.com/uploads/2012/09/custom-date1.jpg" height="225" alt="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" width="300" />In the case of the mis-attributed quote in our example, PC World&#8217;s Robert Strohmeyer offers a simple solution courtesy of Google: He <a href="http://www.pcworld.com/businesscenter/article/226912/google_date_range_filter_simplifies_search_results.html">used Google&#8217;s date range filter</a> to see if the quote has ever appeared <em>anywhere</em> on the internet prior to bin Laden&#8217;s death.
+          <img title="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" src="{{ site.url }}/uploads/2012/09/custom-date1.jpg" height="225" alt="How to Identify and Avoid Spreading Misinformation, Myths, and Urban Legends on the Internet" width="300" />In the case of the mis-attributed quote in our example, PC World&#8217;s Robert Strohmeyer offers a simple solution courtesy of Google: He <a href="http://www.pcworld.com/businesscenter/article/226912/google_date_range_filter_simplifies_search_results.html">used Google&#8217;s date range filter</a> to see if the quote has ever appeared <em>anywhere</em> on the internet prior to bin Laden&#8217;s death.
         </p>
         
         <blockquote>

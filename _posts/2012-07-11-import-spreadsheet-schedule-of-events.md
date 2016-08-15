@@ -22,6 +22,7 @@ dsq_thread_id:
   - 811565485
 blogger_images:
   - 1
+disqus_identifier: 10 http://n8henrie.com/?p=10
 ---
 **Bottom line:** You can batch import events from a spreadsheet to iCal or Google Calendar by formatting the headers correctly, exporting / import as .csv, then export / import as .ics.
   
@@ -84,13 +85,13 @@ Head over to <a target="_blank" href="https://accounts.google.com/ServiceLogin?s
 **Optional: How to create a temporary calendar:** Click the down arrow to the right of “My Calendars” in the left hand column to create a new calendar. Name it “junk,” or “osdifj,” or whatever you want, you can delete it later.
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-07-10at9.51.48PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="68" src="http://n8henrie.com/uploads/2012/07/ScreenShot2012-07-10at9.51.48PM.jpg" width="320" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/ScreenShot2012-07-10at9.51.48PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="68" src="{{ site.url }}/uploads/2012/07/ScreenShot2012-07-10at9.51.48PM.jpg" width="320" /></a>
 </div>
 
 Next, head to your main calendar settings by clicking the same right arrow mentioned above. Towards the middle of the screen, look for the import calendar button. Click it, make sure you have the right calendar selected in the bottom box, then navigate to the file and click “import.”
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-07-10at9.56.48PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="35" src="http://n8henrie.com/uploads/2012/07/ScreenShot2012-07-10at9.56.48PM.jpg" width="320" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/ScreenShot2012-07-10at9.56.48PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="35" src="{{ site.url }}/uploads/2012/07/ScreenShot2012-07-10at9.56.48PM.jpg" width="320" /></a>
 </div>
 
 You will now either get an error message, which probably means you need to go back to Step 1 and make sure everything is formatted correctly (can you tell this has happened to me a few times?), or you will have imported your schedule. Look through GCal to make sure everything looks right. If so, congrats! Google Calendar users can end their journey here, thanks for reading. If you want to import to iCal, you’re getting close.

@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2500
 permalink: /2014/04/dictate-your-serial-numbers/
 dsq_thread_id:
   - 2643176859
+disqus_identifier: 2500 http://n8henrie.com/?p=2500
 ---
 **Bottom Line:** On OSX or iOS, use dictation to &#8220;type&#8221; in long strings of numbers.<!--more-->
 

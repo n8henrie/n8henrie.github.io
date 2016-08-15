@@ -9,20 +9,21 @@ guid: http://n8henrie.com/?p=2725
 permalink: /2015/05/better-bootstrap-file-upload-button/
 dsq_thread_id:
   - 3752897026
+disqus_identifier: 2725 http://n8henrie.com/?p=2725
 ---
 **Bottom Line:** Here&#8217;s how to make an attractive file upload button for Bootstrap.<!--more-->
 
 I put a lot of work into the new version of icsConverterWebapp. Here&#8217;s how my file upload buttons turned out:
 
 
-![My Bootstrap file upload button](http://n8henrie.com/uploads/2015/05/20150510_20150510-ScreenShot-479.jpg) 
+![My Bootstrap file upload button]({{ site.url }}/uploads/2015/05/20150510_20150510-ScreenShot-479.jpg)
 
 [See it live.](http://icw.n8henrie.com)
 
-I&#8217;ve been learning to use <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> for a few <a href="http://flask.pocoo.org/" target="_blank">Flask</a> projects I&#8217;ve been working on lately. I was surprised to see that the <a href="http://getbootstrap.com/css/#forms" target="_blank">default Bootstrap file upload buttons</a> are _pretty ugly_: 
+I&#8217;ve been learning to use <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> for a few <a href="http://flask.pocoo.org/" target="_blank">Flask</a> projects I&#8217;ve been working on lately. I was surprised to see that the <a href="http://getbootstrap.com/css/#forms" target="_blank">default Bootstrap file upload buttons</a> are _pretty ugly_:
 
 
-![Default Bootstrap file upload button](http://n8henrie.com/uploads/2015/05/20150510_20150510-ScreenShot-480.jpg) 
+![Default Bootstrap file upload button]({{ site.url }}/uploads/2015/05/20150510_20150510-ScreenShot-480.jpg)
 
 To cut to the chase, I did **tons** of Googling, and this is the most satisfying solution I came up with. It is a combination of <a href="http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3" target="_blank">this popular solution</a> by Cory LaViska, and <a href="http://stackoverflow.com/a/25053973/1588795" target="_blank">this stackoverflow answer</a> by Kirill Fuchs.
 
@@ -30,7 +31,7 @@ Further, I&#8217;m using Flask with <a href="https://github.com/wtforms/wtforms"
 
 The basic idea is this:
 
-  1. Use a basic file input element in a WTF form (the input element is ugly: ).
+  1. Use a basic file input element in a WTF form (the input element is ugly).
   2. Add a pretty Bootstrap `label` (basically a clickable descriptive item for a button) as an `input-group-addon` to the input.
   3. Hide the input, leaving only the pretty label.
   4. Add a place to display the uploaded filename for user feedback.
@@ -41,6 +42,7 @@ The basic idea is this:
 
 Relevant part of `index.html` (a Jinja2 template)
 
+{% raw %}
     {% block content %}
     <div class="row">
         <form class="form-inline center-block" action="/" method="POST" enctype="multipart/form-data">
@@ -60,11 +62,11 @@ Relevant part of `index.html` (a Jinja2 template)
     {{ super() }}
     <script src="{{ url_for('.static', filename='js/inputFileButton.js') }}" ></script>
     {% endblock %}
-    
+{% endraw %}
 
 Note that the pretty label is `for` the ID of the (ugly) input button.
 
-Relevant part of `views.py`: 
+Relevant part of `views.py`:
 
 <pre><code class="python">from forms import UploadForm
 from flask import request

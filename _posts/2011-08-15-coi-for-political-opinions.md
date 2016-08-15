@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 842640028
+disqus_identifier: 49 http://n8henrie.com/?p=49
 ---
 <div>
   I get so tired of hearing political opinions that fail to recognize how they benefit their originator. We expect &#8220;conflict of interest&#8221; (COI) statements for research, because we realize that expected benefits reliably affect outcomes. Whether consciously or not, we are designed to have biases that benefit us. Which makes me extremely skeptical of anyone currently grossing <$100,000 / year and clamoring for "increased taxes for the rich." How is that fair for them to have to pay more taxes for the same benefits? I would take these opinions a lot more seriously if they were prefaced with a brief (but honest) COI statement. I, for example, might say: 

@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811673162
+disqus_identifier: 50 http://n8henrie.com/?p=50
 ---
 **Update Oct 09, 2012:** _In contrast to previous versions of iCal, the search function on OSX 10.8&#8217;s Calendar.app seems to be appropriately differentiating between &#8220;hashtag&#8221; and &#8220;#hashtag.&#8221; Nice! &#8211;n8henrie Tue Oct 9 17:41:13 MDT 2012_
 
@@ -45,6 +46,6 @@ dsq_thread_id:
   <p />
   
   <div>
-    <a href="http://www.n8henrie.com/uploads/2012/09/IMG_0877.png.scaled.500.jpg"><img alt="Img_0877" height="750" src="http://www.n8henrie.com/uploads/2012/09/IMG_0877.png.scaled.500.jpg" width="500" /></a> <a href="http://www.n8henrie.com/uploads/2012/09/IMG_0876.png.scaled.500.jpg"><img alt="Img_0876" height="750" src="http://www.n8henrie.com/uploads/2012/09/IMG_0876.png.scaled.500.jpg" width="500" /></a>
+    <a href="{{ site.url }}/uploads/2012/09/IMG_0877.png.scaled.500.jpg"><img alt="Img_0877" height="750" src="{{ site.url }}/uploads/2012/09/IMG_0877.png.scaled.500.jpg" width="500" /></a> <a href="{{ site.url }}/uploads/2012/09/IMG_0876.png.scaled.500.jpg"><img alt="Img_0876" height="750" src="{{ site.url }}/uploads/2012/09/IMG_0876.png.scaled.500.jpg" width="500" /></a>
   </div></p>
 </div>

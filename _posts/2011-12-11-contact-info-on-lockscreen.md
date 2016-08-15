@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 819620200
+disqus_identifier: 40 http://n8henrie.com/?p=40
 ---
 <div>
   I really like the idea of Apple&#8217;s <a href="http://itunes.apple.com/us/app/find-my-iphone/id376101648?mt=8&#038;at=10l5H6">Find My iPhone</a> app, and I have it installed on my iPhone and <span>iPad</span> &#8220;just in case.&#8221; If you don&#8217;t know about it, it&#8217;s a free app provided by Apple that will let you find the location of your <span>iOS</span> device (or your Mac as of 10.7) in case you ever misplace it. You can remotely lock your device, send it a message, locate the device, or if all else fails you can remotely wipe it to keep your data safe.
@@ -123,7 +124,7 @@ dsq_thread_id:
   The last step is positioning the message on the image. Luckily, I found a post [<a href="http://www.intridea.com/blog/2010/4/7/ipad-wallpaper-photoshop-template">here</a>] that lead me to [<a href="http://cl.ly/2t3l2a0T3x0S1F2b3x3x">this</a>] handy-dandy pre-made Photoshop smart object of an iPad, complete with guides set to show you where the borders of the screen are, including the upper and lower lock button and clock that get superimposed. <i>Very</i> handy &#8212; here&#8217;s a screenshot to show you what I mean.</p> 
   
   <div style="clear: both; text-align: center;">
-    <a href="http://www.n8henrie.com/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://www.n8henrie.com/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" width="253" /></a>
+    <a href="{{ site.url }}/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="{{ site.url }}/uploads/2012/09/ScreenShot2011-12-10at9.32.52PM.jpg" width="253" /></a>
   </div>
   
   <p>

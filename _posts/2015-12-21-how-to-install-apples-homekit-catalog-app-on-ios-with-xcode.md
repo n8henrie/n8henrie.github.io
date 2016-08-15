@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2786
 permalink: /2015/12/how-to-install-apples-homekit-catalog-app-on-ios-with-xcode/
 dsq_thread_id:
   - 4422694673
+disqus_identifier: 2786 http://n8henrie.com/?p=2786
 ---
 **Bottom Line:** Here&#8217;s how to load open source iOS apps like Apple&#8217;s HomeKit Catalog onto your iOS devices using Xcode.<!--more-->
 
@@ -62,21 +63,21 @@ You&#8217;re almost there! Now just have to change one or two settings and load 
 
   1. Connect your iOS device by USB
   2. Select your iOS device in the top left corner (where you see `NatePhone` in the image below) 
-    ![](http://n8henrie.com/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li> 
+    ![]({{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li> 
     
       * Change the Bundle Identifier (e.g. I used `com.n8henrie.HKSetup`)
       * Select your account from `Team` (if you don&#8217;t have one, add one from the dropdown)
       * `Fix Issue` 
-        <img class="" src="http://n8henrie.com/uploads/2015/12/20151210_ScreenShot2015-12-10at2.26.42PM.jpg" alt="" width="699" height="259" /></li> 
+        <img class="" src="{{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.26.42PM.jpg" alt="" width="699" height="259" /></li> 
         
           * Hit the &#8220;Play&#8221; (triangle) button on the left: 
-            ![](http://n8henrie.com/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li> 
+            ![]({{ site.url }}/uploads/2015/12/20151210_ScreenShot2015-12-10at2.08.32PM.jpg)</li> 
             
               * On first run you&#8217;ll likely get an error like this: 
-![](http://n8henrie.com/uploads/2015/12/20151211_ScreenShot2015-12-11at5.26.47PM.jpg) 
+![]({{ site.url }}/uploads/2015/12/20151211_ScreenShot2015-12-11at5.26.47PM.jpg) 
                 and a corresponding one on your iOS device:
                 
-                <img class="" src="http://n8henrie.com/uploads/2015/12/20151217_File_Dec_13__7_24_06_PM.jpg" alt="" width="341" height="274" /></li> 
+                <img class="" src="{{ site.url }}/uploads/2015/12/20151217_File_Dec_13__7_24_06_PM.jpg" alt="" width="341" height="274" /></li> 
                 
                   * To run the app, you&#8217;ll need to &#8220;trust&#8221; yourself in your iOS device&#8217;s settings: `Settings` -> `General` -> `Device management`.
   

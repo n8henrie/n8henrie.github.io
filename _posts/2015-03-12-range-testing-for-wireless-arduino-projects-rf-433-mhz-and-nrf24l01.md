@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2706
 permalink: /2015/03/range-testing-for-wireless-arduino-projects-rf-433-mhz-and-nrf24l01/
 dsq_thread_id:
   - 3594767337
+disqus_identifier: 2706 http://n8henrie.com/?p=2706
 ---
 **Bottom Line:** I tested maximum line-of-site range with an NRF24L01+ and a 433 MHz transceiver that I&#8217;ll be using from some Arduino and Raspberry Pi projects.<!--more-->
 

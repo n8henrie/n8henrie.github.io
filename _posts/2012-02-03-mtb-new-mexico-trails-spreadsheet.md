@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 817485847
+disqus_identifier: 32 http://n8henrie.com/?p=32
 ---
 **This is a work in progress**, and hopefully will always be that way.
 

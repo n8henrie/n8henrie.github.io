@@ -23,10 +23,11 @@ enclosure:
         15369571
         video/quicktime
         
+disqus_identifier: 67 http://n8henrie.com/?p=67
 ---
 <div>
   <div>
-    <img src="http://www.n8henrie.com/uploads/2012/09/p396.jpg.scaled500.jpg" alt="P396" width="480" height="640" /> <img src="http://www.n8henrie.com/uploads/2012/09/p398.jpg.scaled500.jpg" alt="P398" width="480" height="640" /> <img src="http://www.n8henrie.com/uploads/2012/09/p439.jpg.scaled500.jpg" alt="P439" width="480" height="640" /> <img src="http://www.n8henrie.com/uploads/2012/09/p442.jpg.scaled500.jpg" alt="P442" width="500" height="670" /> <img src="http://www.n8henrie.com/uploads/2012/09/p445.jpg.scaled500.jpg" alt="P445" width="480" height="640" />
+    <img src="{{ site.url }}/uploads/2012/09/p396.jpg.scaled500.jpg" alt="P396" width="480" height="640" /> <img src="{{ site.url }}/uploads/2012/09/p398.jpg.scaled500.jpg" alt="P398" width="480" height="640" /> <img src="{{ site.url }}/uploads/2012/09/p439.jpg.scaled500.jpg" alt="P439" width="480" height="640" /> <img src="{{ site.url }}/uploads/2012/09/p442.jpg.scaled500.jpg" alt="P442" width="500" height="670" /> <img src="{{ site.url }}/uploads/2012/09/p445.jpg.scaled500.jpg" alt="P445" width="480" height="640" />
   </div>
   
   <p>

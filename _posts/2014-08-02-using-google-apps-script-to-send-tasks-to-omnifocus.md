@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2592
 permalink: /2014/08/using-google-apps-script-to-send-tasks-to-omnifocus/
 dsq_thread_id:
   - 2894891502
+disqus_identifier: 2592 http://n8henrie.com/?p=2592
 ---
 **Bottom Line:** How to use a Google Apps Script to automate making OmniFocus tasks from emails.<!--more-->
 

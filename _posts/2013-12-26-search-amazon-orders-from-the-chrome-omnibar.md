@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2430
 permalink: /2013/12/search-amazon-orders-from-the-chrome-omnibar/
 dsq_thread_id:
   - 2074786604
+disqus_identifier: 2430 http://n8henrie.com/?p=2430
 ---
 **Bottom Line:** Use this URL to search your Amazon orders from the Chrome Omnibar.<!--more-->
 
@@ -30,4 +31,4 @@ Now give it a shot. You should be able to click in the Omnibar, type your keywor
 <a href="http://xkcd.com/1205/" target="_blank">Relevant xkcd</a>: 
 
 
-![](http://n8henrie.com/uploads/2013/12/is_it_worth_the_time7.png)
+![]({{ site.url }}/uploads/2013/12/is_it_worth_the_time7.png)

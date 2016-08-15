@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 842634213
+disqus_identifier: 43 http://n8henrie.com/?p=43
 ---
 I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8217;t know why I didn&#8217;t think of it before.  Finally puts to use all the work I&#8217;ve put in to maintain a decently organized iPhoto library.  Every few months I go through my recent photos, and I try to at least: 
 

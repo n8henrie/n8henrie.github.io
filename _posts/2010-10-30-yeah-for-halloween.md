@@ -16,9 +16,10 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 823689411
+disqus_identifier: 83 http://n8henrie.com/?p=83
 ---
 <div>
-  <a href="http://www.n8henrie.com/uploads/2012/09/photo1.jpg.scaled.5001.jpg"><img src="http://www.n8henrie.com/uploads/2012/09/photo1.jpg.scaled.5001.jpg" width="500" height="669" /></a> 
+  <a href="{{ site.url }}/uploads/2012/09/photo1.jpg.scaled.5001.jpg"><img src="{{ site.url }}/uploads/2012/09/photo1.jpg.scaled.5001.jpg" width="500" height="669" /></a> 
   
   <p>
     Me n Matt are keeping it classy for Halloween this year.

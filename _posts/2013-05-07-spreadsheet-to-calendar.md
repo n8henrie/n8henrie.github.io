@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2234
 permalink: /2013/05/spreadsheet-to-calendar/
 dsq_thread_id:
   - 1269596970
+disqus_identifier: 2234 http://n8henrie.com/?p=2234
 ---
 **Bottom Line:** Here&#8217;s an updated post on how to import a spreadsheet of events into iCal, Calendar.app, Google Calendar, or several other modern calendar apps.<!--more-->
 
@@ -109,9 +110,9 @@ _Please see my [disclaimer](http://n8henrie.com/disclaimer/), and realize that I
 
 I&#8217;ve also used <a target="_blank" href="https://bitbucket.org/ronaldoussoren/py2app" title="py2app - Revision 105: /py2app/trunk/doc">py2app</a> to make icsConverter into a standard OSX app. Install by dragging into your Applications folder, like most other apps. I&#8217;ve also included in the .dmg an example **tester.csv** to show that icsConverter seems to work okay, even with some potentially tricky cases like special characters, extra spaces, commas, etc. that might trip up Google Calendar.
 
-[Download icsConverter for OSX (intel only)](http://n8henrie.com/uploads/2014/01/icsConverter_v5_1.dmg)
+[Download icsConverter for OSX (intel only)]({{ site.url }}/uploads/2014/01/icsConverter_v5_1.dmg)
 
-For those of you that aren&#8217;t on an intel OSX device, I also tried my hand at Google Apps Engine and made **icsConverterWebapp**. This uses essentially the same code, but you don&#8217;t have to install anything; just upload the formatted .csv file, then click to download the converted .ics file. Here&#8217;s a copy of [tester.csv](http://n8henrie.com/uploads/2013/05/20130506_tester.csv) so you can give it a test run if you&#8217;d like. icsConverterWebapp&#8217;s code <a target="_blank" href="https://github.com/n8henrie/icsConverterWebapp">is on GitHub</a> as well.
+For those of you that aren&#8217;t on an intel OSX device, I also tried my hand at Google Apps Engine and made **icsConverterWebapp**. This uses essentially the same code, but you don&#8217;t have to install anything; just upload the formatted .csv file, then click to download the converted .ics file. Here&#8217;s a copy of [tester.csv]({{ site.url }}/uploads/2013/05/20130506_tester.csv) so you can give it a test run if you&#8217;d like. icsConverterWebapp&#8217;s code <a target="_blank" href="https://github.com/n8henrie/icsConverterWebapp">is on GitHub</a> as well.
 
 <a target="_blank" href="http://icw.n8henrie.com/">Link to icsConverterWebapp</a>
 

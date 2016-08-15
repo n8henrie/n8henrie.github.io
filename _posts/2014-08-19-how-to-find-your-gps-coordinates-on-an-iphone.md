@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2613
 permalink: /2014/08/how-to-find-your-gps-coordinates-on-an-iphone/
 dsq_thread_id:
   - 2941052361
+disqus_identifier: 2613 http://n8henrie.com/?p=2613
 ---
 **Bottom Line:** Your GPS coordinates (latitude and longitude) can be found in iOS&#8217;s built-in Compass app.<!--more-->
 
@@ -19,8 +20,8 @@ While we searched for him, I tried to keep track of our location using <a href="
 Initially, I used some really silly round-about way using Maps, dropping a pin, texting my location, then opening the location pin from the text. It wasn&#8217;t until a day or so later that I discovered the coordinates font-and-center in the long-forgotten Compass app (which I haven&#8217;t really used in years).
 
 
-<img class="aligncenter" src="http://n8henrie.com/uploads/2014/08/20140815_compass.tiff" alt="" width="180" height="180" /> 
-<img class="aligncenter" src="http://n8henrie.com/uploads/2014/08/20140815_IMG_0486.PNG" alt="" width="348" height="618" /> 
+<img class="aligncenter" src="{{ site.url }}/uploads/2014/08/20140815_compass.tiff" alt="" width="180" height="180" /> 
+<img class="aligncenter" src="{{ site.url }}/uploads/2014/08/20140815_IMG_0486.PNG" alt="" width="348" height="618" /> 
 
 As you can see, I have **no service** while I took that screenshot, but my GPS location is still correct. _This is a critical point to understand_: **phone calls, texts, GPS, and data use different types of connections**. I don&#8217;t think the details are particularly pertinent, it&#8217;s just critical to realize that _even when you have no signal and can&#8217;t make calls_, and _even when you have no data and can&#8217;t access the internet_ it&#8217;s fairly likely that your GPS will still be working okay. I started messing with it the iOS Compass app, and so far I haven&#8217;t found a way to copy the GPS coordinates to the clipboard. If you were lost, you could just screenshot your location and send the picture (or in my case I just used the screenshot to record my location for later), but typing your coordinates into a text message will probably be more likely to get through if your signal is poor.
 

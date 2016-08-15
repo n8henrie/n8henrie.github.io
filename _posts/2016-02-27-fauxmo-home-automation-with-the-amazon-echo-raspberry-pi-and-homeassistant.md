@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2808
 permalink: /2016/02/fauxmo-home-automation-with-the-amazon-echo-raspberry-pi-and-homeassistant/
 dsq_thread_id:
   - 4617353032
+disqus_identifier: 2808 http://n8henrie.com/?p=2808
 ---
 **Bottom Line:** I updated a Python script called Fauxmo that lets you control your Raspberry Pi with an Amazon Echo (and now supports HomeAssistant).<!--more-->
 
@@ -32,7 +33,7 @@ Continuing this example of running everything through Home Assistant, you may ha
   Schematically, it&#8217;s something like this:
 </p>
 
-<img class="" src="http://n8henrie.com/uploads/2016/02/20160227_Untitled.png" alt="" width="446" height="300" /> 
+<img class="" src="{{ site.url }}/uploads/2016/02/20160227_Untitled.png" alt="" width="446" height="300" /> 
 
 <p>
   Having this kind of central system will be critical for more advanced automation schemes in the future, because they will depend on the accuracy of the reported states of devices. You can&#8217;t exactly have a system &#8220;turn off the nightlight when the overhead light is turned on&#8221; unless it knows when the overhead light is on. This way, I can still use the dumb but <a href="http://amzn.to/1QDE58O" target="_blank">super cheap RF switches</a> I like for a lot of simple tasks and still keep pretty good track of their states, even though they don&#8217;t support reporting their state to controllers, and at the same time I avoid locking myself into a single system for interacting with them.

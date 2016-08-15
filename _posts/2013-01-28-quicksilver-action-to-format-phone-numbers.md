@@ -19,6 +19,7 @@ al2fb_facebook_link_picture:
   - featured=http://n8henrie.com/?al2fb_image=1
 dsq_thread_id:
   - 1052049578
+disqus_identifier: 1982 http://n8henrie.com/?p=1982
 ---
 **Bottom Line:** You can install this <a target="_blank" href="http://qsapp.com/">Quicksilver</a> action to automatically format phone numbers to your liking.
   
@@ -50,4 +51,4 @@ Quicksilver actions are written in AppleScript, and take in and return strings p
 
 Once you&#8217;ve saved it there, you might need to restart Quicksilver (ctrl + cmd + Q) or at least refresh the catalog (opt + cmd + r while QS is open) to get Quicksilver to notice it… but after that you should be able to take a string from the first frame and run &#8220;Clean phone number&#8221; as the action. Here&#8217;s how it works IRL &#8211; enjoy!
 
-[<img src="http://n8henrie.com/uploads/2013/01/20130128_20130128-ScreenShot-851-266x300.jpg" alt="Running in Quicksilver" width="266" height="300" class="aligncenter size-medium wp-image-1988" srcset="http://n8henrie.com/uploads/2013/01/20130128_20130128-ScreenShot-851-266x300.jpg 266w, http://n8henrie.com/uploads/2013/01/20130128_20130128-ScreenShot-851.jpg 361w" sizes="(max-width: 266px) 100vw, 266px" />](http://n8henrie.com/uploads/2013/01/20130128_20130128-ScreenShot-851.jpg)
+[<img src="{{ site.url }}/uploads/2013/01/20130128_20130128-ScreenShot-851-266x300.jpg" alt="Running in Quicksilver" width="266" height="300" class="aligncenter size-medium wp-image-1988" srcset="{{ site.url }}/uploads/2013/01/20130128_20130128-ScreenShot-851-266x300.jpg 266w, http://n8henrie.com/uploads/2013/01/20130128_20130128-ScreenShot-851.jpg 361w" sizes="(max-width: 266px) 100vw, 266px" />]({{ site.url }}/uploads/2013/01/20130128_20130128-ScreenShot-851.jpg)

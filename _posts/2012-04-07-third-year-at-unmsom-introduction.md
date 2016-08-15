@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 818368104
+disqus_identifier: 26 http://n8henrie.com/?p=26
 ---
 I’m finishing up my third year of medical school at the University of New Mexico School of Medicine, which means that many dear friends in the class below me are about to make the plunge. Right now, some of them are probably soliciting as much advice as possible from every upper class student they run across. Simultaneously, some upper class students such as myself feel a (nonspecific) drive to help them get a strong start. Perhaps making a blog posts isn’t the most direct route for me to share a few bits of advice, but at the moment I’m still pretty busy with my internal medicine rotation, so this is how it’s going to be.
 

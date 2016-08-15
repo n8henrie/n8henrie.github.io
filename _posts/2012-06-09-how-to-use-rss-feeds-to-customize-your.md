@@ -22,6 +22,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811655093
+disqus_identifier: 16 http://n8henrie.com/?p=16
 ---
 **Bottom line:** RSS feeds are an _excellent_ way to make a personalized newsfeed to keep on your favorite blogs and topics of interest. <a name="more"></a> I&#8217;m planning on this being a three part series.  I&#8217;ll put links here and at the end of the article to the other parts as they&#8217;re posted.  For a few years now, I&#8217;ve really enjoyed using RSS feeds to get updates from my favorite sites.  Recently, however, Twitter has started to serve the same function in many ways, with a lot of other cool features.  However, it also comes with extra stuff that can get in the way, so the series will include this post on RSS feeds, a second post on [<a href="http://n8henrie.com/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">why you should use Twitter</a>], <del datetime="2013-07-14T21:22:26+00:00">and a third comparing the two [future link here]</del>.  Enjoy! **Update Jul 14, 2013:** With the recent demise of Google Reader, I&#8217;ve decided to indefinitely postpone the planned third post. While several strong companies have stepped up to fill the void, I&#8217;m afraid the days of RSS may be numbered.
 
@@ -34,7 +35,7 @@ RSS feeds are an incredibly simple way to have nearly of your favorite websites 
 It’s about time I made a post about RSS. It’s something I use every day and almost take for granted. I think RSS stands for _Really Simple Syndication_. I admit that I don’t know if that’s what it _really_ means, but <a href="http://en.wikipedia.org/wiki/Rss" target="_blank">that’s what I’ve heard</a> at least. You might recognize the RSS symbol:
 
 
-![](http://n8henrie.com/uploads/2012/06/images.jpeg) 
+![]({{ site.url }}/uploads/2012/06/images.jpeg) 
 
 When you see this, it means that the site you’re visiting publishes an RSS feed that can deliver all updates to an “RSS Reader,” which is nothing more than an app that understands how to read all your RSS feeds, and keeps them in one place for you.
 

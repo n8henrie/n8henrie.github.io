@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2002
 permalink: /2013/02/send-time-delayed-sms-on-ios-with-drafts-app-and-due-app/
 dsq_thread_id:
   - 1097626631
+disqus_identifier: 2002 http://n8henrie.com/?p=2002
 ---
 **Bottom Line:** This is a custom URL Action for the iOS app <a target="_blank" href="http://agiletortoise.com/drafts">Drafts</a> that sends an SMS message to <a href="http://www.dueapp.com/" title="Due Website" target="_blank">Due.app</a> to be sent later.
   

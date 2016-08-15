@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811755422
+disqus_identifier: 52 http://n8henrie.com/?p=52
 ---
 <div>
   <div style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;">
@@ -81,7 +82,7 @@ dsq_thread_id:
   
   <p>
     <div>
-      <a href="http://www.n8henrie.com/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg"><img alt="Before_instapaper" height="539" src="http://www.n8henrie.com/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg" width="500" /></a> <a href="http://www.n8henrie.com/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg"><img alt="After_instapaper" height="562" src="http://www.n8henrie.com/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg" width="500" /></a>
+      <a href="{{ site.url }}/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg"><img alt="Before_instapaper" height="539" src="{{ site.url }}/uploads/2012/09/Before_Instapaper.jpg.scaled.500.jpg" width="500" /></a> <a href="{{ site.url }}/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg"><img alt="After_instapaper" height="562" src="{{ site.url }}/uploads/2012/09/After_Instapaper.jpg.scaled.500.jpg" width="500" /></a>
     </div>
   </p>
 </div>

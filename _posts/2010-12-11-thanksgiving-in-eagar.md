@@ -16,9 +16,10 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 834738763
+disqus_identifier: 81 http://n8henrie.com/?p=81
 ---
 <div>
-  <a href="http://www.n8henrie.com/uploads/2012/09/p1381.jpg.scaled5001.jpg"><img src="http://www.n8henrie.com/uploads/2012/09/p1381.jpg.scaled5001.jpg" width="500" height="373" /></a> <a href="http://www.n8henrie.com/uploads/2012/09/p1421.jpg.scaled5001.jpg"><img src="http://www.n8henrie.com/uploads/2012/09/p1421.jpg.scaled5001.jpg" width="500" height="373" /></a> <a href="http://www.n8henrie.com/uploads/2012/09/p1451.jpg.scaled5001.jpg"><img src="http://www.n8henrie.com/uploads/2012/09/p1451.jpg.scaled5001.jpg" width="500" height="373" /></a> 
+  <a href="{{ site.url }}/uploads/2012/09/p1381.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p1381.jpg.scaled5001.jpg" width="500" height="373" /></a> <a href="{{ site.url }}/uploads/2012/09/p1421.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p1421.jpg.scaled5001.jpg" width="500" height="373" /></a> <a href="{{ site.url }}/uploads/2012/09/p1451.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p1451.jpg.scaled5001.jpg" width="500" height="373" /></a> 
   
   <p>
     Nice little trip down to see the family. I really ought to go down more often. Can&#8217;t believe I forgot to get a picture of my puppy dog.

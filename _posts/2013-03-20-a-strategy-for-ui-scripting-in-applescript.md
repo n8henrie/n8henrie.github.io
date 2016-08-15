@@ -11,6 +11,7 @@ guid: http://n8henrie.com/?p=2060
 permalink: /2013/03/a-strategy-for-ui-scripting-in-applescript/
 dsq_thread_id:
   - 1153376076
+disqus_identifier: 2060 http://n8henrie.com/?p=2060
 ---
 **Bottom Line:** Getting AppleScript to simulate clicks and keystrokes can be frustrating, but using Accessibility Inspector and the &#8220;UI Elements&#8221; command can make it easier.<!--more-->
 
@@ -26,17 +27,17 @@ Instead, you have to navigate through tons of ambiguously named documents and wi
 
 I&#8217;m not inclined to give a comprehensive overview of how Accessibility Inspector works, but I will mention a few things. This will probably make more sense if you start it up as you read along.
 
-![](http://n8henrie.com/uploads/2013/03/20130320_20130320-ScreenShot-120.png)
+![]({{ site.url }}/uploads/2013/03/20130320_20130320-ScreenShot-120.png)
 
 So this is what Accessibility Inspecture looks like. Both the Hierarchy and Attributes panes are dynamic and will change as you move your mouse cursor over various parts of a given app. Like it says at the bottom, you can lock it (cmd F7) while hovering over a particular item that you&#8217;re interested (such as a button you want the script to click) to give you a static display of the hierarchy and attributes of that UI element. 
 
 For example, here&#8217;s the Download All Free Updates button in iTunes that I alluded to above&#8230;
 
- ![](http://n8henrie.com/uploads/2013/03/20130320_20130320-ScreenShot-122.jpg)
+ ![]({{ site.url }}/uploads/2013/03/20130320_20130320-ScreenShot-122.jpg)
 
 …and here&#8217;s the Accessibility Inspector when locked on that element.
 
-![](http://n8henrie.com/uploads/2013/03/20130320_20130320-ScreenShot-121.jpg)
+![]({{ site.url }}/uploads/2013/03/20130320_20130320-ScreenShot-121.jpg)
 
 Notice the four triangles down bottom. These are useful for navigating to parents, children, and siblings of a given UI element. What this means is that you might be looking at a screen with a divider and a button on the right side of the divider. In such a case, it&#8217;s possible that the screen UI Element is set up as the &#8220;parent&#8221; of the divider UI element, which is the parent of the button &#8220;UI Element.&#8221; You&#8217;ll eventually be using these to build a command such as 
 
@@ -56,7 +57,7 @@ Try this out. It should bring iTunes into focus. Now on some systems (esp. older
 
 Here&#8217;s where I tell you the one tip that makes this post worthwhile. Well, I was glad to learn it, at least. It&#8217;s that you can give the simple command `UI elements` to UI Scriptable UI elements, and they will return a list of their elements &#8212; _with names that work_ &#8212; to the Results window in Applescript Editor. For example, here is a screenshot of the script with the delay and &#8220;UI elements,&#8221; including the returned results.
 
-![](http://n8henrie.com/uploads/2013/03/20130320_20130320-ScreenShot-123.jpg)
+![]({{ site.url }}/uploads/2013/03/20130320_20130320-ScreenShot-123.jpg)
 
 If you&#8217;ll scroll up a bit to the screenshot of Accessibility Inspector while locked onto the &#8220;Download All Free Apps&#8221; button, you&#8217;ll see in the hierarchy (top) pane that our top-level UI element is application. We&#8217;ve taken care of this with the **to tell process &#8220;iTunes&#8221;**. The next level below that is AXWindow:AXStandardWindow … so we&#8217;re looking for a window. Sure enough, in the AppleScript Editor results pane, we see a &#8220;window&#8221; named &#8220;iTunes.&#8221; So then we can &#8220;tell&#8221; this UI element to list _its_ UI element children. Here is how we would do that, including the results (as a comment below the script). As you can see, we have a lot more to sort through this time.
 

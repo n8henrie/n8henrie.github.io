@@ -22,6 +22,7 @@ dsq_thread_id:
   - 811565513
 blogger_images:
   - 1
+disqus_identifier: 34 http://n8henrie.com/?p=34
 ---
 Hopefully this turns out to be a relatively quick post, especially since this little trick was so easy to figure out. In this post i plan on referring to a number of companies that do a great job keeping users up-to-date with their responsive Twitter accounts. For this reason I’ll refer to them by their “@” Twitter handles (making their accounts especially easy to find for you [@Twitter](http://twitter.com/ "Twitter") users), but the hyperlinks will go to their company website, to make that easy to find as well.
   
@@ -88,28 +89,28 @@ For the purposes of this post, I bet you can already guess what we’re going to
 A few pics of selected steps and the resulting task in the <a href="http://www.orchestra.com/" target="_blank">@Orchestra</a> webapp and iPhone app:
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-01-19at1.07.15PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="260" src="http://n8henrie.com/uploads/2012/01/ScreenShot2012-01-19at1.07.15PM.jpg" width="640" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/ScreenShot2012-01-19at1.07.15PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="260" src="{{ site.url }}/uploads/2012/01/ScreenShot2012-01-19at1.07.15PM.jpg" width="640" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-01-19at1.07.26PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="348" src="http://n8henrie.com/uploads/2012/01/ScreenShot2012-01-19at1.07.26PM.jpg" width="640" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/ScreenShot2012-01-19at1.07.26PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="348" src="{{ site.url }}/uploads/2012/01/ScreenShot2012-01-19at1.07.26PM.jpg" width="640" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-01-19at1.05.44PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="363" src="http://n8henrie.com/uploads/2012/01/ScreenShot2012-01-19at1.05.44PM.jpg" width="640" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/ScreenShot2012-01-19at1.05.44PM1.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="363" src="{{ site.url }}/uploads/2012/01/ScreenShot2012-01-19at1.05.44PM.jpg" width="640" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/08/IMG_13841.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://n8henrie.com/uploads/2012/01/IMG_1384.png" width="426" /></a>
+  <a href="{{ site.url }}/uploads/2012/08/IMG_13841.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="{{ site.url }}/uploads/2012/01/IMG_1384.png" width="426" /></a>
 </div>
 
 <div style="clear: both; text-align: center;">

@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2101
 permalink: /2013/03/quicksilver-action-tweet-via-notification-center/
 dsq_thread_id:
   - 1175792823
+disqus_identifier: 2101 http://n8henrie.com/?p=2101
 ---
 **Bottom Line:** I like Safari&#8217;s &#8220;Share via Twitter&#8221; button that lets you Tweet a URL, so I wrote a Quicksilver action to do something similar. <!--more-->
 

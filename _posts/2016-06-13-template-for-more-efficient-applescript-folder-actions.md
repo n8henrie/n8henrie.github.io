@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2816
 permalink: /2016/06/template-for-more-efficient-applescript-folder-actions/
 dsq_thread_id:
   - 4910243718
+disqus_identifier: 2816 http://n8henrie.com/?p=2816
 ---
 **Bottom Line:** Here&#8217;s a template I wrote to help me write and test Applescript Folder Actions more efficiently.<!--more-->
 

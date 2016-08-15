@@ -8,6 +8,7 @@ guid: http://n8henrie.com/?p=2225
 permalink: /2013/04/until-proven-otherwise/
 dsq_thread_id:
   - 1250333075
+disqus_identifier: 2225 http://n8henrie.com/?p=2225
 ---
 **Bottom Line:** The phrase &#8220;until proven otherwise&#8221; is _really_ overused. <!--more-->
 

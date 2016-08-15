@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2289
 permalink: /2013/06/quickly-add-a-gmail-threads-contacts-to-a-filter/
 dsq_thread_id:
   - 1431555410
+disqus_identifier: 2289 http://n8henrie.com/?p=2289
 ---
 **Bottom Line:** To build a Gmail filter for all participants in a thread, use Reply All to get a list of addresses that you can copy, parse, and format.<!--more-->
 
@@ -17,7 +18,7 @@ I fairly frequently take part in a thread with 10 or 15 recipients that I&#8217;
 Many of you will also know about the &#8220;filter messages like these&#8221; button, hidden in the menu revealed by clicking the small down-pointing triangle in the upper right hand corner.
 
 
-![](http://n8henrie.com/uploads/2013/06/20130624_20130621-ScreenShot-194.jpg) 
+![]({{ site.url }}/uploads/2013/06/20130624_20130621-ScreenShot-194.jpg) 
 
 However, the &#8220;filter messages like these&#8221; only grabs the &#8220;from&#8221; field, so here&#8217;s a little trick to get all of the _recipients_: Just **Reply All** (or hit `A` if you have keyboard shortcuts enabled), then Select All (command A or control A, depending on your OS). There may be some addresses in the CC field and others in the To: field, so make sure you get them all (there&#8217;s often only one in the To: field, so I often just drag it to the CC field with the rest of them, then Select All).
 
@@ -28,7 +29,7 @@ Once they&#8217;re all selected, use the keyboard shortcut to Copy (command C or
 Now you can manually get rid of everything but the email addresses, but if you&#8217;ve pasted into a text editor that supports <a target="_blank" href="http://en.wikipedia.org/wiki/RegEx" title="RegEx">RegEx</a> search and replace, you can get what you need like this: 
 
 
-![](http://n8henrie.com/uploads/2013/06/20130624_20130621-ScreenShot-195.jpg) 
+![]({{ site.url }}/uploads/2013/06/20130624_20130621-ScreenShot-195.jpg) 
 
 NB: there is a space after the comma in the replace box. Explanation: `.*?<` means &#8220;anything up to and including the <&#8220;, `(.*?)` means &#8220;remember this group of stuff&#8221;, `>.*?` means &#8220;anything after and including the >&#8221;. (The ?s indicate &#8220;take the shortest match possible,&#8221; otherwise it could just take everything between the first < and the last > as a possible solution). In the second box, `\1,` means replace (everything matched) with (the first group remembered from above), followed by a comma and a space.
 

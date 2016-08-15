@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2588
 permalink: /2014/08/automate-clicking-with-applescript-and-jquery/
 dsq_thread_id:
   - 2894796973
+disqus_identifier: 2588 http://n8henrie.com/?p=2588
 ---
 **Bottom Line:** This AppleScript uses jQuery to click a submit button on a webpage over and over in the background while you keep browsing.<!--more-->
 

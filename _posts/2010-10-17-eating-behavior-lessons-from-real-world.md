@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811692664
+disqus_identifier: 86 http://n8henrie.com/?p=86
 ---
 <div>
   <span style="font-family: lucida grande, tahoma, verdana, arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51);">Excellent paper on the limitations of applying laboratory-based dietary research to &#8220;the real world of humans.&#8221;  Highly recommended &#8212; avail through UNM access. 

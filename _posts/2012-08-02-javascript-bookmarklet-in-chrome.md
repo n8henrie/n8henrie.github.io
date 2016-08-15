@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811661485
+disqus_identifier: 7 http://n8henrie.com/?p=7
 ---
 **Bottom line:** Add javascript bookmarklets to Google Chrome’s search engines to allow activation via keyword from the Omnibox.
   
@@ -32,7 +33,7 @@ Recently, I was messing around with text expansion to see if I could just have a
 Then I came across the perfect solution: Chrome supports custom search tools (that I use frequently). If you right click on the Omnibox, you can “Edit Search Engines…”
 
 <div style="clear: both; text-align: center;">
-  <a target="_blank" href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-08-02at12.53.45PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-08-02at12.53.45PM.jpg" /></a>
+  <a target="_blank" href="{{ site.url }}/uploads/2012/08/ScreenShot2012-08-02at12.53.45PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/uploads/2012/08/ScreenShot2012-08-02at12.53.45PM.jpg" /></a>
 </div>
 
 
@@ -40,7 +41,7 @@ Then I came across the perfect solution: Chrome supports custom search tools (th
 And add a new “search engine” using “#insta” as the keyword…
 
 <div style="clear: both; text-align: center;">
-  <a target="_blank" href="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-08-02at12.55.09PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.n8henrie.com/uploads/2012/08/ScreenShot2012-08-02at12.55.09PM.jpg" /></a>
+  <a target="_blank" href="{{ site.url }}/uploads/2012/08/ScreenShot2012-08-02at12.55.09PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/uploads/2012/08/ScreenShot2012-08-02at12.55.09PM.jpg" /></a>
 </div>
 
 and it works like a charm! Now, when I’m on a page I’d like to read later, I just “CMD L” to jump to the Omnibox and type in “#insta” and return, and the Instapaper “Saving…” screen pops up just like I’d hoped. Nice to finally find a solution I’m happy with for triggering javascript bookmarklets!

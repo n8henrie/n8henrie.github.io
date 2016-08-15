@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2485
 permalink: /2014/02/laughing-at-my-own-jokes/
 dsq_thread_id:
   - 2335812849
+disqus_identifier: 2485 http://n8henrie.com/?p=2485
 ---
 **Bottom Line:** Accessibility to social media archives with APIs and analysis of that data may have more to teach us about ourselves than we&#8217;ll want to know.<!--more-->
 

@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2321
 permalink: /2013/07/floating-gmail-labels-on-ios/
 dsq_thread_id:
   - 1513362298
+disqus_identifier: 2321 http://n8henrie.com/?p=2321
 ---
 **Bottom Line:** Prefix a label with a hashtag and a space to float it to the top of your Gmail labels in iOS while still being able to get there with Gmail&#8217;s keyboard shortcuts.<!--more-->
 
@@ -29,6 +30,6 @@ Once I had renamed my labels #Action and #Waiting, Gmail no longer recognized th
 Luckily, the solution ended up being very simple: Just add a space. As you can see below, `# Action` and `# Waiting` float to the top of the list on iOS, and they also work with Gmail&#8217;s keyboard shortcuts and label filtering. 
 
 
-![](http://n8henrie.com/uploads/2013/03/20130323_IMG_07111.jpg) 
+![]({{ site.url }}/uploads/2013/03/20130323_IMG_07111.jpg) 
 
 In the end, it&#8217;s an incredibly simple solution that saves me a bit of extra scrolling a few times per day.

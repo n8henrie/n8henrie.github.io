@@ -22,6 +22,7 @@ dsq_thread_id:
   - 811565506
 blogger_images:
   - 1
+disqus_identifier: 33 http://n8henrie.com/?p=33
 ---
 **Scene 1**  
 Setting: Monday morning, 6:47am, my kitchen.
@@ -44,7 +45,7 @@ Siri: Okay, setting an alarm for 6:30 pm tomorrow.
 Nate: 
 
 <div style="clear: both;">
-  <a href="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3071834AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3071834AM.png" width="192" /></a>
+  <a href="{{ site.url }}/uploads/2012/09/Image2012.01.3071834AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/uploads/2012/09/Image2012.01.3071834AM.png" width="192" /></a>
 </div>
 
 <div style="clear: both;">
@@ -61,7 +62,7 @@ Siri: Okay, setting an alarm for 6:30 am tomorrow.
 </div>
 
 <div style="clear: both; text-align: center;">
-  <a href="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3072453AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://www.n8henrie.com/uploads/2012/09/Image2012.01.3072453AM.png" /></a>
+  <a href="{{ site.url }}/uploads/2012/09/Image2012.01.3072453AM.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="{{ site.url }}/uploads/2012/09/Image2012.01.3072453AM.png" /></a>
 </div>
 
 <div style="clear: both; text-align: left;">

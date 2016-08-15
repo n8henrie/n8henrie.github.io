@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2355
 permalink: /2013/08/interview-season-tips-for-fourth-year-medical-students-part-2/
 dsq_thread_id:
   - 1604600675
+disqus_identifier: 2355 http://n8henrie.com/?p=2355
 ---
 **Bottom Line:** A short series of posts for fourth year medical students going in to interview season, part 2 of 3. <!--more-->
 

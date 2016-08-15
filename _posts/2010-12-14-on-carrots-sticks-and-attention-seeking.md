@@ -16,9 +16,10 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 811757289
+disqus_identifier: 79 http://n8henrie.com/?p=79
 ---
 <div>
-  <a href="http://www.n8henrie.com/uploads/2012/09/p2261.jpg.scaled5001.jpg"><img src="http://www.n8henrie.com/uploads/2012/09/p2261.jpg.scaled5001.jpg" width="500" height="444" /></a> 
+  <a href="{{ site.url }}/uploads/2012/09/p2261.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p2261.jpg.scaled5001.jpg" width="500" height="444" /></a> 
   
   <p>
     A long time ago (June), in a galaxy far, far away (Spain), I had a lively conversation with a few close friends in which they tried to convince me that animal training was best done with exclusively positive reinforcement. Despite knowing nothing about the topic, I stubbornly held to my intuitive view that punishing bad behavior was not only useful, but necessary. 

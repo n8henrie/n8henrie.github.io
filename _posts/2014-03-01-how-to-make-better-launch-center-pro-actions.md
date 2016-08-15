@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2489
 permalink: /2014/03/how-to-make-better-launch-center-pro-actions/
 dsq_thread_id:
   - 2342146903
+disqus_identifier: 2489 http://n8henrie.com/?p=2489
 ---
 **Bottom Line:** Create more intricate LCP actions by using lists that run totally different URL actions.<!--more-->
 

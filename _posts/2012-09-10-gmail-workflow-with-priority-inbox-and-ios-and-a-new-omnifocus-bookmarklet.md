@@ -10,6 +10,7 @@ al2fb_facebook_exclude:
   - 1
 dsq_thread_id:
   - 839051245
+disqus_identifier: 1700 http://n8henrie.com/?p=1700
 ---
 **Bottom line:** Improved &#8220;Send to OmniFocus&#8221; bookmarklet that works better with Gmail at the end of the post, the rest is just my workflow.
   

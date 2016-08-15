@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2575
 permalink: /2014/07/get-google-cache-applescript/
 dsq_thread_id:
   - 2880278157
+disqus_identifier: 2575 http://n8henrie.com/?p=2575
 ---
 **Bottom Line:** This AppleScript will bring up the Google Cache for a page more reliably than most bookmarklets.<!--more-->
 

@@ -22,6 +22,7 @@ dsq_thread_id:
   - 811564927
 blogger_images:
   - 1
+disqus_identifier: 6 http://n8henrie.com/?p=6
 ---
 **Bottom line:** This post contains two emails from me to a med student friend who recently read Gary Taubes’ <a target="_blank" href="http://www.amazon.com/gp/product/1400033462/ref=as_li_ss_tl?ie=UTF8&#038;camp=1789&#038;creative=390957&#038;creativeASIN=1400033462&#038;linkCode=as2&#038;tag=n8henriecom-20">Good Calories, Bad Calories</a> (GCBC).
   

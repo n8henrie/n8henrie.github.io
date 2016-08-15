@@ -14,6 +14,7 @@ al2fb_facebook_link_picture:
   - 'avatar=http://0.gravatar.com/avatar/a23e95080d456123bf42bf8cc0f13519?s=96&amp;d=wavatar&amp;r=PG'
 dsq_thread_id:
   - 816339300
+disqus_identifier: 645 http://n8henrie.com/?p=645
 ---
 **Bottom line:** Clever, easy way to set up <a title="Quicksilver" href="http://qsapp.com" target="_blank">Quicksilver</a> triggers for apps that can launch via URL scheme.
   

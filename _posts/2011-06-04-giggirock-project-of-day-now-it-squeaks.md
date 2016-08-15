@@ -23,10 +23,11 @@ enclosure:
         694716
         video/quicktime
         
+disqus_identifier: 59 http://n8henrie.com/?p=59
 ---
 <div>
   <div>
-    <img alt="" src="http://www.n8henrie.com/uploads/2012/09/movie.mov" /> 
+    <img alt="" src="{{ site.url }}/uploads/2012/09/movie.mov" /> 
     
     <div>
       <strong>movie.mov</strong> Watch on Posterous

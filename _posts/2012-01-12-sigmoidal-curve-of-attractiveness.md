@@ -22,6 +22,7 @@ dsq_thread_id:
   - 811565516
 blogger_images:
   - 1
+disqus_identifier: 35 http://n8henrie.com/?p=35
 ---
 I’m currently writing a post on why I disagree when people suggest that physical attractiveness is completely irrelevant in considering a partner / SO. Not that it trumps other qualities, just that it is, and _should be_, important. In explaining my reasoning, I realized that I should first publish _this_ post, which I was inspired to write months ago by a discussion with some of my best friends. Look for the followup post called “Beauty is Common” in a few days, I’ll post a link in the comments section below (update: <a href="http://www.n8henrie.com/2012/02/beauty-is-common/" target="_blank">Beauty is Common</a>).
 
@@ -80,7 +81,7 @@ For example, let’s say that you are a single, 29 year old, heterosexual male, 
 
 I’ll be brief here. If this word doesn’t make sense, click: [Asymptote](http://en.wikipedia.org/wiki/Asymptote "Wikipedia"). These individuals basically hold that the highest and lowest numbers are reserved for someone so attractive or unattractive that they might as well not exist, and although new individuals may \*approach\* that standard, they won’t ever reach it. On one hand, this helps avoid the quandary of having to redefine one’s scale (and therefore previous or current SOs) based on new information. On the other hand, this forces your hand into choosing imaginary (or perhaps potential) endpoints. As I wrote earlier, I don’t have enough imagination for endpoints that I haven’t seen. This **shape** of curve does have some benefits, though, which I’ll discuss in the next section.
 
-<figure><img alt="You never quite get there" height="240" src="http://www.n8henrie.com/uploads/2012/09/tanh.png" width="320" />
+<figure><img alt="You never quite get there" height="240" src="{{ site.url }}/uploads/2012/09/tanh.png" width="320" />
   
 <figcaption>You never _quite_ get there…</figcaption> </figure> 
 
@@ -88,13 +89,13 @@ I’ll be brief here. If this word doesn’t make sense, click: [Asymptote](http
 
 Let’s have a quick lesson on normal distributions. Here’s the [wikipedia article](http://en.wikipedia.org/wiki/Normal_distribution), and here’s a site that provides [a good overview of a normal distribution](http://www.regentsprep.org/Regents/math/algtrig/ATS2/NormalLesson.htm "Normal Distribution"), including the image below.
 
-<figure><img alt="Percentage of a population falling within X standard deviations of the mean in a normal distribution" height="210" src="http://www.n8henrie.com/uploads/2012/09/normal67.gif" width="400" />
+<figure><img alt="Percentage of a population falling within X standard deviations of the mean in a normal distribution" height="210" src="{{ site.url }}/uploads/2012/09/normal67.gif" width="400" />
   
 <figcaption>Percentage of a population falling within X standard deviations of the mean in a normal distribution</figcaption> </figure> 
 
 The main idea as relevant to this post is that when you take a populational cross-section of a continuous variable such as height, shoe size, or affinity for pickles, you tend to find that “most people” fall somewhere in the middle, **duh**, with a decreasing proportion of the population as you approach either extreme. Unfortunately, I don’t really remember what a standard deviation is (something like the average of the absolute values of the difference between the components of a set and its mean), or how it relates to a bell curve. I _do_ remember that scoring “2 standard devs above the mean” on an exam means you’re doing well. If you converted the standard bell curve into a chart of “percentage of a population that is at or below the curve at a given SD,” the result might look something like this.
 
-<figure><img alt="Ignore the numbers, but this is the general idea." height="201" src="http://www.n8henrie.com/uploads/2012/09/ScreenShot2012-01-10at6.42.09PM.jpg" width="320" />
+<figure><img alt="Ignore the numbers, but this is the general idea." height="201" src="{{ site.url }}/uploads/2012/09/ScreenShot2012-01-10at6.42.09PM.jpg" width="320" />
   
 <figcaption>Ignore the numbers, but this is the general idea.</figcaption> </figure> 
 

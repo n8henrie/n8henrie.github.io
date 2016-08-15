@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2542
 permalink: /2014/05/how-to-get-a-spreadsheet-of-tasks-into-reminders-app/
 dsq_thread_id:
   - 2714336802
+disqus_identifier: 2542 http://n8henrie.com/?p=2542
 ---
 **Bottom Line:** Here&#8217;s how to batch import tasks into Reminders.app on your Mac.<!--more-->
 
@@ -58,7 +59,7 @@ Once you have `converted.ics` open in TextWrangler, open the `Search -> Find` bo
 Here&#8217;s a screenshot of what the first regex should look like in TextWrangler:
 
 
-![](http://n8henrie.com/uploads/2014/05/20140526_20140526-ScreenShot-312.jpg) 
+![]({{ site.url }}/uploads/2014/05/20140526_20140526-ScreenShot-312.jpg) 
 
 Next, take an _existing_ list from Reminders.app with _at least one task_ and `File -> Export`. Open this `.ics` file up in the text editor as well. Find the section 4 or so rows down starting with `BEGIN:VTIMEZONE` and ending at line 20 or so with `END:VTIMEZONE`. Copy this section into your `converted.ics` file right below `PRODID:n8henrie.com`.
 

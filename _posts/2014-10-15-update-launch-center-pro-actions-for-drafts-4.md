@@ -9,6 +9,7 @@ guid: http://n8henrie.com/?p=2675
 permalink: /2014/10/update-launch-center-pro-actions-for-drafts-4/
 dsq_thread_id:
   - 3121247923
+disqus_identifier: 2675 http://n8henrie.com/?p=2675
 ---
 **Bottom Line:** Here&#8217;s how to use my lcp_export script to batch update your Launch Center Pro actions to work with the new Drafts 4.<!--more-->
 

@@ -16,6 +16,7 @@ blogger_images:
   - 1
 dsq_thread_id:
   - 839682263
+disqus_identifier: 18 http://n8henrie.com/?p=18
 ---
 Just a quick post to say I&#8217;ve made some decent progress on my [New Mexico mountain bike trails spreadsheet](http://www.n8henrie.com/2012/02/mtb-new-mexico-trails-spreadsheet/).  Covered several of the major trails in the immediate Albuquerque area, including Cedro and Otero canyon.  Still need to make it up to Faulty, which I hear is one of the best.
 
