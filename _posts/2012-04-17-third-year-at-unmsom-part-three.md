@@ -39,7 +39,7 @@ I hope this installment is full of several short tips. Here goes.
 
 ## Tip #6: Morning and afternoon lists
 
-My first third year rotation was surgery. Some days, the early mornings were… early. As I alluded in the previous post, it seemed like I would forget something almost every day. Since I was across town at the VA, it’s not like I could just make a quick trip back home. I’ve been a fan of using checklists for a while (always meant to read <a href="http://www.amazon.com/gp/product/0312430000/ref=as_li_ss_tl?ie=UTF8&#038;tag=n8henriecom-20&#038;linkCode=as2&#038;camp=1789&#038;creative=390957&#038;creativeASIN=0312430000" target="_blank">The Checklist Manifesto</a> — maybe I’ll get a chance now that 3rd year is coming to an end :) ). Basically, some stuff is boring, repetitive, but important, and it doesn’t make sense to try to remember it. Pilots and surgeons use checklists all the time (“timeouts”), so I figure why not. I made a quick checklist I called my “Morning #List” and my “Afternoon #List”. I use hashtags so I can search for stuff without getting extraneous results that happen to involve the same words. 
+My first third year rotation was surgery. Some days, the early mornings were… early. As I alluded in the previous post, it seemed like I would forget something almost every day. Since I was across town at the VA, it’s not like I could just make a quick trip back home. I’ve been a fan of using checklists for a while (always meant to read <a href="http://www.amazon.com/gp/product/0312430000/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0312430000" target="_blank">The Checklist Manifesto</a> — maybe I’ll get a chance now that 3rd year is coming to an end :) ). Basically, some stuff is boring, repetitive, but important, and it doesn’t make sense to try to remember it. Pilots and surgeons use checklists all the time (“timeouts”), so I figure why not. I made a quick checklist I called my “Morning #List” and my “Afternoon #List”. I use hashtags so I can search for stuff without getting extraneous results that happen to involve the same words. 
 
 Anyway, I made a morning list that I would glance over before leaving the house each morning. It reminded me to make sure I had stuff like: 
 
@@ -77,7 +77,7 @@ To give you an idea of how I’ve used this during third year, here is a list of
   * Lockers, codes, scrubs stuff
   * Library Hours
   * Interpretive services
-  * H&#038;P Cheatsheet
+  * H&P Cheatsheet
   * Fourth Year Schedule
   * Citrix Receiver Setup
   * #InternalMedicine Scratch Pad
@@ -87,11 +87,11 @@ It’s just handy, and it works. Give it a shot. Worst case scenario: it’s fre
 
 ## Tip #8: Helpful files from BA and JO
 
-Two very generous students, senior to me, have shared a bunch of their rotation tips with my class. I found these useful to look over before and during each block. Now I’m sharing them with you.  These files will be hosted at SMRTpoint or perhaps UNMSOM Sharepoint eventually, so they will be password-secured and accessible only by UNMSOM students. For now, just shoot me an email **from your Salud address** with the subject (without the quotes): “Stuff from BA and JO”. You’ll only get a reply if the email is from your Salud address, to make sure this stays UNMSOM material.  I&#8217;ll post updates  here when I get it uploaded somewhere secure.
+Two very generous students, senior to me, have shared a bunch of their rotation tips with my class. I found these useful to look over before and during each block. Now I’m sharing them with you.  These files will be hosted at SMRTpoint or perhaps UNMSOM Sharepoint eventually, so they will be password-secured and accessible only by UNMSOM students. For now, just shoot me an email **from your Salud address** with the subject (without the quotes): “Stuff from BA and JO”. You’ll only get a reply if the email is from your Salud address, to make sure this stays UNMSOM material.  I’ll post updates  here when I get it uploaded somewhere secure.
 
 ## Tip #9: Carry a spare combination lock in your backpack
 
-Unfortunately, as a MS3 you’ll _always_ be looking for a good place to keep your stuff. Most rotations, you just don’t have a convenient, secure place to leave your bag while you pre-round, round, go to lunch, etc. On some rotations, your assigned lockers will be close enough from “home base.” Other times, they’ll be a few floors away, or across town if you’re at the VA. I found it worthwhile to carry <a href="http://www.amazon.com/gp/product/B00004SQLI/ref=as_li_ss_tl?ie=UTF8&#038;tag=n8henriecom-20&#038;linkCode=as2&#038;camp=1789&#038;creative=390957&#038;creativeASIN=B00004SQLI" target="_blank">one of these</a> around and just leave it in my backpack at all times. The VA has empty cabinets all over the place that work great with this type of lock. If you’ll be carrying anything valuable in your bag, it will be worth it. 
+Unfortunately, as a MS3 you’ll _always_ be looking for a good place to keep your stuff. Most rotations, you just don’t have a convenient, secure place to leave your bag while you pre-round, round, go to lunch, etc. On some rotations, your assigned lockers will be close enough from “home base.” Other times, they’ll be a few floors away, or across town if you’re at the VA. I found it worthwhile to carry <a href="http://www.amazon.com/gp/product/B00004SQLI/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00004SQLI" target="_blank">one of these</a> around and just leave it in my backpack at all times. The VA has empty cabinets all over the place that work great with this type of lock. If you’ll be carrying anything valuable in your bag, it will be worth it. 
 
 Alright folks, that’s all for today.
 

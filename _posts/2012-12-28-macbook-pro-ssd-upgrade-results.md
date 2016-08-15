@@ -17,13 +17,13 @@ dsq_thread_id:
   - 997493487
 disqus_identifier: 1861 http://n8henrie.com/?p=1861
 ---
-**Bottom Line:** I upgraded my Macbook Pro&#8217;s old hard drive to a solid state drive and have been pleased with the results.
+**Bottom Line:** I upgraded my Macbook Pro’s old hard drive to a solid state drive and have been pleased with the results.
   
 <!--more-->
 
-A couple months ago I decided to refresh my trusty &#8217;09 Macbook Pro with an SSD upgrade. I&#8217;d read about the DIY project a few times, which involves transplanting the HDD (with an adapter) into the DVD drive and putting an SSD where the HDD used to be. It actually ended up going pretty smoothly, and I&#8217;d recommend it to anyone that is comfortable working with computer hardware, accepts the risk of screwing everything up, and is looking to breathe some new life into an old MBP.
+A couple months ago I decided to refresh my trusty ’09 Macbook Pro with an SSD upgrade. I’d read about the DIY project a few times, which involves transplanting the HDD (with an adapter) into the DVD drive and putting an SSD where the HDD used to be. It actually ended up going pretty smoothly, and I’d recommend it to anyone that is comfortable working with computer hardware, accepts the risk of screwing everything up, and is looking to breathe some new life into an old MBP.
 
-I won&#8217;t bore you with all the details, since simply linking you to the parts and instructions I used will probably do just as much good. I will, however, show you a video I made comparing the before-and-after, because it&#8217;s astounding. (I apologize in advanced for having recorded the videos by hand instead of using a tripod, they&#038;#8217re pretty awful. Hope nobody gets motion sick easily.) Oh, and my old HDD ran at 5400 rpm, so my results may be more dramatic than someone that runs at 7200.
+I won’t bore you with all the details, since simply linking you to the parts and instructions I used will probably do just as much good. I will, however, show you a video I made comparing the before-and-after, because it’s astounding. (I apologize in advanced for having recorded the videos by hand instead of using a tripod, they’re pretty awful. Hope nobody gets motion sick easily.) Oh, and my old HDD ran at 5400 rpm, so my results may be more dramatic than someone that runs at 7200.
 
 
 
@@ -34,7 +34,7 @@ I tried to control for as much as possible by following the same protocol before
   3. Boot once to rebuild a few basic caches
   4. Shutdown again
 
-Here&#8217;s a spreadsheet with a breakdown of the endpoints I recorded (time to desktop background, icons, and Dropbox).
+Here’s a spreadsheet with a breakdown of the endpoints I recorded (time to desktop background, icons, and Dropbox).
 
 
 
@@ -47,6 +47,6 @@ Here is a collection of links that I found helpful:
 
   * <a target="_blank" href="https://pinboard.in/u:n8henrie/t:ssd/">My SSD Tag at Pinboard.in</a>
 
-At this time, I still haven&#8217;t done anything with the DVD drive. I rarely need it, and I figure I can just use OSX&#8217;s built-in hardware sharing to use my roommate&#8217;s DVD drive if needed. However, for those of you that need one, you can use something like this <a target="_blank" href="http://www.amazon.com/gp/product/B00724YQSY/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00724YQSY">SuperDrive Enclosure</a> for little under $40 to turn your old DVD drive into an external, USB-connected DVD drive.
+At this time, I still haven’t done anything with the DVD drive. I rarely need it, and I figure I can just use OSX’s built-in hardware sharing to use my roommate’s DVD drive if needed. However, for those of you that need one, you can use something like this <a target="_blank" href="http://www.amazon.com/gp/product/B00724YQSY/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00724YQSY">SuperDrive Enclosure</a> for little under $40 to turn your old DVD drive into an external, USB-connected DVD drive.
 
-It&#8217;s been a little over 6 weeks since I finished the upgrade, and I am 100% satisfied so far. Let me know in the comments if you have any questions!
+It’s been a little over 6 weeks since I finished the upgrade, and I am 100% satisfied so far. Let me know in the comments if you have any questions!

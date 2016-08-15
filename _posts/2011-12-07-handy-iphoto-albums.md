@@ -24,7 +24,7 @@ dsq_thread_id:
   - 842634213
 disqus_identifier: 43 http://n8henrie.com/?p=43
 ---
-I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8217;t know why I didn&#8217;t think of it before.  Finally puts to use all the work I&#8217;ve put in to maintain a decently organized iPhoto library.  Every few months I go through my recent photos, and I try to at least: 
+I made a few new iPhoto albums today that I’m pretty excited about, don’t know why I didn’t think of it before.  Finally puts to use all the work I’ve put in to maintain a decently organized iPhoto library.  Every few months I go through my recent photos, and I try to at least: 
 
 <div>
   <ul>
@@ -35,12 +35,12 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
       flag photos I want to eventually print for the posters I hang in my room
     </li>
     <li>
-      tag the faces of major characters using iPhoto&#8217;s Faces feature
+      tag the faces of major characters using iPhoto’s Faces feature
     </li>
   </ul>
   
   <div>
-    Below I&#8217;m going to quickly go through the handiest iPhoto albums I&#8217;ve made so far.
+    Below I’m going to quickly go through the handiest iPhoto albums I’ve made so far.
   </div>
 </div>
 
@@ -50,7 +50,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
 <span style="font-size: large;"><u>Faces</u></span> 
 
 <div>
-  This is mostly for the convenient features that Apple has built into the way iPhoto interfaces with other Apple devices.  I use it all the time to show people who my roommate or girlfriend is.  Just make sure that you go through and confirm the faces in iPhoto (which may take a while, esp since Faces is nowhere near as good as Google / Picasa&#8217;s face detection algorithm).  To sync to other devices, go into iTunes and hit the checkbox in the &#8220;Photos&#8221; tab under &#8220;Faces&#8221; (pretty intuitive, right).  One tip I might include is that you can only select certain people&#8217;s &#8220;Faces&#8221; to sync to your mobile device.  That way, if you&#8217;ve been diligent and have hundreds of &#8220;Faces&#8221; albums, you can just check off a few that you might find useful (yourself, SO, roomie, family), and that way you shouldn&#8217;t have to sort through all the rest every time.
+  This is mostly for the convenient features that Apple has built into the way iPhoto interfaces with other Apple devices.  I use it all the time to show people who my roommate or girlfriend is.  Just make sure that you go through and confirm the faces in iPhoto (which may take a while, esp since Faces is nowhere near as good as Google / Picasa’s face detection algorithm).  To sync to other devices, go into iTunes and hit the checkbox in the “Photos” tab under “Faces” (pretty intuitive, right).  One tip I might include is that you can only select certain people’s “Faces” to sync to your mobile device.  That way, if you’ve been diligent and have hundreds of “Faces” albums, you can just check off a few that you might find useful (yourself, SO, roomie, family), and that way you shouldn’t have to sort through all the rest every time.
 </div>
 
 <div>
@@ -59,7 +59,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
 <u><span style="font-size: large;">Favorites</span></u> 
 
 <div>
-  Taking the next step, iPhoto&#8217;s &#8220;Smart Albums&#8221; can be <i>really</i> helpful and powerful.  For example, I have a &#8220;Favorites&#8221; album that automatically includes any photo that has been rated 4 or 5 stars.  This one might have been automatically included in iPhoto, I don&#8217;t remember.  Either way, it&#8217;s super simple to create a smart album and set it to
+  Taking the next step, iPhoto’s “Smart Albums” can be <i>really</i> helpful and powerful.  For example, I have a “Favorites” album that automatically includes any photo that has been rated 4 or 5 stars.  This one might have been automatically included in iPhoto, I don’t remember.  Either way, it’s super simple to create a smart album and set it to
 </div>
 
 <div>
@@ -68,17 +68,17 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
       include photos rated in the range of 4 to 5 stars
     </li>
     <li>
-      exclude videos (&#8220;photo is not movie&#8221; or something like that)
+      exclude videos (“photo is not movie” or something like that)
     </li>
   </ul>
 </div>
 
 <div>
-  I use my Favorites smart album as my Apple TV screensaver, and it&#8217;s been great to have.  Sometimes I&#8217;ll sit in the living room and chat with friends for hours about the pics that come across the screen.  Also nice since I can stream background music through the ATV simultaneously.
+  I use my Favorites smart album as my Apple TV screensaver, and it’s been great to have.  Sometimes I’ll sit in the living room and chat with friends for hours about the pics that come across the screen.  Also nice since I can stream background music through the ATV simultaneously.
 </div>
 
 <div>
-  <u><span style="font-size: large;">Profile Pics</span></u><br />I was just inspired to make this one today.  The reason is that I like to put profile pics on the apps I use that have the option&#8230; but I hardly ever feel like snapping a new pic of myself right then and there, and it&#8217;s a pain to go scrolling through my whole library to try and find a good pic.  So this album is just a regular album (not a &#8220;smart album&#8221;), but I populated it by making a temporary smart album with the criteria
+  <u><span style="font-size: large;">Profile Pics</span></u><br />I was just inspired to make this one today.  The reason is that I like to put profile pics on the apps I use that have the option… but I hardly ever feel like snapping a new pic of myself right then and there, and it’s a pain to go scrolling through my whole library to try and find a good pic.  So this album is just a regular album (not a “smart album”), but I populated it by making a temporary smart album with the criteria
 </div>
 
 <div>
@@ -93,7 +93,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
 </div>
 
 <div>
-  That gave me an album with nothing but good pictures that I was in.  Then I took the ones that looked like they&#8217;d make good profile pictures and drag-and-dropped them into my new &#8220;Profile Pics&#8221; album.  Then make sure to select this album for syncing in iTunes, and <i>voila</i> &#8212; next time you want to set a profile picture on an iPhone app, you can almost always &#8220;choose existing,&#8221; and go right to your &#8220;Profile Pics&#8221; folder.
+  That gave me an album with nothing but good pictures that I was in.  Then I took the ones that looked like they’d make good profile pictures and drag-and-dropped them into my new “Profile Pics” album.  Then make sure to select this album for syncing in iTunes, and <i>voila</i> — next time you want to set a profile picture on an iPhone app, you can almost always “choose existing,” and go right to your “Profile Pics” folder.
 </div>
 
 <div>
@@ -102,7 +102,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
 <u><span style="font-size: large;">S.O.</span></u> 
 
 <div>
-  A &#8220;best of&#8221; album, just for the cute factor:
+  A “best of” album, just for the cute factor:
 </div>
 
 <div>
@@ -111,7 +111,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
       Face is [your name]
     </li>
     <li>
-      Face is [your SO&#8217;s name]
+      Face is [your SO’s name]
     </li>
     <li>
       Rating is 4-5 stars
@@ -119,7 +119,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
   </ul>
   
   <div>
-    Next time someone wants to see a pic of the SO, this makes it easy to pull up your favorite couples shot.  Don&#8217;t forget to hit the iTunes checkbox to sync it to your mobile devices!
+    Next time someone wants to see a pic of the SO, this makes it easy to pull up your favorite couples shot.  Don’t forget to hit the iTunes checkbox to sync it to your mobile devices!
   </div>
 </div>
 
@@ -127,7 +127,7 @@ I made a few new iPhoto albums today that I&#8217;m pretty excited about, don&#8
 </div>
 
 <div>
-  I also have smart albums for &#8220;phone pics&#8221; and &#8220;videos&#8221; &#8212; don&#8217;t really use them much, though.  Anybody else have any handy iPhoto albums?
+  I also have smart albums for “phone pics” and “videos” — don’t really use them much, though.  Anybody else have any handy iPhoto albums?
 </div>
 
 <div>

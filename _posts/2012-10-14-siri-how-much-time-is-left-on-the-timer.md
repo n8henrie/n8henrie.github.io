@@ -23,12 +23,12 @@ dsq_thread_id:
 format: video
 disqus_identifier: 1780 http://n8henrie.com/?p=1780
 ---
-I&#8217;m going to start posting screenshots when I discover a new Siri trick that impresses me. I think the screenshot is key to show _exactly_ how I spoke the command, and the result.
+I’m going to start posting screenshots when I discover a new Siri trick that impresses me. I think the screenshot is key to show _exactly_ how I spoke the command, and the result.
   
 <!--more-->
 
 
   
-For this one, I had my phone in my pocket and was hoping Siri would actually &#8220;say&#8221; the time (which she didn&#8217;t), but I still think this will be handy. &#8220;Remember&#8230;&#8221; (with OmniFocus integration) and &#8220;set a timer for&#8230;&#8221; are probably my top 2 Siri features, so quickly displaying the timer is nice. 
+For this one, I had my phone in my pocket and was hoping Siri would actually “say” the time (which she didn’t), but I still think this will be handy. “Remember…” (with OmniFocus integration) and “set a timer for…” are probably my top 2 Siri features, so quickly displaying the timer is nice. 
 
 [<img src="{{ site.url }}/uploads/2012/10/20121014-155258.jpg" alt="20121014-155258.jpg" class="alignnone size-full" />]({{ site.url }}/uploads/2012/10/20121014-155258.jpg)

@@ -33,11 +33,11 @@ disqus_identifier: 52 http://n8henrie.com/?p=52
     </div>
     
     <div>
-      There are a number of ways to add items to your Instapaper queue, such as a &#8220;bookmarklet&#8221; (an internet bookmark that you just click and it works like magic on your computer / iOS device / etc), or you can also email articles to a special address that Instapaper provides for you.
+      There are a number of ways to add items to your Instapaper queue, such as a “bookmarklet” (an internet bookmark that you just click and it works like magic on your computer / iOS device / etc), or you can also email articles to a special address that Instapaper provides for you.
     </div>
     
     <div>
-      Instapaper also has integration with a wide variety of other iOS apps.  For example, I might come across an interesting blog article on my phone, but I don't have time to read it and/or don't want to read it on the small screen.  I can just send it to Instapaper and read it later in a much cleaner format on my computer or other device.  Being able to save an interesting article for later (without worrying that I'll forget about it) helps me stay more focused on the task at hand&#8230; and I need all the help I can get.  The last cool feature is you can connect Instapaper to your social accounts (Facebook, Twitter, maybe others) to share articles that you like with your friends, and browse articles that they've enjoyed.  Great way to get some variety into your reading list.
+      Instapaper also has integration with a wide variety of other iOS apps.  For example, I might come across an interesting blog article on my phone, but I don't have time to read it and/or don't want to read it on the small screen.  I can just send it to Instapaper and read it later in a much cleaner format on my computer or other device.  Being able to save an interesting article for later (without worrying that I'll forget about it) helps me stay more focused on the task at hand… and I need all the help I can get.  The last cool feature is you can connect Instapaper to your social accounts (Facebook, Twitter, maybe others) to share articles that you like with your friends, and browse articles that they've enjoyed.  Great way to get some variety into your reading list.
     </div>
     
     <p />
@@ -49,13 +49,13 @@ disqus_identifier: 52 http://n8henrie.com/?p=52
     <p />
     
     <div>
-      They do offer a <b>free</b> browser extension and bookmarklet (available <a href="http://www.readability.com/addons" target="_blank" style="color: rgb(17, 65, 112);">here</a>) that works great, and it features a &#8220;send to kindle&#8221; button that works great!
+      They do offer a <b>free</b> browser extension and bookmarklet (available <a href="http://www.readability.com/addons" target="_blank" style="color: rgb(17, 65, 112);">here</a>) that works great, and it features a “send to kindle” button that works great!
     </div>
     
     <p />
     
     <div>
-      One trick that often comes in handy when using these tools: If you have the bookmarklet or extension working, but you run across a page that it doesn't work on, you can frequently get it to work by using a &#8220;Print&#8221; link or a &#8220;Print view&#8221; button or equivalent.  For example, &#8220;UpToDate&#8221; is a great medical resource&#8230; but the problem is that I only have UTD access at school&#8230; and I don't want to spend all of my time reading UTD articles at school.  One option is to use the &#8220;email this article&#8221; button and email it to myself.  A second option (my preference) is to click the &#8220;print&#8221; button &#8212; but not to actually print it.  Once you've got the &#8220;print&#8221; view (wider screen, less frames, white background), you can either:
+      One trick that often comes in handy when using these tools: If you have the bookmarklet or extension working, but you run across a page that it doesn't work on, you can frequently get it to work by using a “Print” link or a “Print view” button or equivalent.  For example, “UpToDate” is a great medical resource… but the problem is that I only have UTD access at school… and I don't want to spend all of my time reading UTD articles at school.  One option is to use the “email this article” button and email it to myself.  A second option (my preference) is to click the “print” button — but not to actually print it.  Once you've got the “print” view (wider screen, less frames, white background), you can either:
     </div>
     
     <div>

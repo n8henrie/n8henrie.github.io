@@ -40,7 +40,7 @@ We’re very lucky to have a number of excellent, free task managers available, 
 
 ### My System
 
-Personally, I use [@OmniFocus](https://itunes.apple.com/us/app/omnifocus/id402835630?mt=12&#038;at=10l5H6 "OmniFocus"). I’ve probably tried 25+ task managers on iOS, OSX, webapps, etc., and I firmly believe that OF is the best out there for me. I could tell you all about how I couldn’t do without its [Applescript support](http://www.n8henrie.com/2011/06/dropvox-dropbox-hazel-and-omnifocus/ "DropVox, DropBox, Hazel, and OmniFocus"), excellent syncing across my Mac, iPhone, and iPad, start dates for future tasks, contexts, perspectives, etc… but I won’t (for now). Instead, I’ll admit that it does have a few downsides. 
+Personally, I use [@OmniFocus](https://itunes.apple.com/us/app/omnifocus/id402835630?mt=12&at=10l5H6 "OmniFocus"). I’ve probably tried 25+ task managers on iOS, OSX, webapps, etc., and I firmly believe that OF is the best out there for me. I could tell you all about how I couldn’t do without its [Applescript support](http://www.n8henrie.com/2011/06/dropvox-dropbox-hazel-and-omnifocus/ "DropVox, DropBox, Hazel, and OmniFocus"), excellent syncing across my Mac, iPhone, and iPad, start dates for future tasks, contexts, perspectives, etc… but I won’t (for now). Instead, I’ll admit that it does have a few downsides. 
 
   1. Task / tasklist sharing is not well implemented in my opinion.
   2. There is no webapp or online version.
@@ -122,7 +122,7 @@ A few pics of selected steps and the resulting task in the <a href="http://www.o
 <div>
 </div>
 
-If you’re using [@Orchestra](http://www.orchestra.com/ "Orchestra"), here’s a list of [email syntax tricks to use for sharing and setting task options](http://www.orchestra.com/email-tips/){.broken_link}. **Tip:** _C&#038;P syntax rules like these to the “notes” section of your contact card._ See the photos below for an example [@ifttt](http://ifttt.com "ifttt") to [@Orchestra](http://www.orchestra.com/ "Orchestra") task that will repeat itself on a weekly basis and be added automatically to my #HomeShare list. This list is shared between my roommate and me and could easily be used to remind us of cleaning tasks, putting out the trash, or any other task that needs to be done by one of us on a regular interval.
+If you’re using [@Orchestra](http://www.orchestra.com/ "Orchestra"), here’s a list of [email syntax tricks to use for sharing and setting task options](http://www.orchestra.com/email-tips/){.broken_link}. **Tip:** _C&P syntax rules like these to the “notes” section of your contact card._ See the photos below for an example [@ifttt](http://ifttt.com "ifttt") to [@Orchestra](http://www.orchestra.com/ "Orchestra") task that will repeat itself on a weekly basis and be added automatically to my #HomeShare list. This list is shared between my roommate and me and could easily be used to remind us of cleaning tasks, putting out the trash, or any other task that needs to be done by one of us on a regular interval.
 
 As I said above, I use [@OmniFocus](http://www.omnigroup.com/products/omnifocus/ "OmniFocus"), which has its own powerful system for repeating tasks, but this may serve as an acceptable alternative for those of you using a system that doesn’t yet support repeating tasks.
 

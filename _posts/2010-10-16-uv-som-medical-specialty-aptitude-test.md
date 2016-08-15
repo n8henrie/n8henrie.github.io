@@ -20,7 +20,7 @@ disqus_identifier: 87 http://n8henrie.com/?p=87
 ---
 <div>
   <p>
-    <span style="font-family: Lucida Sans, Lucida Grande, Tahoma, Arial, sans-serif; font-size: 12px; color: #191919; line-height: 18px;">Link.  <em>Interesting</em> results.  Especially how endo, ER, and cardio (my current favs) all fall together&#8230; right in the middle.  Then again, the reliability of this quiz is&#8230; questionable.  Kinda fun anyways.</span>
+    <span style="font-family: Lucida Sans, Lucida Grande, Tahoma, Arial, sans-serif; font-size: 12px; color: #191919; line-height: 18px;">Link.  <em>Interesting</em> results.  Especially how endo, ER, and cardio (my current favs) all fall together… right in the middle.  Then again, the reliability of this quiz is… questionable.  Kinda fun anyways.</span>
   </p>
   
   <tr>
@@ -99,7 +99,7 @@ disqus_identifier: 87 http://n8henrie.com/?p=87
     </td>
     
     <td>
-      <span style="font-family: Arial;">allergy &#038; immunology</span>
+      <span style="font-family: Arial;">allergy & immunology</span>
     </td>
     
     <td align="right">
@@ -351,7 +351,7 @@ disqus_identifier: 87 http://n8henrie.com/?p=87
     </td>
     
     <td>
-      <span style="font-family: Arial;">colon &#038; rectal surgery</span>
+      <span style="font-family: Arial;">colon & rectal surgery</span>
     </td>
     
     <td align="right">
@@ -491,7 +491,7 @@ disqus_identifier: 87 http://n8henrie.com/?p=87
     </td>
     
     <td>
-      <span style="font-family: Arial;">physical med &#038; rehabilitation</span>
+      <span style="font-family: Arial;">physical med & rehabilitation</span>
     </td>
     
     <td align="right">

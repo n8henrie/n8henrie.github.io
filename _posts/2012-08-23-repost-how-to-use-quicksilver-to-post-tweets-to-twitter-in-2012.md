@@ -22,10 +22,10 @@ disqus_identifier: 645 http://n8henrie.com/?p=645
 
 
   
-I had previously set up similar triggers with the Web Search Module plugin that used Google to search the app stores (using an &#8220;intitle&#8221; specifier to try to differentiate between iPhone / iPad / Mac apps). This is much cooler &#8212; searches in the &#8220;local&#8221; apps (in other words actually in iTunes or the Mac App Store app).
+I had previously set up similar triggers with the Web Search Module plugin that used Google to search the app stores (using an “intitle” specifier to try to differentiate between iPhone / iPad / Mac apps). This is much cooler — searches in the “local” apps (in other words actually in iTunes or the Mac App Store app).
 
-My only contribution here is that instead of using triggers (since I have nearly all my convenient keyboard shortcuts occupied, between Quicksilver, TextExpander, and app-specific keyboard shortcuts), I just added the encoded URLs to the Quicksilver catalog. They seem to be indexed appropriately and functioning. The only slight inconvenience compared to the Trigger setup is that they don&#8217;t automatically put the cursor in the 3rd pane.
+My only contribution here is that instead of using triggers (since I have nearly all my convenient keyboard shortcuts occupied, between Quicksilver, TextExpander, and app-specific keyboard shortcuts), I just added the encoded URLs to the Quicksilver catalog. They seem to be indexed appropriately and functioning. The only slight inconvenience compared to the Trigger setup is that they don’t automatically put the cursor in the 3rd pane.
 
-Here&#8217;s the original post with the setup info:
+Here’s the original post with the setup info:
   
 [Remiel | How to Use Quicksilver to Post Tweets to Twitter in 2012](http://remiel.info/post/23553313210/how-to-use-quicksilver-to-post-tweets-to-twitter-in).

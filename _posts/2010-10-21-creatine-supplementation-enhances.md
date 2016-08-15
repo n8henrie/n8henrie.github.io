@@ -20,7 +20,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
 ---
 <div>
   <div>
-    Hearing that &#8220;creatine supplementation doesn't increase muscle Cr-P content&#8221; gets old.  It does.
+    Hearing that “creatine supplementation doesn't increase muscle Cr-P content” gets old.  It does.
   </div>
   
   <p>
@@ -29,7 +29,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
     </div>
     
     <div>
-      Items 1 &#8211; 5 of 5
+      Items 1 — 5 of 5
     </div>
     
     <p>
@@ -62,7 +62,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
             
             <p>
               <div>
-                PMID: 15673098 [PubMed &#8211; indexed for MEDLINE]
+                PMID: 15673098 [PubMed — indexed for MEDLINE]
               </div>
               
               <div>
@@ -98,7 +98,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
                     
                     <p>
                       <div>
-                        PMID: 12660409 [PubMed &#8211; indexed for MEDLINE]
+                        PMID: 12660409 [PubMed — indexed for MEDLINE]
                       </div>
                       
                       <div>
@@ -134,7 +134,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
                             
                             <p>
                               <div>
-                                PMID: 11851597 [PubMed &#8211; indexed for MEDLINE]
+                                PMID: 11851597 [PubMed — indexed for MEDLINE]
                               </div>
                               
                               <div>
@@ -175,7 +175,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
                                       
                                       <p>
                                         <div>
-                                          PMID: 10727076 [PubMed &#8211; indexed for MEDLINE]
+                                          PMID: 10727076 [PubMed — indexed for MEDLINE]
                                         </div>
                                         
                                         <div>
@@ -216,7 +216,7 @@ disqus_identifier: 84 http://n8henrie.com/?p=84
                                                 
                                                 <p>
                                                   <div>
-                                                    PMID: 1327657 [PubMed &#8211; indexed for MEDLINE]
+                                                    PMID: 1327657 [PubMed — indexed for MEDLINE]
                                                   </div>
                                                   
                                                   <div>

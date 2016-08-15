@@ -1,6 +1,6 @@
 ---
 id: 1798
-title: 'Siri: Where&#8217;s My Next Appointment and What&#8217;s My Holiday Schedule?'
+title: 'Siri: Where’s My Next Appointment and What’s My Holiday Schedule?'
 date: 2012-11-12T19:14:36+00:00
 author: n8henrie
 excerpt: I was pleasantly surprised to find that Siri could answer a few queries that required a bit more "thinking" than just looking up a direct answer.
@@ -29,9 +29,9 @@ disqus_identifier: 1798 http://n8henrie.com/?p=1798
 
 
   
-I was pleasantly surprised to find that Siri could answer a few queries that required a bit more &#8220;thinking&#8221; than just looking up a direct answer. In one case, I wasn&#8217;t sure what I had schedule for Thanksgiving. I knew that I could ask Siri a query regarding my schedule on a specific date, such as &#8220;What&#8217;s my schedule for Wednesday?&#8221; or &#8220;What&#8217;s my schedule for November 11th?&#8221; but I couldn&#8217;t remember when Thanksgiving ways. I also suspected that Siri could answer a question like &#8220;When is Thanksgiving?&#8221; but I didn&#8217;t want to ask two separate questions when I didn&#8217;t really care what the date of Thanksgiving was. Taking the next logical step, I was pleased to find that asking Siri about my schedule on Thanksgiving was no problem – she seemed fully able to identify Thanksgiving and pull up my schedule for that day. I know this seems simple, but I was impressed at the multi-step processing, which seemed to be no problem at all.
+I was pleasantly surprised to find that Siri could answer a few queries that required a bit more “thinking” than just looking up a direct answer. In one case, I wasn’t sure what I had schedule for Thanksgiving. I knew that I could ask Siri a query regarding my schedule on a specific date, such as “What’s my schedule for Wednesday?” or “What’s my schedule for November 11th?” but I couldn’t remember when Thanksgiving ways. I also suspected that Siri could answer a question like “When is Thanksgiving?” but I didn’t want to ask two separate questions when I didn’t really care what the date of Thanksgiving was. Taking the next logical step, I was pleased to find that asking Siri about my schedule on Thanksgiving was no problem – she seemed fully able to identify Thanksgiving and pull up my schedule for that day. I know this seems simple, but I was impressed at the multi-step processing, which seemed to be no problem at all.
 
-In the other case, I wanted to know how to get to my next appointment, but I didn&#8217;t remember what I had named the event.. I know Siri can give me directions, I know she can figure out what my &#8220;next appointment&#8221; is, and I know that I had input the location into the Calendar.app event. Again, I was pleased to see that she could figure out how to process a multi-step query like &#8220;How do I get to my next event?&#8221; in which she had to first decide what my next event was, then reference that for the event location, then present me with an address (and 1-click access to a turn-by-turn map).
+In the other case, I wanted to know how to get to my next appointment, but I didn’t remember what I had named the event.. I know Siri can give me directions, I know she can figure out what my “next appointment” is, and I know that I had input the location into the Calendar.app event. Again, I was pleased to see that she could figure out how to process a multi-step query like “How do I get to my next event?” in which she had to first decide what my next event was, then reference that for the event location, then present me with an address (and 1-click access to a turn-by-turn map).
 
 Although I confess that [Siri and I have not always been the best of friends](http://www.n8henrie.com/2012/01/siri-set-my-alarm/), the way these two examples worked intuitively and on my first attempt certainly put a smile on my face.
 

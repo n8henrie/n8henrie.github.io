@@ -1,6 +1,6 @@
 ---
 id: 42
-title: 'The iPad send button&#8230;'
+title: 'The iPad send button…'
 date: 2011-12-09T16:05:00+00:00
 author: n8henrie
 layout: post

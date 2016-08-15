@@ -21,7 +21,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
 <span style="font-family: arial; font-size: small;"></span>
 
 <div>
-  <span style="font-family: 'Lucida Grande'; font-size: small;"><span style="font-size: 11px;"><span style="font-family: arial; font-size: small;">Time to look at the primary research.  I&#8217;m doing my best not to select for studies that support my opinions, of course &#8212; just reading them in the order of the search results.  It&#8217;s also important to keep in mind that it&#8217;s at least possible (if not likely) that the type of meat intake is important (process vs unprocessed, preservatives, grass-fed vs corn-fed.. none of which are frequently controlled for).</span></span></span><br /><span style="font-family: 'Lucida Grande'; font-size: small;"><span style="font-size: 11px;"><span style="font-family: arial; font-size: small;">
+  <span style="font-family: 'Lucida Grande'; font-size: small;"><span style="font-size: 11px;"><span style="font-family: arial; font-size: small;">Time to look at the primary research.  I’m doing my best not to select for studies that support my opinions, of course — just reading them in the order of the search results.  It’s also important to keep in mind that it’s at least possible (if not likely) that the type of meat intake is important (process vs unprocessed, preservatives, grass-fed vs corn-fed.. none of which are frequently controlled for).</span></span></span><br /><span style="font-family: 'Lucida Grande'; font-size: small;"><span style="font-size: 11px;"><span style="font-family: arial; font-size: small;">
 
   <div>
     <p>
@@ -33,7 +33,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
     </p>
 
     <p>
-      PMID: 19279082 [PubMed &#8211; indexed for MEDLINE]Free Article
+      PMID: 19279082 [PubMed — indexed for MEDLINE]Free Article
     </p>
 
     <p>
@@ -42,10 +42,10 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
       </div>
 
       <div>
-        Chem Senses. 2006 Oct;31(8):747-52. Epub 2006 Aug 4.<br /><b>The effect of meat consumption on body odor attractiveness.</b><br />Havlicek J, Lenochova P.<br />Department of Anthropology, Faculty of Humanities, Charles University, Husnikova 2075, 158 00 Prague 13, Czech Republic. jan.havlicek@fhs.cuni.cz<br />Abstract<br />Axillary body odor is individually specific and potentially a rich source of information about its producer. Odor individuality partly results from genetic individuality, but the influence of ecological factors such as eating habits are another main source of odor variability. However, we know very little about how particular dietary components shape our body odor. Here we tested the effect of red meat consumption on body odor attractiveness. We used a balanced within-subject experimental design. Seventeen male odor donors were on &#8220;meat&#8221; or &#8220;nonmeat&#8221; diet for 2 weeks wearing axillary pads to collect body odor during the final 24 h of the diet. Fresh odor samples were assessed for their pleasantness, attractiveness, masculinity, and intensity by 30 women not using hormonal contraceptives. We repeated the same procedure a month later with the same odor donors, each on the opposite diet than before. Results of repeated measures analysis of variance showed that the odor of donors when on the nonmeat diet was judged as significantly more attractive, more pleasant, and less intense.<b> This suggests that red meat consumption has a negative impact on perceived body odor hedonicity.</b></p>
+        Chem Senses. 2006 Oct;31(8):747-52. Epub 2006 Aug 4.<br /><b>The effect of meat consumption on body odor attractiveness.</b><br />Havlicek J, Lenochova P.<br />Department of Anthropology, Faculty of Humanities, Charles University, Husnikova 2075, 158 00 Prague 13, Czech Republic. jan.havlicek@fhs.cuni.cz<br />Abstract<br />Axillary body odor is individually specific and potentially a rich source of information about its producer. Odor individuality partly results from genetic individuality, but the influence of ecological factors such as eating habits are another main source of odor variability. However, we know very little about how particular dietary components shape our body odor. Here we tested the effect of red meat consumption on body odor attractiveness. We used a balanced within-subject experimental design. Seventeen male odor donors were on “meat” or “nonmeat” diet for 2 weeks wearing axillary pads to collect body odor during the final 24 h of the diet. Fresh odor samples were assessed for their pleasantness, attractiveness, masculinity, and intensity by 30 women not using hormonal contraceptives. We repeated the same procedure a month later with the same odor donors, each on the opposite diet than before. Results of repeated measures analysis of variance showed that the odor of donors when on the nonmeat diet was judged as significantly more attractive, more pleasant, and less intense.<b> This suggests that red meat consumption has a negative impact on perceived body odor hedonicity.</b></p>
 
         <p>
-          PMID: 16891352 [PubMed &#8211; indexed for MEDLINE]Free Article
+          PMID: 16891352 [PubMed — indexed for MEDLINE]Free Article
         </p>
 
         <p>
@@ -53,7 +53,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
         </p>
 
         <p>
-          PMID: 12833118 [PubMed &#8211; indexed for MEDLINE]
+          PMID: 12833118 [PubMed — indexed for MEDLINE]
         </p>
 
         <p>
@@ -61,7 +61,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
         </p>
 
         <p>
-          PMID: 12372158 [PubMed &#8211; indexed for MEDLINE]
+          PMID: 12372158 [PubMed — indexed for MEDLINE]
         </p>
 
         <p>
@@ -69,7 +69,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
         </p>
 
         <p>
-          PMID: 12936946 [PubMed &#8211; indexed for MEDLINE]Free Article
+          PMID: 12936946 [PubMed — indexed for MEDLINE]Free Article
         </p>
 
         <p>
@@ -100,11 +100,11 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
               </div>
 
               <div>
-                OBJECTIVE: To compare the mortality of British vegetarians and non-vegetarians. DESIGN: Analysis of original data from two prospective studies each including a large proportion of vegetarians&#8211;the Oxford Vegetarian Study and the Health Food Shoppers Study. Standardised mortality ratios (SMRs) compared with the population of England and Wales were calculated from deaths before age 90 for vegetarians and non-vegetarians in each study. Death rate ratios (DRRs) for vegetarians compared with non-vegetarians within each study were calculated for each of 14 major causes of death. SETTING: UK. SUBJECTS: Twenty-one thousand men and women aged 16-89 years at recruitment, including more than 8,000 vegetarians. RESULTS: SMRs for all causes of death were significantly below the reference level of 100 in both studies: 52 (95% confidence interval (CI) 49-56) based on 1,131 deaths in the Oxford Vegetarian Study and 59 (57-61) based on 2,346 deaths in the Health Food Shoppers Study. For all causes of death, the DRR for vegetarians compared with non-vegetarians was close to one in both studies: 1.01 (95% CI 0.89-1.14) in the Oxford Vegetarian Study, 1.03 (0.95-1.13) in the Health Food Shoppers Study. <b>CONCLUSIONS: British vegetarians have low mortality compared with the general population. Their death rates are similar to those of comparable non-vegetarians, suggesting that much of this benefit may be attributed to non-dietary lifestyle factors such as a low prevalence of smoking and a generally high socio-economic status, or to aspects of the diet other than the avoidance of meat and fish.</b>
+                OBJECTIVE: To compare the mortality of British vegetarians and non-vegetarians. DESIGN: Analysis of original data from two prospective studies each including a large proportion of vegetarians—the Oxford Vegetarian Study and the Health Food Shoppers Study. Standardised mortality ratios (SMRs) compared with the population of England and Wales were calculated from deaths before age 90 for vegetarians and non-vegetarians in each study. Death rate ratios (DRRs) for vegetarians compared with non-vegetarians within each study were calculated for each of 14 major causes of death. SETTING: UK. SUBJECTS: Twenty-one thousand men and women aged 16-89 years at recruitment, including more than 8,000 vegetarians. RESULTS: SMRs for all causes of death were significantly below the reference level of 100 in both studies: 52 (95% confidence interval (CI) 49-56) based on 1,131 deaths in the Oxford Vegetarian Study and 59 (57-61) based on 2,346 deaths in the Health Food Shoppers Study. For all causes of death, the DRR for vegetarians compared with non-vegetarians was close to one in both studies: 1.01 (95% CI 0.89-1.14) in the Oxford Vegetarian Study, 1.03 (0.95-1.13) in the Health Food Shoppers Study. <b>CONCLUSIONS: British vegetarians have low mortality compared with the general population. Their death rates are similar to those of comparable non-vegetarians, suggesting that much of this benefit may be attributed to non-dietary lifestyle factors such as a low prevalence of smoking and a generally high socio-economic status, or to aspects of the diet other than the avoidance of meat and fish.</b>
               </div>
 
               <div>
-                PMID: 12001975 [PubMed &#8211; indexed for MEDLINE]
+                PMID: 12001975 [PubMed — indexed for MEDLINE]
               </div>
             </div>
 
@@ -137,7 +137,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
               </div>
 
               <div>
-                PMID: 12936963 [PubMed &#8211; indexed for MEDLINE]Free Article
+                PMID: 12936963 [PubMed — indexed for MEDLINE]Free Article
               </div>
             </div>
 
@@ -170,7 +170,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
               </div>
 
               <div>
-                PMID: 10555529 [PubMed &#8211; indexed for MEDLINE]
+                PMID: 10555529 [PubMed — indexed for MEDLINE]
               </div>
 
               <div>
@@ -224,7 +224,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
                 </div>
 
                 <div>
-                  PMID: 8025458 [PubMed &#8211; indexed for MEDLINE]PMCID: PMC2540657Free PMC Article
+                  PMID: 8025458 [PubMed — indexed for MEDLINE]PMCID: PMC2540657Free PMC Article
                 </div>
 
                 <div>
@@ -244,7 +244,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
                   </div>
 
                   <div>
-                    Department of Epidemiology, Harvard School of Public Health, and Division of Cardiovascular Medicine and Channing Laboratory, Department of Medicine, Brigham and Women&#8217;s Hospital and Harvard Medical School, Boston, Mass.
+                    Department of Epidemiology, Harvard School of Public Health, and Division of Cardiovascular Medicine and Channing Laboratory, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, Mass.
                   </div>
 
                   <div>
@@ -256,7 +256,7 @@ disqus_identifier: 91 http://n8henrie.com/?p=91
                   </div>
 
                   <div>
-                    PMID: 20479151 [PubMed &#8211; as supplied by publisher]
+                    PMID: 20479151 [PubMed — as supplied by publisher]
                   </div>
                 </div>
               </div>

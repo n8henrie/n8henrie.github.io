@@ -1,6 +1,6 @@
 ---
 id: 12
-title: 'How to Get Quicksilver to Open with&#8230; TextWrangler'
+title: 'How to Get Quicksilver to Open with… TextWrangler'
 date: 2012-07-08T00:45:00+00:00
 author: n8henrie
 layout: post
@@ -32,7 +32,7 @@ If there is a single app that I couldn’t use my Mac without, it’s <a target=
 
 The possibilities are endless, but a few examples include [1st pane : 2nd pane : 3rd pane (if any)]:
 
-  * Document.doc : Open with&#8230; : Pages.app
+  * Document.doc : Open with… : Pages.app
   * Chrome.app : Open
   * File.txt : Move to… : Example folder
   * “Don’t forget dinner on the stove!” : Large text : 10 min

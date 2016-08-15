@@ -28,11 +28,11 @@ disqus_identifier: 74 http://n8henrie.com/?p=74
   </p>
   
   <p>
-    If I should die before I wake&#8230;
+    If I should die before I wake…
   </p>
   
   <p>
-    that&#8217;s one less test I&#8217;ll have to take!
+    that’s one less test I’ll have to take!
   </p>
   
   <p>

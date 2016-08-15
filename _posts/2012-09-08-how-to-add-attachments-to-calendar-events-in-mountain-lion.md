@@ -20,7 +20,7 @@ dsq_thread_id:
   - 836302883
 disqus_identifier: 1678 http://n8henrie.com/?p=1678
 ---
-**Bottom line:** Looks like Mountain Lion has resurrected the ability to put attachments in calendar events &#8211; and they sync to iOS!
+**Bottom line:** Looks like Mountain Lion has resurrected the ability to put attachments in calendar events — and they sync to iOS!
   
 <!--more-->
 

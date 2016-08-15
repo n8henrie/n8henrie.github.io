@@ -11,21 +11,21 @@ dsq_thread_id:
   - 3594767337
 disqus_identifier: 2706 http://n8henrie.com/?p=2706
 ---
-**Bottom Line:** I tested maximum line-of-site range with an NRF24L01+ and a 433 MHz transceiver that I&#8217;ll be using from some Arduino and Raspberry Pi projects.<!--more-->
+**Bottom Line:** I tested maximum line-of-site range with an NRF24L01+ and a 433 MHz transceiver that I’ll be using from some Arduino and Raspberry Pi projects.<!--more-->
 
-I&#8217;m learning some basic home automation stuff with Arduino and Raspberry Pi, and I decided to try out some ways to do things wirelessly. I&#8217;ve used the affordable <a href="https://www.amazon.com/dp/B00JP05S6C/ref=cm_sw_r_awd_8C18ub01QBNZ9" target="_blank">HC05</a> Bluetooth module for a few small projects, and it worked well, but its range is somewhat limited. Instead, I wanted to try out two even _more_ affordable options that might get me a little extra range: a 433 MHz RF module, and the venerable NRF24L01+. Additionally, I tried adding an antenna to the RF module to see if that would help and a couple different models (e.g. one with an antenna) and settings on the NRF24L01+ to see if that would change things.
+I’m learning some basic home automation stuff with Arduino and Raspberry Pi, and I decided to try out some ways to do things wirelessly. I’ve used the affordable <a href="https://www.amazon.com/dp/B00JP05S6C/ref=cm_sw_r_awd_8C18ub01QBNZ9" target="_blank">HC05</a> Bluetooth module for a few small projects, and it worked well, but its range is somewhat limited. Instead, I wanted to try out two even _more_ affordable options that might get me a little extra range: a 433 MHz RF module, and the venerable NRF24L01+. Additionally, I tried adding an antenna to the RF module to see if that would help and a couple different models (e.g. one with an antenna) and settings on the NRF24L01+ to see if that would change things.
 
-For the test, I made a sketch that would continuously send a signal to toggle an LED light on and off once per second on a &#8220;client&#8221; (an atmega328p on a breadboard). After I made sure they worked well at close range, I took them out to my front yard, where I&#8217;m lucky enough to have a fairly long straight road. I set the Arduino in my front yard and carried the &#8220;client&#8221; with me, watching the LED. I considered the maximum range to be the farthest point with a clear line of sight that I would pretty consistently get 10 / 10 toggles transmitted. Then, I marked the spot on Google Maps on my iPhone, and afterwards I used Google Earth to find the distances.
+For the test, I made a sketch that would continuously send a signal to toggle an LED light on and off once per second on a “client” (an atmega328p on a breadboard). After I made sure they worked well at close range, I took them out to my front yard, where I’m lucky enough to have a fairly long straight road. I set the Arduino in my front yard and carried the “client” with me, watching the LED. I considered the maximum range to be the farthest point with a clear line of sight that I would pretty consistently get 10 / 10 toggles transmitted. Then, I marked the spot on Google Maps on my iPhone, and afterwards I used Google Earth to find the distances.
 
 ## 433 MHZ RF Module
 
-Here&#8217;s <a href="http://n8h.me/1HWwr7E" target="_blank">the RF module I used</a>.
+Here’s <a href="http://n8h.me/1HWwr7E" target="_blank">the RF module I used</a>.
 
 I wanted to make sure that my results were absolutely maximal, so I used 6 brand new batteries to ensure my voltage going to the RF module was not an issue. I measured the input voltage at 9.54V.
 
-Without an antenna, my range was about 47 feet (~14 meters) &#8212; not bad for such a cheap device! Then I read a few threads on how to make an 1/4 wavelength antenna and made one out of 22 gauge wire (17.4 cm to the bend where I soldered it in). I was impressed by the results &#8212; it improved the range by over 200% to 102 feet (31 meters)!
+Without an antenna, my range was about 47 feet (~14 meters) — not bad for such a cheap device! Then I read a few threads on how to make an 1/4 wavelength antenna and made one out of 22 gauge wire (17.4 cm to the bend where I soldered it in). I was impressed by the results — it improved the range by over 200% to 102 feet (31 meters)!
 
-For anyone interested, here is the code I used for the Arduino. Unfortunately I can&#8217;t find where I put the code for the client, but it was something just as simple, almost directly copied from the RC-Switch examples.
+For anyone interested, here is the code I used for the Arduino. Unfortunately I can’t find where I put the code for the client, but it was something just as simple, almost directly copied from the RC-Switch examples.
 
     /*
       RC-Switch library: http://code.google.com/p/rc-switch
@@ -55,13 +55,13 @@ For anyone interested, here is the code I used for the Arduino. Unfortunately I 
 
 ## NRF24L01+
 
-For these tests, I was using <a href="https://github.com/tmrh20/RF24/" target="_blank">this excellent RF24 Library</a> as it&#8217;s still being maintained and includes Raspberry Pi code as well as Arduino code. In preliminary testing around the house, I&#8217;d found that setting `radio.setPALevel(RF24_PA_MAX)` and `radio.setDataRate(RF24_250KBPS)` made a _tremendous_ difference in the range &#8212; the results I&#8217;m presenting below are with these settings.
+For these tests, I was using <a href="https://github.com/tmrh20/RF24/" target="_blank">this excellent RF24 Library</a> as it’s still being maintained and includes Raspberry Pi code as well as Arduino code. In preliminary testing around the house, I’d found that setting `radio.setPALevel(RF24_PA_MAX)` and `radio.setDataRate(RF24_250KBPS)` made a _tremendous_ difference in the range — the results I’m presenting below are with these settings.
 
 For the NRF24L01+, I started out with <a href="http://n8h.me/1s9UqMI" target="_blank">this basic model</a>, because it is so incredibly cheap, and it has its pinout printed right on the board. With the right settings, I was **blown away** by its range! I got a full 384 ft (117 meters).
 
-Next, I tried <a href="http://n8h.me/1s9Ug8b" target="_blank">this model</a>, which is a little more expensive but has an antenna and advertises a very long range. Note that I only use _one_ of these antenna-bearing models for this test. This was in part because I didn&#8217;t want to buy two without knowing how well they worked, and in part because I plan on only having one for my home automation &#8220;server&#8221; and using the smaller, cheaper antenna-less modules for various clients around the house. Using the model with the antenna, I was surprised to get a full 826 feet (251 meters) of range with good reliability, and up to 921 feet (280 meters) with at least half of the toggles transmitting properly.
+Next, I tried <a href="http://n8h.me/1s9Ug8b" target="_blank">this model</a>, which is a little more expensive but has an antenna and advertises a very long range. Note that I only use _one_ of these antenna-bearing models for this test. This was in part because I didn’t want to buy two without knowing how well they worked, and in part because I plan on only having one for my home automation “server” and using the smaller, cheaper antenna-less modules for various clients around the house. Using the model with the antenna, I was surprised to get a full 826 feet (251 meters) of range with good reliability, and up to 921 feet (280 meters) with at least half of the toggles transmitting properly.
 
-Here&#8217;s the code I used for the NRF24L01+ tests, which is directly taken from the RF24 examples. For the &#8220;client,&#8221; I think I just had to change the `bool radioNumber = 1` and `bool role = 1;` to ``.
+Here’s the code I used for the NRF24L01+ tests, which is directly taken from the RF24 examples. For the “client,” I think I just had to change the `bool radioNumber = 1` and `bool role = 1;` to ``.
 
     #define LEDPIN 3
     #include <SPI.h>

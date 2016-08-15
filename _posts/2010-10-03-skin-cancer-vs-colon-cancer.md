@@ -100,7 +100,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   </div>
   
   <div>
-    PMID: 16159309 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 16159309 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -130,7 +130,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   </div>
   
   <div>
-    PMID: 17302200 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 17302200 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -160,7 +160,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   </div>
   
   <div>
-    PMID: 16236494 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 16236494 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -278,7 +278,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 19667143 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 19667143 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -402,7 +402,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 18550652 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 18550652 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -522,7 +522,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 18424428 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 18424428 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -618,7 +618,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 17143048 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 17143048 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -782,7 +782,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 15687362 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 15687362 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -918,7 +918,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 11966729 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 11966729 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
@@ -1042,13 +1042,13 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   <p />
   
   <div>
-    PMID: 7790106 [PubMed &#8211; indexed for MEDLINE]
+    PMID: 7790106 [PubMed — indexed for MEDLINE]
   </div>
   
   <p />
   
   <div>
-    <b>Evidence that the benefits are systemic and not local (not much sun exposure &#8220;down there&#8221;)&#8230;</b>
+    <b>Evidence that the benefits are systemic and not local (not much sun exposure “down there”)…</b>
   </div>
   
   <p />
@@ -1078,7 +1078,7 @@ disqus_identifier: 90 http://n8henrie.com/?p=90
   </div>
   
   <div>
-    PMID: 20359907 [PubMed &#8211; as supplied by publisher]
+    PMID: 20359907 [PubMed — as supplied by publisher]
   </div>
 </div>
 

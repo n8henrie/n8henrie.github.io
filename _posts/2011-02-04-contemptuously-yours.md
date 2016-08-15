@@ -24,7 +24,7 @@ disqus_identifier: 77 http://n8henrie.com/?p=77
   </p>
   
   <p>
-    This meme is so cliché it&#8217;s like beating a dead horse.  If you have something you want to say, I encourage you to simply say it.  Preferably in a way that isn&#8217;t excruciatingly trite.  Very little could be as banal as your concluding &#8220;Love, [Your Name].&#8221;  Please be more creative in the future.
+    This meme is so cliché it’s like beating a dead horse.  If you have something you want to say, I encourage you to simply say it.  Preferably in a way that isn’t excruciatingly trite.  Very little could be as banal as your concluding “Love, [Your Name].”  Please be more creative in the future.
   </p>
   
   <p>

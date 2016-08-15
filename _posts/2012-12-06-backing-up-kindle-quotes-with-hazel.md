@@ -17,13 +17,13 @@ dsq_thread_id:
   - 961458300
 disqus_identifier: 1822 http://n8henrie.com/?p=1822
 ---
-**Bottom line:** [Noodlesoft&#8217;s Hazel](http://www.noodlesoft.com/hazel.php) can easily back up your Kindle&#8217;s quotes, highlights, etc. by attaching a script that runs when the Kindle is mounted.
+**Bottom line:** [Noodlesoft’s Hazel](http://www.noodlesoft.com/hazel.php) can easily back up your Kindle’s quotes, highlights, etc. by attaching a script that runs when the Kindle is mounted.
   
 <!--more-->
 
-Many of you are likely aware that Amazon can back up the highlights and notes you make from your Kindle (accessible at [kindle.amazon.com](http://kindle.amazon.com)). However, as far as I can tell, it doesn&#8217;t back up anything from your personal documents, or really anything not purchased through Amazon. So when I make a highlight in a quote I&#8217;ve found through an Instapaper bookmark or an ePub formatted book that I&#8217;ve converted to Kindle format, it doesn&#8217;t appear to get backed up there.
+Many of you are likely aware that Amazon can back up the highlights and notes you make from your Kindle (accessible at [kindle.amazon.com](http://kindle.amazon.com)). However, as far as I can tell, it doesn’t back up anything from your personal documents, or really anything not purchased through Amazon. So when I make a highlight in a quote I’ve found through an Instapaper bookmark or an ePub formatted book that I’ve converted to Kindle format, it doesn’t appear to get backed up there.
 
-However, it only took me about 5 minutes to write up a [Hazel](http://www.noodlesoft.com/hazel.php) rule that will automatically back up all my notes and highlights (including personal documents) whenever I connect my Kindle to my Macbook via USB. Here&#8217;s how I made my rule, there are certainly numerous variations that would work just as well.
+However, it only took me about 5 minutes to write up a [Hazel](http://www.noodlesoft.com/hazel.php) rule that will automatically back up all my notes and highlights (including personal documents) whenever I connect my Kindle to my Macbook via USB. Here’s how I made my rule, there are certainly numerous variations that would work just as well.
 
   * Attach the rule to /Volumes/Kindle (or whatever your Kindle is named when attached via USB).
   * Rule 1: 
@@ -37,4 +37,4 @@ However, it only took me about 5 minutes to write up a [Hazel](http://www.noodle
           * Copy to (folder in Dropbox)
           * Rename: yyyymmdd_kindleQuotes.txt
 
-Basically, this rule should run whenever it sees the Kindle is attached, and copy the .txt file where the quotes / bookmarks / highlights are stored to a Dropbox folder I designated (or wherever you like). It then renames the copied file in a format that will be unique so that future backups won&#8217;t overwrite the current ones. This way, if the file ever becomes corrupt, I should still have all my previous copies.
+Basically, this rule should run whenever it sees the Kindle is attached, and copy the .txt file where the quotes / bookmarks / highlights are stored to a Dropbox folder I designated (or wherever you like). It then renames the copied file in a format that will be unique so that future backups won’t overwrite the current ones. This way, if the file ever becomes corrupt, I should still have all my previous copies.

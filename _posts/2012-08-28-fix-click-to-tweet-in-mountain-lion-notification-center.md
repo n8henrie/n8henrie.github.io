@@ -1,6 +1,6 @@
 ---
 id: 718
-title: 'How to fix a broken &#8220;Click to Tweet&#8221; button in Mountain Lion Notification Center'
+title: 'How to fix a broken “Click to Tweet” button in Mountain Lion Notification Center'
 date: 2012-08-28T19:12:04+00:00
 author: n8henrie
 layout: post
@@ -16,7 +16,7 @@ dsq_thread_id:
   - 822338374
 disqus_identifier: 718 http://n8henrie.com/?p=718
 ---
-**Bottom line:** If your &#8220;Click to Tweet&#8221; button quits working in Mountain Lion, you can fix it by quitting Notification Center with Activity Monitor.
+**Bottom line:** If your “Click to Tweet” button quits working in Mountain Lion, you can fix it by quitting Notification Center with Activity Monitor.
   
 <!--more-->
 

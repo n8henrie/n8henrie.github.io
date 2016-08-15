@@ -34,7 +34,7 @@ disqus_identifier: 62 http://n8henrie.com/?p=62
         
         <blockquote>
           <p>
-            Why, for example, should I not prefer my own well-being, or the well-being of the people I love, to overall, or global, well-being?&#8230; Harris never provides a satisfactory response to this line of thought, and I doubt that one is possible. After all, as he acknowledges, the claim that “We should maximize the global well-being of conscious creatures” is not an empirical finding. So what is it? What in the world makes it true? How does it become binding on me if I don’t accept it?
+            Why, for example, should I not prefer my own well-being, or the well-being of the people I love, to overall, or global, well-being?… Harris never provides a satisfactory response to this line of thought, and I doubt that one is possible. After all, as he acknowledges, the claim that “We should maximize the global well-being of conscious creatures” is not an empirical finding. So what is it? What in the world makes it true? How does it become binding on me if I don’t accept it?
           </p>
         </blockquote>
         
@@ -105,7 +105,7 @@ disqus_identifier: 62 http://n8henrie.com/?p=62
     </div>
     
     <p>
-      Sam Harris knows there&#8217;s a magic button.
+      Sam Harris knows there’s a magic button.
     </p>
   </div>
 </div>

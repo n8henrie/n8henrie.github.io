@@ -28,7 +28,7 @@ disqus_identifier: 65 http://n8henrie.com/?p=65
     
     <p />
     Recipe: 
-    <a href="http://www.thekitchn.com/copycat-recipe-chocolatedipped-139899">http://www.thekitchn.com/thekitchn/candy/copycat-recipe-chocolatedipped-beer-&#8230;</a>
+    <a href="http://www.thekitchn.com/copycat-recipe-chocolatedipped-139899">http://www.thekitchn.com/thekitchn/candy/copycat-recipe-chocolatedipped-beer-…</a>
   </p>
 </div>
 

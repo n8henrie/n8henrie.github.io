@@ -61,7 +61,7 @@ disqus_identifier: 64 http://n8henrie.com/?p=64
     </div>
     
     <p>
-      What a powerful post I&#8217;ve had the good fortune to come across today.
+      What a powerful post I’ve had the good fortune to come across today.
     </p>
   </div>
 </div>

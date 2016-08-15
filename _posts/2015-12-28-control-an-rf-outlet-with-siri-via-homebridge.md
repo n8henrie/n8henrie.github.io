@@ -11,16 +11,16 @@ dsq_thread_id:
   - 4439675415
 disqus_identifier: 2793 http://n8henrie.com/?p=2793
 ---
-**Bottom Line:** Here&#8217;s how to control cheap RF outlets directly from Siri using HomeKit by way of homebridge.<!--more-->
+**Bottom Line:** Here’s how to control cheap RF outlets directly from Siri using HomeKit by way of homebridge.<!--more-->
 
 ## Introduction
 
-Apple&#8217;s home automation suite is called <a href="http://www.apple.com/ios/homekit/" target="_blank">HomeKit</a>. It works with Siri, which is great. In true Apple fashion, it seems like they are making it _really_ difficult for third parties to get &#8220;HomeKit Certified,&#8221; and so you won&#8217;t see a _whole_ lot of devices carrying this:  
+Apple’s home automation suite is called <a href="http://www.apple.com/ios/homekit/" target="_blank">HomeKit</a>. It works with Siri, which is great. In true Apple fashion, it seems like they are making it _really_ difficult for third parties to get “HomeKit Certified,” and so you won’t see a _whole_ lot of devices carrying this:  
 ![]({{ site.url }}/uploads/2015/12/20151222_ScreenShot2015-12-22at6.08.11AM.jpg)
 
 Luckily, some people much smarter than me have developed an alternative route to use Siri to control devices around the house: make a server that _emulates_ the HomeKit API: <a href="https://github.com/nfarina/homebridge" target="_blank">homebridge</a>. This tutorial covers how to go about setting up homebridge on a Raspberry Pi, and how to install my version of the nodejs implementation of RCSwitch in order to control cheap RF outlets with Siri.
 
-Here&#8217;s the obligatory YouTube video showing it in action (**NB:** if you watch it on or near an iOS device with &#8220;Hey Siri&#8221; enabled, it might activate it). Also note that everything is _much_ quicker when run through my iPhone 6S or when run through the app instead of Siri, but I wanted to demonstrate on my old 1st gen iPad Mini so I could record with the iPhone.
+Here’s the obligatory YouTube video showing it in action (**NB:** if you watch it on or near an iOS device with “Hey Siri” enabled, it might activate it). Also note that everything is _much_ quicker when run through my iPhone 6S or when run through the app instead of Siri, but I wanted to demonstrate on my old 1st gen iPad Mini so I could record with the iPhone.
 
 
 
@@ -36,41 +36,41 @@ Here&#8217;s the obligatory YouTube video showing it in action (**NB:** if you w
   * Optimized to run on **Raspbian Jessie** (`cat /etc/issue` and look for `GNU/Linux 8`), but likely works on Raspbian Wheezy
   * <a href="http://n8h.me/1HWwr7E" target="_blank">433 MHz RF transmitter</a>
   * <a href="http://www.amazon.com/gp/product/B00DQELHBS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DQELHBS&linkCode=as2&tag=o5284-20" target="_blank" title="Etekcity-Wireless-Electrical-Household-Appliances">433 MHz remote controlled outlets</a>
-  * Optional: 433 MHz remote for outlets (needed if you don&#8217;t know your RF codes, included in the outlet kit linked above)
-  * Optional: 433 MHz RF receiver (needed if you don&#8217;t know your RF codes, included in the transmitter kit I linked above)
+  * Optional: 433 MHz remote for outlets (needed if you don’t know your RF codes, included in the outlet kit linked above)
+  * Optional: 433 MHz RF receiver (needed if you don’t know your RF codes, included in the transmitter kit I linked above)
 
 ## Recommended: Install and test rf_pi
 
   * My post on rf_pi: [Control RF Outlets From Your Raspberry Pi Without Sudo / Root](http://n8henrie.com/2015/12/rf_pi-control-rf-outlets-from-your-raspberry-pi-without-sudo-or-root/)
 
-This step isn&#8217;t _strictly_ necessary, but will be **enormously** helpful as a sanity-check and for debugging, as well as making sure you have working RF codes and that your transmitter functions as expected.
+This step isn’t _strictly_ necessary, but will be **enormously** helpful as a sanity-check and for debugging, as well as making sure you have working RF codes and that your transmitter functions as expected.
 
 ## Step 1: Install a HomeKit controller app for iOS
 
-I recently covered how to install Apple&#8217;s open source HomeKit Catalog app for free, which is my preference as it allows you total control of your data, but there are easier options. Here&#8217;s a link to my post and a few of the popular HomeKit apps you could also try.
+I recently covered how to install Apple’s open source HomeKit Catalog app for free, which is my preference as it allows you total control of your data, but there are easier options. Here’s a link to my post and a few of the popular HomeKit apps you could also try.
 
   * My post: [How to Install Apple’s HomeKit Catalog App on iOS with Xcode](http://n8henrie.com/2015/12/how-to-install-apples-homekit-catalog-app-on-ios-with-xcode/)
   * <a href="https://itunes.apple.com/us/app/elgato-eve/id917695792?mt=8&at=10l5H6" target="_blank">Elgato Eve</a> (free)
   * <a href="https://itunes.apple.com/us/app/insteon+/id919270334?mt=8&at=10l5H6" target="_blank">Insteon+</a> (free)
   * <a href="https://itunes.apple.com/us/app/mytouchhome/id965142360?mt=8&at=10l5H6" target="_blank">MyTouchHome</a> ($1.99)
-  * <a href="https://itunes.apple.com/us/app/home-smart-home-automation/id995994352?mt=8&at=10l5H6" target="_blank">Home &#8211; Smart Home Automation</a> ($14.99)
-  * <a href="https://itunes.apple.com/us/app/myhome-app/id1054351812?mt=8&at=10l5H6" target="_blank">MyHome App</a> (free, looks like it may be an exact copy of Apple&#8217;s HomeKit Catalog)
+  * <a href="https://itunes.apple.com/us/app/home-smart-home-automation/id995994352?mt=8&at=10l5H6" target="_blank">Home — Smart Home Automation</a> ($14.99)
+  * <a href="https://itunes.apple.com/us/app/myhome-app/id1054351812?mt=8&at=10l5H6" target="_blank">MyHome App</a> (free, looks like it may be an exact copy of Apple’s HomeKit Catalog)
 
 ## Step 2: Install nodejs
 
-I made a script to help me quickly install the latest nodejs v4 (5 is out and also works, 4 is the &#8220;long term support&#8221; version currently). I put my installer script into a GitHub Gist &#8212; you&#8217;re welcome to check out the content below and either follow the steps manually, or just `wget https://gist.githubusercontent.com/n8henrie/709a04e53a8569c14c1f/raw -O get_nodejs.sh` and `sudo bash get_nodejs.sh`. 
+I made a script to help me quickly install the latest nodejs v4 (5 is out and also works, 4 is the “long term support” version currently). I put my installer script into a GitHub Gist — you’re welcome to check out the content below and either follow the steps manually, or just `wget https://gist.githubusercontent.com/n8henrie/709a04e53a8569c14c1f/raw -O get_nodejs.sh` and `sudo bash get_nodejs.sh`. 
 
 A few things to note if you use my script here: 
 
   * Will likely require sudo / root permissions (depending on the permissions of the folder you choose to install into; on Jessie `/usr/local` is `root:staff` owned by default)
-  * I&#8217;m using <a href="https://www.gnu.org/software/stow/" target="_blank">GNU Stow</a>, so the script is set to install node to `/usr/local/stow/nodejs`; you&#8217;ll need to edit the script if you want to install to a different directory. If also using Stow, don&#8217;t forget to `cd /usr/local/stow && sudo stow nodejs`
+  * I’m using <a href="https://www.gnu.org/software/stow/" target="_blank">GNU Stow</a>, so the script is set to install node to `/usr/local/stow/nodejs`; you’ll need to edit the script if you want to install to a different directory. If also using Stow, don’t forget to `cd /usr/local/stow && sudo stow nodejs`
   * Be forewarned, at the end of the script, I have it set to change ownership of the `nodejs` folder to allow you to install npm packages globally without requiring sudo. On my first run of installing homebridge I left the default `root:staff` ownership and just did `sudo npm install -g` for everything and it led to headaches. See <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" target="_blank">some alternative solutions at the official nodejs docs</a>.
 
 Afterward, you can confirm you have the `node` and `npm` commands with `command -v node` or `command -v npm`. It should output the path to these commands.
 
 
 
-As a sanity check, here&#8217;s what I ended up with:
+As a sanity check, here’s what I ended up with:
 
     $ command -v node
     /usr/local/bin/node
@@ -102,7 +102,7 @@ sudo usermod -a -G gpio homebridge
 sudo mkdir -p /etc/homebridge
 sudo chown homebridge /etc/homebridge</code></pre>
 
-I _highly_ recommend that you do another &#8220;sanity check&#8221; at this point by installing a fake Homebridge accessory and making sure that everything is working. If things aren&#8217;t working right at this point, you&#8217;ll drive yourself nuts trying to figure out where the problem is if you keep going. I think the easiest way is to install the <a href="https://github.com/nfarina/homebridge-dummy" target="_blank"><code>homebridge-dummy</code></a> package. I&#8217;ve made <a href="https://gist.github.com/n8henrie/639c7f5d72b4202cce7e" target="_blank">a config file</a> that you should be able to just `wget` and test (**NB:** this will overwrite your existing config, so back it up somewhere before you use the `wget` step below).
+I _highly_ recommend that you do another “sanity check” at this point by installing a fake Homebridge accessory and making sure that everything is working. If things aren’t working right at this point, you’ll drive yourself nuts trying to figure out where the problem is if you keep going. I think the easiest way is to install the <a href="https://github.com/nfarina/homebridge-dummy" target="_blank"><code>homebridge-dummy</code></a> package. I’ve made <a href="https://gist.github.com/n8henrie/639c7f5d72b4202cce7e" target="_blank">a config file</a> that you should be able to just `wget` and test (**NB:** this will overwrite your existing config, so back it up somewhere before you use the `wget` step below).
 
 <pre><code class="bash"># Install homebridge-dummy
 npm install --global homebridge-dummy
@@ -116,17 +116,17 @@ sudo rm -rf /etc/homebridge/persist
 # Run homebridge in debug mode as the `homebridge` user -- you may need to adjust the paths
 sudo -u homebridge DEBUG=* /usr/local/stow/nodejs/bin/homebridge -D -U /etc/homebridge</code></pre>
 
-If it looks like it&#8217;s running, open your iOS device and launch the HomeKit app you installed in Step 1. Each app will be different; with HomeKit Catalog, you&#8217;ll add and name a &#8220;home,&#8221; and then add an &#8220;accessory.&#8221; Hopefully at this point you&#8217;ll see homebridge &#8212; if so, most of the hard work is done and you&#8217;re almost there! Click homebridge, manually type in the PIN (I could never get it to scan in), and hopefully it will confirm it worked. If it fails, try again &#8212; I had to do it 3 or 4 times at one point. Also consider trying some of the troubleshooting steps below.
+If it looks like it’s running, open your iOS device and launch the HomeKit app you installed in Step 1. Each app will be different; with HomeKit Catalog, you’ll add and name a “home,” and then add an “accessory.” Hopefully at this point you’ll see homebridge — if so, most of the hard work is done and you’re almost there! Click homebridge, manually type in the PIN (I could never get it to scan in), and hopefully it will confirm it worked. If it fails, try again — I had to do it 3 or 4 times at one point. Also consider trying some of the troubleshooting steps below.
 
-If it seemed to work okay and you were able to add homebridge to the app, you should clean out the &#8220;dummy&#8221; configuration and proceed.
+If it seemed to work okay and you were able to add homebridge to the app, you should clean out the “dummy” configuration and proceed.
 
-  * On iOS in HomeKit Catalog: hit `Configure` button in bottom right _twice_ -> swipe left to delete the &#8220;home&#8221; you set up
+  * On iOS in HomeKit Catalog: hit `Configure` button in bottom right _twice_ -> swipe left to delete the “home” you set up
   * On iOS: `Settings.app` -> `Privacy` -> `HomeKit` -> `Reset HomeKit Configuration`
   * On Raspberry Pi: `sudo rm -rf /etc/homebridge/persist`
 
 ## Step 5: Install and configure `homebridge-rcswitch-gpiomem`
 
-Now for the final touch &#8212; installing my modified versions of the `node-rcswitch` and `homebridge-rcswitch` libraries to control those RF outlets. My code has pretty minor changes, all credit should go to the original developers:
+Now for the final touch — installing my modified versions of the `node-rcswitch` and `homebridge-rcswitch` libraries to control those RF outlets. My code has pretty minor changes, all credit should go to the original developers:
 
   * <a href="https://github.com/marvinroger/node-rcswitch" target="_blank">https://github.com/marvinroger/node-rcswitch</a>
   * <a href="https://github.com/FWeinb/homebridge-rcswitch" target="_blank">https://github.com/FWeinb/homebridge-rcswitch</a>
@@ -144,11 +144,11 @@ Important differences with my `-rcswitch-gpiomem` versions:
 
   * They use the <a href="http://wiringpi.com/pins/" target="_blank">BCM pin, not the wiringPi pin</a>, e.g. `17` instead of ``
   * `rcswitch.setPulseLength` is exposed
-  * They will use Raspbian Jessie&#8217;s `/dev/gpiomem` by default, so they **don&#8217;t require sudo / root access**
-  * wiringPi requires a `WIRINGPI_GPIOMEM` env variable to use this interface, and it doesn&#8217;t matter what the value is set to (e.g. `WIRINGPI_GPIOMEM=0 vs`WIRINGPI_GPIOMEM=1`vs`WIRINGPI_GPIOMEM=999\`)
+  * They will use Raspbian Jessie’s `/dev/gpiomem` by default, so they **don’t require sudo / root access**
+  * wiringPi requires a `WIRINGPI_GPIOMEM` env variable to use this interface, and it doesn’t matter what the value is set to (e.g. `WIRINGPI_GPIOMEM=0 vs`WIRINGPI_GPIOMEM=1`vs`WIRINGPI_GPIOMEM=999\`)
   * My `-rcswitch-gpiomem` libs **automatically** export `WIRINGPI_GPIOMEM=1` if the value is not already set
-  * If can&#8217;t (e.g. Wheezy) or don&#8217;t want to use `/dev/gpiomem`, you have to `export WIRINGPI_GPIOMEM=0` 
-      * You will need to use wiringPi&#8217;s `gpio` tool to `export` your pin beforehand, and the module will use `wiringPiSetupSys` instead
+  * If can’t (e.g. Wheezy) or don’t want to use `/dev/gpiomem`, you have to `export WIRINGPI_GPIOMEM=0` 
+      * You will need to use wiringPi’s `gpio` tool to `export` your pin beforehand, and the module will use `wiringPiSetupSys` instead
   * If you have `libcap2-bin` installed and you `sudo setcap cap_sys_nice+ep $(readlink -f $(which node))`, my modules will use `sched.h` to try to give the RF transmission high priority in order to optimize reliability (e.g. in case of high CPU use)
 
 To install `homebridge-rcswitch-gpiomem`: `npm install -g homebridge-rcswitch-gpiomem`
@@ -164,29 +164,29 @@ $ node
 &gt; // Where `12345` is your RF code and `24` is your bit length:
 &gt; rcswitch.send(12345, 24)</code></pre>
 
-After installing, you&#8217;ll need to edit the `config.json`, and once again you can start out with my sample: 
+After installing, you’ll need to edit the `config.json`, and once again you can start out with my sample: 
 
 <pre><code class="bash">sudo rm -rf /etc/homebridge/persist
 sudo wget https://raw.githubusercontent.com/n8henrie/homebridge-rcswitch-gpiomem/master/config-sample.json -O /etc/homebridge/config.json
 sudo vim /etc/homebridge/config.json</code></pre>
 
-Please note that I tried to keep compatibility with the `systemcode` / `unitcode` system used by the prior authors, but for my RF switches I just use an `onCode` and `offCode`. As long as one of these pairs of codes is defined it should work. You can provide these either as the &#8220;decimal&#8221; value (like I use in `rf_pi`), in which case the json needs to be an integer and not a string (e.g. `"onCode": 12345`), or as the &#8220;binary&#8221; value, in which case the json needs to be a string and not an integer (e.g. (e.g. `"onCode": "010010110"`) &#8212; note the difference in quotes. If using the decimal version, you can optionally provide an integer `bitLength`, which will default to `24` if unset. In either case you can also set an integer `pin`, which defaults to `17`, and `pulseLength`, which defaults to `190`.
+Please note that I tried to keep compatibility with the `systemcode` / `unitcode` system used by the prior authors, but for my RF switches I just use an `onCode` and `offCode`. As long as one of these pairs of codes is defined it should work. You can provide these either as the “decimal” value (like I use in `rf_pi`), in which case the json needs to be an integer and not a string (e.g. `"onCode": 12345`), or as the “binary” value, in which case the json needs to be a string and not an integer (e.g. (e.g. `"onCode": "010010110"`) — note the difference in quotes. If using the decimal version, you can optionally provide an integer `bitLength`, which will default to `24` if unset. In either case you can also set an integer `pin`, which defaults to `17`, and `pulseLength`, which defaults to `190`.
 
-If you want to use the &#8220;high priority&#8221; feature:
+If you want to use the “high priority” feature:
 
-  * You should probably at minimum read about this in `rf_pi` if &#8212; like myself &#8212; you don&#8217;t really know what you&#8217;re doing
+  * You should probably at minimum read about this in `rf_pi` if — like myself — you don’t really know what you’re doing
   * Give `node` high priority: `sudo setcap cap_sys_nice+ep $(readlink -f $(which node))`
   * Check that it was set: `getcap $(readlink -f $(which node))`
   * Remove high priority: `sudo setcap -r $(readlink -f $(which node))`
 
-At this point, you should probably run again in debug mode to see if everything worked &#8212; you&#8217;ll likely need to delete the `persist` folder and set up your iOS app from scratch. With any luck, you&#8217;ll see your switches in the iOS app and be able to control them from there and with Siri!
+At this point, you should probably run again in debug mode to see if everything worked — you’ll likely need to delete the `persist` folder and set up your iOS app from scratch. With any luck, you’ll see your switches in the iOS app and be able to control them from there and with Siri!
 
 <pre><code class="bash">sudo rm -rf /etc/homebridge/persist
 sudo -u homebridge DEBUG=* /usr/local/stow/nodejs/bin/homebridge -D -U /etc/homebridge</code></pre>
 
 ## Step 6: Run automatically at boot
 
-Once everything is working, you&#8217;ll probably want this service to be available all the time. To make a startup script for Raspbian Jessie: `sudo vim /etc/systemd/system/homebridge.service`
+Once everything is working, you’ll probably want this service to be available all the time. To make a startup script for Raspbian Jessie: `sudo vim /etc/systemd/system/homebridge.service`
 
 Here is what seems to be working for me, you may need to change the paths:
 
@@ -219,11 +219,11 @@ Most everything with regard to configuration and setup is very similar to my [rf
 Other things to try:
 
   * Make sure your json is valid: `npm install --global jsonlint && jsonlint -q /etc/homebridge/config.json` (no output means it looks good)
-  * Remove the `persist` directory: `sudo rm -r /etc/homebridge/persist`. This folder caches settings that may screw you up if you&#8217;re changing the config. Note that you&#8217;ll like need to redo your iOS setup.
+  * Remove the `persist` directory: `sudo rm -r /etc/homebridge/persist`. This folder caches settings that may screw you up if you’re changing the config. Note that you’ll like need to redo your iOS setup.
   * Reset your iOS device HomeKit settings: `Settings` -> `Privacy` -> `HomeKit` -> `Reset HomeKit Configuration`
-  * Delete your &#8220;Home&#8221; from HomeKit Catalog: hit the `Configure` button (bottom right) twice, swipe left on your &#8220;Home&#8221;
+  * Delete your “Home” from HomeKit Catalog: hit the `Configure` button (bottom right) twice, swipe left on your “Home”
   * Run homebridge in debug mode: `sudo -u homebridge DEBUG=* /usr/local/stow/nodejs/lib/node_modules/homebridge/bin/homebridge -D -U /etc/homebridge`
-  * If you&#8217;re testing directly in nodejs and it can&#8217;t find your modules: `export NODE_PATH=/usr/local/stow/nodejs/lib/node_modules`
+  * If you’re testing directly in nodejs and it can’t find your modules: `export NODE_PATH=/usr/local/stow/nodejs/lib/node_modules`
   * Test with `node-rcswitch-gpiomem`. Install: `npm install --global rcswitch-gpiomem` then make a file e.g. `fake.js` that you can give a test RF code: `node fake.js 12345`
 
     // fake.js
@@ -233,6 +233,6 @@ Other things to try:
     rcswitch.setPulseLength(190);
     rcswitch.send(parseInt(code), 24);
 
-That&#8217;s it! Hope you get things running smoothly. I don&#8217;t know much about Javascript or C++, so I might refer you to the `homebridge` team for setup issues, but I&#8217;m happy to try to answer questions and comments here, or feel free to open an issue or pull request on the GitHub repos.
+That’s it! Hope you get things running smoothly. I don’t know much about Javascript or C++, so I might refer you to the `homebridge` team for setup issues, but I’m happy to try to answer questions and comments here, or feel free to open an issue or pull request on the GitHub repos.
 
 x

@@ -24,7 +24,7 @@ dsq_thread_id:
   - 811655093
 disqus_identifier: 16 http://n8henrie.com/?p=16
 ---
-**Bottom line:** RSS feeds are an _excellent_ way to make a personalized newsfeed to keep on your favorite blogs and topics of interest. <a name="more"></a> I&#8217;m planning on this being a three part series.  I&#8217;ll put links here and at the end of the article to the other parts as they&#8217;re posted.  For a few years now, I&#8217;ve really enjoyed using RSS feeds to get updates from my favorite sites.  Recently, however, Twitter has started to serve the same function in many ways, with a lot of other cool features.  However, it also comes with extra stuff that can get in the way, so the series will include this post on RSS feeds, a second post on [<a href="http://n8henrie.com/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">why you should use Twitter</a>], <del datetime="2013-07-14T21:22:26+00:00">and a third comparing the two [future link here]</del>.  Enjoy! **Update Jul 14, 2013:** With the recent demise of Google Reader, I&#8217;ve decided to indefinitely postpone the planned third post. While several strong companies have stepped up to fill the void, I&#8217;m afraid the days of RSS may be numbered.
+**Bottom line:** RSS feeds are an _excellent_ way to make a personalized newsfeed to keep on your favorite blogs and topics of interest. <a name="more"></a> I’m planning on this being a three part series.  I’ll put links here and at the end of the article to the other parts as they’re posted.  For a few years now, I’ve really enjoyed using RSS feeds to get updates from my favorite sites.  Recently, however, Twitter has started to serve the same function in many ways, with a lot of other cool features.  However, it also comes with extra stuff that can get in the way, so the series will include this post on RSS feeds, a second post on [<a href="http://n8henrie.com/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">why you should use Twitter</a>], <del datetime="2013-07-14T21:22:26+00:00">and a third comparing the two [future link here]</del>.  Enjoy! **Update Jul 14, 2013:** With the recent demise of Google Reader, I’ve decided to indefinitely postpone the planned third post. While several strong companies have stepped up to fill the void, I’m afraid the days of RSS may be numbered.
 
 ## RSS Feeds
 
@@ -88,7 +88,7 @@ I’m running out of steam on this post, so I thought I’d end with a list of m
 
   * <a title="Alan Aragon's Blog" href="http://www.alanaragonblog.com/" target="_blank">Alan Aragon’s Blog</a> – <a href="http://www.alanaragonblog.com/feed/" target="_blank">RSS Link</a>
   * <a title="Martin Berkhan's Leangains Blog" href="http://www.leangains.com/" target="_blank">Martin Berkhan’s Leangains Blog</a> – <a href="http://feeds.feedburner.com/Leangains" target="_blank">RSS Link</a>
-  * <a title="Lyle McDonald - Bodyrecomposition" href="http://www.bodyrecomposition.com/" target="_blank">Lyle McDonald &#8211; Bodyrecomposition</a> – <a href="http://www.bodyrecomposition.com/feed" target="_blank">RSS Link</a>
+  * <a title="Lyle McDonald - Bodyrecomposition" href="http://www.bodyrecomposition.com/" target="_blank">Lyle McDonald — Bodyrecomposition</a> – <a href="http://www.bodyrecomposition.com/feed" target="_blank">RSS Link</a>
   * <a title="PubMed: " href="http://www.ncbi.nlm.nih.gov/pubmed/" target="_blank">PubMed: “resistance training…”</a> – Unfortunately this link and the link to its RSS feed broke in my blog transition, but under every successful PubMed query is an RSS link you can use to stay up to date when new studies match that search.
 
  _Friends’ Blogs_
@@ -126,8 +126,8 @@ I’m running out of steam on this post, so I thought I’d end with a list of m
 
  _Tech_
 
-  * <a href="http://www.google.com/alerts" target="_blank">Google Alerts &#8211; “Henrie, Nathan” OR “Henrie, Nate”</a>
-  * <a href="http://www.google.com/alerts" target="_blank">Google Alerts &#8211; “Nate Henrie” OR “Nathan Henrie”</a>
+  * <a href="http://www.google.com/alerts" target="_blank">Google Alerts — “Henrie, Nathan” OR “Henrie, Nate”</a>
+  * <a href="http://www.google.com/alerts" target="_blank">Google Alerts — “Nate Henrie” OR “Nathan Henrie”</a>
   * <a title="iMedicalApps" href="http://www.imedicalapps.com/" target="_blank">iMedicalApps</a> – <a href="http://feeds.feedburner.com/iMedicalApps" target="_blank">RSS Link</a>
   * Just Another iPhone Blog » iPhone Apps On Sale (feed link now broken 20130317, was previously at: http://isource.com//category/iphone-software/iphone-apps-on-sale-iphone-software/feed/ 
   * <a title="MacHeist" href="http://macheist.com/" target="_blank">MacHeist</a> – <a href="http://macheist.com/rss.xml" target="_blank">RSS Link</a>

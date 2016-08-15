@@ -27,11 +27,11 @@ disqus_identifier: 92 http://n8henrie.com/?p=92
 <span style="font-family: 'Courier New', Courier, monospace;">Wow, what a morning. Sunny day in Denver, CO. Cold enough for a coat and steamy breath that vanishes as it floats away from this wide, fourth story balcony.</p> 
 
 <p>
-  An inescapable treadmill. You never really get very far, and you’re almost always in a state of semi-satisfaction&#8230; quasi-complacency. There will always be questions&#8230; unanswered (and perhaps unanswerable) questions. I don’t know how much I believe in the “unanswerable” bit.
+  An inescapable treadmill. You never really get very far, and you’re almost always in a state of semi-satisfaction… quasi-complacency. There will always be questions… unanswered (and perhaps unanswerable) questions. I don’t know how much I believe in the “unanswerable” bit.
 </p>
 
 <p>
-  How else would I have it? This quenching of a thirsty mind is a hollow victory, rescued only by its passing. The revival of curiosity propels my life &#8212; optimism, hope.
+  How else would I have it? This quenching of a thirsty mind is a hollow victory, rescued only by its passing. The revival of curiosity propels my life — optimism, hope.
 </p>
 
 <p>
@@ -51,7 +51,7 @@ disqus_identifier: 92 http://n8henrie.com/?p=92
 </p>
 
 <p>
-  A gambler’s fallacy &#8212; no intrinsic property of the many successes in my life puts me at risk for an upcoming failure. Nor do they suggest any karmic inertia that might ensure my trajectory without persistence and diligence.
+  A gambler’s fallacy — no intrinsic property of the many successes in my life puts me at risk for an upcoming failure. Nor do they suggest any karmic inertia that might ensure my trajectory without persistence and diligence.
 </p>
 
 <p>

@@ -31,13 +31,13 @@ _Enter Nate, stumbling with sleep, iPhone in hand._
 _  
 _   
 Nate:_ _Siri, set my alarm for 6:30 tomorrow.  
-Siri: Sorry, I can&#8217;t set, change, or remove alarms for specific days.
+Siri: Sorry, I can’t set, change, or remove alarms for specific days.
 
 Nate: _Rolling eyes._ Siri, set my alarm for 6:30.  
-Siri: You already have an alarm set for 6:30 am on Friday.  I&#8217;ll turn it on for you.
+Siri: You already have an alarm set for 6:30 am on Friday.  I’ll turn it on for you.
 
 Nate: _Frowning. _Cancel.  Siri, set an alarm for 6:30 tomorrow.  
-Siri: You already have an alarm set for 7 am tomorrow.  I&#8217;ll turn it on for you.
+Siri: You already have an alarm set for 7 am tomorrow.  I’ll turn it on for you.
 
 Nate: _Increasing agitation. _Change it to 6:30.  
 Siri: Okay, setting an alarm for 6:30 pm tomorrow.

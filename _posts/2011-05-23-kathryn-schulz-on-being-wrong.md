@@ -20,7 +20,7 @@ disqus_identifier: 61 http://n8henrie.com/?p=61
 ---
 <div>
   <p>
-    Excellent Ted Talk.  Highlights the importance of separating &#8220;right and wrong&#8221; with &#8220;good and bad&#8221;.  Highly recommended.
+    Excellent Ted Talk.  Highlights the importance of separating “right and wrong” with “good and bad”.  Highly recommended.
   </p>
   
   <p>

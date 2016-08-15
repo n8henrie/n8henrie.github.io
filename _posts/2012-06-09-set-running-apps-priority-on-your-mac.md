@@ -1,6 +1,6 @@
 ---
 id: 17
-title: 'Set a Running App&#8217;s Priority on your Mac'
+title: 'Set a Running App’s Priority on your Mac'
 date: 2012-06-09T01:11:00+00:00
 author: n8henrie
 layout: post
@@ -24,11 +24,11 @@ dsq_thread_id:
   - 811661374
 disqus_identifier: 17 http://n8henrie.com/?p=17
 ---
-I use <a href="http://handbrake.fr/" target="_blank">Handbrake</a> to convert video files all the time.  It works great.  Unfortunately, converting videos takes a lot of computer power, and my trust Macbook Pro is getting a little old (nearly 3 years since I bought it &#8212; that&#8217;s like middle aged in computer years).  That means that when I try to convert a video and simultaneously work on other stuff, things get a little choppy, and sometimes downright unusable.
+I use <a href="http://handbrake.fr/" target="_blank">Handbrake</a> to convert video files all the time.  It works great.  Unfortunately, converting videos takes a lot of computer power, and my trust Macbook Pro is getting a little old (nearly 3 years since I bought it — that’s like middle aged in computer years).  That means that when I try to convert a video and simultaneously work on other stuff, things get a little choppy, and sometimes downright unusable.
 
-Luckily, OSX has a built-in command in Terminal that lets you reset an app&#8217;s priority.  It&#8217;s called the &#8220;renice&#8221; command, and <a href="http://forums.macrumors.com/archive/index.php/t-126007.html" target="_blank">here&#8217;s a thread all about it</a>.  While I&#8217;m learning to use Terminal, I still find a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank">GUI</a> much easier.  Unfortunately, several of the apps featuring a GUI won&#8217;t run on OSX Lion.  However, I found an Applescript in <a href="http://hintsforums.macworld.com/showthread.php?t=1310" target="_blank">this thread</a> that seems to do the trick!
+Luckily, OSX has a built-in command in Terminal that lets you reset an app’s priority.  It’s called the “renice” command, and <a href="http://forums.macrumors.com/archive/index.php/t-126007.html" target="_blank">here’s a thread all about it</a>.  While I’m learning to use Terminal, I still find a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank">GUI</a> much easier.  Unfortunately, several of the apps featuring a GUI won’t run on OSX Lion.  However, I found an Applescript in <a href="http://hintsforums.macworld.com/showthread.php?t=1310" target="_blank">this thread</a> that seems to do the trick!
 
-I changed a few things and packaged it up as both an Applescript (for those of you that might want to tweak it more), and an application (for those of you that want to just click and have it work).  Seems to be working &#8212; I turned Handbrake down to 10, and I&#8217;m suddenly able to get work done in the meantime.  My understanding is that this will make the conversion slower while I&#8217;m working on my comp, but that when things quiet down, it will go back to full throttle using Handbrake, since there are no active higher priority jobs.  Note the range **from -20 to 20**, where positive numbers will _decrease_ the priority and negative numbers _increase_ the priority, with the default priority right in the middle at 0. 
+I changed a few things and packaged it up as both an Applescript (for those of you that might want to tweak it more), and an application (for those of you that want to just click and have it work).  Seems to be working — I turned Handbrake down to 10, and I’m suddenly able to get work done in the meantime.  My understanding is that this will make the conversion slower while I’m working on my comp, but that when things quiet down, it will go back to full throttle using Handbrake, since there are no active higher priority jobs.  Note the range **from -20 to 20**, where positive numbers will _decrease_ the priority and negative numbers _increase_ the priority, with the default priority right in the middle at 0. 
 
 Feel free to comment below, and enjoy!
 

@@ -11,7 +11,7 @@ dsq_thread_id:
   - 2695326330
 disqus_identifier: 2522 http://n8henrie.com/?p=2522
 ---
-**Bottom Line:** Use PyCrypto to decrypt Chrome&#8217;s cookies for easier Python scraping.<!--more-->
+**Bottom Line:** Use PyCrypto to decrypt Chrome’s cookies for easier Python scraping.<!--more-->
 
 I posted [pyCookieCheat](http://n8henrie.com/2013/11/use-chromes-cookies-for-easier-downloading-with-python-requests/) a while back, which is a quick script using some sqlite3 to steal cookies from Chrome for use in a Python script. The reason this is a big deal, is because it works fairly well to turn a complicated login script and `POST`ing all kinds of url encoded stuff into something much more simple:
 
@@ -20,9 +20,9 @@ cookies = chrome_cookies(url)
 html = requests.get(url, cookies=cookies)
 </pre>
 
-I&#8217;m not saying it works all the time, but it has certainly made a few scraping jobs easier for me (when the page to be scraped is behind a login that writes cookies, obviously).
+I’m not saying it works all the time, but it has certainly made a few scraping jobs easier for me (when the page to be scraped is behind a login that writes cookies, obviously).
 
-Recently, both Chrome and Chromium started encrypting their cookies, which broke my script. I&#8217;ve seen a few posts on how to decrypt it on Windows, but I couldn&#8217;t find any good instructions for Mac or Linux.
+Recently, both Chrome and Chromium started encrypting their cookies, which broke my script. I’ve seen a few posts on how to decrypt it on Windows, but I couldn’t find any good instructions for Mac or Linux.
 
 It took a little browsing through the Chromium source code, but I was eventually able to come up with a script to decrypt them using PyCrypto, so that I could continue using pyCookieCheat.py. The key parts ended up being:
 
@@ -42,4 +42,4 @@ A few other tricky parts:
 
   * `v10` gets prepended to the encrypted key 
       * the padding at the end of the encrypted value varies based on the number of bytes it needs to pad, but you can strip it off <a target="_blank" href="http://stackoverflow.com/a/14205319">as demonstrated at StackOverflow</a>. </ul> 
-        I&#8217;m sure my code could be improved in about a bazillion ways, but it seems to be working again for me. Hope this can help some of you out there!
+        I’m sure my code could be improved in about a bazillion ways, but it seems to be working again for me. Hope this can help some of you out there!

@@ -35,15 +35,15 @@ disqus_identifier: 67 http://n8henrie.com/?p=67
   </p>
   
   <p>
-    For one of Megan&#8217;s Bday gifts, I decided to treat her to a day trip to Santa Fe. We decided to take the train as part of the adventure.
+    For one of Megan’s Bday gifts, I decided to treat her to a day trip to Santa Fe. We decided to take the train as part of the adventure.
   </p>
   
   <p>
-    We ended up getting some great pizza with a nice balcony view of the plaza, did some great people-watching, had some ice cream, saw some art and the Georgia O&#8217;Keeffe museum, had some ice cream, and took a nap in the grass.
+    We ended up getting some great pizza with a nice balcony view of the plaza, did some great people-watching, had some ice cream, saw some art and the Georgia O’Keeffe museum, had some ice cream, and took a nap in the grass.
   </p>
   
   <p>
-    After the train back she bought me an incredible dinner at the most expensive restaurant in the world (or close to it, I&#8217;m pretty sure). It was delicious! Duck, buffalo, pork, lamb, and ahi tuna&#8230; And crème brûlée too! Yum. Great day.
+    After the train back she bought me an incredible dinner at the most expensive restaurant in the world (or close to it, I’m pretty sure). It was delicious! Duck, buffalo, pork, lamb, and ahi tuna… And crème brûlée too! Yum. Great day.
   </p>
 </div>
 

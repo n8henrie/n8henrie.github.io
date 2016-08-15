@@ -20,7 +20,7 @@ disqus_identifier: 88 http://n8henrie.com/?p=88
 ---
 <div>
   <p>
-    <a href="http://prezi.com/wt1momobwqed/n8henries-unified-theory-of-modern-obesity/?auth_key=46d4f5da80c857962ef817be3c6ff18c298ae37a" title="Original hosted at prezi.com">Original &#8212; click here for much better viewing experience</a>
+    <a href="http://prezi.com/wt1momobwqed/n8henries-unified-theory-of-modern-obesity/?auth_key=46d4f5da80c857962ef817be3c6ff18c298ae37a" title="Original hosted at prezi.com">Original — click here for much better viewing experience</a>
   </p>
   
   <p>
@@ -32,7 +32,7 @@ disqus_identifier: 88 http://n8henrie.com/?p=88
   </p>
   
   <p>
-    Use your left and right arrow buttons (keyboard or on-screen) to navigate through the presentation as I&#8217;ve set it up, but also feel free to use the zoom tool and your mouse to move around the presentation freely and take a closer look at personal notes that I didn&#8217;t highlight in the presentation.
+    Use your left and right arrow buttons (keyboard or on-screen) to navigate through the presentation as I’ve set it up, but also feel free to use the zoom tool and your mouse to move around the presentation freely and take a closer look at personal notes that I didn’t highlight in the presentation.
   </p>
   
   <p>

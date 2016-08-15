@@ -43,9 +43,9 @@ I promise that you **will not** be able to remember all of the things that will 
   * It makes it less of a chore to check your tasklist if fun stuff goes there in addition to work.
   * It doesn’t make sense to have to check separate lists to make sure that you remember to read up on a topic for your presentation during rounds tomorrow, take out the trash when you get home, and wish your grandmother a Happy Birthday – it’s all important.
 
-I’ve [posted a little bit about my workflow](http://n8henrie.com/tag/OmniFocus/) previously. I use <a href="https://itunes.apple.com/us/app/omnifocus/id402835630?mt=12&#038;at=10l5H6" target="_blank">OmniGroup’s OmniFocus</a>, which is the most powerful (and unfortunately most expensive) tasklist system I’ve come across. It suits me, but I can’t recommend it to everyone because there are free options that offer many of its best features. If you’re into the digital tasklist thing, you should also check out: 
+I’ve [posted a little bit about my workflow](http://n8henrie.com/tag/OmniFocus/) previously. I use <a href="https://itunes.apple.com/us/app/omnifocus/id402835630?mt=12&at=10l5H6" target="_blank">OmniGroup’s OmniFocus</a>, which is the most powerful (and unfortunately most expensive) tasklist system I’ve come across. It suits me, but I can’t recommend it to everyone because there are free options that offer many of its best features. If you’re into the digital tasklist thing, you should also check out: 
 
-  * <a href="https://itunes.apple.com/us/app/things/id407951449?mt=12&#038;at=10l5H6" target="_blank">Things</a> ($$, Mac / iOS, very popular)
+  * <a href="https://itunes.apple.com/us/app/things/id407951449?mt=12&at=10l5H6" target="_blank">Things</a> ($$, Mac / iOS, very popular)
   * <a href="http://doit.im/" target="_blank">Doit.im</a> (Free, web / iOS / Droid, great set of features)
   * <a href="http://www.orchestra.com/" target="_blank">Orchestra</a> (Free, web / iOS, voice transcription, great task sharing)
   * <a href="http://www.wunderlist.com/" target="_blank">Wunderlist</a> (Free, great cross-platform support, shared lists)

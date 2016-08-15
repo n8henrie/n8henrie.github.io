@@ -62,7 +62,7 @@ Basically, it’s just a spreadsheet with the headers that Google Calendar will 
 
 > Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private </p> 
 > 
-> [<a target="_blank" href="https://support.google.com/calendar/bin/answer.py?hl=en&#038;answer=45656">source</a>]
+> [<a target="_blank" href="https://support.google.com/calendar/bin/answer.py?hl=en&answer=45656">source</a>]
 
 You should take your spreadsheet schedule and copy and paste the information into the appropriate columns. Keep in mind that Numbers can convert date and time formats pretty well by selecting the column in question and opening up Inspector (“command option i” or view -> inspector) to “cells” (a box with “42” on my version). Makes converting a bunch of “Jan 5 2002” to “01/05/2002” a snap. Leave the columns in the order you found them. Other formatting info:
 

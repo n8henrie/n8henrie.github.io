@@ -1,6 +1,6 @@
 ---
 id: 69
-title: 'I&#8217;ll shave my head for an iPad.'
+title: 'I’ll shave my head for an iPad.'
 date: 2011-03-24T23:07:00+00:00
 author: n8henrie
 layout: post

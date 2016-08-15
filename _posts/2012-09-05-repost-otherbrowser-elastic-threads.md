@@ -1,6 +1,6 @@
 ---
 id: 1618
-title: 'Repost: OtherBrowser &#8211; elastic threads'
+title: 'Repost: OtherBrowser — elastic threads'
 date: 2012-09-05T16:06:38+00:00
 author: n8henrie
 layout: post
@@ -16,18 +16,18 @@ dsq_thread_id:
   - 832406356
 disqus_identifier: 1618 http://n8henrie.com/?p=1618
 ---
-**Bottom line:** OtherBrowser installs a few little bookmarklets that take whatever URL you&#8217;re looking at in Chrome and open it in Safari, or vice versa.
+**Bottom line:** OtherBrowser installs a few little bookmarklets that take whatever URL you’re looking at in Chrome and open it in Safari, or vice versa.
   
 <!--more-->
 
 
   
-Very handy.  Like the author, I&#8217;ve been trying to use Safari more often since installing Mountain Lion, especially in anticipation of some changes in iOS 6&#8230; but it&#8217;s not easy.  Making it easily to go back and forth is appreciated.
+Very handy.  Like the author, I’ve been trying to use Safari more often since installing Mountain Lion, especially in anticipation of some changes in iOS 6… but it’s not easy.  Making it easily to go back and forth is appreciated.
 
-Previously, I was grabbing the URL, pasting into Quicksilver, then &#8220;Open with&#8230;&#8221; and choosing the browser.  With this installed, I can just invoke QS, type in &#8220;#toSafari&#8221; (or whatever you&#8217;ve named your bookmarklet), and &#8220;shift+CMD+J&#8221; which is my QS trigger to &#8220;Run Javascript.&#8221;
+Previously, I was grabbing the URL, pasting into Quicksilver, then “Open with…” and choosing the browser.  With this installed, I can just invoke QS, type in “#toSafari” (or whatever you’ve named your bookmarklet), and “shift+CMD+J” which is my QS trigger to “Run Javascript.”
 
 Very nice.  Thanks, elasticthreads.
 
-OtherBrowser &#8211; elastic threads.
+OtherBrowser — elastic threads.
 
 EDIT: And shout out to [@veritrope](https://twitter.com/veritrope) [[veritrope.com](http://veritrope.com/)] for the find.

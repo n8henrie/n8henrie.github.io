@@ -29,7 +29,7 @@ disqus_identifier: 66 http://n8henrie.com/?p=66
   <p />
   
   <div>
-    It seems like a lot of 2013 folks have been buying new phones or iPads or other electronics in preparation for 3rd year, so I thought I'd mention that 3rd party insurance is available for these device.  These insurance companies offer flexible plans that in some ways may be superior to what is offered by your device manufacturer / distributor / credit card company.  <a href="http://www.squaretrade.com/">Squaretrade</a> may be the most popular option.  Usually, 3rd party insurance WON'T cover things that the manufacturer should cover, like if it &#8220;just stops working.&#8221;  However, they often cover accidents and sometimes theft, which manufacturers almost certainly won't.
+    It seems like a lot of 2013 folks have been buying new phones or iPads or other electronics in preparation for 3rd year, so I thought I'd mention that 3rd party insurance is available for these device.  These insurance companies offer flexible plans that in some ways may be superior to what is offered by your device manufacturer / distributor / credit card company.  <a href="http://www.squaretrade.com/">Squaretrade</a> may be the most popular option.  Usually, 3rd party insurance WON'T cover things that the manufacturer should cover, like if it “just stops working.”  However, they often cover accidents and sometimes theft, which manufacturers almost certainly won't.
   </div>
   
   <p />
@@ -73,7 +73,7 @@ disqus_identifier: 66 http://n8henrie.com/?p=66
   </div>
   
   <p>
-    &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;
+    ————————————————————————
   </p>
   
   <p>

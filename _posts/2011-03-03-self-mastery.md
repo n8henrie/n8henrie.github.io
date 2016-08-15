@@ -19,7 +19,7 @@ dsq_thread_id:
 disqus_identifier: 71 http://n8henrie.com/?p=71
 ---
 <div>
-  &#8220;The paradox seems to be, as Socrates demonstrated long ago, that the truly free individual is free only to the extent of his own self-mastery, while those who will not govern themselves are condemned to find masters to govern over them.&#8221; -Daniel Pink, <span style="text-decoration: underline;"><a href="http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594488843/ref=sr_1_1?ie=UTF8&s=books&qid=1299165946&sr=1-1">Drive</a></span><br />Brief book review coming soon.  (Update: <a href="http://www.n8henrie.com/2011/03/book-review-drive-daniel-pink/" target="_blank">Drive Book Review</a>)
+  “The paradox seems to be, as Socrates demonstrated long ago, that the truly free individual is free only to the extent of his own self-mastery, while those who will not govern themselves are condemned to find masters to govern over them.” -Daniel Pink, <span style="text-decoration: underline;"><a href="http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594488843/ref=sr_1_1?ie=UTF8&s=books&qid=1299165946&sr=1-1">Drive</a></span><br />Brief book review coming soon.  (Update: <a href="http://www.n8henrie.com/2011/03/book-review-drive-daniel-pink/" target="_blank">Drive Book Review</a>)
 </div>
 
 <div>

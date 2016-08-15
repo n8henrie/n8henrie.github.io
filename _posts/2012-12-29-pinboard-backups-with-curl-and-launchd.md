@@ -25,12 +25,12 @@ I was able to get it running great, including URL encoding the password, with th
   
 
 
-I named the script pinboardBackup.sh (which you&#8217;ll see in the .plist). **Don&#8217;t forget to chmod +x to make it executable.**
+I named the script pinboardBackup.sh (which you’ll see in the .plist). **Don’t forget to chmod +x to make it executable.**
 
 I have it set to be run by launchd every night at 3 AM with this (again, fix the part with square brackets):
   
 
 
-All together, this will download the backup in JSON format and put it in a Dropbox folder for me. I have <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> manage the backups to make sure I don&#8217;t get overwhelmed with too many. I will probably decrease the interval to weekly pretty soon, I think daily is a bit much.
+All together, this will download the backup in JSON format and put it in a Dropbox folder for me. I have <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> manage the backups to make sure I don’t get overwhelmed with too many. I will probably decrease the interval to weekly pretty soon, I think daily is a bit much.
 
 Thanks for keeping the comments and questions below (instead of via email) so that everyone can benefit from discussion.

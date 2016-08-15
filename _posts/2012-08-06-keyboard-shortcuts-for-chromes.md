@@ -1,6 +1,6 @@
 ---
 id: 5
-title: 'Keyboard Shortcuts for Chrome&#8217;s Bookmarklets via Quicksilver'
+title: 'Keyboard Shortcuts for Chrome’s Bookmarklets via Quicksilver'
 date: 2012-08-06T14:05:00+00:00
 author: n8henrie
 layout: post
@@ -38,7 +38,7 @@ I’m astounded that I didn’t figure this out sooner (especially after [my las
   2. Install the Chrome plugin (or experiment with your browser of choice) [<a href="http://cl.ly/image/2S3b3X22252R" target="_blank">visual aid</a>] 
       1. Go into your Quicksilver preferences (command + comma works in most apps)
       2. Go to the plugins tab up top
-      3. Go to “All plugins” on the left&#8221;
+      3. Go to “All plugins” on the left”
       4. Use the search box at the bottom
   3. Again in QS preferences, go to Catalog (up top), Plugins (on the left), and make sure Chrome’s bookmarks are being indexed by QS. The box should be checked with the number of indexed items next to the checkbox.
   4. In Chrome, go to a page you’d like to use with your bookmarklet.
