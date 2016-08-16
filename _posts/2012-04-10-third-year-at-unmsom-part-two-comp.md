@@ -23,6 +23,11 @@ blogger_images:
 dsq_thread_id:
   - 814892516
 disqus_identifier: 24 http://n8henrie.com/?p=24
+tags:
+- med school tips
+- productivity
+categories:
+- nontech
 ---
 <div style="clear: both; text-align: center;">
 </div>

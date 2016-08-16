@@ -17,6 +17,14 @@ blogger_images:
 dsq_thread_id:
   - 833452497
 disqus_identifier: 58 http://n8henrie.com/?p=58
+tags:
+- med school life
+- philosophy
+- productivity
+- quotes
+- repost
+categories:
+- nontech
 ---
 <div>
   <div>

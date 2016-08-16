@@ -10,6 +10,12 @@ permalink: /2013/06/how-to-remove-corrupt-ocr-data-from-a-pdf/
 dsq_thread_id:
   - 1442782317
 disqus_identifier: 2304 http://n8henrie.com/?p=2304
+tags:
+- bugfix
+- eBooks
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** This posts shows how to remove corrupt OCR data from a .pdf with all free-as-in-beer software.<!--more-->
 

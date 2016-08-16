@@ -10,6 +10,16 @@ permalink: /2013/03/send-multiple-tasks-to-omnifocus-at-once-with-drafts-and-pyt
 dsq_thread_id:
   - 1127956432
 disqus_identifier: 2037 http://n8henrie.com/?p=2037
+tags:
+- automation
+- Drafts
+- iPad
+- iPhone
+- OmniFocus
+- productivity
+- Pythonista
+categories:
+- tech
 ---
 **Bottom Line:** I often come up with several tasks I need to jot down at once, and this script helps me get them all into OmniFocus in one shot. <!--more-->
 

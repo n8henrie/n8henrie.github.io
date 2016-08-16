@@ -17,6 +17,15 @@ blogger_images:
 dsq_thread_id:
   - 811742161
 disqus_identifier: 55 http://n8henrie.com/?p=55
+tags:
+- diet
+- fitness
+- myth
+- nutrition
+- obesity
+- repost
+categories:
+- nontech
 ---
 *\*Update: Please note that this is \*not* my writing, it’s a repost from leangains.com. Was just browsing and noticed that the repost formatting isn’t as obvious on Blogger as it was on Posterous, where my blog was previously hosted. —n8henrie Thu Aug 2 10:54:07 MDT 2012 
 

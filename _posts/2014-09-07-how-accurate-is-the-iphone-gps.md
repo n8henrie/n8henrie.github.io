@@ -10,6 +10,14 @@ permalink: /2014/09/how-accurate-is-the-iphone-gps/
 dsq_thread_id:
   - 2996797342
 disqus_identifier: 2617 http://n8henrie.com/?p=2617
+tags:
+- iPhone
+- LCP
+- MTB
+- Pythonista
+categories:
+- nontech
+- tech
 ---
 **Bottom Line:** Some basic testing of the accuracy of GPS on the iPhone, and a Pythonista script to text someone your GPS location.<!--more-->
 

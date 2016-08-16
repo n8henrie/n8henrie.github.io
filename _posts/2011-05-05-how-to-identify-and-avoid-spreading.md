@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 842610131
 disqus_identifier: 63 http://n8henrie.com/?p=63
+tags:
+- myth
+- repost
+- science
+categories:
+- nontech
 ---
 <div>
   <div>

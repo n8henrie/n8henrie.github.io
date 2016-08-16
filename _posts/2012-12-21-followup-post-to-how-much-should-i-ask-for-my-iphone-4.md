@@ -20,6 +20,11 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 987028532
 disqus_identifier: 1849 http://n8henrie.com/?p=1849
+tags:
+- iPhone
+- mobile
+categories:
+- tech
 ---
 **Bottom Line:** I ended up netting $199.19 selling my iPhone 4 on eBay.
   

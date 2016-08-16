@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 842634898
 disqus_identifier: 62 http://n8henrie.com/?p=62
+tags:
+- philosophy
+- repost
+categories:
+- nontech
 ---
 <div>
   <div>

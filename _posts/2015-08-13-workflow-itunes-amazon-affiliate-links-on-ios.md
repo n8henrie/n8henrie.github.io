@@ -10,6 +10,15 @@ permalink: /2015/08/workflow-itunes-amazon-affiliate-links-on-ios/
 dsq_thread_id:
   - 4029226565
 disqus_identifier: 2751 http://n8henrie.com/?p=2751
+tags:
+- automation
+- iPad
+- iPhone
+- iTunes
+- mobile
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** Here’s a Workflow Extension I made to generate iTunes and Amazon affiliate links and shorten them with Bitly.<!--more-->
 

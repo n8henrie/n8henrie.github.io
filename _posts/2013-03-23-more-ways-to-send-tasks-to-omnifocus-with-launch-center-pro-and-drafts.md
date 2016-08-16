@@ -10,6 +10,13 @@ permalink: /2013/03/more-ways-to-send-tasks-to-omnifocus-with-launch-center-pro-
 dsq_thread_id:
   - 1160210870
 disqus_identifier: 2067 http://n8henrie.com/?p=2067
+tags:
+- Drafts
+- iPhone
+- LCP
+- OmniFocus
+categories:
+- tech
 ---
 **Bottom Line:** You can use Launch Center Pro’s new in-app email to send email items to OmniFocus without leaving the app, as well as a URL scheme to send it through Drafts. <!--more-->
 

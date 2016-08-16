@@ -23,6 +23,12 @@ blogger_images:
 dsq_thread_id:
   - 811661086
 disqus_identifier: 31 http://n8henrie.com/?p=31
+tags:
+- behavior
+- musings
+- rant
+categories:
+- nontech
 ---
 Since high school, I’ve been defending the idea that a person’s physical attractiveness is _and should be_ important. It has never been very popular for me to say so. Less popular than pretending that “looks don’t matter” and “what’s inside is all that counts,” at least. People scowl and write me off as a superficial materialist with a soul like a kiddie pool, but my reasoning is pretty elementary.
 

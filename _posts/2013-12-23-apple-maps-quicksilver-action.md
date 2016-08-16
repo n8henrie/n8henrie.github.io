@@ -10,6 +10,12 @@ permalink: /2013/12/apple-maps-quicksilver-action/
 dsq_thread_id:
   - 2069597627
 disqus_identifier: 2424 http://n8henrie.com/?p=2424
+tags:
+- applescript
+- Mac OSX
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom Line:** If you’re running Mavericks, use Quicksilver to search for a location in Apple Maps with this AppleScript action. <!--more-->
 

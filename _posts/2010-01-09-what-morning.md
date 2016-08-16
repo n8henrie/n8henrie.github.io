@@ -23,6 +23,11 @@ blogger_images:
 dsq_thread_id:
   - 1806763930
 disqus_identifier: 92 http://n8henrie.com/?p=92
+tags:
+- med school life
+- musings
+categories:
+- nontech
 ---
 <span style="font-family: 'Courier New', Courier, monospace;">Wow, what a morning. Sunny day in Denver, CO. Cold enough for a coat and steamy breath that vanishes as it floats away from this wide, fourth story balcony.</p> 
 

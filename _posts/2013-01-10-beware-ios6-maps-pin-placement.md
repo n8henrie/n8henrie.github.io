@@ -16,6 +16,12 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1019412152
 disqus_identifier: 1892 http://n8henrie.com/?p=1892
+tags:
+- iPhone
+- mobile
+- Siri
+categories:
+- tech
 ---
 **Bottom Line:** Make sure that iOS6 Maps actually takes you to the pin, and not just nearby.
   

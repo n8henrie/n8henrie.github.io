@@ -17,6 +17,13 @@ blogger_images:
 dsq_thread_id:
   - 827761539
 disqus_identifier: 70 http://n8henrie.com/?p=70
+tags:
+- behavior
+- eBooks
+- productivity
+- reviews
+categories:
+- nontech
 ---
 <div>
   <a href="http://www.amazon.com/gp/product/1594484805/ref=as_li_ss_il?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1594484805" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="{{ site.url }}/uploads/2012/09/419tQKzU2jL._SL160_1.jpg" width="136" /></a><br />Recently finished a thought-provoking book that I think deserves at least a quick mention.  In <a href="http://www.amazon.com/gp/product/1594484805/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1594484805">Drive: The Surprising Truth About What Motivates Us</a>, author <a href="http://www.danpink.com/">Daniel Pink</a> (<a href="http://twitter.com/#!/DanielPink">@DanielPink</a>) makes the case that modern intellectual endeavors respond poorly to “if / then” or “carrot and stick” methods of reward and punishment.  He uses a decent body of relevant research to illustrate how “if / then” motivators promote focus, which can improve results of simple tasks that require little thought.  This same focus, however, narrows our vision, impedes creativity, and dulls the personal satisfaction that we naturally derive from lateral thinking and creative problem solving.  This idea struck a cord with me, especially when he highlights the success of technological open-source endeavors such as Wikipedia, Firefox, Apache, and Linux.</p> 

@@ -16,6 +16,12 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1020969822
 disqus_identifier: 1899 http://n8henrie.com/?p=1899
+tags:
+- mobile
+- productivity
+- reviews
+categories:
+- tech
 ---
 **Bottom Line:** The <a href="http://getdoxie.com/product/doxie-go/index.html" title="Doxie Go at GetDoxie.com" target="_blank">Doxie Go</a> is an ultra-portable scanner that fits in a student’s budget — and in their backpack.
   

@@ -20,6 +20,14 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1043387858
 disqus_identifier: 1962 http://n8henrie.com/?p=1962
+tags:
+- automation
+- iPad
+- iPhone
+- mobile
+- reviews
+categories:
+- tech
 ---
 **Bottom Line:** <a target="_blank" href="https://pushover.net/">Pushover</a> is an app that specializes in getting push notifications to your iOS or Android device.
   

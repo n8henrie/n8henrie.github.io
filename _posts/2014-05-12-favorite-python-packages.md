@@ -9,6 +9,11 @@ permalink: /2014/05/favorite-python-packages/
 dsq_thread_id:
   - 2679734909
 disqus_identifier: 2516 http://n8henrie.com/?p=2516
+tags:
+- Mac OSX
+- python
+categories:
+- tech
 ---
 **Bottom Line:** A brief look at `pip` and a few _sweet_ python3 modules.<!--more-->
 

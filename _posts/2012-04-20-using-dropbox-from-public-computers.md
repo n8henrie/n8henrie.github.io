@@ -23,6 +23,13 @@ blogger_images:
 dsq_thread_id:
   - 815454210
 disqus_identifier: 20 http://n8henrie.com/?p=20
+tags:
+- automation
+- dropbox
+- med school tips
+- productivity
+categories:
+- tech
 ---
 This tip is a little too techy for my “[Third Year at UNMSOM series](http://www.n8henrie.com/2012/04/third-year-at-unmsom-introduction/),” but to be honest it’s pretty relevant for my UNMSOM peers. 
 

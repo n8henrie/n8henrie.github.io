@@ -10,6 +10,13 @@ permalink: /2013/11/use-chromes-cookies-for-easier-downloading-with-python-reque
 dsq_thread_id:
   - 1930288178
 disqus_identifier: 2403 http://n8henrie.com/?p=2403
+tags:
+- automation
+- Chrome
+- Mac OSX
+- python
+categories:
+- tech
 ---
 **Bottom Line:** Load Chrome’s cookies into <a target="_blank" href="http://www.python-requests.org/" title="Requests: HTTP for Humans — Requests 2.0.1 documentation">Requests</a> to make scripting bulk downloads much easier.<!--more-->
 

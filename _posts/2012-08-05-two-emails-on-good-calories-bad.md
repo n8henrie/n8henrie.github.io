@@ -23,6 +23,16 @@ dsq_thread_id:
 blogger_images:
   - 1
 disqus_identifier: 6 http://n8henrie.com/?p=6
+tags:
+- behavior
+- diet
+- med school life
+- nutrition
+- obesity
+- rant
+- science
+categories:
+- nontech
 ---
 **Bottom line:** This post contains two emails from me to a med student friend who recently read Gary Taubes’ <a target="_blank" href="http://www.amazon.com/gp/product/1400033462/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1400033462&linkCode=as2&tag=n8henriecom-20">Good Calories, Bad Calories</a> (GCBC).
   

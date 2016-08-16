@@ -10,6 +10,14 @@ permalink: /2014/04/dictate-your-serial-numbers/
 dsq_thread_id:
   - 2643176859
 disqus_identifier: 2500 http://n8henrie.com/?p=2500
+tags:
+- iPad
+- iPhone
+- Mac OSX
+- productivity
+- Siri
+categories:
+- tech
 ---
 **Bottom Line:** On OSX or iOS, use dictation to “type” in long strings of numbers.<!--more-->
 

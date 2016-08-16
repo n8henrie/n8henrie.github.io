@@ -10,6 +10,13 @@ permalink: /2015/08/converting-osx-finder-tags-to-evernote-tags-with-applescript
 dsq_thread_id:
   - 4026763541
 disqus_identifier: 2749 http://n8henrie.com/?p=2749
+tags:
+- applescript
+- automation
+- Mac OSX
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** Here’s a quick and dirty AppleScript to import files to Evernote and preserve their OS X Finder tags.<!--more-->
 

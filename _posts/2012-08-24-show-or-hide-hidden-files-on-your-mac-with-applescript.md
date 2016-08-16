@@ -15,6 +15,11 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 817413064
 disqus_identifier: 662 http://n8henrie.com/?p=662
+tags:
+- applescript
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom line:** Use <a href="http://cl.ly/1s0K0k0F2b07" title="Show or Hide HIdden Files" target="_blank">this Applescript</a> to quickly show or hide the hidden files on your Mac.
   

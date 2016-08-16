@@ -10,6 +10,13 @@ permalink: /2013/07/floating-gmail-labels-on-ios/
 dsq_thread_id:
   - 1513362298
 disqus_identifier: 2321 http://n8henrie.com/?p=2321
+tags:
+- email
+- iPad
+- iPhone
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** Prefix a label with a hashtag and a space to float it to the top of your Gmail labels in iOS while still being able to get there with Gmail’s keyboard shortcuts.<!--more-->
 

@@ -10,6 +10,13 @@ permalink: /2015/02/raspberry-pi-setup-direct-ethernet/
 dsq_thread_id:
   - 3478516068
 disqus_identifier: 2692 http://n8henrie.com/?p=2692
+tags:
+- homeautomation
+- linux
+- raspberrypi
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** When I get a new Raspberry Pi, here is how I get it up and running with SSH over an ethernet cable directly attached to my MacBook.<!--more-->
 

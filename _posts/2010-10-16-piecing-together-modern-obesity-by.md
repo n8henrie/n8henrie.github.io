@@ -17,6 +17,14 @@ blogger_images:
 dsq_thread_id:
   - 859404750
 disqus_identifier: 88 http://n8henrie.com/?p=88
+tags:
+- diet
+- medicine
+- obesity
+- science
+- theories
+categories:
+- nontech
 ---
 <div>
   <p>

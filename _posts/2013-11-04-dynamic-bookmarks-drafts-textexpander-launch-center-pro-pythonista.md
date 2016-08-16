@@ -10,6 +10,16 @@ permalink: /2013/11/dynamic-bookmarks-drafts-textexpander-launch-center-pro-pyth
 dsq_thread_id:
   - 1936122097
 disqus_identifier: 2411 http://n8henrie.com/?p=2411
+tags:
+- automation
+- bookmarklet
+- Drafts
+- iPad
+- iPhone
+- LCP
+- Pythonista
+categories:
+- tech
 ---
 **Bottom Line:** A variety of iOS apps let you build bookmarks that can navigate directly to a page with a dynamic URL as long as the pattern is predictable.<!--more-->
 

@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 811695259
 disqus_identifier: 90 http://n8henrie.com/?p=90
+tags:
+- medicine
+- science
+- theories
+categories:
+- nontech
 ---
 <div>
   <div>

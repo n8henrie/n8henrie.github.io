@@ -23,6 +23,15 @@ blogger_images:
 dsq_thread_id:
   - 811654446
 disqus_identifier: 5 http://n8henrie.com/?p=5
+tags:
+- bookmarklet
+- Chrome
+- Instapaper
+- Mac OSX
+- productivity
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom line:** <a href="http://qsapp.com" target="_blank">Quicksilver</a> can index Javascript bookmarklets so you can set keyboard triggers for your favorites ones.
   

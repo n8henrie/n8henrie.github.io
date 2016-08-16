@@ -17,6 +17,14 @@ blogger_images:
 dsq_thread_id:
   - 811683208
 disqus_identifier: 44 http://n8henrie.com/?p=44
+tags:
+- iPad
+- iPhone
+- Mac OSX
+- mobile
+- screencast
+categories:
+- tech
 ---
 <div>
   <div>

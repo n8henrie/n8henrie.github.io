@@ -23,6 +23,16 @@ blogger_images:
 dsq_thread_id:
   - 842634213
 disqus_identifier: 43 http://n8henrie.com/?p=43
+tags:
+- automation
+- iPad
+- iPhone
+- iPhoto
+- Mac OSX
+- mobile
+- photo
+categories:
+- tech
 ---
 I made a few new iPhoto albums today that I’m pretty excited about, don’t know why I didn’t think of it before.  Finally puts to use all the work I’ve put in to maintain a decently organized iPhoto library.  Every few months I go through my recent photos, and I try to at least: 
 

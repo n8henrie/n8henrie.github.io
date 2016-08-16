@@ -10,6 +10,11 @@ permalink: /2014/09/finding-crashplans-most-frequently-used-directories/
 dsq_thread_id:
   - 2997360055
 disqus_identifier: 2625 http://n8henrie.com/?p=2625
+tags:
+- Mac OSX
+- python
+categories:
+- tech
 ---
 **Bottom Line:** I wrote a script to go through my CrashPlan log and find out which directories were being backed up most frequently.<!--more-->
 

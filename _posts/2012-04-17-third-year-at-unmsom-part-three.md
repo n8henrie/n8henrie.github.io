@@ -23,6 +23,11 @@ blogger_images:
 dsq_thread_id:
   - 823686027
 disqus_identifier: 22 http://n8henrie.com/?p=22
+tags:
+- med school tips
+- productivity
+categories:
+- nontech
 ---
 _This series of posts is a collection of concrete, actionable tips based on my experiences as a third year student at UNMSOM. Please read my [introductory post](http://www.n8henrie.com/2012/04/third-year-at-unmsom-introduction/ "Third Year at UNMSOM: Introduction") for background and disclaimer information, as well as links to each part in the series. Additionally, here are links to the previous and next posts in this series. The “next” one obviously won’t work until I publish it.  
 Previous: <a href="http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-two-comp/" target="" title="Third Year at UNMSOM Part Two: Notepads and Amazon">Third Year at UNMSOM Part Two: Notepads and Amazon</a>  

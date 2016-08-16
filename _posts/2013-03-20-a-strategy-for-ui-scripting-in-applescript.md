@@ -12,6 +12,12 @@ permalink: /2013/03/a-strategy-for-ui-scripting-in-applescript/
 dsq_thread_id:
   - 1153376076
 disqus_identifier: 2060 http://n8henrie.com/?p=2060
+tags:
+- applescript
+- automation
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** Getting AppleScript to simulate clicks and keystrokes can be frustrating, but using Accessibility Inspector and the “UI Elements” command can make it easier.<!--more-->
 

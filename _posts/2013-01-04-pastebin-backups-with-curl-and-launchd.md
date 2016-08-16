@@ -12,6 +12,12 @@ al2fb_facebook_exclude:
 dsq_thread_id:
   - 1007454230
 disqus_identifier: 1888 http://n8henrie.com/?p=1888
+tags:
+- automation
+- Mac OSX
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** Just another shell script to back up web content with cURL — this time for use with Pastebin.
   

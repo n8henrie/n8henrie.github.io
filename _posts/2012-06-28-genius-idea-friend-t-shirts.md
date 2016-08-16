@@ -23,6 +23,10 @@ blogger_images:
 dsq_thread_id:
   - 822259568
 disqus_identifier: 14 http://n8henrie.com/?p=14
+tags:
+- humor
+categories:
+- nontech
 ---
 **Bottom line:** I should make t-shirts of myself and give them to all my friends. <!--more-->
 

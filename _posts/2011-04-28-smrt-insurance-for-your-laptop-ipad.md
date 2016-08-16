@@ -17,6 +17,13 @@ blogger_images:
 dsq_thread_id:
   - 821834607
 disqus_identifier: 66 http://n8henrie.com/?p=66
+tags:
+- iPad
+- iPhone
+- mobile
+- SMRT
+categories:
+- tech
 ---
 <div>
   <div>

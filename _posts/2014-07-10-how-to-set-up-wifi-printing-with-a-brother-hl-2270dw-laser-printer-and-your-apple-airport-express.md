@@ -10,6 +10,11 @@ permalink: /2014/07/how-to-set-up-wifi-printing-with-a-brother-hl-2270dw-laser-p
 dsq_thread_id:
   - 2833081958
 disqus_identifier: 2570 http://n8henrie.com/?p=2570
+tags:
+- DIY
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** A painless, wireless, CD-free way to set up WiFi printing with a Brother HL-2270DW laser printer and your Apple Airport Express.<!--more-->
 

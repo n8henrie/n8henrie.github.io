@@ -20,6 +20,14 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1052049578
 disqus_identifier: 1982 http://n8henrie.com/?p=1982
+tags:
+- applescript
+- automation
+- Mac OSX
+- Quicksilver
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** You can install this <a target="_blank" href="http://qsapp.com/">Quicksilver</a> action to automatically format phone numbers to your liking.
   

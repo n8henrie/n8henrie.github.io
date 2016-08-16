@@ -22,6 +22,12 @@ al2fb_facebook_link_time:
 al2fb_facebook_link_picture:
   - meta=http://www.n8henrie.com/uploads/2012/11/IMG_0228-3-150x150.jpeg
 disqus_identifier: 1798 http://n8henrie.com/?p=1798
+tags:
+- iPhone
+- mobile
+- Siri
+categories:
+- tech
 ---
 **Bottom line: **Siri is smart enough to connect a few dots in telling you details about your schedule.
   

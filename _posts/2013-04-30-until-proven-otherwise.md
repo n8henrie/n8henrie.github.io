@@ -9,6 +9,12 @@ permalink: /2013/04/until-proven-otherwise/
 dsq_thread_id:
   - 1250333075
 disqus_identifier: 2225 http://n8henrie.com/?p=2225
+tags:
+- med school life
+- medicine
+- rant
+categories:
+- nontech
 ---
 **Bottom Line:** The phrase “until proven otherwise” is _really_ overused. <!--more-->
 

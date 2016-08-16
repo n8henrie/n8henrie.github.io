@@ -16,6 +16,12 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 997493487
 disqus_identifier: 1861 http://n8henrie.com/?p=1861
+tags:
+- DIY
+- Mac OSX
+- screencast
+categories:
+- tech
 ---
 **Bottom Line:** I upgraded my Macbook Pro’s old hard drive to a solid state drive and have been pleased with the results.
   

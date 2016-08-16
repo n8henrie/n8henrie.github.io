@@ -17,6 +17,10 @@ blogger_images:
 dsq_thread_id:
   - 966532444
 disqus_identifier: 46 http://n8henrie.com/?p=46
+tags:
+- tech
+categories:
+- tech
 ---
 <div>
   <div style="margin: 8px;">

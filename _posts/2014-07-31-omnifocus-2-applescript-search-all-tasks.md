@@ -10,6 +10,14 @@ permalink: /2014/07/omnifocus-2-applescript-search-all-tasks/
 dsq_thread_id:
   - 2889121412
 disqus_identifier: 2579 http://n8henrie.com/?p=2579
+tags:
+- applescript
+- Mac OSX
+- OmniFocus
+- productivity
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom Line:** A few tweaks to my OmniFocus 2 “Search All Tasks” AppleScript.<!--more-->
 

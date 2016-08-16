@@ -11,6 +11,10 @@ dsq_thread_id:
 blogger_images:
   - 1
 disqus_identifier: 307 http://n8henrie.com/?p=307
+tags:
+- WordPress
+categories:
+- tech
 ---
 **Bottom line:** In case you haven’t noticed, I moved to WordPress. Hilarity ensues.
   

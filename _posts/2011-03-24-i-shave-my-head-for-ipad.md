@@ -24,6 +24,12 @@ enclosure:
         audio/mpeg
         
 disqus_identifier: 69 http://n8henrie.com/?p=69
+tags:
+- audioboo
+- humor
+- iPad
+categories:
+- tech
 ---
 <div>
   <div>

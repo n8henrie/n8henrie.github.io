@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 845817240
 disqus_identifier: 36 http://n8henrie.com/?p=36
+tags:
+- behavior
+- musings
+- theories
+categories:
+- nontech
 ---
 I use a considerable amount of parenthesis in my writing. I’ve noticed this since a pretty young age, and I’ve always wondered at its significance. It’s not just here or there, either. I often end up struggling between multiple embedded parentheses or perhaps using brackets or curly parenthesis to more clearly differentiate just what in the world is going on.
 

@@ -11,6 +11,12 @@ permalink: /2015/03/how-to-batch-like-all-facebook-posts-on-a-page-with-jquery-2
 dsq_thread_id:
   - 3561243276
 disqus_identifier: 2702 http://n8henrie.com/?p=2702
+tags:
+- automation
+- Chrome
+- javascript
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to “Like” all posts on a Facebook page with jQuery.<!--more-->
 

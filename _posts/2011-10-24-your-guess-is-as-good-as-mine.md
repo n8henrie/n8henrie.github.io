@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 811756935
 disqus_identifier: 47 http://n8henrie.com/?p=47
+tags:
+- behavior
+- med school life
+- rant
+categories:
+- nontech
 ---
 <div>
   <p>

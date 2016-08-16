@@ -10,6 +10,15 @@ permalink: /2013/07/send-instapaper-queue-to-kindle-with-pythonista/
 dsq_thread_id:
   - 1527134585
 disqus_identifier: 2326 http://n8henrie.com/?p=2326
+tags:
+- Instapaper
+- iPad
+- iPhone
+- Mac OSX
+- python
+- Pythonista
+categories:
+- tech
 ---
 **Bottom Line:** Trigger Instapaper to send your unread list to your Kindle with this Pythonista script.<!--more-->
 

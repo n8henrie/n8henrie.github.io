@@ -10,6 +10,12 @@ permalink: /2014/08/how-to-find-your-gps-coordinates-on-an-iphone/
 dsq_thread_id:
   - 2941052361
 disqus_identifier: 2613 http://n8henrie.com/?p=2613
+tags:
+- iPhone
+- MTB
+categories:
+- nontech
+- tech
 ---
 **Bottom Line:** Your GPS coordinates (latitude and longitude) can be found in iOS’s built-in Compass app.<!--more-->
 

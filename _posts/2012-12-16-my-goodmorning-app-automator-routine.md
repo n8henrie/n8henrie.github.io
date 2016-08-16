@@ -16,6 +16,13 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 977676720
 disqus_identifier: 1837 http://n8henrie.com/?p=1837
+tags:
+- applescript
+- automation
+- Mac OSX
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** This post is about an Automator script that I have run every day before I wake up to make sure my computer is up and running by the time I am.
   

@@ -17,6 +17,13 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 831256224
 disqus_identifier: 1600 http://n8henrie.com/?p=1600
+tags:
+- automation
+- Mac OSX
+- med school tips
+- productivity
+categories:
+- tech
 ---
 **Bottom line:** TextWrangler has an easy-to-use tool that points out differences between two text documents.
   

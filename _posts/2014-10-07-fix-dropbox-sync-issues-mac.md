@@ -10,6 +10,11 @@ permalink: /2014/10/fix-dropbox-sync-issues-mac/
 dsq_thread_id:
   - 3092605726
 disqus_identifier: 2652 http://n8henrie.com/?p=2652
+tags:
+- bugfix
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** Try deleting the filecache.dbx file if you have a sync problem that isn’t fixed by following the official Dropbox instructions.<!--more-->
 

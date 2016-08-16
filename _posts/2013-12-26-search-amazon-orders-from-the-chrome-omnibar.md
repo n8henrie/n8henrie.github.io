@@ -10,6 +10,12 @@ permalink: /2013/12/search-amazon-orders-from-the-chrome-omnibar/
 dsq_thread_id:
   - 2074786604
 disqus_identifier: 2430 http://n8henrie.com/?p=2430
+tags:
+- Chrome
+- Mac OSX
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** Use this URL to search your Amazon orders from the Chrome Omnibar.<!--more-->
 

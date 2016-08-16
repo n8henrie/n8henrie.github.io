@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 832035988
 disqus_identifier: 60 http://n8henrie.com/?p=60
+tags:
+- rant
+- repost
+- theories
+categories:
+- nontech
 ---
 Another great example of [refusing to reinforce negative behavior](http://www.n8henrie.com/2010/12/on-carrots-sticks-and-attention-seeking/).  Originally found at [http://www.manwithzen.com/late-friends-deal-with], link now dead, all rights theirs.
   

@@ -10,6 +10,13 @@ permalink: /2015/07/rpi_arduino_template/
 dsq_thread_id:
   - 3919809008
 disqus_identifier: 2742 http://n8henrie.com/?p=2742
+tags:
+- arduino
+- DIY
+- electronics
+- raspberrypi
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to program and trigger actions on your Arduino from your Raspberry Pi, all over CLI.<!--more-->
 

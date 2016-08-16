@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 811732649
 disqus_identifier: 75 http://n8henrie.com/?p=75
+tags:
+- behavior
+- Twitter
+categories:
+- tech
 ---
 <div>
   <p>

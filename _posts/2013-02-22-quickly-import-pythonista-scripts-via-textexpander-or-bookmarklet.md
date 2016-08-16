@@ -10,6 +10,13 @@ permalink: /2013/02/quickly-import-pythonista-scripts-via-textexpander-or-bookma
 dsq_thread_id:
   - 1099099544
 disqus_identifier: 2007 http://n8henrie.com/?p=2007
+tags:
+- bookmarklet
+- iPad
+- iPhone
+- Pythonista
+categories:
+- tech
 ---
 **Bottom Line:** Once installed in <a target="_blank" href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8&at=10l5H6" title="Official Pythonista Website">Pythonista</a>, these Python scripts will make it much easier to import a script from a URL.
 

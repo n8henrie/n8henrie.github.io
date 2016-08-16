@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 826211443
 disqus_identifier: 72 http://n8henrie.com/?p=72
+tags:
+- musings
+- philosophy
+categories:
+- nontech
 ---
 <div>
   Sometimes I wonder what it would be like to be a bacterium with a conscience.

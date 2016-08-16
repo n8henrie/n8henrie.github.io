@@ -10,6 +10,13 @@ permalink: /2013/09/restore-app-settings-from-an-iphone-backup-without-jailbreak
 dsq_thread_id:
   - 1753819498
 disqus_identifier: 2387 http://n8henrie.com/?p=2387
+tags:
+- iPad
+- iPhone
+- Mac OSX
+- Ruby
+categories:
+- tech
 ---
 **Bottom Line:** This Ruby script turns your iPhone backup folder into regular files so you can restore individual apps’ preferences.<!--more-->
 

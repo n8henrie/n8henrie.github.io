@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 834738763
 disqus_identifier: 81 http://n8henrie.com/?p=81
+tags:
+- fun
+- med school life
+- photo
+categories:
+- nontech
 ---
 <div>
   <a href="{{ site.url }}/uploads/2012/09/p1381.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p1381.jpg.scaled5001.jpg" width="500" height="373" /></a> <a href="{{ site.url }}/uploads/2012/09/p1421.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p1421.jpg.scaled5001.jpg" width="500" height="373" /></a> <a href="{{ site.url }}/uploads/2012/09/p1451.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p1451.jpg.scaled5001.jpg" width="500" height="373" /></a> 

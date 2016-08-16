@@ -10,6 +10,12 @@ permalink: /2015/05/better-bootstrap-file-upload-button/
 dsq_thread_id:
   - 3752897026
 disqus_identifier: 2725 http://n8henrie.com/?p=2725
+tags:
+- flask
+- python
+- webapp
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to make an attractive file upload button for Bootstrap.<!--more-->
 

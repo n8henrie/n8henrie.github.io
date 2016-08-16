@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 817485847
 disqus_identifier: 32 http://n8henrie.com/?p=32
+tags:
+- fitness
+- fun
+- MTB
+categories:
+- nontech
 ---
 **This is a work in progress**, and hopefully will always be that way.
 

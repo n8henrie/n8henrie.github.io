@@ -10,6 +10,12 @@ permalink: /2014/05/how-to-get-a-spreadsheet-of-tasks-into-reminders-app/
 dsq_thread_id:
   - 2714336802
 disqus_identifier: 2542 http://n8henrie.com/?p=2542
+tags:
+- Mac OSX
+- med school life
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to batch import tasks into Reminders.app on your Mac.<!--more-->
 

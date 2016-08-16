@@ -10,6 +10,12 @@ permalink: /2013/04/send-imessage-messages-with-quicksilver/
 dsq_thread_id:
   - 1193684566
 disqus_identifier: 2113 http://n8henrie.com/?p=2113
+tags:
+- applescript
+- Mac OSX
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom Line:** This [AppleScript Action](http://n8henrie.com/2013/03/template-for-writing-quicksilver-actions-in-applescript/) for <a target="_blank" href="http://qsapp.com/" title="Quicksilver Website">Quicksilver</a> sends iMessages through Messages.app on your Mac without having to bring it into the foreground. <!--more-->
 

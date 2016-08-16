@@ -23,6 +23,12 @@ blogger_images:
 dsq_thread_id:
   - 827050357
 disqus_identifier: 21 http://n8henrie.com/?p=21
+tags:
+- Instapaper
+- med school tips
+- productivity
+categories:
+- nontech
 ---
 _This series of posts is a collection of concrete, actionable tips based on my experiences as a third year student at UNMSOM. Please read my <a href="http://www.n8henrie.com/2012/04/third-year-at-unmsom-introduction/" target="_blank" title="Third Year at UNMSOM: Introduction">introductory post</a> for background and disclaimer information, as well as links to each part in the series. Additionally, here are links to the previous and next posts in this series. The “next” one obviously won’t work until I publish it.  
 Previous: [Third Year at UNMSOM Part Three: Checklists and @Simplenoteapp](http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-three/ "http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-three.html")  

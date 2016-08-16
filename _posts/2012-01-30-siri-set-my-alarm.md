@@ -23,6 +23,14 @@ dsq_thread_id:
 blogger_images:
   - 1
 disqus_identifier: 33 http://n8henrie.com/?p=33
+tags:
+- humor
+- iPhone
+- mobile
+- rant
+- Siri
+categories:
+- tech
 ---
 **Scene 1**  
 Setting: Monday morning, 6:47am, my kitchen.

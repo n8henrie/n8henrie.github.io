@@ -16,6 +16,15 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1006929165
 disqus_identifier: 1881 http://n8henrie.com/?p=1881
+tags:
+- automation
+- eBooks
+- Kindle
+- Mac OSX
+- quotes
+- writing
+categories:
+- tech
 ---
 **Bottom Line:** I’ve previously shown how you can [extract your highlights and bookmarks from your Kindle](http://n8henrie.com/2012/12/backing-up-kindle-quotes-with-hazel/), and this is a script to automate formatting them.
   

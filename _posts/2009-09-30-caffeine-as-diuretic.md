@@ -17,6 +17,15 @@ blogger_images:
 dsq_thread_id:
   - 811655334
 disqus_identifier: 93 http://n8henrie.com/?p=93
+tags:
+- diet
+- medicine
+- myth
+- nutrition
+- science
+- supplements
+categories:
+- nontech
 ---
 In response to a recent discussion:
 

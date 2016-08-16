@@ -10,6 +10,12 @@ permalink: /2013/11/quicksilver-trigger-get-most-recent-screenshot/
 dsq_thread_id:
   - 1960703908
 disqus_identifier: 2422 http://n8henrie.com/?p=2422
+tags:
+- Mac OSX
+- python
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom Line:** Use this Python script as a Quicksilver trigger to quickly get the most recent screenshot.<!--more-->
 

@@ -17,6 +17,13 @@ blogger_images:
 dsq_thread_id:
   - 835053891
 disqus_identifier: 68 http://n8henrie.com/?p=68
+tags:
+- fun
+- med school life
+- photo
+- SMRT
+categories:
+- nontech
 ---
 Pictures as reposted from the <a href="http://smrt.posterous.com/48029715" title="SMRT Blog" target="_blank">SMRT Blog</a>!  Love our group.
 

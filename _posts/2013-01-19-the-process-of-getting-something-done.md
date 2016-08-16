@@ -16,6 +16,12 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1035592494
 disqus_identifier: 1924 http://n8henrie.com/?p=1924
+tags:
+- behavior
+- bugfix
+- humor
+categories:
+- nontech
 ---
 #### Unconscious Incompetence
 

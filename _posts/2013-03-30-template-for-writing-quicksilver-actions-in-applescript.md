@@ -10,6 +10,12 @@ permalink: /2013/03/template-for-writing-quicksilver-actions-in-applescript/
 dsq_thread_id:
   - 1175753702
 disqus_identifier: 2094 http://n8henrie.com/?p=2094
+tags:
+- applescript
+- Mac OSX
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom Line:** Quicksilver v1.0 has some new options for writing AppleScript actions, so I made a quick template that I thought I’d share.<!--more-->
 

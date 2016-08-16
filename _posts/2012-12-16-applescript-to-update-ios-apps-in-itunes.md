@@ -16,6 +16,15 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 977601006
 disqus_identifier: 1831 http://n8henrie.com/?p=1831
+tags:
+- applescript
+- automation
+- iPad
+- iPhone
+- iTunes
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** If you don’t like having to manually update iOS apps, here’s an AppleScript to automate the process.
   

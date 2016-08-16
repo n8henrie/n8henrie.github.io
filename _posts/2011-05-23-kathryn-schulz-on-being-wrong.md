@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 828748606
 disqus_identifier: 61 http://n8henrie.com/?p=61
+tags:
+- repost
+- science
+categories:
+- nontech
 ---
 <div>
   <p>

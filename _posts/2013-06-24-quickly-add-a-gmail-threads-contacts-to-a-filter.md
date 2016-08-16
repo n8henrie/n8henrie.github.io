@@ -10,6 +10,11 @@ permalink: /2013/06/quickly-add-a-gmail-threads-contacts-to-a-filter/
 dsq_thread_id:
   - 1431555410
 disqus_identifier: 2289 http://n8henrie.com/?p=2289
+tags:
+- email
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** To build a Gmail filter for all participants in a thread, use Reply All to get a list of addresses that you can copy, parse, and format.<!--more-->
 

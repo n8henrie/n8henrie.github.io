@@ -10,6 +10,10 @@ permalink: /2016/06/installing-crashplan-on-the-raspberry-pi-raspbian-jessie/
 dsq_thread_id:
   - 4904839092
 disqus_identifier: 2837 http://n8henrie.com/?p=2837
+tags:
+- raspberrypi
+categories:
+- tech
 ---
 **Bottom Line:** My strategy for getting CrashPlan working on the Raspberry Pi (currently on Raspbian Jessie).<!--more-->
 

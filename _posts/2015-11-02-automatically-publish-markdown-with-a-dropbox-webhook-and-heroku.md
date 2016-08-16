@@ -10,6 +10,14 @@ permalink: /2015/11/automatically-publish-markdown-with-a-dropbox-webhook-and-he
 dsq_thread_id:
   - 4283171220
 disqus_identifier: 2761 http://n8henrie.com/?p=2761
+tags:
+- dropbox
+- mobile
+- productivity
+- python
+- webapp
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to write in Markdown using an editor of your choice and publish publicly accessible HTML to your Dropbox.<!--more-->
 

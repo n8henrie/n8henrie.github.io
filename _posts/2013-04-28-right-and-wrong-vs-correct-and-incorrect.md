@@ -10,6 +10,12 @@ permalink: /2013/04/right-and-wrong-vs-correct-and-incorrect/
 dsq_thread_id:
   - 1241851557
 disqus_identifier: 2220 http://n8henrie.com/?p=2220
+tags:
+- musings
+- myth
+- philosophy
+categories:
+- nontech
 ---
 **Bottom Line:** I wish more people (myself included) would tell others they’re correct and incorrect instead of “That’s right!” or “I think you’re wrong.” <!--more-->
 

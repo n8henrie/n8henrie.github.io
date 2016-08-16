@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 2127919143
 disqus_identifier: 74 http://n8henrie.com/?p=74
+tags:
+- humor
+- med school life
+categories:
+- nontech
 ---
 <div>
   <p>

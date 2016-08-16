@@ -17,6 +17,19 @@ blogger_images:
 dsq_thread_id:
   - 812645444
 disqus_identifier: 57 http://n8henrie.com/?p=57
+tags:
+- applescript
+- automation
+- dropbox
+- GTD
+- iPhone
+- Mac OSX
+- mobile
+- OmniFocus
+- productivity
+- SMRT
+categories:
+- tech
 ---
 <div>
   <p>

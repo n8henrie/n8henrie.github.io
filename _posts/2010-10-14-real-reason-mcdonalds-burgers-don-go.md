@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 828226443
 disqus_identifier: 89 http://n8henrie.com/?p=89
+tags:
+- diet
+- myth
+- nutrition
+categories:
+- nontech
 ---
 <div>
   <a href="http://nomsandsciunce.wordpress.com/2010/10/11/why-wont-those-mcdonalds-burgers-go-bad/">http://nomsandsciunce.wordpress.com/2010/10/11/why-wont-those-mcdonalds-burgers-go-bad/</a>

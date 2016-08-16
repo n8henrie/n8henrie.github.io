@@ -17,6 +17,13 @@ blogger_images:
 dsq_thread_id:
   - 811692664
 disqus_identifier: 86 http://n8henrie.com/?p=86
+tags:
+- diet
+- medicine
+- nutrition
+- science
+categories:
+- nontech
 ---
 <div>
   <span style="font-family: lucida grande, tahoma, verdana, arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51);">Excellent paper on the limitations of applying laboratory-based dietary research to “the real world of humans.”  Highly recommended — avail through UNM access. 

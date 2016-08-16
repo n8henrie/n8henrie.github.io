@@ -10,6 +10,12 @@ permalink: /2013/06/my-three-favorite-bash-aliases/
 dsq_thread_id:
   - 1435041184
 disqus_identifier: 2296 http://n8henrie.com/?p=2296
+tags:
+- Mac OSX
+- nix
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** Three Bash aliases that help me deal with aliases.<!--more-->
 

@@ -15,6 +15,12 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 845714882
 disqus_identifier: 1722 http://n8henrie.com/?p=1722
+tags:
+- humor
+- med school life
+- repost
+categories:
+- nontech
 ---
 <a target="_blank" href="http://xkcd.com/1106"><img src="http://imgs.xkcd.com/comics/add.png" alt="Click to see original" /></a>
   

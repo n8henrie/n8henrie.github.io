@@ -24,6 +24,11 @@ enclosure:
 dsq_thread_id:
   - 1524852494
 disqus_identifier: 76 http://n8henrie.com/?p=76
+tags:
+- audioboo
+- musings
+categories:
+- nontech
 ---
 <div>
   <img src="{{ site.url }}/uploads/2012/09/4FBFF85A-08AE-448D-85E0-7E23FCBCF68A-2583-000003A7A46EE95A1.jpg" /><br /> 

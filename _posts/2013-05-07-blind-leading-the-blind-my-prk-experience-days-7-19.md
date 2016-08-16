@@ -10,6 +10,11 @@ permalink: /2013/05/blind-leading-the-blind-my-prk-experience-days-7-19/
 dsq_thread_id:
   - 1269594438
 disqus_identifier: 2249 http://n8henrie.com/?p=2249
+tags:
+- medicine
+- PRK
+categories:
+- nontech
 ---
 **Bottom Line:** My experience getting a kind of vision correction surgery called <a target="_blank" href="http://en.wikipedia.org/wiki/Photorefractive_keratectomy" title="Photorefractive keratectomy - Wikipedia, the free encyclopedia">PRK</a>, part 6. <!--more-->
 

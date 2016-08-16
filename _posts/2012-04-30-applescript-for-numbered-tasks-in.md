@@ -23,6 +23,13 @@ blogger_images:
 dsq_thread_id:
   - 812154017
 disqus_identifier: 19 http://n8henrie.com/?p=19
+tags:
+- applescript
+- automation
+- OmniFocus
+- productivity
+categories:
+- tech
 ---
 I’ve <a href="http://www.n8henrie.com/search/label/OmniFocus" target="_blank">written a few times about OmniFocus</a>, my task manager of choice.  One of the things I love about it is that you can expand its impressive toolset with <a href="https://en.wikipedia.org/wiki/Applescript" target="_blank">Applescript</a>, which comes built-in to every Mac.  You can drag and drop your scripts into ~/Library/Scripts/Applications/OmniFocus and OmniFocus will even make them into handy buttons that you can put on your toolbar.
 

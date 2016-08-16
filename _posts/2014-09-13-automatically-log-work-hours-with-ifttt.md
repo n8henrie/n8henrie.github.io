@@ -10,6 +10,13 @@ permalink: /2014/09/automatically-log-work-hours-with-ifttt/
 dsq_thread_id:
   - 3014811492
 disqus_identifier: 2627 http://n8henrie.com/?p=2627
+tags:
+- automation
+- iPhone
+- med school tips
+- productivity
+categories:
+- tech
 ---
 **Bottom Line:** IFTTT’s location channels can help you automatically track your work hours.<!--more-->
 

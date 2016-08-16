@@ -17,6 +17,13 @@ blogger_images:
 dsq_thread_id:
   - 811673162
 disqus_identifier: 50 http://n8henrie.com/?p=50
+tags:
+- iPad
+- iPhone
+- Mac OSX
+- productivity
+categories:
+- tech
 ---
 **Update Oct 09, 2012:** _In contrast to previous versions of iCal, the search function on OSX 10.8’s Calendar.app seems to be appropriately differentiating between “hashtag” and “#hashtag.” Nice! —n8henrie Tue Oct 9 17:41:13 MDT 2012_
 

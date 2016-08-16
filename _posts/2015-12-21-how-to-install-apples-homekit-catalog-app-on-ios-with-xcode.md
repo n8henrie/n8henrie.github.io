@@ -10,6 +10,13 @@ permalink: /2015/12/how-to-install-apples-homekit-catalog-app-on-ios-with-xcode/
 dsq_thread_id:
   - 4422694673
 disqus_identifier: 2786 http://n8henrie.com/?p=2786
+tags:
+- homeautomation
+- iPad
+- iPhone
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to load open source iOS apps like Apple’s HomeKit Catalog onto your iOS devices using Xcode.<!--more-->
 

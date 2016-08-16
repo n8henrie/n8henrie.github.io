@@ -16,6 +16,11 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 955016302
 disqus_identifier: 1818 http://n8henrie.com/?p=1818
+tags:
+- bugfix
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom line:** If your iCal / Calendar.app’s Google Calendar delegates have moved from their place in the “delegates” list to under your account and are now toggling themselves on, deselect them with [this link](https://www.google.com/calendar/syncselect "iphoneselect").
   

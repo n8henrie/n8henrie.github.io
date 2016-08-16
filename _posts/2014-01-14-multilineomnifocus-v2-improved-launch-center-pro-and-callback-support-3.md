@@ -10,6 +10,16 @@ permalink: /2014/01/multilineomnifocus-v2-improved-launch-center-pro-and-callbac
 dsq_thread_id:
   - 2122217519
 disqus_identifier: 2457 http://n8henrie.com/?p=2457
+tags:
+- Drafts
+- iPad
+- iPhone
+- LCP
+- OmniFocus
+- productivity
+- Pythonista
+categories:
+- tech
 ---
 **Bottom Line:** Small update to my Pythonista script for sending multiple tasks to OmniFocus at once from iOS. <!--more-->
 

@@ -10,6 +10,13 @@ permalink: /2014/09/macbook-pro-sound-card-audacity-oscilloscope/
 dsq_thread_id:
   - 3020487203
 disqus_identifier: 2645 http://n8henrie.com/?p=2645
+tags:
+- arduino
+- automation
+- electronics
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** You can use your Macbook Pro’s sound card as an oscilloscope!<!--more-->
 

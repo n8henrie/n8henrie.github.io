@@ -17,6 +17,13 @@ blogger_images:
 dsq_thread_id:
   - 811661485
 disqus_identifier: 7 http://n8henrie.com/?p=7
+tags:
+- bookmarklet
+- Chrome
+- Instapaper
+- productivity
+categories:
+- tech
 ---
 **Bottom line:** Add javascript bookmarklets to Google Chrome’s search engines to allow activation via keyword from the Omnibox.
   

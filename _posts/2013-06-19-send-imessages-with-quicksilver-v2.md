@@ -10,6 +10,12 @@ permalink: /2013/06/send-imessages-with-quicksilver-v2/
 dsq_thread_id:
   - 1412899344
 disqus_identifier: 2273 http://n8henrie.com/?p=2273
+tags:
+- applescript
+- python
+- Quicksilver
+categories:
+- tech
 ---
 **Bottom Line:** An improvement on my [AppleScript action](http://n8henrie.com/2013/03/template-for-writing-quicksilver-actions-in-applescript/) for [sending iMessages with Quicksilver](http://n8henrie.com/2013/04/send-imessage-messages-with-quicksilver/) that allows sending to a name instead of having to “arrow in” to manually choose a phone number.<!--more-->
 

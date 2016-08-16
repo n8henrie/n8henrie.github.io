@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 829291971
 disqus_identifier: 65 http://n8henrie.com/?p=65
+tags:
+- cooking
+- fun
+- med school life
+categories:
+- nontech
 ---
 <div>
   <div>

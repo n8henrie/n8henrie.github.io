@@ -11,6 +11,16 @@ al2fb_facebook_exclude:
 dsq_thread_id:
   - 839051245
 disqus_identifier: 1700 http://n8henrie.com/?p=1700
+tags:
+- bookmarklet
+- Chrome
+- email
+- GTD
+- Mac OSX
+- OmniFocus
+- productivity
+categories:
+- tech
 ---
 **Bottom line:** Improved “Send to OmniFocus” bookmarklet that works better with Gmail at the end of the post, the rest is just my workflow.
   

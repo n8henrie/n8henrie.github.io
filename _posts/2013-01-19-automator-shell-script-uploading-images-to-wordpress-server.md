@@ -20,6 +20,14 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 1033649647
 disqus_identifier: 1915 http://n8henrie.com/?p=1915
+tags:
+- Mac OSX
+- photo
+- Quicksilver
+- Terminal
+- webapp
+categories:
+- tech
 ---
 **Bottom Line:** Easily make your own <a target="_blank" href="http://getcloudapp.com" title="CloudApp Official Site">CloudApp</a> style image (or other file) uploading service using Automator and the below shell script.
   

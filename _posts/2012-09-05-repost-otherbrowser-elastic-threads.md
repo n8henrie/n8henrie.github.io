@@ -15,6 +15,14 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 832406356
 disqus_identifier: 1618 http://n8henrie.com/?p=1618
+tags:
+- bookmarklet
+- Chrome
+- Mac OSX
+- Quicksilver
+- repost
+categories:
+- tech
 ---
 **Bottom line:** OtherBrowser installs a few little bookmarklets that take whatever URL you’re looking at in Chrome and open it in Safari, or vice versa.
   

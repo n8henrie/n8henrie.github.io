@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 811757289
 disqus_identifier: 79 http://n8henrie.com/?p=79
+tags:
+- behavior
+- rant
+- theories
+categories:
+- nontech
 ---
 <div>
   <a href="{{ site.url }}/uploads/2012/09/p2261.jpg.scaled5001.jpg"><img src="{{ site.url }}/uploads/2012/09/p2261.jpg.scaled5001.jpg" width="500" height="444" /></a> 

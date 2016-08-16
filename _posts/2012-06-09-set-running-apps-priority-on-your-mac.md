@@ -23,6 +23,12 @@ blogger_images:
 dsq_thread_id:
   - 811661374
 disqus_identifier: 17 http://n8henrie.com/?p=17
+tags:
+- applescript
+- Mac OSX
+- repost
+categories:
+- tech
 ---
 I use <a href="http://handbrake.fr/" target="_blank">Handbrake</a> to convert video files all the time.  It works great.  Unfortunately, converting videos takes a lot of computer power, and my trust Macbook Pro is getting a little old (nearly 3 years since I bought it — that’s like middle aged in computer years).  That means that when I try to convert a video and simultaneously work on other stuff, things get a little choppy, and sometimes downright unusable.
 

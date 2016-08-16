@@ -10,6 +10,12 @@ permalink: /2014/05/get-notified-when-your-internet-is-back-on/
 dsq_thread_id:
   - 2713948419
 disqus_identifier: 2532 http://n8henrie.com/?p=2532
+tags:
+- automation
+- dropbox
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** This is my method for getting a push notification on my phone when my internet comes back on.<!--more-->
 

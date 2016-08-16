@@ -12,6 +12,14 @@ al2fb_facebook_exclude:
 dsq_thread_id:
   - 999223363
 disqus_identifier: 1872 http://n8henrie.com/?p=1872
+tags:
+- automation
+- dropbox
+- Mac OSX
+- repost
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** If you’re a <a target="_blank" href="https://pinboard.in">Pinboard</a> user, you can automate backing up your bookmarks to Dropbox with cURL and launchd.
   

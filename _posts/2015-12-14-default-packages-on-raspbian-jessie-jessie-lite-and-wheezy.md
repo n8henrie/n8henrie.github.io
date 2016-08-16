@@ -10,6 +10,11 @@ permalink: /2015/12/default-packages-on-raspbian-jessie-jessie-lite-and-wheezy/
 dsq_thread_id:
   - 4404310295
 disqus_identifier: 2775 http://n8henrie.com/?p=2775
+tags:
+- linux
+- raspberrypi
+categories:
+- tech
 ---
 **Bottom Line:** Here are the default packages on a fresh image of Raspbian Jessie, Jessie Lite, and Wheezy.<!--more-->
 

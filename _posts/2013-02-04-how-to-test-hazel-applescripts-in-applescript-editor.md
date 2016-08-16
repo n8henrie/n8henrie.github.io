@@ -10,6 +10,12 @@ permalink: /2013/02/how-to-test-hazel-applescripts-in-applescript-editor/
 dsq_thread_id:
   - 1065964845
 disqus_identifier: 1994 http://n8henrie.com/?p=1994
+tags:
+- applescript
+- automation
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom Line:** You can use AppleScript Editor to test your AppleScripts destined for <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> with this little trick.
   

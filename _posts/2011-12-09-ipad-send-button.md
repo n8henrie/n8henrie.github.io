@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 821977510
 disqus_identifier: 42 http://n8henrie.com/?p=42
+tags:
+- iPad
+- rant
+categories:
+- tech
 ---
 <div>
 </div>

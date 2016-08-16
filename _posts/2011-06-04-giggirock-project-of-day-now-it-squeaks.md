@@ -24,6 +24,13 @@ enclosure:
         video/quicktime
         
 disqus_identifier: 59 http://n8henrie.com/?p=59
+tags:
+- eBooks
+- photo
+- quotes
+- webapp
+categories:
+- nontech
 ---
 <div>
   <div>

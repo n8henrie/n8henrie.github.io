@@ -17,6 +17,12 @@ blogger_images:
 dsq_thread_id:
   - 811671064
 disqus_identifier: 51 http://n8henrie.com/?p=51
+tags:
+- automation
+- Twitter
+- webapp
+categories:
+- tech
 ---
 <div>
   <div>

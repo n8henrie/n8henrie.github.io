@@ -22,6 +22,11 @@ dsq_thread_id:
   - 885216743
 format: video
 disqus_identifier: 1780 http://n8henrie.com/?p=1780
+tags:
+- iPhone
+- Siri
+categories:
+- tech
 ---
 I’m going to start posting screenshots when I discover a new Siri trick that impresses me. I think the screenshot is key to show _exactly_ how I spoke the command, and the result.
   

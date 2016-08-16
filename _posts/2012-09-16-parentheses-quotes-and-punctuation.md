@@ -15,6 +15,10 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 847051589
 disqus_identifier: 1732 http://n8henrie.com/?p=1732
+tags:
+- writing
+categories:
+- nontech
 ---
 As I’ve previously noted, [I use a lot of parentheses in my writing](http://www.n8henrie.com/2012/01/parenthesis/ "(Parenthesis)"). It’s not uncommon for me to be hastily composing a post and realize that I’m about to end a parenthetical thought as well as its mother sentence. Assuming that the parenthetical thought is a grammatically complete sentence, how should one punctuate?
 

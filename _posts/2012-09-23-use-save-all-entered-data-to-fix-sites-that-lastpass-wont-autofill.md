@@ -17,6 +17,10 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 856146014
 disqus_identifier: 1747 http://n8henrie.com/?p=1747
+tags:
+- security
+categories:
+- tech
 ---
 **Bottom Line: **LastPass has a “Save All Entered Data” button that helps fix the rare occasion when it doesn’t properly detect a form field.
   

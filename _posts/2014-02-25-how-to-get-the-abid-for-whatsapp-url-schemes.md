@@ -10,6 +10,13 @@ permalink: /2014/02/how-to-get-the-abid-for-whatsapp-url-schemes/
 dsq_thread_id:
   - 2321138016
 disqus_identifier: 2481 http://n8henrie.com/?p=2481
+tags:
+- iPad
+- iPhone
+- LCP
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to get all your WhatsApp ABIDs for use in Launch Center Pro URL schemes.<!--more-->
 

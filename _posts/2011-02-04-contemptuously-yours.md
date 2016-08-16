@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 876918711
 disqus_identifier: 77 http://n8henrie.com/?p=77
+tags:
+- behavior
+- rant
+categories:
+- nontech
 ---
 <div>
   <p>

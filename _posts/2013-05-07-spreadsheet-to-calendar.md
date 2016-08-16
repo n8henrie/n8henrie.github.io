@@ -10,6 +10,12 @@ permalink: /2013/05/spreadsheet-to-calendar/
 dsq_thread_id:
   - 1269596970
 disqus_identifier: 2234 http://n8henrie.com/?p=2234
+tags:
+- productivity
+- python
+- webapp
+categories:
+- tech
 ---
 **Bottom Line:** Here’s an updated post on how to import a spreadsheet of events into iCal, Calendar.app, Google Calendar, or several other modern calendar apps.<!--more-->
 

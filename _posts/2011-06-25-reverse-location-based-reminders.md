@@ -24,6 +24,12 @@ enclosure:
 dsq_thread_id:
   - 842600972
 disqus_identifier: 53 http://n8henrie.com/?p=53
+tags:
+- audioboo
+- musings
+- productivity
+categories:
+- tech
 ---
 <div>
   <div>

@@ -12,6 +12,14 @@ al2fb_facebook_exclude:
 dsq_thread_id:
   - 856729470
 disqus_identifier: 1758 http://n8henrie.com/?p=1758
+tags:
+- med school life
+- med school tips
+- myth
+- rant
+- writing
+categories:
+- nontech
 ---
 **Bottom line:** In American English, the most correct and generally accepted pronunciation of Latin words ending in -ae appears to be the long ē sound, as in “tea” or “C**ae**sar salad.”
   

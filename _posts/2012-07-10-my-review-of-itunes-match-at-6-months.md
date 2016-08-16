@@ -23,6 +23,13 @@ blogger_images:
 dsq_thread_id:
   - 813562964
 disqus_identifier: 11 http://n8henrie.com/?p=11
+tags:
+- iPad
+- iPhone
+- iTunes
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom line:** I just made a quick post on Facebook to a friend that was considering purchasing an iTunes Match subscription, and it made me remember how I went back and forth regarding whether it would be worth my $25. I figured that a short review of my experiences would be well worth a blog post.
 

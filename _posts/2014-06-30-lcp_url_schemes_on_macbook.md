@@ -10,6 +10,16 @@ permalink: /2014/06/lcp_url_schemes_on_macbook/
 dsq_thread_id:
   - 2808067008
 disqus_identifier: 2553 http://n8henrie.com/?p=2553
+tags:
+- automation
+- iPad
+- iPhone
+- LCP
+- Mac OSX
+- python
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** Editing Launch Center Pro URL schemes on your iDevice can be a bit of a pain, so here’s a way to do it on your MacBook (in json).<!--more-->
 

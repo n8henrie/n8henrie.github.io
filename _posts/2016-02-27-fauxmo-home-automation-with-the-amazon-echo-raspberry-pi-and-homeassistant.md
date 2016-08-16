@@ -10,6 +10,14 @@ permalink: /2016/02/fauxmo-home-automation-with-the-amazon-echo-raspberry-pi-and
 dsq_thread_id:
   - 4617353032
 disqus_identifier: 2808 http://n8henrie.com/?p=2808
+tags:
+- automation
+- electronics
+- homeautomation
+- python
+- Siri
+categories:
+- tech
 ---
 **Bottom Line:** I updated a Python script called Fauxmo that lets you control your Raspberry Pi with an Amazon Echo (and now supports HomeAssistant).<!--more-->
 

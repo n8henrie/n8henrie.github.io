@@ -10,6 +10,14 @@ permalink: /2014/10/update-launch-center-pro-actions-for-drafts-4/
 dsq_thread_id:
   - 3121247923
 disqus_identifier: 2675 http://n8henrie.com/?p=2675
+tags:
+- Drafts
+- iPad
+- iPhone
+- LCP
+- python
+categories:
+- tech
 ---
 **Bottom Line:** Here’s how to use my lcp_export script to batch update your Launch Center Pro actions to work with the new Drafts 4.<!--more-->
 

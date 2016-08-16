@@ -17,6 +17,11 @@ blogger_images:
 dsq_thread_id:
   - 816539331
 disqus_identifier: 87 http://n8henrie.com/?p=87
+tags:
+- med school life
+- medicine
+categories:
+- nontech
 ---
 <div>
   <p>

@@ -17,6 +17,16 @@ blogger_images:
 dsq_thread_id:
   - 811755422
 disqus_identifier: 52 http://n8henrie.com/?p=52
+tags:
+- automation
+- bookmarklet
+- Instapaper
+- Kindle
+- mobile
+- productivity
+- webapp
+categories:
+- tech
 ---
 <div>
   <div style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;">

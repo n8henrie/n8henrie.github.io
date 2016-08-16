@@ -10,6 +10,10 @@ permalink: /2013/08/interview-season-tips-for-fourth-year-medical-students-part-
 dsq_thread_id:
   - 1596196086
 disqus_identifier: 2350 http://n8henrie.com/?p=2350
+tags:
+- med school tips
+categories:
+- nontech
 ---
 **Bottom Line:** A short series of posts for fourth year medical students going in to interview season, part 1 of 3. <!--more-->
 

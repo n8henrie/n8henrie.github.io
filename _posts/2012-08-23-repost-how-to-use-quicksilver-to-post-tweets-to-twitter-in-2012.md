@@ -15,6 +15,13 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 816339300
 disqus_identifier: 645 http://n8henrie.com/?p=645
+tags:
+- iTunes
+- Quicksilver
+- repost
+- Twitter
+categories:
+- tech
 ---
 **Bottom line:** Clever, easy way to set up <a title="Quicksilver" href="http://qsapp.com" target="_blank">Quicksilver</a> triggers for apps that can launch via URL scheme.
   

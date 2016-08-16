@@ -15,6 +15,12 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 835124490
 disqus_identifier: 1669 http://n8henrie.com/?p=1669
+tags:
+- applescript
+- automation
+- Mac OSX
+categories:
+- tech
 ---
 **Bottom line:** I wrote an Applescript that automates clicking a lot of evenly spaced checkboxes in a web browser.
   

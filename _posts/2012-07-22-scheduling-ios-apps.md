@@ -23,6 +23,14 @@ blogger_images:
 dsq_thread_id:
   - 811650975
 disqus_identifier: 9 http://n8henrie.com/?p=9
+tags:
+- automation
+- iPad
+- iPhone
+- mobile
+- productivity
+categories:
+- tech
 ---
 **Bottom line:** You can schedule apps to run on a schedule on your jailbroken iOS device by adding a shell script called by a .plist that is run by launchCTL.
   

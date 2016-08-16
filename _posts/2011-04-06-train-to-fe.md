@@ -24,6 +24,12 @@ enclosure:
         video/quicktime
         
 disqus_identifier: 67 http://n8henrie.com/?p=67
+tags:
+- fun
+- med school life
+- photo
+categories:
+- nontech
 ---
 <div>
   <div>

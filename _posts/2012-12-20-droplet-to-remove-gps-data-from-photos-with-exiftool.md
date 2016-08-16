@@ -16,6 +16,14 @@ al2fb_facebook_link_picture:
 dsq_thread_id:
   - 985011165
 disqus_identifier: 1843 http://n8henrie.com/?p=1843
+tags:
+- iPhoto
+- Mac OSX
+- photo
+- security
+- Terminal
+categories:
+- tech
 ---
 **Bottom Line:** EXIFtool is a free command line utility that can remove the GPS data that many modern cameras and phones embed into photos.
   
