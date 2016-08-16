@@ -1,15 +1,20 @@
 ---
-id: 589
 title: Search
 date: 2012-08-22T12:48:08+00:00
 author: n8henrie
 layout: page
-guid: http://www.n8henrie.com/?page_id=589
-sharing_disabled:
-  - 1
-dsq_thread_id:
-  - 
 ---
-<p style="text-align: center; font-size:20px;">
-  Search n8henrie.com
-</p>
+<div>
+<script>
+  (function() {
+    var cx = 'partner-pub-8941996312417072:8652458489';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>

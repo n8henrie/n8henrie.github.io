@@ -16,6 +16,8 @@
 
 guard 'livereload' do
   watch(%r{^_sass/.+\.scss$})
-  watch(%r{^_.+/.+\.html$})
+  watch(%r{^.+\.html$})
+  watch(%r{^.+\.md$})
+  watch(%r{^_includes/.+\.html$})
   # watch(%r{^library/js/.+\.js$})
 end

@@ -3,7 +3,8 @@ email: nate@n8henrie.com
 description: >
   Technology, medicine, science, superstition... and having fun.
   Brought to you by Nathan Henrie.
-url: "http://n8henrie.com"
+# url: "http://n8henrie.com"
+url: "http://127.0.0.1:4000"
 twitter_username: n8henrie
 github_username:  n8henrie
 timezone: America/Denver
@@ -22,7 +23,22 @@ kramdown:
 escape_code: true
 
 gems:
-  - jekyll-gist
-  - octopress-escape-code
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
 
-exclude: [tmp]
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+
+paginate: 8
+
+exclude: [tmp,import_versions,utils]

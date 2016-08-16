@@ -2,3 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 *.swp
+import_versions/
+_sass.bak/
+tmp/
