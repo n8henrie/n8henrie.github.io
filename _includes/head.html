@@ -6,6 +6,7 @@
   <meta name="google-site-verification" content="lOgYEDSRH_etu9NWHYa82k8iJKsCS-zMBXUeGNVyZSA" />
   <meta name="msvalidate.01" content="FAB222101D1BCDE71A07E5140D08E016" />
 
+  {% feed_meta %}
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
