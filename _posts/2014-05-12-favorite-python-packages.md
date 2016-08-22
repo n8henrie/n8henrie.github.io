@@ -42,16 +42,12 @@ Makes accessing / form submitting / downloading a webpage as simple as possible,
 html = requests.get('http://n8henrie.com').content
 ```
 
-<!-- -->
-
 ```python
 # A more complex GET request with simple auth
 auth = ('user', 'pass')
 payload = { 'query': 'my search term'}
 html = requests.get('http://example.com', params = payload, auth = auth).content
 ```
-
-<!-- -->
 
 ```python
 # A "session" which preserves cookies, so you can log in with a POST form, then
@@ -89,14 +85,10 @@ Provides access to the OSX Keychain, so you can keep your secure / encrypted pas
 keyring.set_password('example.com', 'n8henrie', 'my_password')
 ```
 
-<!-- -->
-
 ```python
 # Retrieve it later
 pass = keyring.get_password('example.com', 'n8henrie')
 ```
-
-<!-- -->
 
 ```python
 # Or, if you want to also mask your username
