@@ -5,3 +5,4 @@ _site
 import_versions/
 _sass.bak/
 tmp/
+_config_dev.yml
