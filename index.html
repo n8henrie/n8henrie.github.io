@@ -18,7 +18,9 @@ layout: default
     {% endfor %}
   </ul>
 
-  <!-- Pagination links -->
+  {% comment %}
+  Pagination links
+  {% endcomment %}
   <div class="pagination">
   {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous"><<</a>
