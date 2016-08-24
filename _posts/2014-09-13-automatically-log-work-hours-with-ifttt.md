@@ -26,4 +26,4 @@ IFTTT has simplified the process with <a target="_blank" href="https://itunes.ap
 
 Here’s my current IFTTT recipe:
 
-<a target="\_blank" href="https://ifttt.com/view\_embed\_recipe/178609-automatically-track-work-hours" target = "\_blank" class="embed\_recipe embed\_recipe-l\_30" id= "embed\_recipe-178609"><img src= 'https://ifttt.com/recipe\_embed\_img/178609' alt="IFTTT Recipe: Automatically track work hours connects ios-location to google-drive" width="370px" style="max-width:100%"/></a>
+<a target="_blank" href="https://ifttt.com/view_embed_recipe/178609-automatically-track-work-hours" target = "_blank" class="embed_recipe embed_recipe-l_30" id= "embed_recipe-178609"><img src= 'https://ifttt.com/recipe_embed_img/178609' alt="IFTTT Recipe: Automatically track work hours connects ios-location to google-drive" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src="//ifttt.com/assets/embed_recipe.js"></script>
