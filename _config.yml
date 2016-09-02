@@ -19,7 +19,7 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
-escape_code: true
+show_drafts: false
 
 gems:
   - jekyll-sitemap
@@ -40,4 +40,4 @@ defaults:
 
 paginate: 8
 
-exclude: [tmp,import_versions,utils]
+exclude: [tmp,import_versions,utils,Makefile]
