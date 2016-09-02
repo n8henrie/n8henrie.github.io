@@ -18,7 +18,7 @@ categories:
 - tech
 ---
 **Bottom Line:** You can use AppleScript Editor to test your AppleScripts destined for <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> with this little trick.
-  
+
 <!--more-->
 
 I frequently post about <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> and the hundreds of menial, repetitive tasks I can get it to take care of for me (see my posts tagged “[automation](http://n8henrie.com/tag/automation/)”). Although it has a great GUI interface for getting some serious work done, I often end up embedding a little [AppleScript](http://n8henrie.com/tag/applescript) or [shell script](http://n8henrie.com/tag/terminal/).
@@ -30,3 +30,5 @@ However, I’ve found a little trick that _really_ speeds things up. You might h
 As I’ve tried to indicate, you can just use the “property theFile” part for testing a script that will be embedded in Hazel (delete or comment the rest), or include the whole hazelprocessfile jazz for testing external scripts that Hazel will reference. Just uncomment the relevant parts and test away. The fully commented script, as you see it now, is how it should look _after_ testing, when it’s ready for prime-time. (I recommend you keep the parts commented out instead of erasing them in case you need to test more in the future.)
 
 Enjoy!
+
+<script src="http://pastebin.com/embed_js.php?i=j3bGbgJ4"></script>

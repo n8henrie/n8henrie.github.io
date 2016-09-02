@@ -33,3 +33,5 @@ As you can imagine, there are definitely some ramifications for privacy. On a po
 Luckily, I discovered that I could log in with Chrome, which made the necessary cookies, then grab those cookies with an <a target="_blank" href="http://www.sqlite.org/" title="SQLite Home Page">sqlite3</a> query and load them into Requests, and have Requests automate the downloading using the session that Chrome authenticated.
 
 While this process will likely need to be tweaked for each specific case, I’m pretty sure that my batch-downloading needs will be satisfied much quicker from here on out by just logging in via GUI with a web browser, then stealing those cookies for my script. It’s kind of cheating, but for single-use scripts it sure beats trying to figure out all the hidden POST fields. Maybe there’s someone else out there that might find this handy, so I thought I’d share. I’ve tried to markup the code since several parts (like iterating through multiple pages) might be unnecessary for others. If you have questions or suggestions for improvement, please speak up in the comments!
+
+<script src="https://gist.github.com/n8henrie/8715089.js"></script>

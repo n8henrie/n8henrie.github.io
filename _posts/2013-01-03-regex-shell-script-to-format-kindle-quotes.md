@@ -27,7 +27,7 @@ categories:
 - tech
 ---
 **Bottom Line:** I’ve previously shown how you can [extract your highlights and bookmarks from your Kindle](http://n8henrie.com/2012/12/backing-up-kindle-quotes-with-hazel/), and this is a script to automate formatting them.
-  
+
 <!--more-->
 
 The more I read on my Kindle, the more I like it. One of the major advantages is that eBooks are searchable, so when I know there was a great part in this one book… I can find it quickly. Or if I lose my place, I can find it again easily. Another great thing is that I can easily share content that I think is particularly good.
@@ -39,3 +39,5 @@ If you’re interested in learning the basics of <a target="_blank" href="http:/
 This script should take your file of Kindle highlights and bookmarks, filter out the bookmarks (leaving only highlights), rearrange them, and output the quote text in blockquotes, followed by a dash, the source, the author, and date it was highlighted (all pulled from the Kindle file).
 
 Here’s the script. Remember to replace “$1” if you’re not using <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> and insert your own [username] in the file path.
+
+<script src="http://pastebin.com/embed_js.php?i=yf3CZbGb"></script>

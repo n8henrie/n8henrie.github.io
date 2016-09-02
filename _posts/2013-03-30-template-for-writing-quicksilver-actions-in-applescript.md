@@ -24,3 +24,5 @@ Anyone that frequents n8henrie.com will know that [I love Quicksilver](http://n8
 Here’s what I came up with so far. Enjoy, and if you have suggestions or clarifications, let me know in the comments section below.
 
 Update: The official Quicksilver site has added several other templates in a great page you can check out <a href="http://qsapp.com/wiki/AppleScript_Action_templates" target="_blank">here</a>. —n8henrie Sun Apr 7 10:15:18 MDT 2013
+
+<script src="https://gist.github.com/n8henrie/5278074.js"></script>

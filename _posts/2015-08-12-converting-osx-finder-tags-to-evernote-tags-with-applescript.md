@@ -34,3 +34,5 @@ Once again, it’s intended for use with <a href="http://www.noodlesoft.com/haze
 I put in a few lines for debugging and testing in `Script Editor.app` to make sure it seems to be working, most importantly line 2, where you can put in the path to a test file (that has Finder tags) and see that it gets imported into Evernote appropriately.
 
 I hardly know any Ruby, so please excuse how sloppy that part came out, and feel free to recommend improvements in the comment section below.
+
+<script src="https://gist.github.com/n8henrie/2c653df618e63d320ec2.js"></script>

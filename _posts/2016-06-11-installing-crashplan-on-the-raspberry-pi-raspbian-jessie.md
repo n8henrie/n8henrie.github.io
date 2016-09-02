@@ -29,11 +29,11 @@ I’ve briefly re-tested the script on a blank Raspbian Jessie Lite installation
 
 **NB:** This script does _not_ cover mounting an external hard drive or configuring it as your CrashPlan backup destination.
 
-
+<script src="https://gist.github.com/n8henrie/37d96807e31d94ca0464.js"></script>
 
 My systemd service file:
 
-
+<script src="https://gist.github.com/n8henrie/996bd2b9b309fe6011a3.js"></script>
 
 Some folks have recommended increasing the number of inotify watches with the commands below; this is another thing that I didn’t do, and it seems to be running okay on my RPi 3.
 

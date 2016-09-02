@@ -57,7 +57,7 @@ Even worse, you’ll find that what is suggested by Accessibility Inspector (AI)
 
 I’m going to jump tracks a bit here to talk about why this matters. When talking to AppleScript, you have to specify a full hierarchy to get anything done. As I said before, you’ll be doing this through the System Events app, which “tells” the process (not the application — note that the process may have a different name, which you may be able to divine using Activity Monitor, which is preinstalled on your Mac), which “tells” its children UI Elements what to do. Also, some parts of UI Scripting can only work on what it can see, in the same way that you can’t click a button that you can’t see. So when we start UI Scripting, we’ll start our AppleScript with a few lines that get things set up by starting the conversation with System Events and bringing the application in question into focus.
 
-
+<script src="http://pastebin.com/embed_js.php?i=cDVq0ic8"></script>
 
 Try this out. It should bring iTunes into focus. Now on some systems (esp. older ones like mine) the app might not quite make it into focus before the next line of AppleScript is run, which presents a problem. For this reason, I’ll often add a **delay 1** to give the app a second to come fully into focus.
 
@@ -69,11 +69,11 @@ Here’s where I tell you the one tip that makes this post worthwhile. Well, I w
 
 If you’ll scroll up a bit to the screenshot of Accessibility Inspector while locked onto the “Download All Free Apps” button, you’ll see in the hierarchy (top) pane that our top-level UI element is application. We’ve taken care of this with the **to tell process “iTunes”**. The next level below that is AXWindow:AXStandardWindow … so we’re looking for a window. Sure enough, in the AppleScript Editor results pane, we see a “window” named “iTunes.” So then we can “tell” this UI element to list _its_ UI element children. Here is how we would do that, including the results (as a comment below the script). As you can see, we have a lot more to sort through this time.
 
-
+<script src="http://pastebin.com/embed_js.php?i=ysd3JZdg"></script>
 
 Looking at Accessibility Inspector, the next UI element we’re looking for is an “AXSplitGroup.” As I mentioned above, I had a heck of a time trying to figure out what AppleScript Editor wanted me to call “AXSplitGroup.” Sorting through the returned results in the bottom pane, there is only one item that catches my eye — **splitter group 1** — and sure enough, it works like a charm. Follow the next logical step and we can see in the returned results **UI element “loading iTunes store”**, which (again) matches the AXDescription in the Attributes section of the Accessibility Inspector screenshot above. We’re clearly on the right track. Add in a **tell UI element “loading iTunes store”** (and its “end tell” of course), and you should have:
 
-
+<script src="http://pastebin.com/embed_js.php?i=eDheaxPf"></script>
 
 Search its returned results to find the “Download All Free Updates” button we’ve been looking for, which you can tell to **perform action “AXPress”** to click.
 

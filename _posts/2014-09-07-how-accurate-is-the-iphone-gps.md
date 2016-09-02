@@ -48,18 +48,18 @@ My first GPS location was 34º 17′ 58″ N 108º 36′ 55″ W. <a href="http:
 If you don’t want to follow the links, here’s what it looks like:
 
 
-<img class="" src="{{ site.url }}/uploads/2014/08/20140814_20140814-ScreenShot-358.jpg" alt="" width="557" height="251" /> 
+<img class="" src="{{ site.url }}/uploads/2014/08/20140814_20140814-ScreenShot-358.jpg" alt="" width="557" height="251" />
 
 Here you can see the actual location of my truck:
 
 <img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0471.jpg" alt="" width="439" height="329" />
-  
+
 <img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0470.jpg" alt="" width="441" height="330" />
 
 And here’s one of my 10 screenshots:
 
 
-<img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0473.PNG" alt="" width="250" height="445" /> 
+<img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0473.PNG" alt="" width="250" height="445" />
 
 The other 9 are pretty much the same, but if you care, you can download all the pics from this post + the extra / not shown screenshots [here]({{ site.url }}/uploads/2014/09/20140907_GPS.zip).
 
@@ -68,18 +68,18 @@ As you can see, there’s good agreement between the two services as to where th
 Because I was surprised at there being _no_ second-by-second variability when refreshing the location, I decided to drive along the empty dirt road while refreshing until the location changed. Clearly I don’t recommend anyone drive while using their cellphone; this was along an empty dirt road at about 5 mph… and in the name of science. Here’s where it changed:
 
 
-<img class="alignnone" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0484.JPG" alt="" width="426" height="320" /> 
-<img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0483.PNG" alt="" width="250" height="444" /> 
+<img class="alignnone" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0484.JPG" alt="" width="426" height="320" />
+<img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0483.PNG" alt="" width="250" height="444" />
 
 It looks like that’s probably about 121 feet. As it is essentially directly South, that is in pretty good agreement with the calculated number of 101 ft that I posted above (and I may have been a little generous on my line).
 
 
-<img class="" src="{{ site.url }}/uploads/2014/09/20140907_20140907-ScreenShot-403.jpg" alt="" width="495" height="440" /> 
+<img class="" src="{{ site.url }}/uploads/2014/09/20140907_20140907-ScreenShot-403.jpg" alt="" width="495" height="440" />
 
 My second GPS location was 34º 35′ 9″ N 108º 23′ 14″ W. <a href="http://n8h.me/1uc6Ly4" target="_blank">View in Google Maps</a> || <a href="http://maps.apple.com/?lsp=7618&sll=34.585833,-108.387222&q=34.585833,-108.387222" target="_blank">View in Apple Maps</a>
 
 
-<img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0485.PNG" alt="" width="250" height="444" /> 
+<img class="" src="{{ site.url }}/uploads/2014/09/20140907_IMG_0485.PNG" alt="" width="250" height="444" />
 
 I parked at essentially the same relative location in the intersection, but didn’t get out and take a picture. As stated above, I again had 100% agreement on the location between 10 refreshes of the Compass app. If you’ll follow the links above, you’ll see that both Apple and Google Maps place the location about 50 feet North of where I was in the actual intersection. However, as that 50 feet is less than the margin of accuracy of 1 degree of latitude at this location, they’re essentially both spot on.
 
@@ -88,3 +88,5 @@ I parked at essentially the same relative location in the intersection, but didn
 Basically, it looks like the iPhone GPS can be pretty darn good. I’m sure there are plenty of situations that will compromise its accuracy, but it looks like even without cellular signal or data, it is still worth a shot using the Compass app to get your GPS coordinates.
 
 Finally, what would a post like this be without a <a href="http://n8h.me/1dntsEH" target="_blank">Pythonista</a> script? The script below can get your GPS coordinates without cellular or internet connectivity, and gives you the option to take a quick look at your location (~5 secs) or spend a little more time to get more precise info (~25 secs). Then it places your coordinates with a timestamp into an SMS message. Now you won’t be able to _send_ this message without signal, but you should be able to _try_ to send it, then when it fails you can continue to retry to send it whenever you get a little better signal. My recommendation would be to turn on Airplane Mode to save battery (and / or get a spare battery pack — I have <a href="http://www.amazon.com/gp/product/B0054U6CEE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0054U6CEE&linkCode=as2&tag=n8henriecom-20&linkId=6ANRNKTXRCJEHII4" target="_blank">this one</a> and use it all the time), then check for signal every once in a while if you think you’ve gotten to a place with better reception.
+
+<script src="https://gist.github.com/n8henrie/60b2e9390355bc8e24dd.js"></script>

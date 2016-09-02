@@ -76,7 +76,7 @@ A few things to note if you use my script here:
 
 Afterward, you can confirm you have the `node` and `npm` commands with `command -v node` or `command -v npm`. It should output the path to these commands.
 
-
+<script src="https://gist.github.com/n8henrie/709a04e53a8569c14c1f.js"></script>
 
 As a sanity check, here’s what I ended up with:
 

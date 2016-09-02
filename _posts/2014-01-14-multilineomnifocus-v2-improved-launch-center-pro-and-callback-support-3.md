@@ -47,3 +47,5 @@ pythonista://MLOF2?action=run&argv=[prompt-fleksy]&argv=launchpro:
 As you can see, all you need to add is `&argv=` and the URL of the app you want to launch (including the colon).
 
 Here’s the updated gist:
+
+<script src="https://gist.github.com/n8henrie/8423669.js"></script>

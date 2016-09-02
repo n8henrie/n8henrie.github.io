@@ -27,7 +27,7 @@ categories:
 - tech
 ---
 **Bottom Line:** If you don’t like having to manually update iOS apps, here’s an AppleScript to automate the process.
-  
+
 <!--more-->
 
 I’ve been thinking of trying to put together a script like this for a while. Unless I’m jailbroken, which I’m not at the moment, I really don’t ever hesitate to update my iOS apps. There are good reasons why you should not, on occasion (a buggy release that hasn’t been updated yet, a new version that loses features you need), so don’t go implementing this script without making sure you are okay with automatic app updates.
@@ -41,13 +41,14 @@ I guess the other things to mention are:
   * After running this (and giving some time for the updated apps to download), I run a different script to automate syncing them over to my iPhone: [Applescript to Sync iOS Devices in iTunes](http://www.n8henrie.com/2011/12/applescript-to-sync-ios-devices-in/)
   * Both of these are included in my “GoodMorning.app” routine that I’ve put together with Automator, which I’ll briefly post about in a few minutes
   * To run an external AppleScript in Automator, I use this (as an embedded AppleScript)
-  
-    > try
-  
-    > run script “/POSIX/Path/To/Script.scpt”
-  
-    > end try 
+
+```
+try
+run script “/POSIX/Path/To/Script.scpt”
+end try
+```
 
 Enough is enough. On to the script!
 
 **Update May 25, 2013**: Script now hosted as a GitHub Gist <a href="https://gist.github.com/n8henrie/5649326" title="UpdateiOSApps.applescript at GitHub" target="_blank">here</a>.
+<script src="https://gist.github.com/n8henrie/5649326.js"></script>

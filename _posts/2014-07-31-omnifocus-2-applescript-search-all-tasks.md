@@ -34,3 +34,5 @@ I added two new perspectives, one to search all tasks (including completed), and
 It seems to work great and really simplifies the AppleScript. Only other thing I really changed was to move the dialog to the beginning of the script, so if you accidentally invoke it or change your mind, it will cancel before stealing your focus and activating OmniFocus.
 
 Let me know what you think. Thanks to Sven Luetkemeier and Rob Trew for their effort on (much fancier) earlier versions.
+
+<script src="https://gist.github.com/n8henrie/9dd700ab65539921f82d.js"></script>

@@ -38,3 +38,5 @@ The only problem is when the page is down because the server is not responding. 
 I found a workaround for Mac users browsing in Safari or Google Chrome by writing an AppleScript that essentially gets the URL directly from the address bar. So 90% of the time, this should work identically to the javascript bookmarklet. However, the other 10% of the time when nothing is loading at all, this AppleScript should still work while the javascript bookmarklet won’t.
 
 Just like the bookmarklet, I put it into QuickSilver to be able to call it lickety-split with a keystroke or two. Enjoy!
+
+<script src="https://gist.github.com/n8henrie/220306673887daa4aec5.js"></script>

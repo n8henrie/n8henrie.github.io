@@ -31,9 +31,9 @@ To “install” it:
   2. Open the script in AppleScript Editor and replace the AppleID property at the top with your own. Compile and save.
   3. Relaunch Quicksilver `cmd ctrl q` to have it reindex the actions folder.
 
-Note that the script will be an eligible (second pane) action only if it detects a string in the first pane. 
+Note that the script will be an eligible (second pane) action only if it detects a string in the first pane.
 
-> **Update Apr 26, 2013 thanks to <a href="https://twitter.com/p_j_r" target="_blank">@p_j_r</a>:** The script has been updated to now accept the text content in the _first_ and the _recipient_ in the third pane. This is much better, as it allows other scripts to return text content (e.g. a URL, text grabbed from an application) to the first pane. Previously you would have had to copy that to the clipboard and replace it with the contact, then paste into the third pane. **This may add some confusion**, however, as contacts will now be selectable in both the first and third panes, and **it will not work** if you select them in the first pane. If you have ideas on how I could add some kind of switch to allow either way, that would be great, but since both the message content and iMessage phone number or email address are both strings, I’m not sure how AppleScript could reliably distinguish which was which. 
+> **Update Apr 26, 2013 thanks to <a href="https://twitter.com/p_j_r" target="_blank">@p_j_r</a>:** The script has been updated to now accept the text content in the _first_ and the _recipient_ in the third pane. This is much better, as it allows other scripts to return text content (e.g. a URL, text grabbed from an application) to the first pane. Previously you would have had to copy that to the clipboard and replace it with the contact, then paste into the third pane. **This may add some confusion**, however, as contacts will now be selectable in both the first and third panes, and **it will not work** if you select them in the first pane. If you have ideas on how I could add some kind of switch to allow either way, that would be great, but since both the message content and iMessage phone number or email address are both strings, I’m not sure how AppleScript could reliably distinguish which was which.
 
 So to use it, I select a contact in Quicksilver’s <del datetime="2013-04-27T02:20:26+00:00">first</del> third pane, then use the right arrow button to enter the contact’s info and select their iMessage email address or phone number. Note that the contact themselves will not work, you have to either select (or type in) an iMessage email address or phone number. For me, this works pretty well because I’ve been diligent about changing my friends’ phone type to “iPhone” if they have one, so I can just enter a contact’s name, right arrow, type in “iph” and it selects the right one.
 
@@ -50,13 +50,13 @@ There are a few pending issues that I wish worked better, but may or may not be 
   * Because it sends without bringing Messages.app into the foreground (which is kind of the point), I won’t see any message failure notifications unless I check manually. Scroll down below the script to see a workaround I’m curious about here.
   * I wish I didn’t have to hit the “period” to enter text mode in the 3rd pane. Some plugins have QS automatically enter text mode when text input is required, but I don’t know if this feature is available to AppleScript actions.
 
-Here’s the script:
+Here's the script:
 
-
+<script src="https://gist.github.com/n8henrie/5307970.js"></script>
 
 Okay, the workaround I mentioned above. If you open up the Messages.app AppleScript dictionary, you’ll notice it has a section of Events Handlers. Sure enough, you can open Messages.app, go to “Alerts,” and there are a whole series of events that you can have trigger scripts. If you check the “Run an AppleScript script:” alert, you can have it open the Messages.app scripts folder at `~/Library/Scripts/Messages/`. You can write and store scripts such as this there to have them run when certain events occur (logging in, sending a message, etc.):
 
-
+<script src="https://gist.github.com/n8henrie/5331420.js"></script>
 
 I was thinking one could potentially use this to help ensure that messages are sent without errors. For example, at the end of the “Send with Messages” script above, add a command to run a second script that delays 30 seconds, then pops up a dialog box notifying you that there was an error. Then, in the events handler script, have it try to cancel the first script. Theoretically, I would hope this would make it so that the dialog only popped up if the message was not successfully. Unfortunately, this would only work for messages send with the script above, and it wouldn’t work if the handler script runs on failed messages as well as successful ones… Just a thought.
 

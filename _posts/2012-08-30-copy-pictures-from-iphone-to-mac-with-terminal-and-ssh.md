@@ -23,12 +23,12 @@ categories:
 - tech
 ---
 **Bottom line:** Run this command in Terminal to copy your photos from an iDevice to your Mac via SSH.
-  
+
 <!--more-->
 
 I _really_ wish there was a <a target="_blank" href="http://skitch.com/">Skitch</a> for iPhone, but it doesn’t exist (although <a target="_blank" href="http://itunes.apple.com/us/app/skitch-for-ipad/id490505997?mt=8&at=10l5H6">the iPad version</a> is nice). That means that adding arrows or text or whatever minor adjustments to a picture usually means opening up the pic on my Macbook.
 
-There are many _easy_ options to get the pic there, but not very many _fast_ ones. Since my iPhone is jailbroken, I decided to figure out how to make this happen with an SSH script today. Ends up it was pretty easy and works much more quickly than waiting for Photo Stream or Cyberduck and doesn’t require me to connect a cable like iFunBox or iPhoto (since iPhoto is such a lightweight, fast-starting application that I’m dying to use it anyway). 
+There are many _easy_ options to get the pic there, but not very many _fast_ ones. Since my iPhone is jailbroken, I decided to figure out how to make this happen with an SSH script today. Ends up it was pretty easy and works much more quickly than waiting for Photo Stream or Cyberduck and doesn’t require me to connect a cable like iFunBox or iPhoto (since iPhoto is such a lightweight, fast-starting application that I’m dying to use it anyway).
 
 For this tip to be of the greatest convenience, you’ll probably want to use some kind of text expansion (I put it in TextExpander and set it to only expand in Terminal), and you’ll probably want to be set up for password-less / public key SSH authentication for your jailbroken iDevice.
 
@@ -43,11 +43,11 @@ I’m no pro with Terminal, so if you have recommendations on how I should impro
   * **/User/Media/DCIM** Path to DCIM folder on the iPhone, should be the same for your device.
   * **/Users/username/Desktop/%Y%m%d\ Phone\ Pics/** Full path to the local location where I want to place the pics, including the folder name.
 
-I decided to copy the whole DCIM folder because I’ve occasionally noticed multiple internal folders, and I’m not sure when or why they’re created, but I want to get all of them. Also notice the “%Y%m%d” to put the YYYYMMDD date into the folder name, making it much less likely for me to overwrite any preexisting folders, and the “escaped” spaces in the path. Make sure to insert your own username, obviously.
+I decided to copy the whole DCIM folder because I’ve occasionally noticed multiple internal folders, and I’m not sure when or why they’re created, but I want to get all of them. Also notice the `%Y%m%d` to put the YYYYMMDD date into the folder name, making it much less likely for me to overwrite any preexisting folders, and the “escaped” spaces in the path. Make sure to insert your own username, obviously.
 
 So the full line is this:
 
-
+<script src="http://pastebin.com/embed_js.php?i=rBGW70Hv"></script>
 
 All I have to do is make sure the phone is awake or connected to power (so its SSH daemon will work), crank up the sprightly Terminal, and type in my TextExpander snippet “ppictures”, and the end result is a datestamped folder of all my iPhone pics on my desktop.
 

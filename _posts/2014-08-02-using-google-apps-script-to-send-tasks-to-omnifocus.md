@@ -131,3 +131,5 @@ Then just have that filter do something like this for its action:
   * Mark as read (optional)
 
 Okay, that’s it! I’m excited to have finally broken into the world of Google Apps Script. Let me know if you have suggestions for improvement or questions in the comments section below!
+
+<script src="https://gist.github.com/n8henrie/6f8dfa1ce2ec066cdf08.js"></script>

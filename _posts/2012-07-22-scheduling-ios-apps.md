@@ -33,11 +33,10 @@ categories:
 - tech
 ---
 **Bottom line:** You can schedule apps to run on a schedule on your jailbroken iOS device by adding a shell script called by a .plist that is run by launchCTL.
-  
+
 <!--more-->
 
 
-  
 **Update Aug 20, 2013:** I haven’t had a jailbroken device (well not one that I use regularly anyway) for over a year now. I still think my post below is a good starting point for anyone looking to automate app launching on iOS, but _please understand it will be somewhat outdated._ On the other hand, several commenters below have continued to test and tweak; I highly recommend you look at their strategies as well for more updated information.
 
 I _finally_ figured out how to automate launching an app on a schedule on my iOS devices. This is something I’ve been trying to figure out for quite a while. While some of the jailbroken apps like <a target="_blank" href="http://apt.thebigboss.org/onepackage.php?bundleid=com.niufenfen.ischeduler&db=" title="iScheduler in BigBoss Repo">iScheduler</a> and <a target="_blank" href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbprofilesDp" title="SBProfiles in the BigBoss Repo">SBProfiles</a> have this function, I don’t want to pay for iScheduler (also tried it previously had some issues with conflicts and crashes), and I don’t want SBSettings anymore (happier with <a target="_blank" href="http://modmyi.com/info/ncsettings.php" title="NCSettings in ModMyI Repo">NCSettings</a> , and my phone seems a touch quicker). I mention that because SBSettings is a prerequisite for SBProfiles. You might be wondering why I care so much about being able to launch apps on a schedule. Don’t worry, I’ll tell you.
@@ -61,7 +60,7 @@ However, if I don’t remember to launch OmniFocus… the badge never updates, a
 
 ### Prerequisites for Automatically Scheduling iOS App Launches
 
-  * Jailbroken iOS Device 
+  * Jailbroken iOS Device
       * SSH access with something like <a target="_blank" href="http://thebigboss.org/guides-iphone-ipod-ipad/install-and-use-ssh" title="Open SSH Tutorial">Open SSH</a>
       * MobileTerminal
       * Install the “Open” package (set Cydia settings to “Hacker” and search for it)
@@ -75,34 +74,34 @@ However, if I don’t remember to launch OmniFocus… the badge never updates, a
 
 **Overview**: You’ll be making a shell script (.sh) with code for “what to do” and a preference list (.plist) with “when to do it.” These will be placed into your iPhone via SSH. I’m sure you could also do it all on the device with iFile / Mobileterminal, but this is how I did it. You’ll be taking advantage of something called LaunchCTL, which runs things on a schedule, and the “Open” package mentioned above, which tells MobileTerminal what it means to “Open” something.
 
-**1.** Figuring out the bundle identifiers can be a bit of a pain. These are special names for the apps that you’ll need to use in your script; they often look something like com.companyName.appName. To figure these out, one strategy is to use iFile to naviate to /User/Applications and enter the application folder in question. Browse around until you find something (the info.plist might be a good start). The strategy I used was to SSH into the iOS device from Terminal and use this command: 
+**1.** Figuring out the bundle identifiers can be a bit of a pain. These are special names for the apps that you’ll need to use in your script; they often look something like com.companyName.appName. To figure these out, one strategy is to use iFile to naviate to /User/Applications and enter the application folder in question. Browse around until you find something (the info.plist might be a good start). The strategy I used was to SSH into the iOS device from Terminal and use this command:
 
-which sometimes returns a _ton_ of stuff that I then browsed for something that looked like com.copanyName.appName. Then, to test it out, I’d run   
+which sometimes returns a _ton_ of stuff that I then browsed for something that looked like com.copanyName.appName. Then, to test it out, I’d run
 in the same Terminal window. _Make sure you’ve already installed the “Open” package by setting your Cydia setting to “hacker” and searching, or this won’t work._ If you’ve figured out the correct bundle identifier, the app should launch on your iOS device. If so, take note. If not, keep looking.
 
 **2.** Use a text editor (<a target="_blank" href="http://www.barebones.com/products/TextWrangler/" title="TextWrangler">TextWrangler</a> is my favorite), to create the following files. Credit goes to <a target="_blank" href="http://hintsforums.macworld.com/archive/index.php/t-48458.html" title="this thread">this thread</a> for the original material here.
 
 I named the below script “morningUpdates.sh” – note the bundle identifiers I used, and modified as suits you. Also note that I sync each app twice – this is because I’m also running a similar app on my iPad simultaneously, so the first run syncs the app to the cloud, the second syncs from the cloud, so both devices should have _all_ changes synced to and from them. Use SSH to place in your iOS device in /usr/bin/
 
-
+<script src="http://pastebin.com/embed_js.php?i=NuYHRRV1"></script>
 
 I named the below .plist “com.n8henrie.morningUpdates.plist” – note the “hour” and “minute” keys in 24h format, modified as suits you, and use SSH to place in your iOS device in /System/Library/LaunchDaemons/
 
-
-
-**3.** Once you’ve placed these files in the locations specified above, use Cyberduck to verify their permissions. I changed them to match the permissions of the other files in those folders, 755. They probably won’t run unless you do this step. 
+**3.** Once you’ve placed these files in the locations specified above, use Cyberduck to verify their permissions. I changed them to match the permissions of the other files in those folders, 755. They probably won’t run unless you do this step.
 
 **4.** Test your setup. Note that LaunchCTL won’t automatically notice changes you’ve made to the LaunchDaemons folder. You can use the following commands (again via SSH) to check its status and get it to update, or you can just reboot. What I did for testing was set the .plist to run 1 or 2 minutes in the future, use the first “list” command to verify that the .plist was being recognized, then watch to make sure everything ran as expected.
 
 Terminal commands:
 
-  * List .plists that are being recognized: 
-  * Load my new .plist (change to suit your .plist name): 
-  * Unload / load to refresh my new .plist to reflect changes (change to suit your .plist name): 
+- List .plists that are being recognized: `launchctl list`
+- Load my new .plist (change to suit your .plist name):
+
+        launchctl load /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist
+
+- Unload / load to refresh my new .plist to reflect changes (change to suit your .plist name):
+
+        launchctl unload /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist && launchctl load /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist
 
 I think this about it. The only other issue I ran into (still unresolved) is that I can’t find how to issue a Terminal command to simulate a home button press / return to home button. As you can see in the above code, I just left my iPhone open to Sparrow so I could review my email when I wake up. If you’d like to return your device to the home screen, a few options include “killall appName” to kill the app you’re in, or “killall SpringBoard” to respring.
 
 I’m about to run out of battery, so it’s time to end this post. Please leave comments, questions, and suggestions for improvement in the comments section below, and thanks for reading!
-
-<div>
-</div>

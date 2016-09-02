@@ -26,9 +26,9 @@ Every once in a while I decide to “start fresh” with my phone. The problem i
 
 It seemed like I was stuck choosing between “restore unwanted junk” and “lose wanted junk.” Luckily I found a happy medium. I’m on a Macbook Pro running OSX 10.8.4, iTunes 11.0.5, <a target="_blank" href="https://www.ruby-lang.org">Ruby</a> 2.0.0, <a target="_blank" href="http://www.i-funbox.com/" title="iFunBox for Windows | File Manager, Browser, Explorer, Transferer ...">iFunBox</a> 1.2, and was upgrading from iOS 6.1.3 (or was it 6.1.4?) to iOS 7. I can’t say whether this process will work with other software, and please keep in mind that **you could probably screw things up and lose data,** so make sure you have a tested backup, and a backup of that backup.
 
-## The brief overview: 
+## The brief overview:
 
-  * Before upgrade: 
+  * Before upgrade:
       * Optional: On your iPhone, screenshot each page of your home screen and each folder’s contents
       * Back up iPhone **unencrypted** to your computer with iTunes
       * **Copy** the backup folder from `~/Application Support/MobileSync/Backup/` to somewhere else (leaving the original preserved “just in case”)
@@ -39,7 +39,7 @@ It seemed like I was stuck choosing between “restore unwanted junk” and “l
   * Optional: Put into recovery mode (unplug, turn off, hold home button and plug into USB) or <a target="_blank" href="http://lmgtfy.com/?q=DFU+mode">DFU mode</a>
   * Upgrade to new operating system without restoring from your backup, set up as new
   * Use iTunes to check the apps that you want reinstalled
-  * Close iTunes and use iFunBox to restore the `.plist` files from the `Library/Preferences` directories 
+  * Close iTunes and use iFunBox to restore the `.plist` files from the `Library/Preferences` directories
 
 ## A little more detail:
 
@@ -52,3 +52,5 @@ As stated above, download the Ruby script and place it in the copy you made of t
 In iFunBox, find the apps under User Applications. Clicking on each app will reveal its subfolders, often including `Documents` and `Library` just like the Backup folder we created. I used <a target="_blank" href="http://qsapp.com">Quicksilver</a> (still my favorite OSX app) to quickly search through the backup folder for the app, then arrow into Library -> Preferences, then drag and drop the `.plist` file(s) into the corresponding Library -> Preferences in iFunBox. To my surprise and delight, it worked like a charm. I also restored the `Documents` folder, some `Application Support` folders (which often didn’t yet exist on the new iOS device), but I didn’t restore any of the Cookies or Caches. Not sure why, just didn’t.
 
 Again, I can’t promise this will work, and I can’t promise that you won’t break something trying, but it sure was a relief for me to restore things like my <a target="_blank" href="https://itunes.apple.com/us/app/launch-center-pro/id532016360?mt=8&at=10l5H6" title="Launch Center Pro">Launch Center Pro</a> URL Schemes, my <a target="_blank" href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8&uo=4&at=10l5H6" title="Pythonista">Pythonista</a> scripts, and my <a target="_blank" href="https://itunes.apple.com/us/app/omnifocus-2-for-iphone/id690305341?mt=8&at=10l5H6">OmniFocus</a> settings while still getting the benefits of a totally factory-fresh operating system upgrade.
+
+<script src="https://gist.github.com/n8henrie/6543069.js"></script>

@@ -82,3 +82,5 @@ Also, I don’t know of a way to validate a phone number or email address as iMe
 Finally, it would be _great_ to be able to export a current list of recipients in Messages.app conversations to the phonebook (for people that haven’t been setting “iPhone” as phone type in Address Book / Contacts), but I haven’t found a way yet using its AppleScript dictionary. Hit me up if you have an idea here.
 
 #### Code<a id="Code"></a>
+
+<script src="https://gist.github.com/n8henrie/5814757.js"></script>

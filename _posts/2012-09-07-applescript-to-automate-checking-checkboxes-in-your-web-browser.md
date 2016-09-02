@@ -23,11 +23,11 @@ categories:
 - tech
 ---
 **Bottom line:** I wrote an Applescript that automates clicking a lot of evenly spaced checkboxes in a web browser.
-  
+
 <!--more-->
 
 
-  
+
 Sometimes you run across _really_ long forms where you just want to check the same box on all of them. That’s about the only thing this script can do.
 
 As I’ve noted in the script itself, it seems to be working okay in the latest stable releases of Safari and Chrome for Mac (as of Sep 07, 2012). I’ve tried to have the dialogue boxes give clear instructions as the script runs.
@@ -47,3 +47,4 @@ That said, here are a few tips for success. This script
 <p align="center">
   <a target="_blank" href="http://cl.ly/3m0N3H3O322a">Download Script</a><br />
 </p>
+<script src="http://pastebin.com/embed_js.php?i=82YChzFa"></script>

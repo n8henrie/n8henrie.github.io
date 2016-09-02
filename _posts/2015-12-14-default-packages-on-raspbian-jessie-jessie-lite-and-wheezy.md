@@ -26,18 +26,14 @@ For the lists below, I took a freshly downloaded image, copied it to an SD card,
 
 I’ve included the dates and SHA-1 as listed at <a href="https://www.raspberrypi.org/downloads/raspbian" target="_blank">raspberrypi.org/downloads/raspbian</a>, where I downloaded the images, since I’m sure there will be changes soon.
 
-Raspbian Jessie 2015-11-21
-  
-SHA-1 `ce1654f4b0492b3bcc93b233f431539b3df2f813`
-  
+Raspbian Jessie 2015-11-21 (SHA-1 `ce1654f4b0492b3bcc93b233f431539b3df2f813`)
 
+<script src="https://gist.github.com/n8henrie/38531986893190470dea.js"></script>
 
-Raspbian Jessie Lite 2015-11-21
-  
-SHA-1 `97888fcd9bfbbae2a359b0f1d199850852bf0104`
-  
+Raspbian Jessie Lite 2015-11-21 (SHA-1 `97888fcd9bfbbae2a359b0f1d199850852bf0104`)
 
+<script src="https://gist.github.com/n8henrie/4ebe5a2ad23f2a0ae87b.js"></script>
 
-Raspbian Wheezy 2015-05-05
-  
-SHA-1 `cb799af077930ff7cbcfaa251b4c6e25b11483de`
+Raspbian Wheezy 2015-05-05 (SHA-1 `cb799af077930ff7cbcfaa251b4c6e25b11483de`)
+
+<script src="https://gist.github.com/n8henrie/28a9b710bd83643d24d0.js"></script>

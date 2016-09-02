@@ -27,11 +27,21 @@ For example, I’m learning to use jQuery. In Google Sites, Google lets you put 
 “Great!” I thought. I used <a target="_blank" href="http://jsfiddle.net/" title="JSFiddle: Create a new fiddle">jsfiddle</a> to write up a little jQuery `.hover()` function for my first ever mouseover effect. Not knowing any jQuery, I figured I’d start with a pretty recent version. You can see <a target="_blank" href="http://jsfiddle.net/n8henrie/dfo9fqz0/">my jsfiddle here</a>, but it’s something to the effect of:
 
 ```html
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js'></script>
 <div id='jquery_mouseover'>
-  <p>
-    Watch me change!
-  </p>
+    <p>Watch me change!</p>
 </div>
+<script>
+var oldText = $('#jquery_mouseover').text();
+
+$('#jquery_mouseover').hover(
+
+function () {
+    $(this).text('Wow, I changed!');
+}, function () {
+    $(this).text(oldText);
+});
+</script>
 ```
 
 It worked pretty well, so I threw it in the HTML Box in Google Sites… and got an error: `failed to load external url jquery.min.js`, highlighting my `src=` link to Google’s own hosted jQuery 2.1.0. I saved the HTML Box anyway, and (of course) my little script didn’t work.

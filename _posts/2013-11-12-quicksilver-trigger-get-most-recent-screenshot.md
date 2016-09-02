@@ -23,7 +23,7 @@ This is one of the more useful Python scripts I’ve written in a while. It simp
 
   * taking a screenshot
   * pulling it up into Quicksilver
-  * either dragging it back out (onto a web form), or 
+  * either dragging it back out (onto a web form), or
   * using Quicksilver to process the image
 
 into a snap. For me, it certainly beats having to dig through to my screenshots folder, or having my screenshots clutter up my desktop.
@@ -31,3 +31,5 @@ into a snap. For me, it certainly beats having to dig through to my screenshots 
 It is written in Python 3 but could likely work in Python 2.7 without much modification. It does rely on either <a target="_blank" href="https://pypi.python.org/pypi/py-applescript/">py-applescript</a> or subprocess + <a target="_blank" href="http://qsapp.com/plugins.php">Quicksilver Command Line Tool Plugin</a>, and can be set to use either one with an option in the script.
 
 I recommend you get the script running on its own (can be run independently in your code editor of choice), then add it as a Quicksilver trigger (action `Run [...]`) and benefit.
+
+<script src="https://gist.github.com/n8henrie/7425598.js"></script>

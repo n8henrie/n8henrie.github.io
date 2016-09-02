@@ -24,3 +24,5 @@ Sometimes I think Chrome is running slow because of all the extensions I have in
 Now that it’s running smoothly, I can go ahead and uninstall the link shortener extensions I had installed in Chrome and Safari, which may help them run slightly smoother. To get it set up, you’ll need to input your bitly username and API key toward the beginning of the script. Assuming you have an account, you can get these from <a target="_blank" href="https://bitly.com/a/your_api_key/">https://bitly.com/a/your_api_key/</a>.
 
 On another note, I’m giving a shot to hosting my code snippets at GitHub Gists (instead of Pastebin, which I’ve been using to this point). One disadvantage is that there doesn’t seem to be an easy way to limit the height of a long script. If anybody has a suggestion that doesn’t require a WordPress plugin (since my nvALT / Markdown preview won’t work with that), let me know. Please and thank you.
+
+<script src="https://gist.github.com/n8henrie/5264006.js"></script>

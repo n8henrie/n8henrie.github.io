@@ -41,3 +41,5 @@ All that was left was a little polish to make the script exit when the button is
 The icing on the cake is that it seems to run just fine in the background, while you continue to browse in other tabs.
 
 Hope you can find some use for it! If so, you may be interested in [one of my first scripts](http://n8henrie.com/2012/09/applescript-to-automate-checking-checkboxes-in-your-web-browser/), which automates checking a bunch of boxes (on a single webpage).
+
+<script src="https://gist.github.com/n8henrie/b6f403cec37fa41604ab.js"></script>

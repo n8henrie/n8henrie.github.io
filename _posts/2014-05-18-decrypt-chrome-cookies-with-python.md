@@ -51,3 +51,5 @@ A few other tricky parts:
   * `v10` gets prepended to the encrypted key
       * the padding at the end of the encrypted value varies based on the number of bytes it needs to pad, but you can strip it off <a target="_blank" href="http://stackoverflow.com/a/14205319">as demonstrated at StackOverflow</a>. </ul>
         I’m sure my code could be improved in about a bazillion ways, but it seems to be working again for me. Hope this can help some of you out there!
+
+<script src="https://gist.github.com/n8henrie/8715089.js"></script>

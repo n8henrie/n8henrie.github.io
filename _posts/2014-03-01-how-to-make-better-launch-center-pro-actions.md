@@ -49,3 +49,5 @@ Go browse around <a target="_blank" href="http://philgr.com">philgr.com</a> (and
   3. copies the resulting text to the clipboard
 
 <a target="_blank" href="http://launchcenterpro.com/3dm187">Download to your iOS device</a>
+
+<script src="https://gist.github.com/n8henrie/9296459.js"></script>

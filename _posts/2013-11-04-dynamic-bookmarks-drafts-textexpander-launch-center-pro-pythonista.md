@@ -25,7 +25,7 @@ categories:
 
 # Introduction
 
-Lately, I’ve been getting a lot of use of some dynamic bookmarks that I built. When I use the term _dynamic bookmark_, I’m referring to a URL that is _predictable_, but **not static**. For example, let’s pretend that my schedule for November 5th, 2013 is hosted at my website at `http://n8henrie.com/schedule/2013/11/05`. 
+Lately, I’ve been getting a lot of use of some dynamic bookmarks that I built. When I use the term _dynamic bookmark_, I’m referring to a URL that is _predictable_, but **not static**. For example, let’s pretend that my schedule for November 5th, 2013 is hosted at my website at `http://n8henrie.com/schedule/2013/11/05`.
 
 Knowing that pattern, I could _predict_ the URL for my schedule for a given day, but I couldn’t make a traditional, static bookmark for anything other than a specific day, which would not be helpful. In comparison, if I could make a bookmark that would dynamically pull today’s date into the proper fields, I could have a one-click solution to pull up my schedule.
 
@@ -42,7 +42,7 @@ Luckily, there are several options for making these dynamic bookmarks. I’ll go
 
 ### Date Fill-in
 
-<a target="_blank" href="https://itunes.apple.com/us/app/launch-center-pro/id532016360?mt=8&at=10l5H6">Launch Center Pro</a> (now with a new <a href="https://itunes.apple.com/us/app/launch-center-pro-for-ipad/id799664902?mt=8&at=10l5H6" target="_blank">iPad version</a>) is _perfect_ for this type of thing, and I’ve been finding more and more uses for it as time goes on. In order to be able to dynamically fill in dates, you’ll also need <a target="_blank" href="https://itunes.apple.com/us/app/textexpander/id326180690?mt=8&at=10l5H6">TextExpander Touch</a>, with the proper settings in TextExpander to share snippets. 
+<a target="_blank" href="https://itunes.apple.com/us/app/launch-center-pro/id532016360?mt=8&at=10l5H6">Launch Center Pro</a> (now with a new <a href="https://itunes.apple.com/us/app/launch-center-pro-for-ipad/id799664902?mt=8&at=10l5H6" target="_blank">iPad version</a>) is _perfect_ for this type of thing, and I’ve been finding more and more uses for it as time goes on. In order to be able to dynamically fill in dates, you’ll also need <a target="_blank" href="https://itunes.apple.com/us/app/textexpander/id326180690?mt=8&at=10l5H6">TextExpander Touch</a>, with the proper settings in TextExpander to share snippets.
 
 Make three separate TE snippets:
 
@@ -78,7 +78,7 @@ I’ve also posted about <a target="_blank" href="https://itunes.apple.com/us/ap
 
 I’ll change my n8henrie.com archive example and make a bookmarklet for the archive from 6 weeks prior to the current date to illustrate.
 
-
+<script src="http://pastebin.com/embed_js.php?i=qs1G0GHM"></script>
 
 FYI, the only tweak I needed to make this script work on my Macbook was the safari_prefix part (Pythonista requires `safari-http`). On my Raspberry Pi and Ubuntu box, `sys.platform == 'linux2'`, not sure about windows.
 
@@ -86,7 +86,7 @@ FYI, the only tweak I needed to make this script work on my Macbook was the safa
 
 The search URL is similar, except that Python on OS X doesn’t have such a simple drop-in replacement for `console` on Pythonista, so to make it work on both you’d probably want to use something like <a target="_blank" href="http://easygui.sourceforge.net">EasyGUI</a> in a try / except.
 
-
+<script src="http://pastebin.com/embed_js.php?i=Ju99jhz5"></script>
 
 # Conclusion
 

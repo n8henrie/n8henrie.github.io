@@ -20,7 +20,7 @@ categories:
 ---
 **Bottom Line:** Here’s a JavaScript bookmarklet to filter Mint transactions by date range.<!--more-->
 
-Mint.com has a search function that is pretty handy. Unfortunately, it doesn’t have a particularly <a href="https://mint.lc.intuit.com/questions/948537-mint-faq-how-can-i-view-transactions-within-a-specific-date-range" target="_blank">user friendly way</a> to filter transactions by date range. 
+Mint.com has a search function that is pretty handy. Unfortunately, it doesn’t have a particularly <a href="https://mint.lc.intuit.com/questions/948537-mint-faq-how-can-i-view-transactions-within-a-specific-date-range" target="_blank">user friendly way</a> to filter transactions by date range.
 
 I know there is an open source Chrome extension to enable this feature, but because the workaround is a pretty simple modification of the URL, I thought a Javascript bookmarklet would actually work just as well and not require installing 3rd party software. It should also work on other browsers.
 
@@ -29,3 +29,5 @@ I whipped up a quick script that prompts the user to input start and end dates a
 Like any bookmarklet, to “install,” make a new bookmark (`command d` in Chrome on OS X), give it a name, edit the url, and paste in the minified / commented out line starting with `javascript:` below.
 
 Let me know if you find any major issues.
+
+<script src="https://gist.github.com/n8henrie/38368f045cc9d13186fd.js"></script>

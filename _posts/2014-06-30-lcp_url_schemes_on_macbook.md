@@ -60,3 +60,5 @@ python3 /path/to/lcp_export.py -write modified_file.json
 For the command line novices out there, you’ll obviously need to change placeholders like `/path/to/lcp_backup_folder`, `/path/to/lcp_export.py`, `file.lcpbackup`, `output_file.json`, and input the correct values for your individual setup. And if you don’t know how to get python3 (check if installed with `which python3`), I recommend you check out <a target="_blank" href="http://brew.sh/" title="Homebrew — The missing package manager for OS X">HomeBrew</a>.
 
 Okay, I’m pooped. Please submit issues in the comments section below. Feel free to modify and customize (though I do appreciate linkbacks / attribution). Hope this helps some of you out there!
+
+<script src="https://gist.github.com/n8henrie/5f256b69a07a43f978b4.js"></script>

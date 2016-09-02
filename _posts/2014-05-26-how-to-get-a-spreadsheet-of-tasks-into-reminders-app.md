@@ -29,7 +29,7 @@ Before I get started, I’ll say that <a target="_blank" href="https://gist.gith
 
 If you’re still with me, here goes:
 
-The first step would be to get the spreadsheet into an acceptable format. <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AlQMuv7LxtdpdERibWVJeHFPSDdkamNoNy1NUDJkanc&usp=sharing">Here</a> is my new template. No, you can’t edit mine, you’ll have to `File -> Make a copy`, or `File -> Download as` and open in your spreadsheet editor of choice. 
+The first step would be to get the spreadsheet into an acceptable format. <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AlQMuv7LxtdpdERibWVJeHFPSDdkamNoNy1NUDJkanc&usp=sharing">Here</a> is my new template. No, you can’t edit mine, you’ll have to `File -> Make a copy`, or `File -> Download as` and open in your spreadsheet editor of choice.
 
 As with converting a spreadsheet to a calendar, preparing the spreadsheet correctly is the most important part. Triple check that of your headers are exactly right, and triple check that your dates and times are formatted correctly. **Do not delete any of the columns from the template, even if the values are optional.** For importing reminders, here are the fields:
 
@@ -53,7 +53,7 @@ When you’re done editing, `download as` or export to `.csv` and run it through
 
 Next, after you’ve downloaded the converted `.ics` file, you’ll need to open it up in a text editor that supports regex find and replace. I highly recommend <a target="_blank" href="http://www.barebones.com/products/textwrangler/" title="Bare Bones Software - TextWrangler">TextWrangler</a>, and my examples will be regexes in TextWrangler format.
 
-Once you have `converted.ics` open in TextWrangler, open the `Search -> Find` box from the menu. Run the following search and replace commands with the `grep` option checked. 
+Once you have `converted.ics` open in TextWrangler, open the `Search -> Find` box from the menu. Run the following search and replace commands with the `grep` option checked.
 
   * Find: `(?<=^BEGIN:|^END:)VEVENT$` Replace: `VTODO`
   * Find: `^DTSTART;VALUE=DATE(-TIME)?:([0-9T]+)$` Replace: `CREATED:\2`
@@ -65,7 +65,7 @@ Once you have `converted.ics` open in TextWrangler, open the `Search -> Find` bo
 Here’s a screenshot of what the first regex should look like in TextWrangler:
 
 
-![]({{ site.url }}/uploads/2014/05/20140526_20140526-ScreenShot-312.jpg) 
+![]({{ site.url }}/uploads/2014/05/20140526_20140526-ScreenShot-312.jpg)
 
 Next, take an _existing_ list from Reminders.app with _at least one task_ and `File -> Export`. Open this `.ics` file up in the text editor as well. Find the section 4 or so rows down starting with `BEGIN:VTIMEZONE` and ending at line 20 or so with `END:VTIMEZONE`. Copy this section into your `converted.ics` file right below `PRODID:n8henrie.com`.
 
@@ -77,6 +77,6 @@ With all of that out of the way, you should now be able to save the `.ics` file,
 
 There are probably some more advanced applications that some readers may be interested in. If so, I exported an example task list from Reminders.app with tasks featuring due date reminders, priorities, location-based reminders, titles, notes, etc., and uploaded it as a gist. You may see potential for something interesting based on its format.
 
-
+<script src="https://gist.github.com/n8henrie/d2288416b28dd90d3b1c.js"></script>
 
 Well, that’s it. Should you have questions or suggestions for improvement, leave them in the comments section below. Honestly, unless this post gets a lot of attention, I doubt that I’ll invest much time in improving this process, since it is kind of a pain.

@@ -31,3 +31,5 @@ You can also trigger it to send your unread list manually; I do this frequently 
   * compatible with <a target="_blank" href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8&at=10l5H6" title="Pythonista">Pythonista</a> on my iOS devices
 
 The code is below; it seems to work on my Mac (Python 2.7.5) as well as my iPhone as long as I set the password in the script (currently set to use Pythonista’s keychain to retrieve the pass, which obviously won’t work as is on OSX). Be forewarned that it can take several minutes after triggering the action for the article to show up on the Kindle. I think the lag is on Amazon’s end — give it at least 30 minutes before deciding it didn’t work.
+
+<script src="https://gist.github.com/n8henrie/6068015.js"></script>
