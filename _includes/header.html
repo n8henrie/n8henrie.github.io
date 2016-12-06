@@ -14,11 +14,12 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="https://www.paypal.com/cgi-bin/webscr&cmd=_s-xclick&hosted_button_id=ZCCTV6VCCS8J2">Buy me a coffee</a>
       </div>
     </nav>
 
