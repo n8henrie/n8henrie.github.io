@@ -128,7 +128,7 @@ Short pulses approximately 1/3 the duration of the long pulses, with the short a
 
 Cool! Now there are a are a few different ways to analyze this data to get your codes. The first step for me was to get the overall pattern.
 
-One good way to accomplish this is by <a target="_blank" href="http://hblok.net/blog/posts/2012/09/02/home-automation-on-433-92-mhz-with-arduino/">using a label track</a> (`Tracks` -> `Add New` -> `Label Track`). This gives you a little track underneath where you can mark timestamps with arbitrary text. The method described in the link above worked well for me — just label long pulses as `1`s and short pulses as ``s. Click at the beginning of a pulse, `command b` is the shortcut to add a label, then input the 0 or 1. You can see my label track in progress below, before I had filled in the 0s and 1s.
+One good way to accomplish this is by <a target="_blank" href="http://hblok.net/blog/posts/2012/09/02/home-automation-on-433-92-mhz-with-arduino/">using a label track</a> (`Tracks` -> `Add New` -> `Label Track`). This gives you a little track underneath where you can mark timestamps with arbitrary text. The method described in the link above worked well for me — just label long pulses as `1`s and short pulses as `0`s. Click at the beginning of a pulse, `command b` is the shortcut to add a label, then input the 0 or 1. You can see my label track in progress below, before I had filled in the 0s and 1s.
 
 
 ![]({{ site.url }}/uploads/2014/09/20140912_20140831-ScreenShot-3961.jpg)
