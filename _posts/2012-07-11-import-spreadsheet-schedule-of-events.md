@@ -31,7 +31,7 @@ categories:
 - tech
 ---
 **Bottom line:** You can batch import events from a spreadsheet to iCal or Google Calendar by formatting the headers correctly, exporting / import as .csv, then export / import as .ics.
-  
+
 <!--more-->
 
 > **Update May 07, 2013:** This post has been completely rewritten and updated here: [http://n8henrie.com/2013/05/spreadsheet-to-calendar](http://n8henrie.com/2013/05/spreadsheet-to-calendar/ "Import a Spreadsheet Schedule of Events to iCal or Google Calendar — Updated"). Feel free to reference this post as well, but the new post is much more thorough and has a few new tools that I wrote to facilitate the process of getting spreadsheet events into your calendar app of choice.
@@ -58,16 +58,16 @@ This is the hardest and most important step. In order for step 3 to work, you ha
 
   * <a target="_blank" href="http://cl.ly/131e3z420Y3v3P2N101G">download in Numbers.app format</a>
   * <a target="_blank" href="http://cl.ly/1R2f0g3l3v023v2G3I2S">download in Excel format</a>
-  * <a target="_blank" href="https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https://docs.google.com/spreadsheet/ccc?key%3D0AlQMuv7LxtdpdHhVMVJad3F4NXhtV3haMkRoUzZGQUE%26pref%3D2&followup=https://docs.google.com/spreadsheet/ccc?key%3D0AlQMuv7LxtdpdHhVMVJad3F4NXhtV3haMkRoUzZGQUE%26pref%3D2">make a copy in Google Docs</a>
+  * <a target="_blank" href="https://docs.google.com/spreadsheets/d/1k0eJMoytqFNn6G2QS3cEo2Of350lKF6x3gbEvbfMnkA/copy">make a copy in Google Docs</a>
 
 Please note that the Numbers.app version also has some embedded instructions in rough draft format (nothing not posted here). I think these also show up in the Excel version, but not in the GDocs version.
 
 Basically, it’s just a spreadsheet with the headers that Google Calendar will recognize. These are:
-  
 
 
-> Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private </p> 
-> 
+
+> Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private </p>
+>
 > [<a target="_blank" href="https://support.google.com/calendar/bin/answer.py?hl=en&answer=45656">source</a>]
 
 You should take your spreadsheet schedule and copy and paste the information into the appropriate columns. Keep in mind that Numbers can convert date and time formats pretty well by selecting the column in question and opening up Inspector (“command option i” or view -> inspector) to “cells” (a box with “42” on my version). Makes converting a bunch of “Jan 5 2002” to “01/05/2002” a snap. Leave the columns in the order you found them. Other formatting info:
@@ -86,7 +86,7 @@ File -> export in Numbers, unicode seems to work fine. AFAIK, the equivalent fun
 
 ### 3. Import to Google Calendar
 
-Head over to <a target="_blank" href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&continue=http://www.google.com/calendar/render&followup=http://www.google.com/calendar/render&scc=1">Google Calendar</a>. If this is home base for you, you can import the events directly to your calendar. If this is just an intermediary step, I recommend creating a new temporary / junk calendar for this purpose. 
+Head over to <a target="_blank" href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&continue=http://www.google.com/calendar/render&followup=http://www.google.com/calendar/render&scc=1">Google Calendar</a>. If this is home base for you, you can import the events directly to your calendar. If this is just an intermediary step, I recommend creating a new temporary / junk calendar for this purpose.
 
 **Optional: How to create a temporary calendar:** Click the down arrow to the right of “My Calendars” in the left hand column to create a new calendar. Name it “junk,” or “osdifj,” or whatever you want, you can delete it later.
 

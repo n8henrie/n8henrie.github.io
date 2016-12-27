@@ -40,7 +40,7 @@ Now a few years old, this continues to be my most popular post. Thank you to all
 **May 10, 2015:** Major update to <a href="http://icw.n8henrie.com" target="_blank">icsConverterWebapp</a> (now just [icw.n8henrie.com](http://icw.n8henrie.com)). Whole new look a la <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, now runs on <a href="http://flask.pocoo.org/" target="_blank">Flask</a>, updated to use the new Google Cloud Client Library, better error reporting so users can figure out what went wrong. Hope you like it!
 
 **May 05, 2015:** I want to make clear that importing a calendar to Calendar.app on iOS or OSX will not automatically sync to your other devices. You’ll need to import on OSX, then move that calendar to iCloud to get it to sync. (Thanks to Art Parmet for prompting me to clarify.)
-  
+
 
 
 #### 1. Background<a id="Background"></a>
@@ -54,21 +54,21 @@ Earlier this week (edit May 05, 2013: it’s now been several months since I sta
 If the formatting is not _just_ right, the conversion process will fail. This is definitely the hardest and most frustrating part, but if you can get it right, the rest is just a few clicks. I’ve put together a few tools in this section to help. A few of the spreadsheet formatting requirements are (feel free to skim these bullets now and come back when you’re actually reformatting your spreadsheet):
 
   * The spreadsheet will start with a row of headers that describe each column.
-  * Each event will be a separate _row._ 
+  * Each event will be a separate _row._
       * If your spreadsheet currently has its columns and rows reversed, don’t despair. Use [this transposition trick](#transpose).
   * The start date, start time, end date, and end time, must be in a separate columns; it won’t work if the date and time for an event are both crammed into a single cell.
-  * Omitting quotes and commas, the headers must be _exactly_: “Subject”, “Start Date”, “Start Time”, “End Date”, “End Time”, “All Day Event”, “Description”, “Location”, “Private” 
+  * Omitting quotes and commas, the headers must be _exactly_: “Subject”, “Start Date”, “Start Time”, “End Date”, “End Time”, “All Day Event”, “Description”, “Location”, “Private”
       * I mean exactly, even capitalization.
       * Extra blank columns to the right are okay.
       * If you’re using [my icsConverter tools](#icsConverter), order does _not_ matter.
       * Even if you’re not using certain columns, you still need the header (and a blank column underneath).
   * The “Subject” column is the title of the event.
-  * Both “Start Date” and “End Date” must be in **MM/DD/YYYY** format. 
+  * Both “Start Date” and “End Date” must be in **MM/DD/YYYY** format.
       * With nearly any modern spreadsheeting app, you can very easily select an entire column and change its format, e.g. from “Sep 9, 2012” to “09/09/2012.”
       * In Google Docs Spreadsheets, for example, click the letter at the top of a column of dates to select the whole column at once, then go to format -> number -> date in the menu bar.
       * Leading zeros (09 instead of 9 for September) are optional.
   * “Start Time” and “End Time” can be either 24 hour time (13:45) or 12 AM/PM (01:45 PM)
-  * “All Day Event” is evaluated on a “True” / “False” basis. 
+  * “All Day Event” is evaluated on a “True” / “False” basis.
       * If set to “True”, start and end **times** will be ignored and an all-day (or multi-day) event created.
       * If set to “True” with a blank “End Date”, a single all-day event will be created.
       * If “False”, left blank, or anything other than “True”, it does nothing, and all other start and end dates and times are required.
@@ -77,7 +77,7 @@ If the formatting is not _just_ right, the conversion process will fail. This is
   * “Private” is another “True” / “False” column, but currently does nothing. However, **you still need the header**.
   * If you decide **not** to use [my icsConverter tools](#icsConverter), watch out for cells with leading or trailing spaces, and cells that contain commas; these have been okay in my testing so far, with Numbers and Google Docs, but I can’t speak to other programs and whether or not they properly handle these things.
 
-How to transpose<a id="transpose"></a> a spreadsheet’s columns and rows: If you need to transpose your spreadsheet’s rows and columns, you can do so pretty easily in Google Docs (I think this also works in Excel, but to my knowledge does _not_ work in Numbers). 
+How to transpose<a id="transpose"></a> a spreadsheet’s columns and rows: If you need to transpose your spreadsheet’s rows and columns, you can do so pretty easily in Google Docs (I think this also works in Excel, but to my knowledge does _not_ work in Numbers).
 
   1. Create a brand new, blank spreadsheet (not just a new sheet).
   2. Copy pasta your existing spreadsheet into it. Make sure the columns and rows are long enough to fit all your data, extend them if necessary.
@@ -87,14 +87,14 @@ How to transpose<a id="transpose"></a> a spreadsheet’s columns and rows: If yo
 
 #### 3. My spreadsheet template<a id="template"></a>
 
-As you can see, you’ll need to convert the spreadsheet of events to a pretty rigid format, which in my opinion is the most frustrating part of entire ordeal. To facilitate this as much as possible, I’ve created <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AlQMuv7LxtdpdHhVMVJad3F4NXhtV3haMkRoUzZGQUE&usp=sharing" title="n8henrie's Google Docs spreadsheet to calendar template">this Google Docs spreadsheet template</a>. _You won’t be able to edit my copy_, but I recommend downloading a copy to work from, or as a quick reference. 
+As you can see, you’ll need to convert the spreadsheet of events to a pretty rigid format, which in my opinion is the most frustrating part of entire ordeal. To facilitate this as much as possible, I’ve created <a target="_blank" href="https://docs.google.com/spreadsheets/d/1k0eJMoytqFNn6G2QS3cEo2Of350lKF6x3gbEvbfMnkA/copy" title="n8henrie's Google Docs spreadsheet to calendar template">this Google Docs spreadsheet template</a>. _You won’t be able to edit my copy_, but I recommend downloading a copy to work from, or as a quick reference.
 
   * If you’re an Excel or Numbers user, you should be able to open and **File -> Download as -> Microsoft Excel**, which should open nicely in either of these apps.
   * If you’re a Google Docs user, and you’re signed into your account, you can just **File -> Make a Copy**.
 
 #### 4. Making a .csv<a id="csv"></a> file from the spreadsheet
 
-This part couldn’t be much easier. 
+This part couldn’t be much easier.
 
   * Google Docs: **File -> Download as -> csv**
   * Numbers.app: **File -> Export -> csv**. You might end up with a folder with a couple of .csv files. If so, either use quick look (spacebar), open them with a text editor, or look at the filenames (if you’ve named your spreadsheets in Numbers) to find the right one.
@@ -104,7 +104,7 @@ This part couldn’t be much easier.
 
 If you’re trying to get these events into Google Calendar, you should be able to upload the .csv file at this point. _Good luck._ They are extremely strict about the formatting requirements, and anything less than perfect will fail. I think [my icsConverter tools](#icsConverter) below are a little more lenient, so if you’re having trouble using the .csv directly, you can try using them and uploading the resulting .ics file instead.
 
-If you want to import these events into iCal (now Calendar.app) or another application, you should convert the .csv file to an .ics file. As I described in [my first post on the topic](http://n8henrie.com/2012/07/import-spreadsheet-schedule-of-events/), one way to do this is to upload to Google Calendar and then re-download as .ics. However, as I’ve mentioned, Google can be a bit particular about the file formatting and has really unhelpful error messages if something is wrong. Also, this requires you to have a Google Calendar account, which isn’t the case for everyone. 
+If you want to import these events into iCal (now Calendar.app) or another application, you should convert the .csv file to an .ics file. As I described in [my first post on the topic](http://n8henrie.com/2012/07/import-spreadsheet-schedule-of-events/), one way to do this is to upload to Google Calendar and then re-download as .ics. However, as I’ve mentioned, Google can be a bit particular about the file formatting and has really unhelpful error messages if something is wrong. Also, this requires you to have a Google Calendar account, which isn’t the case for everyone.
 
 For these reasons, I wrote an app and a webapp to handle the conversion.
 
@@ -135,7 +135,7 @@ If none of that works **and you are okay with me seeing your calendar events**, 
 
 #### 7. Importing<a id="Importing"></a> the .ics file
 
-Before importing the resulting .ics file to your calendar, I strongly recommend creating a new junk calendar that you can use to import and inspect the events. You can generally import the resulting .ics file by simply opening it with your calendar app of choice; on a Mac / OSX, try a double click, unless you know that you don’t use your default app. Hopefully it will ask which calendar to import to, and you should choose your junk calendar. 
+Before importing the resulting .ics file to your calendar, I strongly recommend creating a new junk calendar that you can use to import and inspect the events. You can generally import the resulting .ics file by simply opening it with your calendar app of choice; on a Mac / OSX, try a double click, unless you know that you don’t use your default app. Hopefully it will ask which calendar to import to, and you should choose your junk calendar.
 
 If everything turned out okay, you can delete the junk calendar and re-import to your real calendar. If something didn’t turn out quite right, you can delete the junk calendar, tweak the .csv file, and try again. Without testing on the junk calendar, you risk importing hundreds of useless events into your calendar, which you might have to manually delete… you don’t want that.
 
