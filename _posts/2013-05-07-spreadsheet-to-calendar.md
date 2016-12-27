@@ -89,8 +89,12 @@ How to transpose<a id="transpose"></a> a spreadsheet’s columns and rows: If yo
 
 As you can see, you’ll need to convert the spreadsheet of events to a pretty rigid format, which in my opinion is the most frustrating part of entire ordeal. To facilitate this as much as possible, I’ve created <a target="_blank" href="https://docs.google.com/spreadsheets/d/1k0eJMoytqFNn6G2QS3cEo2Of350lKF6x3gbEvbfMnkA/copy" title="n8henrie's Google Docs spreadsheet to calendar template">this Google Docs spreadsheet template</a>. _You won’t be able to edit my copy_, but I recommend downloading a copy to work from, or as a quick reference.
 
-  * If you’re an Excel or Numbers user, you should be able to open and **File -> Download as -> Microsoft Excel**, which should open nicely in either of these apps.
-  * If you’re a Google Docs user, and you’re signed into your account, you can just **File -> Make a Copy**.
+  * If you’re a Google Docs user, and you’re signed into your account, it
+    should prompt you to make a copy.
+  * If you’re an Excel or Numbers user, you should be able to use [this link
+    instead](https://docs.google.com/spreadsheets/d/1k0eJMoytqFNn6G2QS3cEo2Of350lKF6x3gbEvbfMnkA/edit#gid=1)
+    to open and `File` -> `Download as` -> `Microsoft Excel`, which should open
+    nicely in either of those apps.
 
 #### 4. Making a .csv<a id="csv"></a> file from the spreadsheet
 
