@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -22,12 +20,11 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
+$sidebar-width:    336px;
+$content-width:    800px + $sidebar-width;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
+$on-palm:          767px;
+$on-laptop:        1023px;
 
 
 // Use media queries like this:
@@ -42,7 +39,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

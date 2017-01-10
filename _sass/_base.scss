@@ -151,7 +151,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -162,6 +161,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    position: relative;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -172,6 +172,82 @@ pre {
     }
 }
 
+/**
+ * Content Wrapper
+ */
+.content-wrapper {
+    float: left;
+    width: 100%;
+}
+
+
+/**
+ * Content
+ */
+.content {
+  margin-right: $sidebar-width + $spacing-unit;
+  clear: both;
+  overflow: auto;
+
+  @include media-query($on-laptop) {
+    margin-right: $sidebar-width + $spacing-unit / 2;
+  }
+  @include media-query($on-palm) {
+      margin-right: auto;
+  }
+}
+
+/**
+ * Sidebar
+ */
+.sidebar {
+  position: relative;
+  width: $sidebar-width;
+  margin-left: -$sidebar-width;
+  float: right;
+  overflow: hidden;
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+
+/**
+ * Ads
+*/
+.feature {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+        // Won't be shown due to hidden sidebar
+        &.square {
+                margin-top: 198px;
+                &.top {}
+                &.bottom {}
+        }
+        &.banner {
+                width: 728px;
+                height: 90px;
+                @include media-query($on-palm) {
+                    width: 320px;
+                    height: 100px;
+                }
+
+                // Should load only on mobile
+                &.top {
+                    display: none;
+                    @include media-query($on-palm) {
+                        display: block;
+                        margin-bottom: $spacing-unit
+                    }
+                }
+
+                // Should load at any size, just change dimensions
+                &.bottom {}
+        }
+}
 
 
 /**
@@ -185,8 +261,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons
