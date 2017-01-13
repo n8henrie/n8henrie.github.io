@@ -40,4 +40,4 @@ defaults:
 
 paginate: 8
 
-exclude: [tmp,import_versions,utils,Makefile]
+exclude: [tmp,import_versions,utils,Makefile,todo.md]
