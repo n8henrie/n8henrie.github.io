@@ -251,6 +251,17 @@ pre {
 
 
 /**
+ * Tag column
+ */
+#tag-column {
+    $tag-column-width: $spacing-unit * 6;
+    -webkit-column-width: $tag-column-width;
+    -moz-column-width: $tag-column-width;
+    column-width: $tag-column-width;
+    margin-bottom: $spacing-unit;
+}
+
+/**
  * Clearfix
  */
 %clearfix {
