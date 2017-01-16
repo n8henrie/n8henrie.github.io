@@ -24,15 +24,15 @@ categories:
 - tech
 ---
 **Bottom line:** Clever, easy way to set up <a title="Quicksilver" href="http://qsapp.com" target="_blank">Quicksilver</a> triggers for apps that can launch via URL scheme.
-  
+
 <!--more-->
 
 
-  
+
 I had previously set up similar triggers with the Web Search Module plugin that used Google to search the app stores (using an “intitle” specifier to try to differentiate between iPhone / iPad / Mac apps). This is much cooler — searches in the “local” apps (in other words actually in iTunes or the Mac App Store app).
 
 My only contribution here is that instead of using triggers (since I have nearly all my convenient keyboard shortcuts occupied, between Quicksilver, TextExpander, and app-specific keyboard shortcuts), I just added the encoded URLs to the Quicksilver catalog. They seem to be indexed appropriately and functioning. The only slight inconvenience compared to the Trigger setup is that they don’t automatically put the cursor in the 3rd pane.
 
 Here’s the original post with the setup info:
-  
-[Remiel | How to Use Quicksilver to Post Tweets to Twitter in 2012](http://remiel.info/post/23553313210/how-to-use-quicksilver-to-post-tweets-to-twitter-in).
+
+[Remiel \| How to Use Quicksilver to Post Tweets to Twitter in 2012](http://remiel.info/post/23553313210/how-to-use-quicksilver-to-post-tweets-to-twitter-in)
