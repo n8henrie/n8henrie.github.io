@@ -1,5 +1,6 @@
 ---
 title: Search
+nav: true
 date: 2012-08-22T12:48:08+00:00
 author: n8henrie
 layout: page

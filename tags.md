@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tags
+nav: true
 ---
 <!-- Modified borrowed code. Credits:
 - https://github.com/psteadman/psteadman.github.io/blob/f18936617c12622da816a008caa446c33e14bb38/tags.html

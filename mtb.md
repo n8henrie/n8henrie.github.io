@@ -3,6 +3,7 @@ title: MTB
 date: 2012-08-24T20:16:51+00:00
 author: n8henrie
 layout: page
+nav: true
 ---
 #### MTB relevant stuff
 

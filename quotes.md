@@ -3,6 +3,7 @@ title: Quotes
 date: 2013-01-03T16:33:53+00:00
 author: n8henrie
 layout: page
+nav: true
 ---
 This page will be dedicated to quotes from (mostly longform) reading on my Kindle. Putting them all on one page may not be very pretty, but much more efficient that separate posts for each. Extracted from the Kindle [like this](http://n8henrie.com/2012/12/backing-up-kindle-quotes-with-hazel/ "Backing Up Kindle Quotes with Hazel") and [formatted with this](http://n8henrie.com/2013/01/regex-shell-script-to-format-kindle-quotes "Regex Shell Script to Format Kindle Quotes").
 

@@ -3,6 +3,7 @@ title: Privacy Policy
 date: 2012-08-22T15:47:44+00:00
 author: n8henrie
 layout: page
+nav: true
 ---
 If you require any more information or have any questions about the below privacy policy, please feel free to contact me by email at nate at n8henrie dot com.
 

@@ -3,6 +3,7 @@ title: Disclaimer
 date: 2013-04-20T20:25:40+00:00
 author: n8henrie
 layout: page
+nav: true
 ---
 Nothing I write, post, or say online, including all content at [n8henrie.com](http://n8henrie.com), is intended to be taken as medical advice (not intended to diagnose or treat any medical condition or disease, etc.). It is for informational, educational, and entertainment purposes only. Please be safe and consult with your physician prior to initiating or discontinuing any type of treatment. Following advice found on the internet (or elsewhere) without a thorough history and physical exam by a qualified professional may lead to injury, serious disability, or death — don’t do it.
 
