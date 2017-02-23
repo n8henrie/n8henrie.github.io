@@ -28,12 +28,14 @@ First, you’ll want to get to a page that has only the posts you’re looking t
 
 Next, I had to load jQuery. You can verify that Facebook doesn’t have jQuery loaded for you by typing `window.jQuery` in the Console. You”ll see it returned `undefined`. When a site doesn’t have it loaded, I usually jump into Chrome’s Developer console and load it with this snippet:
 
-    var jq = document.createElement('script');
-    jq.src = "//code.jquery.com/jquery-latest.min.js";
-    document.getElementsByTagName('head')[0].appendChild(jq);
-    jQuery.noConflict();
+```javascript
+var jq = document.createElement('script');
+jq.src = "//code.jquery.com/jquery-latest.min.js";
+document.getElementsByTagName('head')[0].appendChild(jq);
+jQuery.noConflict();
+```
 
-However, Facebook was blocking it that way, since the host of the script (`jquery.com`) wasn’t on its list of approved script sources. 
+However, Facebook was blocking it that way, since the host of the script (`jquery.com`) wasn’t on its list of approved script sources.
 
 Instead, I found that I could just open a browser window to <a href="//code.jquery.com/jquery-latest.min.js" target="_blank">the url of the jQuery source</a> (as linked in the code above), copy it into my clipboard, and then paste the code into the Chrome console. Facebook loaded jQuery just fine that way, as verified by again typing `window.jQuery` and seeing that it was no longer undefined.
 
@@ -41,11 +43,13 @@ Once that was done, I right clicked on the “Like” button and found some of t
 
 In the end, Here’s what ended up working:
 
-    $('a.UFILikeLink[title="Like this"]').each(
-      function(i, e){
-        this.click()
-      }
-    )
+```javascript
+$('a.UFILikeLink[title="Like this"]').each(
+    function(i, e){
+    this.click()
+    }
+)
+```
 
 **Update 20150810:** I only had to change `"Like this"` to `"Like this comment"` to get this to work for a bunch of comments on a picture I posted.
 
