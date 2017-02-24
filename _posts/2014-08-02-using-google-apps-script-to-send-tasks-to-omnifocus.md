@@ -58,7 +58,7 @@ Don’t worry too much if you don’t know JavaScript. I don’t really know any
   4. Copy and paste my script below (replacing anything already in the script), save, and choose a new name.
   5. Change the variables at the top of the script to your label and your Mail Drop address (or whatever address you’re sending the message to).
 
-## Make your test in `function processMessage(message)`
+## Make your test in the processMessage() function
 
 Because I plan on using this same script and label to process a number of different kinds of emails, the next step is to use an `if` statement to see what pattern a given email fits into. Depending on the complexity of your rule, this may be redundant (as a Gmail filter would serve a similar purpose), but it allows for much more flexibility and more powerful matching with things like regular expressions, as I mentioned above.
 
@@ -119,7 +119,7 @@ Well, that’s about it. As one last reminder, when you set up your Gmail filter
 
 For example, if I want my custom Google Apps script to run on emails from `person1@gmail.com` that have `cars` in the subject and on emails from `person2@gmail.com` that has the phrase `let's go riding` somewhere in them, a Gmail filter with the following will match **both** of them:
 
-```
+```plaintext
 Has the words: { (from:person1@gmail.com, subject:cars), (from:person2@gmail.com, "let's go riding") }
 ```
 

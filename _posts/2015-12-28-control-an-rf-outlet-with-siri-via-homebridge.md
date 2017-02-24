@@ -23,8 +23,7 @@ categories:
 
 ## Introduction
 
-Apple’s home automation suite is called <a href="http://www.apple.com/ios/homekit/" target="_blank">HomeKit</a>. It works with Siri, which is great. In true Apple fashion, it seems like they are making it _really_ difficult for third parties to get “HomeKit Certified,” and so you won’t see a _whole_ lot of devices carrying this:
-![]({{ site.url }}/uploads/2015/12/20151222_ScreenShot2015-12-22at6.08.11AM.jpg)
+Apple’s home automation suite is called <a href="http://www.apple.com/ios/homekit/" target="_blank">HomeKit</a>. It works with Siri, which is great. In true Apple fashion, it seems like they are making it _really_ difficult for third parties to get “HomeKit Certified,” and so you won’t see a _whole_ lot of devices carrying this:<br />![]({{ site.url }}/uploads/2015/12/20151222_ScreenShot2015-12-22at6.08.11AM.jpg)
 
 Luckily, some people much smarter than me have developed an alternative route
 to use Siri to control devices around the house: make a server that _emulates_
@@ -112,22 +111,26 @@ PATH`)
 
 As a sanity check, here’s what I ended up with:
 
-    $ /opt/nodejs/bin/node --version
-    v4.5.0
-    $ /opt/nodejs/bin/npm --version
-    2.15.9
-    $ ls -ld /opt/nodejs
-    drwxr-sr-x 7 n8henrie n8henrie 4096 Sep 6 12:05 /opt/nodejs
+```shell_session
+$ /opt/nodejs/bin/node --version
+v4.5.0
+$ /opt/nodejs/bin/npm --version
+2.15.9
+$ ls -ld /opt/nodejs
+drwxr-sr-x 7 n8henrie n8henrie 4096 Sep 6 12:05 /opt/nodejs
+```
 
 ## Step 3: Install homebridge
 
-    # Install homebridge and homebridge-rcswitch-gpiomem
-    sudo apt-get install libavahi-compat-libdnssd-dev
-    /opt/nodejs/bin/npm install -g homebridge
+```shell_session
+# Install homebridge and homebridge-rcswitch-gpiomem
+sudo apt-get install libavahi-compat-libdnssd-dev
+/opt/nodejs/bin/npm install -g homebridge
+```
 
 ## Step 4: Configure and test homebridge
 
-```bash
+```shell_session
 # Add an account for `homebridge` to avoid needing to run as root
 sudo useradd -r -s /bin/false homebridge
 
@@ -142,7 +145,7 @@ sudo chown homebridge /etc/homebridge
 
 I _highly_ recommend that you do another “sanity check” at this point by installing a fake Homebridge accessory and making sure that everything is working. If things aren’t working right at this point, you’ll drive yourself nuts trying to figure out where the problem is if you keep going. I think the easiest way is to install the <a href="https://github.com/nfarina/homebridge-dummy" target="_blank">`homebridge-dummy`</a> package. I’ve made <a href="https://gist.github.com/n8henrie/639c7f5d72b4202cce7e" target="_blank">a config file</a> that you should be able to just `wget` and test (**NB:** this will overwrite your existing config, so back it up somewhere before you use the `wget` step below).
 
-```bash
+```shell_session
 # Install homebridge-dummy
 /opt/nodejs/bin/npm install --global homebridge-dummy
 
@@ -195,7 +198,7 @@ To install `homebridge-rcswitch-gpiomem`: `/opt/nodejs/bin/npm install -g homebr
 
 FYI, `homebridge-rcswitch-gpiomem` depends on (and automatically installs) <a href="https://github.com/n8henrie/node-rcswitch-gpiomem" target="_blank">`rcswitch-gpiomem`</a>, which you can also install and use independently like so:
 
-```bash
+```shell_session
 $ export NODE_PATH=/opt/nodejs/lib/node_modules
 $ /opt/nodejs/bin/npm install --global rcswitch-gpiomem
 $ /opt/nodejs/bin/node
@@ -208,7 +211,7 @@ $ /opt/nodejs/bin/node
 
 After installing, you’ll need to edit the `config.json`, and once again you can start out with my sample:
 
-```bash
+```shell_session
 sudo rm -rf /etc/homebridge/persist
 sudo wget https://raw.githubusercontent.com/n8henrie/homebridge-rcswitch-gpiomem/master/config-sample.json -O /etc/homebridge/config.json
 sudo vim /etc/homebridge/config.json
@@ -225,7 +228,7 @@ If you want to use the “high priority” feature:
 
 At this point, you should probably run again in debug mode to see if everything worked — you’ll likely need to delete the `persist` folder and set up your iOS app from scratch. With any luck, you’ll see your switches in the iOS app and be able to control them from there and with Siri!
 
-```bash
+```shell_session
 sudo rm -rf /etc/homebridge/persist
 sudo -u homebridge DEBUG=* /opt/nodejs/bin/homebridge -D -U /etc/homebridge
 ```
@@ -236,7 +239,7 @@ Once everything is working, you’ll probably want this service to be available 
 
 Here is what seems to be working for me, you may need to change the paths:
 
-```
+```config
 [Unit]
 Description=homebridge daemon
 Requires=network.target
@@ -254,7 +257,7 @@ WantedBy=multi-user.target
 
 Then to load and start it:
 
-```bash
+```shell_session
 sudo systemctl daemon-reload
 sudo systemctl enable homebridge.service
 sudo systemctl start homebridge.service
@@ -276,13 +279,13 @@ Other things to try:
 * If you’re testing directly in nodejs and it can’t find your modules: `export NODE_PATH=/opt/nodejs/lib/node_modules`
 * Test with `node-rcswitch-gpiomem`. Install: `/opt/nodejs/bin/npm install --global rcswitch-gpiomem` then make a file e.g. `fake.js` that you can give a test RF code: `/opt/nodejs/bin/node fake.js 12345`
 
-    // fake.js
-    var rcswitch = require('rcswitch-gpiomem');
-    var code = process.argv[2]
-    rcswitch.enableTransmit(17);
-    rcswitch.setPulseLength(190);
-    rcswitch.send(parseInt(code), 24);
+```javascript
+// fake.js
+var rcswitch = require('rcswitch-gpiomem');
+var code = process.argv[2]
+rcswitch.enableTransmit(17);
+rcswitch.setPulseLength(190);
+rcswitch.send(parseInt(code), 24);
+```
 
 That’s it! Hope you get things running smoothly. I don’t know much about Javascript or C++, so I might refer you to the `homebridge` team for setup issues, but I’m happy to try to answer questions and comments here, or feel free to open an issue or pull request on the GitHub repos.
-
-x

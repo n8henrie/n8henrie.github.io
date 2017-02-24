@@ -34,31 +34,32 @@ Without an antenna, my range was about 47 feet (~14 meters) — not bad for such
 
 For anyone interested, here is the code I used for the Arduino. Unfortunately I can’t find where I put the code for the client, but it was something just as simple, almost directly copied from the RC-Switch examples.
 
-    /*
-      RC-Switch library: http://code.google.com/p/rc-switch
-    */
-    
-    #define RF_DATA_PIN 10
-    #define LED_PIN 13
-    
-    #include <RCSwitch.h>   
-    RCSwitch mySwitch = RCSwitch();
-    
-    void setup() {
-      pinMode(LED_PIN, OUTPUT);
-    
-      mySwitch.enableTransmit(RF_DATA_PIN);
-    
-      mySwitch.setPulseLength(190);   
-    }
-    
-    void loop() {   
-      mySwitch.send(1234567890, 24);
-      delay(1000);  
-      mySwitch.send(0987654321, 24);
-      delay(1000);      
-    }
-    
+```cpp
+/*
+    RC-Switch library: http://code.google.com/p/rc-switch
+*/
+
+#define RF_DATA_PIN 10
+#define LED_PIN 13
+
+#include <RCSwitch.h>
+RCSwitch mySwitch = RCSwitch();
+
+void setup() {
+    pinMode(LED_PIN, OUTPUT);
+
+    mySwitch.enableTransmit(RF_DATA_PIN);
+
+    mySwitch.setPulseLength(190);
+}
+
+void loop() {
+    mySwitch.send(1234567890, 24);
+    delay(1000);
+    mySwitch.send(0987654321, 24);
+    delay(1000);
+}
+```
 
 ## NRF24L01+
 
@@ -70,134 +71,135 @@ Next, I tried <a href="http://n8h.me/1s9Ug8b" target="_blank">this model</a>, wh
 
 Here’s the code I used for the NRF24L01+ tests, which is directly taken from the RF24 examples. For the “client,” I think I just had to change the `bool radioNumber = 1` and `bool role = 1;` to ``.
 
-    #define LEDPIN 3
-    #include <SPI.h>
-    #include "RF24.h"
-    #include <printf.h>
-    
-    /****************** User Config ***************************/
-    /***      Set this radio as radio number 0 or 1         ***/
-    bool radioNumber = 1;
-    
-    /* Hardware configuration: Set up nRF24L01 radio on SPI bus plus pins 7 & 8 */
-    RF24 radio(7,8);
-    /**********************************************************/
-    
-    byte addresses[][6] = {"1Node","2Node"};
-    
-    // Used to control whether this node is sending or receiving
-    bool role = 1;
-    
-    void setup() {
-    
-      pinMode(LEDPIN, OUTPUT);
-      printf_begin();
-    
-      Serial.begin(57600);
-      Serial.println(F("RF24/examples/GettingStarted"));
-      Serial.println(F("*** PRESS 'T' to begin transmitting to the other node"));
-    
-      radio.begin();
-    
-      radio.setPALevel(RF24_PA_MAX);    
-      radio.setDataRate(RF24_250KBPS);
-    
-      // Open a writing and reading pipe on each radio, with opposite addresses
-      if(radioNumber){
-        radio.openWritingPipe(addresses[1]);
-        radio.openReadingPipe(1,addresses[0]);
-      }else{
-        radio.openWritingPipe(addresses[0]);
-        radio.openReadingPipe(1,addresses[1]);
-      }
-    
-      // Start the radio listening for data
-      radio.startListening();
+```cpp
+#define LEDPIN 3
+#include <SPI.h>
+#include "RF24.h"
+#include <printf.h>
+
+/****************** User Config ***************************/
+/***      Set this radio as radio number 0 or 1         ***/
+bool radioNumber = 1;
+
+/* Hardware configuration: Set up nRF24L01 radio on SPI bus plus pins 7 & 8 */
+RF24 radio(7,8);
+/**********************************************************/
+
+byte addresses[][6] = {"1Node","2Node"};
+
+// Used to control whether this node is sending or receiving
+bool role = 1;
+
+void setup() {
+
+    pinMode(LEDPIN, OUTPUT);
+    printf_begin();
+
+    Serial.begin(57600);
+    Serial.println(F("RF24/examples/GettingStarted"));
+    Serial.println(F("*** PRESS 'T' to begin transmitting to the other node"));
+
+    radio.begin();
+
+    radio.setPALevel(RF24_PA_MAX);
+    radio.setDataRate(RF24_250KBPS);
+
+    // Open a writing and reading pipe on each radio, with opposite addresses
+    if(radioNumber){
+    radio.openWritingPipe(addresses[1]);
+    radio.openReadingPipe(1,addresses[0]);
+    }else{
+    radio.openWritingPipe(addresses[0]);
+    radio.openReadingPipe(1,addresses[1]);
     }
-    
-    void loop() {
-    
-    
-    /****************** Ping Out Role ***************************/  
-    if (role == 1)  {
-    
-        radio.stopListening();
-    
-        Serial.println(F("Now sending"));
-    
+
+    // Start the radio listening for data
+    radio.startListening();
+}
+
+void loop() {
+
+
+/****************** Ping Out Role ***************************/
+if (role == 1)  {
+
+    radio.stopListening();
+
+    Serial.println(F("Now sending"));
+
+    unsigned long time = micros();
+        if (!radio.write( &time, sizeof(unsigned long) )){
+        Serial.println(F("failed"));
+        }
+
+    radio.startListening();                                    // Now, continue listening
+
+    unsigned long started_waiting_at = micros();               // Set up a timeout period, get the current microseconds
+    boolean timeout = false;                                   // Set up a variable to indicate if a response was received or not
+
+    while ( ! radio.available() ){                             // While nothing is received
+        if (micros() - started_waiting_at > 200000 ){            // If waited longer than 200ms, indicate timeout and exit while loop
+            timeout = true;
+            break;
+        }
+    }
+
+    if ( timeout ){                                             // Describe the results
+        Serial.println(F("Failed, response timed out."));
+    }else{
+        unsigned long got_time;                                 // Grab the response, compare, and send to debugging spew
+        radio.read( &got_time, sizeof(unsigned long) );
         unsigned long time = micros();
-         if (!radio.write( &time, sizeof(unsigned long) )){
-           Serial.println(F("failed"));
-         }
-    
-        radio.startListening();                                    // Now, continue listening
-    
-        unsigned long started_waiting_at = micros();               // Set up a timeout period, get the current microseconds
-        boolean timeout = false;                                   // Set up a variable to indicate if a response was received or not
-    
-        while ( ! radio.available() ){                             // While nothing is received
-          if (micros() - started_waiting_at > 200000 ){            // If waited longer than 200ms, indicate timeout and exit while loop
-              timeout = true;
-              break;
-          }      
+
+        // Spew it
+        Serial.print(F("Sent "));
+        Serial.print(time);
+        Serial.print(F(", Got response "));
+        Serial.print(got_time);
+        Serial.print(F(", Round-trip delay "));
+        Serial.print(time-got_time);
+        Serial.println(F(" microseconds"));
+
+        Serial.println(radio.getDataRate());
+        radio.printDetails();
+        digitalWrite(LEDPIN, HIGH);
+        delay(100);
+        digitalWrite(LEDPIN, LOW);
+
+    }
+
+    // Try again 1s later
+    delay(1000);
+    }
+
+
+
+/****************** Pong Back Role ***************************/
+
+    if ( role == 0 )
+    {
+    unsigned long got_time;
+
+    if( radio.available()){
+                                                                    // Variable for the received timestamp
+        while (radio.available()) {                                   // While there is data ready
+        radio.read( &got_time, sizeof(unsigned long) );             // Get the payload
         }
-    
-        if ( timeout ){                                             // Describe the results
-            Serial.println(F("Failed, response timed out."));
-        }else{
-            unsigned long got_time;                                 // Grab the response, compare, and send to debugging spew
-            radio.read( &got_time, sizeof(unsigned long) );
-            unsigned long time = micros();
-    
-            // Spew it
-            Serial.print(F("Sent "));
-            Serial.print(time);
-            Serial.print(F(", Got response "));
-            Serial.print(got_time);
-            Serial.print(F(", Round-trip delay "));
-            Serial.print(time-got_time);
-            Serial.println(F(" microseconds"));
-    
-            Serial.println(radio.getDataRate());
-            radio.printDetails();
-            digitalWrite(LEDPIN, HIGH);
-            delay(100);
-            digitalWrite(LEDPIN, LOW);
-    
-        }
-    
-        // Try again 1s later
-        delay(1000);
-      }
-    
-    
-    
-    /****************** Pong Back Role ***************************/
-    
-      if ( role == 0 )
-      {
-        unsigned long got_time;
-    
-        if( radio.available()){
-                                                                        // Variable for the received timestamp
-          while (radio.available()) {                                   // While there is data ready
-            radio.read( &got_time, sizeof(unsigned long) );             // Get the payload
-          }
-    
-          radio.stopListening();                                        // First, stop listening so we can talk   
-          radio.write( &got_time, sizeof(unsigned long) );              // Send the final one back.      
-          radio.startListening();                                       // Now, resume listening so we catch the next packets.     
-          Serial.print(F("Sent response "));
-          Serial.println(got_time);  
-       }
-     }
-    
-    } // Loop
-    
+
+        radio.stopListening();                                        // First, stop listening so we can talk
+        radio.write( &got_time, sizeof(unsigned long) );              // Send the final one back.
+        radio.startListening();                                       // Now, resume listening so we catch the next packets.
+        Serial.print(F("Sent response "));
+        Serial.println(got_time);
+    }
+    }
+
+} // Loop
+```
 
 So in summary, here were my results:
 
-| Module                              | Range without antenna           | Range with antenna              |
-| ----------------------------------- | ------------------------------- | ------------------------------- |
-| [433 MHz RF](http://n8h.me/1HWwr7E) | 47 ft                           | 102 ft                          |
-| NRF24L01+                           | [384 ft](http://n8h.me/1s9UqMI) | [826 ft](http://n8h.me/1s9Ug8b) |
+Module                              | Range without antenna           | Range with antenna
+----------------------------------- | ------------------------------- | -------------------------------
+[433 MHz RF](http://n8h.me/1HWwr7E) | 47 ft                           | 102 ft
+NRF24L01+                           | [384 ft](http://n8h.me/1s9UqMI) | [826 ft](http://n8h.me/1s9Ug8b)

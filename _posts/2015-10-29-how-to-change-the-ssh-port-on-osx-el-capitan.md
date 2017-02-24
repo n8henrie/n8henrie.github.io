@@ -33,47 +33,49 @@ However, I found that after I rebooted, I couldn’t connect by SSH. I also foun
 1. Copy the file: `sudo cp /System/Library/LaunchDaemons/ssh.plist /Library/LaunchDaemons/ssh.plist`
 1. Edit the file with root privileges, e.g. `sudo vim /Library/LaunchDaemons/ssh.plist` to match the contents below, replacing `12345` with your SSH port of choice, and customizing the `Label`:
 
-        <?xml version="1.0" encoding="UTF-8"?>
-        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-        <plist version="1.0">
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Disabled</key>
+        <false/>
+        <key>Label</key>
+        <string>com.n8henrie.sshd</string>
+        <key>Program</key>
+        <string>/usr/libexec/sshd-keygen-wrapper</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/usr/sbin/sshd</string>
+            <string>-i</string>
+        </array>
+        <key>Sockets</key>
         <dict>
-            <key>Disabled</key>
-            <false/>
-            <key>Label</key>
-            <string>com.n8henrie.sshd</string>
-            <key>Program</key>
-            <string>/usr/libexec/sshd-keygen-wrapper</string>
-            <key>ProgramArguments</key>
-            <array>
-                <string>/usr/sbin/sshd</string>
-                <string>-i</string>
-            </array>
-            <key>Sockets</key>
+            <key>Listeners</key>
             <dict>
-                <key>Listeners</key>
-                <dict>
-                    <key>SockServiceName</key>
-                    <string>12345</string>
-                    <key>Bonjour</key>
-                    <array>
-                        <string>ssh</string>
-                        <string>sftp-ssh</string>
-                    </array>
-                </dict>
+                <key>SockServiceName</key>
+                <string>12345</string>
+                <key>Bonjour</key>
+                <array>
+                    <string>ssh</string>
+                    <string>sftp-ssh</string>
+                </array>
             </dict>
-            <key>inetdCompatibility</key>
-            <dict>
-                <key>Wait</key>
-                <false/>
-                <key>Instances</key>
-                <integer>42</integer>
-            </dict>
-            <key>StandardErrorPath</key>
-            <string>/dev/null</string>
-            <key>RunAtLoad</key>
-            <true/>
         </dict>
-        </plist>
+        <key>inetdCompatibility</key>
+        <dict>
+            <key>Wait</key>
+            <false/>
+            <key>Instances</key>
+            <integer>42</integer>
+        </dict>
+        <key>StandardErrorPath</key>
+        <string>/dev/null</string>
+        <key>RunAtLoad</key>
+        <true/>
+    </dict>
+</plist>
+```
 
 1. Enable the plist: `sudo launchctl load /Library/LaunchDaemons/ssh.plist`
     * Note that while normally you would need to do something like `sudo launchctl start com.n8herie.sshd`, I set the `RunAtLoad` key, so you shouldn’t have to manually `start` it.

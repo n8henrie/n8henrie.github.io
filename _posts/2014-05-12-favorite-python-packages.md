@@ -25,7 +25,7 @@ Once you have it, you can `pip search` and it will search <a target="_blank" hre
 
 To avoid breaking things, it’s probably better to upgrade individually, but you can also do a little bash scripting to batch upgrade all outdated packages. For example
 
-```
+```shell_session
 pip3 list --outdated | ack "\(Current.*?\d+\)" | cut -d ' ' -f 1 | xargs -I{} bash -c "pip3 install -U {} || true"
 ```
 

@@ -96,11 +96,15 @@ Terminal commands:
 - List .plists that are being recognized: `launchctl list`
 - Load my new .plist (change to suit your .plist name):
 
-        launchctl load /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist
+```bash
+launchctl load /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist
+```
 
 - Unload / load to refresh my new .plist to reflect changes (change to suit your .plist name):
 
-        launchctl unload /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist && launchctl load /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist
+```bash
+launchctl unload /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist && launchctl load /System/Library/LaunchDaemons/com.n8henrie.morningUpdates.plist
+```
 
 I think this about it. The only other issue I ran into (still unresolved) is that I can’t find how to issue a Terminal command to simulate a home button press / return to home button. As you can see in the above code, I just left my iPhone open to Sparrow so I could review my email when I wake up. If you’d like to return your device to the home screen, a few options include “killall appName” to kill the app you’re in, or “killall SpringBoard” to respring.
 

@@ -34,7 +34,7 @@ Here’s my proposed solution, which only requires free software and doesn’t r
   4. Open Terminal.app and `cd` to the directory containing `Contacts.sqlite` (e.g. `cd ~/Desktop`)
   5. Run the following code, line by line:
 
-```bash
+```shell_session
 sqlite3 Contacts.sqlite
 .headers on
 .mode csv
@@ -48,7 +48,7 @@ This uses your Mac’s built in `sqlite3` to export a .csv file of all your What
 
 The output file `whatsapp_addressbook.csv` should be in the same directory, and should look something like:
 
-```csv
+```plaintext
 ZFULLNAME,ZABUSERID
 John Doe,592
 Jane Doe,29

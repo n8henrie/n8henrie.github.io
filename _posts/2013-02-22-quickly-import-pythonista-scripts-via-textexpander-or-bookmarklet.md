@@ -33,7 +33,7 @@ The Pythonista script (you’ll have to figure how to get this one in there) is 
 
 The TextExpander snippet I use is:
 
-```
+```plaintext
 pythonista://Import%20Pythonista%20Script%20from%20Bookmarklet?action=run&argv=%clipboard
 ```
 

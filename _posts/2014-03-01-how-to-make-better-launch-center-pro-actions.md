@@ -26,7 +26,7 @@ The most important thing I learned from browsing his blog the other night was ho
 
 The answer lies in getting LCP to call _itself_ by using a pattern like:
 
-```
+```plaintext
 launch://?url=[[list:List Title|Option1=url1%3A%2F%2Furl1stuff%2Fhere|Option2=url2%3A%2F%2Furl2stuff%2Fhere]]
 ```
 

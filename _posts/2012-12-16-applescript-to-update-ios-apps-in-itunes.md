@@ -42,9 +42,9 @@ I guess the other things to mention are:
   * Both of these are included in my “GoodMorning.app” routine that I’ve put together with Automator, which I’ll briefly post about in a few minutes
   * To run an external AppleScript in Automator, I use this (as an embedded AppleScript)
 
-```
+```applescript
 try
-run script “/POSIX/Path/To/Script.scpt”
+    run script “/POSIX/Path/To/Script.scpt”
 end try
 ```
 

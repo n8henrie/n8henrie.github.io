@@ -178,7 +178,7 @@ print(output_str)
 
 And its output:
 
-```
+```plaintext
 Mean time between pulse starts: 762.96 µs
 Average duration of long pulse: 572.22 µs
 Average duration of short pulse: 190.74 µs

@@ -48,73 +48,78 @@ Important points that I needed to get this setup working include my Gnokii confi
 
 Here are the key points from my `/etc/gnokiirc` file:
 
-    [global]
-    port = 1
-    model = series40
-    initlength = default
-    connection = dku2libusb
-    use_locking = yes
-    serial_baudrate = 19200
-    authentication_type = none
-    smsc_timeout = 10
+```config
+[global]
+port = 1
+model = series40
+initlength = default
+connection = dku2libusb
+use_locking = yes
+serial_baudrate = 19200
+authentication_type = none
+smsc_timeout = 10
+```
 
 ### Supervisor setup
 
 I decided to use the excellent <a href="http://supervisord.org/" target="_blank">Supervisord</a> to make sure the SMS daemon started on reboot and stayed running. Its config file, complete with arguments to make Gnokii monitor for incoming SMS messages:
 
-    [program:smsd]
-    command=/usr/sbin/smsd -m file -b IN -u /path/to/sms.py
-    user=gnokii
-    startretries=1000
+```config
+[program:smsd]
+command=/usr/sbin/smsd -m file -b IN -u /path/to/sms.py
+user=gnokii
+startretries=1000
+```
 
 ### Run on SMS Script
 
 Finally, here’s the `sms.py` script I ran on receiving a text:
 
-    #! /path/to/venv/bin/python3
-    '''sms.py
-    Python script called by Gnokii smsd to process incoming texts.
-    Be sure to change the shebang if calling from a virtualenv.
-    '''
-    
-    import datetime
-    import sys
-    import re
-    from fake_library import run_script
-    
-    def process_message(sender, sms_date, message):
-        '''How to handle "safe" message.'''
-    
-        print('sms.py got a message at {} from {}. Message says: {}'.format(sms_date, sender, message))
-    
-        if message == "Turn on switch 3.":
-            run_script(3)
-    
-        if re.search(r'.*?turn on.*?christmas lights', message, flags=re.IGNORECASE):
-            run_script(4)
-        if re.search(r'.*?turn off.*?christmas lights', message, flags=re.IGNORECASE):
-            run_script(5)
-    
-    
-    def main():
-    
-        known_phones = ['+1234567890', '+19876543210']
-    
-        phone_number = sys.argv[1]
-        sms_date = sys.argv[2]
-    
-        if phone_number in known_phones:
-            sms_body = sys.stdin.read()
-    
-            process_message(phone_number, sms_date, sms_body)
-    
-        else:
-          # Maybe a push notification with Pushover?
-            pass
-    
-    
-    if __name__ == '__main__':
-        main()
+```python
+#! /path/to/venv/bin/python3
+'''sms.py
+Python script called by Gnokii smsd to process incoming texts.
+Be sure to change the shebang if calling from a virtualenv.
+'''
+
+import datetime
+import sys
+import re
+from fake_library import run_script
+
+def process_message(sender, sms_date, message):
+    '''How to handle "safe" message.'''
+
+    print('sms.py got a message at {} from {}. Message says: {}'.format(sms_date, sender, message))
+
+    if message == "Turn on switch 3.":
+        run_script(3)
+
+    if re.search(r'.*?turn on.*?christmas lights', message, flags=re.IGNORECASE):
+        run_script(4)
+    if re.search(r'.*?turn off.*?christmas lights', message, flags=re.IGNORECASE):
+        run_script(5)
+
+
+def main():
+    known_phones = ['+1234567890', '+19876543210']
+
+    phone_number = sys.argv[1]
+    sms_date = sys.argv[2]
+
+    if phone_number in known_phones:
+        sms_body = sys.stdin.read()
+
+        process_message(phone_number, sms_date, sms_body)
+
+    else:
+        # Maybe a push notification with Pushover?
+        pass
+
+
+if __name__ == '__main__':
+    main()
+```
 
 ## Second Solution: Huawei E220 and Gammu
 
@@ -124,75 +129,83 @@ Unfortunately, as I’ve mentioned, I couldn’t get my Nokia working with Gammu
 
 Key lines from my `/etc/gammu-smsdrc`:
 
-    [gammu]
-    device = /dev/ttyUSB1
-    connection = at19200
-    synchronizetime = yes
-    logformat = textalldate
-    use_locking = yes
-    [include_numbers]
-    number1 = +11234567890
-    number2 = +10987654321
-    [smsd]
-    service = SQL
-    logfile = /var/log/gammu-smsd.log
-    debuglevel = 1
-    runonreceive = venv/bin/python3 sms/process_sms.py
-    driver = sqlite3
-    database = gammu.db
-    dbdir = /var/www/gammu/sms/db/
+```config
+[gammu]
+device = /dev/ttyUSB1
+connection = at19200
+synchronizetime = yes
+logformat = textalldate
+use_locking = yes
+[include_numbers]
+number1 = +11234567890
+number2 = +10987654321
+[smsd]
+service = SQL
+logfile = /var/log/gammu-smsd.log
+debuglevel = 1
+runonreceive = venv/bin/python3 sms/process_sms.py
+driver = sqlite3
+database = gammu.db
+dbdir = /var/www/gammu/sms/db/
+```
 
 And from my supervisor startup file for the gammu-smsd daemon:
 
-    [program:sms-daemon]
-    command=/usr/bin/gammu-smsd
-    user=gammu
-    directory=/var/www/gammu
-    startretries=1000
+```config
+[program:sms-daemon]
+command=/usr/bin/gammu-smsd
+user=gammu
+directory=/var/www/gammu
+startretries=1000
+```
 
 Gammu has pretty good documentation online and default config templates to help you figure out the above settings, but feel free to comment below if any part of my setup doesn’t make sense to you.
 
 As you can see, gammu-smsd has a `runonreceive` directive, which is really the only part you need to run a script when you get a text. Just for kicks, I have additionally enabled the SQLite backend. Also, in contrast to Gnokii, where I had to programmatically filter “acceptable” incoming phone numbers (as you can see above), Gammu lets you specify acceptable incoming numbers with the `[include_numbers]` section of your config file.
 
-    """process_gammu.py
-    Called by gammu-smsd to process incoming sms messages.
-    No need to filter by phone number, as safe numbers are set up in /etc/gammu-smsdrc.
-    """
-    
-    import os
-    import re
-    
-    def process_message(sender, message):
-        """Handle the message content."""
-    
-        lamp_regex = re.compile(r"turn (on|off) the lamp", flags=re.IGNORECASE)
-        lamp_search = re.search(lamp_regex, message)
-    
-        if lamp_search:
-            toggle = lamp_search.group(1)
-            if toggle.lower() == 'on':
-                # do some stuff
-            elif toggle.lower() == 'off':
-                # do different stuff
-    
-    def main():
-        for i in range(int(os.environ['SMS_MESSAGES'])):
-            i += 1
-            message = os.environ['SMS_{}_TEXT'.format(i)]
-            sender = os.environ['SMS_{}_NUMBER'.format(i)]
-    
-            process_message(sender, message)
-    
-    if __name__ == '__main__':
-        main()
+```python
+"""process_gammu.py
+Called by gammu-smsd to process incoming sms messages.
+No need to filter by phone number, as safe numbers are set up in /etc/gammu-smsdrc.
+"""
+
+import os
+import re
+
+def process_message(sender, message):
+    """Handle the message content."""
+
+    lamp_regex = re.compile(r"turn (on|off) the lamp", flags=re.IGNORECASE)
+    lamp_search = re.search(lamp_regex, message)
+
+    if lamp_search:
+        toggle = lamp_search.group(1)
+        if toggle.lower() == 'on':
+            # do some stuff
+        elif toggle.lower() == 'off':
+            # do different stuff
+
+def main():
+    for i in range(int(os.environ['SMS_MESSAGES'])):
+        i += 1
+        message = os.environ['SMS_{}_TEXT'.format(i)]
+        sender = os.environ['SMS_{}_NUMBER'.format(i)]
+
+        process_message(sender, message)
+
+if __name__ == '__main__':
+    main()
+```
 
 Unfortunately, I didn’t have much luck debugging things with `logging` or `print()` statements, so in my testing I resorted to making my example script open and write a timestamp to a local file (make sure you have proper permissions for this, especially if you are running the daemon as a separate user). Initially I did a lot of testing by actually sending a text to the Pi, but this ended up using up my small allotment of prepaid texts pretty quickly. I found that I could simulate an incoming text for Gammu by setting some environmental variables and running the script like so:
 
-    sudo -u gammu \
+```shell_session
+sudo -u gammu \
     SMS_MESSAGES=1 \
     SMS_1_TEXT='Turn off the lamp' \
     SMS_1_NUMBER='+3216540987' \
     venv/bin/python3 sms/process_sms.py
+```
 
 I think this should be enough info to help get you up and running with one of these methods, though it will still likely take some tweaking to get right. Feel free to comment below with any issues you run into trying to get set up. With any luck, you’ll be triggering scripts by SMS in no time!
 

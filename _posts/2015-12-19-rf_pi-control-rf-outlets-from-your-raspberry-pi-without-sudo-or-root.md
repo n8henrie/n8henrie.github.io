@@ -71,7 +71,7 @@ You’ll need to know the **RF codes** that your remote uses to communicate with
 You shouldn’t have any trouble using `RF_Sniffer` to find them on your Pi, but if you wanted, you could also get them from an Arduino. First, install the <a href="https://github.com/sui77/rc-switch" target="_blank">rc-switch Arduino library</a> into your Arduino libraries folder (in your Arduino sketchbook, which you can find in your Arduino preferences). You can manually download and extract the .zip file, or in Terminal:
 
 
-```bash
+```shell_session
 # First quit Arduino.app, and replace your sketchbook path below
 cd $ARDUINO_SKETCHBOOK/libraries
 git clone https://github.com/sui77/rc-switch
@@ -98,13 +98,15 @@ Just like before, `python rf_send.py 12345`. For best results:
 
 This is just an example repo to get you up and running quickly — the real fun comes in when you write your own scripts. For example, if you were to write a script `test.py` in the directory containing `rf_pi`:
 
-    """test.py
-    Sends an RF code via rf_send.
-    """
-    
-    from rf_pi import rf_send
-    
-    if __name__ == "__main__":
-        rf_send.rf_send(['12345'])
+```python
+"""test.py
+Sends an RF code via rf_send.
+"""
+
+from rf_pi import rf_send
+
+if __name__ == "__main__":
+    rf_send.rf_send(['12345'])
+```
 
 Easy as that! If you’re interested in contributing examples of using `send.so` in other languages like ruby or nodejs, please make a pull request!

@@ -59,19 +59,46 @@ To cut to the chase, I knew it had to do with opening TextWrangler.app (show con
 
 Here’s what I ended up copying:
 
-        <dict><br />        <key>CFBundleTypeExtensions</key><br />        <array><br />            <string>*</string><br />        </array><br />        <key>CFBundleTypeName</key><br />        <string>Anything</string><br />        <key>CFBundleTypeOSTypes</key><br />        <array><br />            <string>****</string><br />        </array><br />        <key>CFBundleTypeRole</key><br />        <string>Viewer</string><br />    </dict><br />
+```xml
+<dict>
+    <key>CFBundleTypeExtensions</key>
+    <array>
+        <string>*</string>
+    </array>
+    <key>CFBundleTypeName</key>
+    <string>Anything</string>
+    <key>CFBundleTypeOSTypes</key>
+    <array>
+        <string>****</string>
+    </array>
+    <key>CFBundleTypeRole</key>
+    <string>Viewer</string>
+</dict>
+```
+
 
 I pasted this into TextWrangler’s info.plist, and it worked like magic when nothing else would. The plist has an array that starts with:
 
-        <key>CFBundleDocumentTypes</key><br />    <array><br />        <dict><br />            <key>CFBundleTypeIconFile</key><br />
+```xml
+<key>CFBundleDocumentTypes</key>
+<array>
+<dict>
+<key>CFBundleTypeIconFile</key>
+```
+
 
 and ends with:
 
-            </dict>     <br />    </array><br />    <key>CFBundleExecutable</key><br />
+```xml
+</dict>
+</array>
+<key>CFBundleExecutable</key>
+```
+
 
 I pasted it at the end, between the </dict> and </array>. To see the effect, you have to make LaunchServices reindex TextWrangler:
 
-> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -f /Applications/TextWrangler.app 
+> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -f /Applications/TextWrangler.app
 
 Then, relaunch Finder (Command + Option + Escape). I don’t think I had to relaunch Quicksilver, but if you’re having problems you can give that a shot, too. (Quicksilver.app : Relaunch)
 

@@ -29,7 +29,7 @@ For those that didn’t know, there are a few sites that essentially accumulate 
 
 The ones I’m most familiar with are <a target="_blank" href="https://www.archive.org/" title="Internet Archive: Digital Library of Free Books, Movies, Music ...">archive.org</a> (aka “The Way Back Machine”), and Google Web Cache. I even have a handy javascript bookmarklet for the Google Cache version, which I run in <a target="_blank" href="http://qsapp.com/" title="Quicksilver — Mac OS X at your Fingertips">Quicksilver</a>.
 
-```
+```javascript
 javascript:document.location='http://webcache.googleusercontent.com/search?q=cache:'+escape(window.location);
 ```
 

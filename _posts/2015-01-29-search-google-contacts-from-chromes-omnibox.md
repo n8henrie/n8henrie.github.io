@@ -29,36 +29,8 @@ To make this even easier, I turned it into a Chrome Custom Search for the Omnibo
   1. Right click on the address bar -> `Edit Search Engines...`
   2. Enter the following:
 
-
-
-<table>
-  <col /> <col /> <col /> <tr>
-    <th>
-      Name
-    </th>
-
-    <th>
-      Keyword
-    </th>
-
-    <th>
-      URL
-    </th>
-  </tr>
-
-  <tr>
-    <td>
-      Google Contacts
-    </td>
-
-    <td>
-      Contacts
-    </td>
-
-    <td>
-      <code>https://www.google.com/contacts/u/0/#contacts/search/%s</code>
-    </td>
-  </tr>
-</table>
+Name | Keyword | URL
+--- | --- | ---
+Google Contacts | Contacts | `https://www.google.com/contacts/u/0/#contacts/search/%s`
 
 Test it out by typing in the Omnibox: `contacts  ⇥  <the number>`

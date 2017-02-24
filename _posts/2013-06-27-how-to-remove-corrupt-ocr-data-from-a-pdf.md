@@ -27,13 +27,11 @@ Luckily, I finally figured out a way that works for me, using a “print-to-pdf�
 
 Here’s the workflow:
 
-  1. Download and install <a target="_blank" href="http://sourceforge.net/projects/pdfwriterformac/" title=".pdfwriter">PDFwriter</a>
-  2. Open a print dialog (i.e. print something from e.g. Preview), Printer (drop down menu) -> “add printer” -> PDFwriter
-  3. Open the .pdf to be converted in Adobe Reader
-  4. Print -> Advanced -> “Print as Image”
-  5. By default the file ends up in a strange location,
-
-    `/Users/Shared/pdfwriter`, which simlinks to
-
-    `/private/var/spool/pdfwriter/[username]/`
-  6. You’re done and can re-OCR the file with whatever OCR tool you prefer.
+1. Download and install <a target="_blank" href="http://sourceforge.net/projects/pdfwriterformac/" title=".pdfwriter">PDFwriter</a>
+2. Open a print dialog (i.e. print something from e.g. Preview), Printer (drop down menu) -> “add printer” -> PDFwriter
+3. Open the .pdf to be converted in Adobe Reader
+4. Print -> Advanced -> “Print as Image”
+5. By default the file ends up in a strange location,
+   `/Users/Shared/pdfwriter`, which simlinks to
+   `/private/var/spool/pdfwriter/[username]/`
+6. You’re done and can re-OCR the file with whatever OCR tool you prefer.

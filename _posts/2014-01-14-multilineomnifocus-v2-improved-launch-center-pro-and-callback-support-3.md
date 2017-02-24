@@ -33,7 +33,7 @@ By tweaking just a couple lines of code, I found I could add an extra parameter 
 
 Here are a few examples:
 
-```
+```plaintext
 # Original URL to launch MLOF from Drafts, should still work:
 pythonista://MultiLineOmniFocus?action=run&argv=[[draft]]
 
