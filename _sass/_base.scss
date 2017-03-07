@@ -72,7 +72,7 @@ ul, ol {
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -187,68 +187,100 @@ pre {
  * Content
  */
 .content {
-  margin-right: $sidebar-width + $spacing-unit;
-  clear: both;
-  overflow: auto;
+    margin-right: $sidebar-width + $spacing-unit;
+    clear: both;
+    overflow: auto;
 
-  @include media-query($on-laptop) {
-    margin-right: $sidebar-width + $spacing-unit / 2;
-  }
-  @include media-query($on-palm) {
-      margin-right: auto;
-  }
+    @include media-query($on-laptop) {
+        margin-right: $sidebar-width + $spacing-unit / 2;
+    }
+    @include media-query($on-palm) {
+        margin-right: auto;
+    }
+
+    // Only apply to tables that are direct children to avoid styling Gists
+    .post-content > table {
+        width: 100%;
+        border-collapse: collapse; 
+        border-spacing: 0; 
+
+        td, th { 
+            border: 1px solid transparent; /* No more visible border */
+            height: 30px; 
+            transition: all 0.3s;  /* Simple transition for hover effect */
+            &:hover {background-color: darken($background-color, 15%)}
+        }
+
+        th {
+            background: darken($background-color, 20%);
+            font-weight: bold;
+        }
+
+        tr { 
+            &:nth-child(even) {
+                background-color: darken($background-color, 7%);
+            }
+            &:nth-child(odd) {
+                background-color: lighten($background-color, 7%);
+            }
+        }
+
+        td {
+            text-align: center;
+        }
+    }
 }
 
 /**
  * Sidebar
  */
 .sidebar {
-  position: relative;
-  width: $sidebar-width;
-  margin-left: -$sidebar-width;
-  float: right;
-  overflow: hidden;
-  @include media-query($on-palm) {
-    display: none;
-  }
+    position: relative;
+    width: $sidebar-width;
+    margin-left: -$sidebar-width;
+    float: right;
+    overflow: hidden;
+    @include media-query($on-palm) {
+        display: none;
+    }
 }
 
 
 /**
  * Ads
-*/
+ */
 .feature {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 
-        // Won't be shown due to hidden sidebar
-        &.square {
-                margin-top: 198px;
-                &.top {}
-                &.bottom {}
+    // Won't be shown due to hidden sidebar
+    &.square {
+        margin-top: 198px;
+        &.top {}
+        &.bottom {}
+    }
+    &.banner {
+        width: 728px;
+        height: 90px;
+        @include media-query($on-palm) {
+            width: 320px;
+            height: 100px;
         }
-        &.banner {
-                width: 728px;
-                height: 90px;
-                @include media-query($on-palm) {
-                    width: 320px;
-                    height: 100px;
-                }
 
-                // Should load only on mobile
-                &.top {
-                    display: none;
-                    @include media-query($on-palm) {
-                        display: block;
-                        margin-bottom: $spacing-unit
-                    }
-                }
-
-                // Should load at any size, just change dimensions
-                &.bottom {}
+        // Should load only on mobile
+        &.top {
+            display: none;
+            @include media-query($on-palm) {
+                display: block;
+                margin-bottom: $spacing-unit
+            }
         }
+
+        // Should load at any size, just change dimensions
+        &.bottom {}
+    }
 }
 
 
@@ -279,7 +311,6 @@ pre {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
