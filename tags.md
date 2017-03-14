@@ -9,7 +9,7 @@ nav: true
 
 {% comment %}
 Would be great to have the line below use case insensitive sort / sort_natural when a more recent Liquid is merged into Jekyll / GitHub Pages.
-Also, 
+Also,
 Instead of everything in one line, use {% raw %} `{%-` {% endraw %} for whitespace control once Liquid 4.0 lands in Jekyll
 http://stackoverflow.com/questions/40830392/how-to-remove-the-white-space-in-jekyll
 {% endcomment %}
@@ -34,7 +34,7 @@ http://stackoverflow.com/questions/40830392/how-to-remove-the-white-space-in-jek
 <div >
     {% for this_word in tag_words %}
             <div id="{{ this_word | replace:' ','-' }}-ref">
-                <h2 >Posts tagged  with {{ this_word }}</h2>
+                <h2 >Posts tagged with {{ this_word }}</h2>
                 <ul >
                     {% for post in site.tags[this_word] %}
                         {% if post.title != null %}
