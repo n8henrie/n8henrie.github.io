@@ -26,11 +26,17 @@ Every once in a while, I get a text or miss a call from an unknown number on my 
 
 To make this even easier, I turned it into a Chrome Custom Search for the Omnibox. Here’s how to do it on a Mac (likely similar on a PC).
 
-  1. Right click on the address bar -> `Edit Search Engines...`
-  2. Enter the following:
+1. Right click on the address bar -> `Edit Search Engines...`
+1. Enter the following:
 
 Name | Keyword | URL
 --- | --- | ---
-Google Contacts | Contacts | `https://www.google.com/contacts/u/0/#contacts/search/%s`
+Google Contacts | Contacts | `https://contacts.google.com/search/%s`
+
+<br/>
+
+NB: Many thanks to [Stephen Meech](https://twitter.com/drsmeech) for notifying
+me of the updated URL. The URL for the old version of contacts was:
+`https://www.google.com/contacts/u/0/#contacts/search/%s`
 
 Test it out by typing in the Omnibox: `contacts  ⇥  <the number>`
