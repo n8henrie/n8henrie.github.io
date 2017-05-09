@@ -5,6 +5,14 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    {% if page.tags %}
+    <p>Tags: <span class="post-meta">
+    {% for tag in page.tags %}
+    <a href="/tags/#{{ tag | replace: " ","-" }}-ref">{{ tag }}</a>
+    {% unless forloop.last %} • {% endunless %}
+    {% endfor %}</span></p>
+    {% endif %}
+
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
