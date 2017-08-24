@@ -33,11 +33,7 @@ Many of these trails I’ve found through 2 excellent trail guides, one of which
   * [Mountain Biking Northern New Mexico](http://www.amazon.com/gp/product/0762728027/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0762728027)
   * [Mountain Biking Albuquerque](http://www.amazon.com/gp/product/156044746X/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=156044746X)
 
-<div style="width:160px; margin-left: auto; margin-right: auto;">
-  <a target="_blank" href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:87190.1.99999&bannertypeclick=wu_macwhite" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Click for Albuquerque, New Mexico Forecast" height="90" src="http://weathersticker.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wu_macwhite&airportcode=KABQ&ForcedCity=Albuquerque&ForcedState=NM" width="160" /></a>
-</div>
+<a target="_blank" href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:87190.1.99999&bannertypeclick=wu_macwhite" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Click for Albuquerque, New Mexico Forecast" height="90" src="http://weathersticker.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wu_macwhite&airportcode=KABQ&ForcedCity=Albuquerque&ForcedState=NM" width="160" /></a>
 
-
-
-<div>
-</div>
+<iframe src="http://www.everytrail.com/user/tripswidget?user_id=357230&width=600&height=450" width="100%" height="400" scrolling="no" frameborder="0"></iframe>
+<iframe frameborder="0" height="750" width="750" src="https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AlQMuv7LxtdpdGNqNnZENmp3MkVUSmpPOEtfTG9pOEE&single=true&gid=0&output=html&widget=true"></iframe>

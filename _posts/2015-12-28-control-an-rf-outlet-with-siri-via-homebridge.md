@@ -34,6 +34,8 @@ implementation of RCSwitch in order to control cheap RF outlets with Siri.
 
 Here’s the obligatory YouTube video showing it in action (**NB:** if you watch it on or near an iOS device with “Hey Siri” enabled, it might activate it). Also note that everything is _much_ quicker when run through my iPhone 6S or when run through the app instead of Siri, but I wanted to demonstrate on my old 1st gen iPad Mini so I could record with the iPhone.
 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/14RSUz3GSO4" frameborder="0" allowfullscreen></iframe>
+
 **Update 20161111:** In the [original
 version](https://github.com/n8henrie/n8henrie.github.io/blob/ec40e58b3d777427b821ff357f95072a484c1aa6/_posts/2015-12-28-control-an-rf-outlet-with-siri-via-homebridge.md
 of this post) I talked about using GNU Stow to manage my nodejs installation.

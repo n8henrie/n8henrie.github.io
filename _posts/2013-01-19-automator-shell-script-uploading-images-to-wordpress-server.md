@@ -61,9 +61,9 @@ I decided to write this as an Automator service for a few reasons. Principally,
   1. This will add a contextual menu for the script (right click -> services -> n8upload, or whatever you decide to name it).
   2. My favorite app, <a target="_blank" href="http://qsapp.com/">Quicksilver</a>, indexes OSX services, so I can upload a file just as easily from QS.
 
-Instead of writing this all out, I’ll just use a screenshot, which was uploaded by my handy workflow. _Like Inception._<figure> 
+Instead of writing this all out, I’ll just use a screenshot, which was uploaded by my handy workflow. *Like Inception*.
 
-![]({{ site.url }}/uploads/2013/01/20130119_20130118-ScreenShot-73.jpg)</figure> 
+![]({{ site.url }}/uploads/2013/01/20130119_20130118-ScreenShot-73.jpg)
 
 Note the “receives files from” part and the “pass input” part.
 
@@ -73,7 +73,34 @@ Delete everything out of the script space in Automator and replace it with the s
 
 I tried to use comments in the script to describe what each step does, and there are several portions designated by [\*stuff\*] that will need your own info (server names, paths, etc.).
 
-
+```bash
+#!/bin/bash
+set -e
+ 
+#Originally posted at http://n8henrie.com/2013/01/automator-shell-script-uploading-images-to-wordpress-server
+ 
+## This script was made as a service in Automator, may need adjustments to function otherwise.
+## Look for portions that need to be replaced with your info, as denoted by [*stuff*]
+ 
+for f in "$@"
+do
+## fix up the filename by removing spaces and special characters, prepend date
+filename=$(date +"%Y%m%d")_$(basename "$f" | tr -d ' ' | sed 's/[^A-Za-z0-9._-]/_/g')
+ 
+## Copy the file to uploads folder in /year/month subdirectories.
+scp -P [*your server's ssh port number*] -p "$f" [*your ssh user*]@[*your domain*].com:[*path to your uploads folder, starting with /*]/wp-content/uploads/$(date +%Y)/$(date +%m)/$filename
+ 
+## Make a string with all the urls (necessary if used with multiple files), close the for loop
+pasteMe+="http://[*your domain*].com/wp-content/uploads/$(date +%Y)/$(date +%m)/$filename"'\n';
+done
+ 
+## Get rid of final newline and copy the string with the http path(s) to the clipboard
+echo -e $pasteMe | perl -0777 -pe 's|\n+\z||ims' | pbcopy
+ 
+## Shoot a growl notification that it worked.
+msg="Looks like the file(s) uploaded successfully to"$'\n\n'$(pbpaste)$'\n\n'"and the URL(s) copied to the clipboard.";
+/usr/local/bin/growlnotify "n8upload" -m "$msg";
+```
 
 Basically, this script:
 
@@ -84,6 +111,8 @@ Basically, this script:
   5. Copies the http:// path to the file to the clipboard.
   6. Issues a Growl notification using <a target="_blank" href="http://growl.info/extras.php">growlnotify</a> that it thinks it worked okay.
 
-One issue is that the clipboard string ends up with an extra newline… i think that’s because of pbcopy. Not going to worry about it right now. **Update: 20130119** Well, for one, I scheduled this post to go live yesterday, but apparently the scheduler failed. Not sure what that’s about. For two, I updated the script so now it supports multiple files without any problems and uses a quick perl slurp to strip the final newline, so you should be able to run the service, paste into your document, and continue writing seamlessly.
+One issue is that the clipboard string ends up with an extra newline… i think that’s because of pbcopy. Not going to worry about it right now.
+
+**Update: 20130119** Well, for one, I scheduled this post to go live yesterday, but apparently the scheduler failed. Not sure what that’s about. For two, I updated the script so now it supports multiple files without any problems and uses a quick perl slurp to strip the final newline, so you should be able to run the service, paste into your document, and continue writing seamlessly.
 
 I’m pleased with the final product, which lets me right click a file (or select it in <a target="_blank" href="http://qsapp.com/">QS</a>), Services -> n8upload, and in a few seconds my clipboard has a link to the uploaded file on my server, which I can throw right into a post in <a target="_blank" href="http://brettterpstra.com/projects/nvalt/">nvALT</a>, or whatever Markdown editor I’m using that day.

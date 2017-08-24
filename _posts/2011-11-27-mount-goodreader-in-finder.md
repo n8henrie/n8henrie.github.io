@@ -26,17 +26,7 @@ tags:
 categories:
 - tech
 ---
-<div>
-  <div>
-    Made a quick screencast on how to mount Goodreader in Finder on a Mac.  Makes batch transferring files a breeze!
-  </div>
-  
-  <div>
-    Nate :: UNM SOM :: <a href="http://www.n8henrie.com/" target="_blank">www.n8henrie.com</a>
-  </div>
-  
-  <p>
-    </div> 
-    
-    <div>
-    </div>
+
+Made a quick screencast on how to mount Goodreader in Finder on a Mac.  Makes batch transferring files a breeze!
+
+<iframe src="http://www.youtube.com/embed/z6QQ-3cHDaU?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe>

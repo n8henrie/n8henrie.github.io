@@ -53,4 +53,38 @@ For those of you that don’t use Hazel… I recommend you give it a shot. If yo
 
 _Most importantly, make sure you test out the script and get it working properly on your system before you mess with important files. I had plenty of quirks to get it to work well for me, so please use caution and judgment – side effects may include data loss, weight gain, hours of sleep you can never get back, etc._
 
-<a target="_blank" href="http://cl.ly/0U1g1e1L3D2v0h1F2P1l" title="OpenMeta to Evernote.scpt">Download this script here.</a>
+Download this script [here](http://cl.ly/0U1g1e1L3D2v0h1F2P1l).
+
+```applescript
+--Find original post here: http://n8henrie.com/2012/06/converting-openmeta-tags-to-evernote/
+-- set theFile to alias “YourHDName:Users:YourUserName:Path:To:TestFile.pdf” –uncomment this line  for testing in Applescript Editor!
+local importedFrom, targetNotebook, openmeta, tagtext, taglist, tid
+--Which notebook do you want the notes to end up in? **Case Sensitive**
+set targetNotebook to “Inbox”
+--Add a tag to tell what app the files were imported from
+set importedFrom to “from_Leap”
+--Set openmeta location to wherever you have installed openmeta
+set openmeta to “/usr/local/bin/openmeta”
+--Get tags as one big string
+set tagtext to do shell script openmeta & ” -t -p ” & quoted form of POSIX path of theFile
+--Remove file path from tags (don’t know why openmeta includes this as a tag)
+set filePath to POSIX path of theFile
+set pathOffset to offset of filePath in tagtext
+set tagtext to (strings 1 thru (pathOffset – 2) of tagtext) & ” ” & importedFrom
+set tid to AppleScript‘s text item delimiters
+set AppleScript‘s text item delimiters to {” “}
+set taglist to the words of tagtext
+-- display dialog “taglist: ” & return & taglist & return & return & “tagtext: ” & return & tagtext
+--Change the TIDs back
+set AppleScript‘s text item delimiters to tid
+--preserve the original created and modified dates of the files
+tell application “Finder”
+set createdFileDate to (the creation date of (theFile as alias))
+set modFileDate to (the modification date of (theFile as alias))
+end tell
+tell application “Evernote”
+launch
+set theItem to create note from file theFile notebook targetNotebook tags taglist created createdFileDate
+set (modification date of theItem) to modFileDate
+end tell
+```

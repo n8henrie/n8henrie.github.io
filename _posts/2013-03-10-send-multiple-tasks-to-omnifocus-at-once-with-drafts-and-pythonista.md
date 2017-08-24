@@ -52,7 +52,7 @@ I've also [recently started playing](http://n8henrie.com/tag/pythonista/) with <
 
 Here's a quick video example of how it works. Apologies for the shoddy editing.
 
-
+<iframe width="640" height="360" src="http://www.youtube.com/embed/JC-_Gq0XAWk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 #### Setup
 
@@ -64,6 +64,60 @@ Here's a quick video example of how it works. Apologies for the shoddy editing.
     ```
     - Import the script below into Pythonista (here are [a few ways to import scripts](http://n8henrie.com/2013/02/quickly-import-pythonista-scripts-via-textexpander-or-bookmarklet/)).
     - Input your information in the **\### CHANGE THESE VALUES:** section.
+
+```python
+# More information:  http://n8henrie.com/2013/03/send-multiple-tasks-to-omnifocus-at-once-with-drafts-and-pythonista
+# Script name: MultiLineOmniFocus
+# Drafts "URL Action": pythonista://MultiLineOmniFocus?action=run&argv=[[draft]]
+ 
+# Modified from email script by OMZ: https://gist.github.com/omz/4073599
+ 
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email import encoders
+import sys
+import webbrowser
+import console
+ 
+def main():
+ 
+        tasks = sys.argv[1].splitlines()
+ 
+        ### CHANGE THESE VALUES:
+        to = 'Your_OmniFocus_Mail_Drop_Email_Address'
+        gmail_user = 'Your_Gmail_Address'
+        gmail_pwd = 'Your_Gmail_Pass (or OTP if using 2FA)'
+ 
+        console.clear()
+        print 'Starting SMTP Server'
+       
+        smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
+        smtpserver.ehlo()
+        smtpserver.starttls()
+        smtpserver.ehlo
+        smtpserver.login(gmail_user, gmail_pwd)
+ 
+        for task in tasks:             
+                outer = MIMEMultipart()
+                outer['Subject'] = task
+                outer['To'] = to
+                outer['From'] = gmail_user
+                outer.preamble = 'You will not see this in a MIME-aware email reader.\n'
+ 
+                composed = outer.as_string()
+               
+                print 'Sending Task ' + str(tasks.index(task) + 1)
+                smtpserver.sendmail(gmail_user, to, composed)
+ 
+        smtpserver.close()
+        print 'Done'
+        console.clear()
+       
+if __name__ == '__main__':
+        main()
+ 
+webbrowser.open('drafts://')
+```
 
 I'm also trying to figure out what in the world GitHub is all about, so I put this (and a bunch of my other scripts) into a repo. Here is the link for this one: <a target="_blank" href="https://github.com/n8henrie/n8pythonista/blob/master/MultiLineOmniFocus.py">https://github.com/n8henrie/fromPastebin/blob/master/MultiLineOmniFocus.py</a>. Maybe you can branch it and tweak it or whatever people do with GitHub stuff.
 
