@@ -33,11 +33,11 @@ categories:
         </p>
         
         <p>
-          It’s the twentieth <a href="http://www.npr.org/2010/02/12/123614938/an-alien-view-of-earth?sc=fb&cc=fp">anniversary</a> of the famous “<a href="http://en.wikipedia.org/wiki/Pale_Blue_Dot">pale blue dot</a>” photo – Earth as seen from Voyager 1 while on the edge of our solar system (approximately 3,762,136,324 miles from home). Sagan’s words are always worth remembering:
+          It's the twentieth <a href="http://www.npr.org/2010/02/12/123614938/an-alien-view-of-earth?sc=fb&cc=fp">anniversary</a> of the famous "<a href="http://en.wikipedia.org/wiki/Pale_Blue_Dot">pale blue dot</a>" photo – Earth as seen from Voyager 1 while on the edge of our solar system (approximately 3,762,136,324 miles from home). Sagan's words are always worth remembering:
         </p>
         
         <p>
-          Look again at that dot. That’s here. That’s home. That’s us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every ‘superstar,’ every ‘supreme leader,’ every saint and sinner in the history of our species lived there — on a mote of dust suspended in a sunbeam.
+          Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every ‘superstar,' every ‘supreme leader,' every saint and sinner in the history of our species lived there — on a mote of dust suspended in a sunbeam.
         </p>
         
         <p>
@@ -53,7 +53,7 @@ categories:
         </p>
         
         <p>
-          It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.
+          It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
         </p>
         
         <p>
@@ -67,7 +67,7 @@ categories:
     </div>
     
     <p>
-      What a powerful post I’ve had the good fortune to come across today.
+      What a powerful post I've had the good fortune to come across today.
     </p>
   </div>
 </div>

@@ -16,18 +16,18 @@ tags:
 categories:
 - tech
 ---
-**Bottom line:** In case you haven’t noticed, I moved to WordPress. Hilarity ensues.
+**Bottom line:** In case you haven't noticed, I moved to WordPress. Hilarity ensues.
   
 <!--more-->
 
 
   
-Due to a half-off sale for shared web hosting at <a href="http://www.namecheap.com/?aff=36829" target="_blank">Namecheap</a> (who I used to purchase my domain name for a very reasonable cost), I’ve decided to take the plunge and set up a big-boy website. 
+Due to a half-off sale for shared web hosting at <a href="http://www.namecheap.com/?aff=36829" target="_blank">Namecheap</a> (who I used to purchase my domain name for a very reasonable cost), I've decided to take the plunge and set up a big-boy website. 
 
-I still don’t really know anything about html, php, mysql, etc., so even though this will give me the ability to set up cool website features, it will probably just remain a humble little blog and not much more.
+I still don't really know anything about html, php, mysql, etc., so even though this will give me the ability to set up cool website features, it will probably just remain a humble little blog and not much more.
 
-One notable change is that I am going to try out [WordPress](http://wordpress.org/).&nbsp; I’ve seen so many attractive WordPress sites that I think it’s at least worth a shot. If nothing else, hopefully it will be a fun experiment.
+One notable change is that I am going to try out [WordPress](http://wordpress.org/).&nbsp; I've seen so many attractive WordPress sites that I think it's at least worth a shot. If nothing else, hopefully it will be a fun experiment.
 
-Given my total lack of talent, training, or skill in this area, I hope you’ll give me a break if the site goes down or doesn’t work quite right for a while. &nbsp;By the same token, _please_ let me know when you find something that is broken or seems wrong. &nbsp;The comments section below each post is a great post to let me know about broken links or images that don’t display, and feel free to email me about other issues. &nbsp;Feedback about the new look is likewise appreciated.
+Given my total lack of talent, training, or skill in this area, I hope you'll give me a break if the site goes down or doesn't work quite right for a while. &nbsp;By the same token, _please_ let me know when you find something that is broken or seems wrong. &nbsp;The comments section below each post is a great post to let me know about broken links or images that don't display, and feel free to email me about other issues. &nbsp;Feedback about the new look is likewise appreciated.
 
 Thanks for your patience, and wish me luck!

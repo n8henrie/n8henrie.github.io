@@ -1,6 +1,6 @@
 ---
 id: 59
-title: '@giggirock Project of the day. Now it squeaks but at least it flows. #winning'
+title: "@giggirock Project of the day. Now it squeaks but at least it flows. #winning"
 date: 2011-06-04T17:32:00+00:00
 author: n8henrie
 layout: post

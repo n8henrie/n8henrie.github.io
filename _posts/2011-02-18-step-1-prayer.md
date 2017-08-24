@@ -33,11 +33,11 @@ categories:
   </p>
   
   <p>
-    If I should die before I wake…
+    If I should die before I wake...
   </p>
   
   <p>
-    that’s one less test I’ll have to take!
+    that's one less test I'll have to take!
   </p>
   
   <p>

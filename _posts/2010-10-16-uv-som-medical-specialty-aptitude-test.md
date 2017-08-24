@@ -25,7 +25,7 @@ categories:
 ---
 <div>
   <p>
-    <span style="font-family: Lucida Sans, Lucida Grande, Tahoma, Arial, sans-serif; font-size: 12px; color: #191919; line-height: 18px;">Link.  <em>Interesting</em> results.  Especially how endo, ER, and cardio (my current favs) all fall together… right in the middle.  Then again, the reliability of this quiz is… questionable.  Kinda fun anyways.</span>
+    <span style="font-family: Lucida Sans, Lucida Grande, Tahoma, Arial, sans-serif; font-size: 12px; color: #191919; line-height: 18px;">Link.  <em>Interesting</em> results.  Especially how endo, ER, and cardio (my current favs) all fall together... right in the middle.  Then again, the reliability of this quiz is... questionable.  Kinda fun anyways.</span>
   </p>
   
   <tr>

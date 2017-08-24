@@ -1,6 +1,6 @@
 ---
 id: 62
-title: 'On Matters Zero-Sum : Sam Harris'
+title: "On Matters Zero-Sum : Sam Harris"
 date: 2011-05-22T22:09:00+00:00
 author: n8henrie
 layout: post
@@ -39,7 +39,7 @@ categories:
         
         <blockquote>
           <p>
-            Why, for example, should I not prefer my own well-being, or the well-being of the people I love, to overall, or global, well-being?… Harris never provides a satisfactory response to this line of thought, and I doubt that one is possible. After all, as he acknowledges, the claim that “We should maximize the global well-being of conscious creatures” is not an empirical finding. So what is it? What in the world makes it true? How does it become binding on me if I don’t accept it?
+            Why, for example, should I not prefer my own well-being, or the well-being of the people I love, to overall, or global, well-being?... Harris never provides a satisfactory response to this line of thought, and I doubt that one is possible. After all, as he acknowledges, the claim that "We should maximize the global well-being of conscious creatures" is not an empirical finding. So what is it? What in the world makes it true? How does it become binding on me if I don't accept it?
           </p>
         </blockquote>
         
@@ -48,7 +48,7 @@ categories:
         </p>
         
         <p>
-          (A) What is the status of moral truth?—that is, what does it mean to say that one state of the world is “better” than another?
+          (A) What is the status of moral truth?—that is, what does it mean to say that one state of the world is "better" than another?
         </p>
         
         <p>
@@ -68,15 +68,15 @@ categories:
         </p>
         
         <p>
-          Let’s say that a God’s-eye-view of the situation reveals the following: (1) and (2) are morally indistinguishable—we both love pie equally, and we will enjoy this particular slice of pie to the same degree; neither of us has a health concern for which pie is contraindicated; etc.
+          Let's say that a God's-eye-view of the situation reveals the following: (1) and (2) are morally indistinguishable—we both love pie equally, and we will enjoy this particular slice of pie to the same degree; neither of us has a health concern for which pie is contraindicated; etc.
         </p>
         
         <p>
-          Let’s also say that if we were the sort of people who could do (3), we would both be better off—we’d each get a little pie, stick more closely to our diets, and have a nice parable to tell our children.
+          Let's also say that if we were the sort of people who could do (3), we would both be better off—we'd each get a little pie, stick more closely to our diets, and have a nice parable to tell our children.
         </p>
         
         <p>
-          Let’s also stipulate that, in this case, (4) would be better still—it turns out there is a needy person close at hand who would be made far happier by the pie than either of us would; we would both feel especially good about ourselves for having resolved an apparent zero-sum conflict in this way; and someone would witness our noble behavior and put us on the evening news, making us local heroes.
+          Let's also stipulate that, in this case, (4) would be better still—it turns out there is a needy person close at hand who would be made far happier by the pie than either of us would; we would both feel especially good about ourselves for having resolved an apparent zero-sum conflict in this way; and someone would witness our noble behavior and put us on the evening news, making us local heroes.
         </p>
         
         <p>
@@ -84,11 +84,11 @@ categories:
         </p>
         
         <p>
-          Focusing on the question of moral truth (A) yields this—it doesn’t really matter what happens, because (1) and (2) are equivalent. And while (3) and (4) would be better, people like us can’t reach such heights on the moral landscape.
+          Focusing on the question of moral truth (A) yields this—it doesn't really matter what happens, because (1) and (2) are equivalent. And while (3) and (4) would be better, people like us can't reach such heights on the moral landscape.
         </p>
         
         <p>
-          Blackford’s concern focuses on the question of what is rational for each of us to do, given who we are (B). You strongly prefer (1), and I strongly prefer (2), and it seems that we are both right to prefer our own happiness in this regard. I admit that such zero-sum situations occasionally arise, and we accept them within the bounds of normal, self-interested behavior. But I argue that, given the vastness of <i>possible</i> experience, there will usually be better solutions that are not zero-sum. And the only way to make sense of the concept of “better” is to a invoke a background notion of moral truth (which, in my terms, relates to possible states of well-being). This brings us back to (A).
+          Blackford's concern focuses on the question of what is rational for each of us to do, given who we are (B). You strongly prefer (1), and I strongly prefer (2), and it seems that we are both right to prefer our own happiness in this regard. I admit that such zero-sum situations occasionally arise, and we accept them within the bounds of normal, self-interested behavior. But I argue that, given the vastness of <i>possible</i> experience, there will usually be better solutions that are not zero-sum. And the only way to make sense of the concept of "better" is to a invoke a background notion of moral truth (which, in my terms, relates to possible states of well-being). This brings us back to (A).
         </p>
         
         <p>
@@ -96,7 +96,7 @@ categories:
         </p>
         
         <p>
-          Some of us are committed to playing lousy games in which it doesn’t much matter who wins. And then there are better games we might play…
+          Some of us are committed to playing lousy games in which it doesn't much matter who wins. And then there are better games we might play...
         </p>
         
         <p>
@@ -110,7 +110,7 @@ categories:
     </div>
     
     <p>
-      Sam Harris knows there’s a magic button.
+      Sam Harris knows there's a magic button.
     </p>
   </div>
 </div>

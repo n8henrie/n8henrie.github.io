@@ -40,7 +40,7 @@ categories:
   </p>
   
   <p>
-    Use your left and right arrow buttons (keyboard or on-screen) to navigate through the presentation as I’ve set it up, but also feel free to use the zoom tool and your mouse to move around the presentation freely and take a closer look at personal notes that I didn’t highlight in the presentation.
+    Use your left and right arrow buttons (keyboard or on-screen) to navigate through the presentation as I've set it up, but also feel free to use the zoom tool and your mouse to move around the presentation freely and take a closer look at personal notes that I didn't highlight in the presentation.
   </p>
   
   <p>

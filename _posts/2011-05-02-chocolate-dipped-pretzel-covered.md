@@ -34,7 +34,7 @@ categories:
     
     <p />
     Recipe: 
-    <a href="http://www.thekitchn.com/copycat-recipe-chocolatedipped-139899">http://www.thekitchn.com/thekitchn/candy/copycat-recipe-chocolatedipped-beer-…</a>
+    <a href="http://www.thekitchn.com/copycat-recipe-chocolatedipped-139899">http://www.thekitchn.com/thekitchn/candy/copycat-recipe-chocolatedipped-beer-...</a>
   </p>
 </div>
 

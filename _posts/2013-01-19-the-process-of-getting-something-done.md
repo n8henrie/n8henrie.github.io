@@ -25,15 +25,15 @@ categories:
 ---
 #### Unconscious Incompetence
 
-> “Hey, honey… have you ever noticed those bugs in the glass cover over your light? It’s kinda gross.”
+> "Hey, honey... have you ever noticed those bugs in the glass cover over your light? It's kinda gross."
   
 > <!--more-->
 > 
-> “No, I never had. You’re right, that _is_ kinda gross.”
+> "No, I never had. You're right, that _is_ kinda gross."
 
 #### Conscious Incompetence
 
-Several months pass as I repeatedly plan to clean out the bugs… and each time somehow forget to actually do it.
+Several months pass as I repeatedly plan to clean out the bugs... and each time somehow forget to actually do it.
 
 #### Conscious Competence
 
@@ -43,4 +43,4 @@ Months and months later, I finally spent the 5 minutes it took to get the job do
 
 #### Unconscious Competence
 
-Let’s not get ahead of ourselves.
+Let's not get ahead of ourselves.

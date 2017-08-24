@@ -1,6 +1,6 @@
 ---
 id: 1722
-title: 'Repost: xkcd: ADD'
+title: "Repost: xkcd: ADD"
 date: 2012-09-15T16:06:14+00:00
 author: n8henrie
 layout: post

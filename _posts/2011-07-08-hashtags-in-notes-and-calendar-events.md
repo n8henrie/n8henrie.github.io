@@ -25,7 +25,7 @@ tags:
 categories:
 - tech
 ---
-**Update Oct 09, 2012:** _In contrast to previous versions of iCal, the search function on OSX 10.8’s Calendar.app seems to be appropriately differentiating between “hashtag” and “#hashtag.” Nice! —n8henrie Tue Oct 9 17:41:13 MDT 2012_
+**Update Oct 09, 2012:** _In contrast to previous versions of iCal, the search function on OSX 10.8's Calendar.app seems to be appropriately differentiating between "hashtag" and "#hashtag." Nice! —n8henrie Tue Oct 9 17:41:13 MDT 2012_
 
 <div>
   <div>
@@ -41,7 +41,7 @@ categories:
   <p />
   
   <div>
-    The difference is even more important in Simplenote / Notational Velocity, where “#temp” efficiently pulls up all of my temporary notes, as compared to “temp”, which would give me every note that contained the word template, temporary, temper, contempt, etc.
+    The difference is even more important in Simplenote / Notational Velocity, where "#temp" efficiently pulls up all of my temporary notes, as compared to "temp", which would give me every note that contained the word template, temporary, temper, contempt, etc.
   </div>
   
   <p />

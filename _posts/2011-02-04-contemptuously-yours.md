@@ -29,7 +29,7 @@ categories:
   </p>
   
   <p>
-    This meme is so cliché it’s like beating a dead horse.  If you have something you want to say, I encourage you to simply say it.  Preferably in a way that isn’t excruciatingly trite.  Very little could be as banal as your concluding “Love, [Your Name].”  Please be more creative in the future.
+    This meme is so cliché it's like beating a dead horse.  If you have something you want to say, I encourage you to simply say it.  Preferably in a way that isn't excruciatingly trite.  Very little could be as banal as your concluding "Love, [Your Name]."  Please be more creative in the future.
   </p>
   
   <p>

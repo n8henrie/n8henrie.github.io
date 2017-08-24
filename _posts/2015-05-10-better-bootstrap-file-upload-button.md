@@ -17,23 +17,23 @@ tags:
 categories:
 - tech
 ---
-**Bottom Line:** Here’s how to make an attractive file upload button for Bootstrap.<!--more-->
+**Bottom Line:** Here's how to make an attractive file upload button for Bootstrap.<!--more-->
 
-I put a lot of work into the new version of icsConverterWebapp. Here’s how my file upload buttons turned out:
+I put a lot of work into the new version of icsConverterWebapp. Here's how my file upload buttons turned out:
 
 
 ![My Bootstrap file upload button]({{ site.url }}/uploads/2015/05/20150510_20150510-ScreenShot-479.jpg)
 
 [See it live.](http://icw.n8henrie.com)
 
-I’ve been learning to use <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> for a few <a href="http://flask.pocoo.org/" target="_blank">Flask</a> projects I’ve been working on lately. I was surprised to see that the <a href="http://getbootstrap.com/css/#forms" target="_blank">default Bootstrap file upload buttons</a> are _pretty ugly_:
+I've been learning to use <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> for a few <a href="http://flask.pocoo.org/" target="_blank">Flask</a> projects I've been working on lately. I was surprised to see that the <a href="http://getbootstrap.com/css/#forms" target="_blank">default Bootstrap file upload buttons</a> are _pretty ugly_:
 
 
 ![Default Bootstrap file upload button]({{ site.url }}/uploads/2015/05/20150510_20150510-ScreenShot-480.jpg)
 
 To cut to the chase, I did **tons** of Googling, and this is the most satisfying solution I came up with. It is a combination of <a href="http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3" target="_blank">this popular solution</a> by Cory LaViska, and <a href="http://stackoverflow.com/a/25053973/1588795" target="_blank">this stackoverflow answer</a> by Kirill Fuchs.
 
-Further, I’m using Flask with <a href="https://github.com/wtforms/wtforms" target="_blank">wtforms</a>, <a href="https://flask-wtf.readthedocs.org/" target="_blank">Flask-wtf</a>, and <a href="http://pythonhosted.org/Flask-Bootstrap/" target="_blank" title="Flask-Bootstrap — Flask-Bootstrap 3.3.4.1 documentation">Flask-bootstrap</a>, so my solution uses code from all of these. If you’re not using these, skip to the bottom for a HTML and JS solution, and a link to a demo.
+Further, I'm using Flask with <a href="https://github.com/wtforms/wtforms" target="_blank">wtforms</a>, <a href="https://flask-wtf.readthedocs.org/" target="_blank">Flask-wtf</a>, and <a href="http://pythonhosted.org/Flask-Bootstrap/" target="_blank" title="Flask-Bootstrap — Flask-Bootstrap 3.3.4.1 documentation">Flask-bootstrap</a>, so my solution uses code from all of these. If you're not using these, skip to the bottom for a HTML and JS solution, and a link to a demo.
 
 The basic idea is this:
 
@@ -141,7 +141,7 @@ $(document).ready( function() {
 
 ## #6
 
-Now we just use some CSS (SCSS in my case) to hide the ugly input button and give its new `Browse...` button the nice white color of Bootstrap’s `btn-default` in `style.css`:
+Now we just use some CSS (SCSS in my case) to hide the ugly input button and give its new `Browse...` button the nice white color of Bootstrap's `btn-default` in `style.css`:
 
 ```css
 #browsebutton {
@@ -153,7 +153,7 @@ Now we just use some CSS (SCSS in my case) to hide the ugly input button and giv
 }
 ```
 
-That’s all there is to it! I found <a href="http://www.bootply.com/" target="_blank">Bootply</a> _really_ helpful in getting this all figured out. For those of you not using Flask, below is a simplified version using just Bootstrap, HTML, and the same JS as above, and <a href="http://www.bootply.com/gLB1lB2Ad8" target="_blank">here’s a link</a> to a runnable demo at Bootply.
+That's all there is to it! I found <a href="http://www.bootply.com/" target="_blank">Bootply</a> _really_ helpful in getting this all figured out. For those of you not using Flask, below is a simplified version using just Bootstrap, HTML, and the same JS as above, and <a href="http://www.bootply.com/gLB1lB2Ad8" target="_blank">here's a link</a> to a runnable demo at Bootply.
 
 ```html
 <form class="form-inline center-block" action="/" method="POST" enctype="multipart/form-data">

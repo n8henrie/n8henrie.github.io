@@ -26,23 +26,23 @@ categories:
 ---
 <div>
   <p>
-    A few days ago I was listening to a lecture on common congenital cardiac problems, taught by a veteran lecturer skilled in soliciting participation from the audience.  A mainstay of getting an audience involved is to ask questions, and he did a great job of encouraging participation by making it feel good to get a question right without making it feel bad to get a question wrong.  This can be considered something of an art; one doesn’t have to actively chastise incorrect responses to punish the mistaken student.  Better said, the student may *feel* punished even without action on the part of the lecturer (for example, see <a href="http://www.n8henrie.com/2010/12/on-carrots-sticks-and-attention-seeking/" title="On carrots, sticks, and attention-seeking behavior" target="_blank">my thoughts</a> on dog training and attention-seeking behavior).
+    A few days ago I was listening to a lecture on common congenital cardiac problems, taught by a veteran lecturer skilled in soliciting participation from the audience.  A mainstay of getting an audience involved is to ask questions, and he did a great job of encouraging participation by making it feel good to get a question right without making it feel bad to get a question wrong.  This can be considered something of an art; one doesn't have to actively chastise incorrect responses to punish the mistaken student.  Better said, the student may *feel* punished even without action on the part of the lecturer (for example, see <a href="http://www.n8henrie.com/2010/12/on-carrots-sticks-and-attention-seeking/" title="On carrots, sticks, and attention-seeking behavior" target="_blank">my thoughts</a> on dog training and attention-seeking behavior).
   </p>
   
   <p>
-    Anyway, this lecturer had acquired a remarkable talent for getting the audience to answer his questions and thereby feel involved.  I’ve seen several strategies to this end employed during medical school.  Some lecturers ask a question and give up easily if there are no responders.  Some try to crack a joke to diffuse the uncomfortable silence.  Others may provoke the audience with desperate grimaces or disparaging comments under their breath.  This lecturer in particular went for the classic “give hints that make the answer more and more obvious until somebody finally answers” route.
+    Anyway, this lecturer had acquired a remarkable talent for getting the audience to answer his questions and thereby feel involved.  I've seen several strategies to this end employed during medical school.  Some lecturers ask a question and give up easily if there are no responders.  Some try to crack a joke to diffuse the uncomfortable silence.  Others may provoke the audience with desperate grimaces or disparaging comments under their breath.  This lecturer in particular went for the classic "give hints that make the answer more and more obvious until somebody finally answers" route.
   </p>
   
   <p>
-    This post was inspired by one of those moments.  The lecturer asked a question.  The instant the last syllable slid past his lips, I knew what answer he wanted.  The way he had phrased the question led me to the answer by pure instinct.  I didn’t answer.  He paused, giving everyone enough time to notice the stuffiness of the air, or the sound of the clock, or the afternoon sun on the Sandias.  I felt like I knew what answer he wanted, but that answer didn’t fit in with my understanding of the phenomenon under discussion.  Then he prodded with his first clue, which hinted that my preliminary answer was likely correct.
+    This post was inspired by one of those moments.  The lecturer asked a question.  The instant the last syllable slid past his lips, I knew what answer he wanted.  The way he had phrased the question led me to the answer by pure instinct.  I didn't answer.  He paused, giving everyone enough time to notice the stuffiness of the air, or the sound of the clock, or the afternoon sun on the Sandias.  I felt like I knew what answer he wanted, but that answer didn't fit in with my understanding of the phenomenon under discussion.  Then he prodded with his first clue, which hinted that my preliminary answer was likely correct.
   </p>
   
   <p>
-    Then he waited.  Again.  My mind started running circles.  Why was this answer correct?  I could certainly see that it could possibly be correct… but I didn’t *know* it to be correct.  I didn’t really even believe it to be correct.  Why?  Because I hadn’t thought it through well enough to come to that conclusion myself.  It didn’t make sense.  The only reason I suspected it to be correct in the first place was from reading between the lines of his demeanor, independent of the lecture content.
+    Then he waited.  Again.  My mind started running circles.  Why was this answer correct?  I could certainly see that it could possibly be correct... but I didn't *know* it to be correct.  I didn't really even believe it to be correct.  Why?  Because I hadn't thought it through well enough to come to that conclusion myself.  It didn't make sense.  The only reason I suspected it to be correct in the first place was from reading between the lines of his demeanor, independent of the lecture content.
   </p>
   
   <p>
-    It felt like a physics problem where the teacher tells you the answer but then doesn’t tell you how they arrived at that answer.  Would you believe them?  Would you write that answer on your homework?  What if the homework wasn’t due until next week?  I might write the answer down for reference, but I’d do the work for myself.  I’ve encountered enough errant experts to not to rely on authority alone.  Professorial clout often fails to impress the laws that run the world.
+    It felt like a physics problem where the teacher tells you the answer but then doesn't tell you how they arrived at that answer.  Would you believe them?  Would you write that answer on your homework?  What if the homework wasn't due until next week?  I might write the answer down for reference, but I'd do the work for myself.  I've encountered enough errant experts to not to rely on authority alone.  Professorial clout often fails to impress the laws that run the world.
   </p>
   
   <p>
@@ -50,11 +50,11 @@ categories:
   </p>
   
   <p>
-    He hurled another clue in my general direction.  I nearly fell out of my seat dodging it.  Previously, witholding the answer he wanted so badly had been a struggle, but now it was outright painful.  I pushed my tongue up and curled it behind my superior central incisors to keep the unjustified answer from slipping out between my teeth.  Why did he want us to give him this answer so badly?  Couldn’t he see that I refused to be credited for an answer that I hadn’t earned?  That I hadn’t learned?  That I didn’t believe?
+    He hurled another clue in my general direction.  I nearly fell out of my seat dodging it.  Previously, witholding the answer he wanted so badly had been a struggle, but now it was outright painful.  I pushed my tongue up and curled it behind my superior central incisors to keep the unjustified answer from slipping out between my teeth.  Why did he want us to give him this answer so badly?  Couldn't he see that I refused to be credited for an answer that I hadn't earned?  That I hadn't learned?  That I didn't believe?
   </p>
   
   <p>
-    One more accusatory prompt pointed its finger at us.  A drop of carbonated sweat dripped down my left temple.  My leg was shaking, as usual.  I wouldn’t be able to withstand another round of silence.
+    One more accusatory prompt pointed its finger at us.  A drop of carbonated sweat dripped down my left temple.  My leg was shaking, as usual.  I wouldn't be able to withstand another round of silence.
   </p>
   
   <p>
@@ -62,7 +62,7 @@ categories:
   </p>
   
   <p>
-    I imagine that some sighed because they had not known the answer and were afraid that they’d be called upon.  Others, because they’d appropriately refused acknowledgment for an unearned response.  Even if we were tempted, we didn’t sell out.
+    I imagine that some sighed because they had not known the answer and were afraid that they'd be called upon.  Others, because they'd appropriately refused acknowledgment for an unearned response.  Even if we were tempted, we didn't sell out.
   </p></p>
 </div>
 

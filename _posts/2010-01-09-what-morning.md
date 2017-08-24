@@ -32,7 +32,7 @@ categories:
 <span style="font-family: 'Courier New', Courier, monospace;">Wow, what a morning. Sunny day in Denver, CO. Cold enough for a coat and steamy breath that vanishes as it floats away from this wide, fourth story balcony.</p> 
 
 <p>
-  An inescapable treadmill. You never really get very far, and you’re almost always in a state of semi-satisfaction… quasi-complacency. There will always be questions… unanswered (and perhaps unanswerable) questions. I don’t know how much I believe in the “unanswerable” bit.
+  An inescapable treadmill. You never really get very far, and you're almost always in a state of semi-satisfaction... quasi-complacency. There will always be questions... unanswered (and perhaps unanswerable) questions. I don't know how much I believe in the "unanswerable" bit.
 </p>
 
 <p>
@@ -52,11 +52,11 @@ categories:
 </p>
 
 <p>
-  I don’t believe it. In my incomprehensible potential for love or hate, I need not fear pendulum effects, nor will I be guilty of sequestering a disproportionate share of some finite hedonistic resource.
+  I don't believe it. In my incomprehensible potential for love or hate, I need not fear pendulum effects, nor will I be guilty of sequestering a disproportionate share of some finite hedonistic resource.
 </p>
 
 <p>
-  A gambler’s fallacy — no intrinsic property of the many successes in my life puts me at risk for an upcoming failure. Nor do they suggest any karmic inertia that might ensure my trajectory without persistence and diligence.
+  A gambler's fallacy — no intrinsic property of the many successes in my life puts me at risk for an upcoming failure. Nor do they suggest any karmic inertia that might ensure my trajectory without persistence and diligence.
 </p>
 
 <p>

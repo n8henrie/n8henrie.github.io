@@ -19,14 +19,14 @@ categories:
 ---
 **Bottom Line:** Use this URL to search your Amazon orders from the Chrome Omnibar.<!--more-->
 
-I use my Amazon Prime membership a lot. I’ve had it long enough now that some of my prior purchases are wearing out, and others I like enough to get for a friend. It’s really nice to be able to go through my purchase history and find the _exact_ item I’m looking for (because it’s the _exact one I ordered_) and order another in two to three clicks.
+I use my Amazon Prime membership a lot. I've had it long enough now that some of my prior purchases are wearing out, and others I like enough to get for a friend. It's really nice to be able to go through my purchase history and find the _exact_ item I'm looking for (because it's the _exact one I ordered_) and order another in two to three clicks.
 
-However, to search your old orders, you have to go through a couple of menus to get to the right search box. Luckily, I discovered that you can make a custom search in Chrome to jump right to what you need. Here’s how.
+However, to search your old orders, you have to go through a couple of menus to get to the right search box. Luckily, I discovered that you can make a custom search in Chrome to jump right to what you need. Here's how.
 
   1. First, copy the URL below to the clipboard.
   2. Right click in the Chrome Omnibar and click `Edit Search Engines...`.
   3. Scroll to the bottom.
-  4. Put the keyword you’d like to use to launch the search in the `Keyword` (middle) column. I used `azorders`.
+  4. Put the keyword you'd like to use to launch the search in the `Keyword` (middle) column. I used `azorders`.
   5. Name the search whatever you want in the `Add a new search` (left) column. This is what the display will say, which can be different than the keyword.
   6. Paste the URL in the `URL with %s in place` (right) column.
 

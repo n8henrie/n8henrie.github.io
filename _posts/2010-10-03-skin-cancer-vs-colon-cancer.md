@@ -1054,7 +1054,7 @@ categories:
   <p />
   
   <div>
-    <b>Evidence that the benefits are systemic and not local (not much sun exposure “down there”)…</b>
+    <b>Evidence that the benefits are systemic and not local (not much sun exposure "down there")...</b>
   </div>
   
   <p />

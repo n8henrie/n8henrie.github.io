@@ -1,6 +1,6 @@
 ---
 id: 66
-title: 'SMRT: Insurance for your Laptop / iPad / Cell Phone / etc.'
+title: "SMRT: Insurance for your Laptop / iPad / Cell Phone / etc."
 date: 2011-04-28T01:42:00+00:00
 author: n8henrie
 layout: post
@@ -36,7 +36,7 @@ categories:
   <p />
   
   <div>
-    It seems like a lot of 2013 folks have been buying new phones or iPads or other electronics in preparation for 3rd year, so I thought I'd mention that 3rd party insurance is available for these device.  These insurance companies offer flexible plans that in some ways may be superior to what is offered by your device manufacturer / distributor / credit card company.  <a href="http://www.squaretrade.com/">Squaretrade</a> may be the most popular option.  Usually, 3rd party insurance WON'T cover things that the manufacturer should cover, like if it “just stops working.”  However, they often cover accidents and sometimes theft, which manufacturers almost certainly won't.
+    It seems like a lot of 2013 folks have been buying new phones or iPads or other electronics in preparation for 3rd year, so I thought I'd mention that 3rd party insurance is available for these device.  These insurance companies offer flexible plans that in some ways may be superior to what is offered by your device manufacturer / distributor / credit card company.  <a href="http://www.squaretrade.com/">Squaretrade</a> may be the most popular option.  Usually, 3rd party insurance WON'T cover things that the manufacturer should cover, like if it "just stops working."  However, they often cover accidents and sometimes theft, which manufacturers almost certainly won't.
   </div>
   
   <p />

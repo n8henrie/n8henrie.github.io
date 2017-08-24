@@ -1,6 +1,6 @@
 ---
 id: 45
-title: 'Article: The Mystery of Consciousness'
+title: "Article: The Mystery of Consciousness"
 date: 2011-11-24T19:30:00+00:00
 author: n8henrie
 layout: post
@@ -31,7 +31,7 @@ categories:
     
     <blockquote>
       <p>
-        Consciousness may very well be the lawful product of unconscious information processing. But I don’t know what that sentence means—and I don’t think anyone else does either.
+        Consciousness may very well be the lawful product of unconscious information processing. But I don't know what that sentence means—and I don't think anyone else does either.
       </p>
     </blockquote>
     

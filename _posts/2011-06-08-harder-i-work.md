@@ -1,6 +1,6 @@
 ---
 id: 58
-title: 'The Harder I Work…'
+title: "The Harder I Work..."
 date: 2011-06-08T13:19:00+00:00
 author: n8henrie
 layout: post
@@ -32,11 +32,11 @@ categories:
   </div></p> 
   
   <p>
-    I must keep reminding myself of this…
+    I must keep reminding myself of this...
   </p>
   
   <p>
-    Thanks to <a href="http://lifehacker.com/" title="Lifehacker" target="_blank">Lifehacker</a> for <a href="http://lifehacker.com/5809636/the-harder-i-work-the-luckier-i-get" target="_blank">bringing this quote</a> — one of my Dad’s favorites — to mind.
+    Thanks to <a href="http://lifehacker.com/" title="Lifehacker" target="_blank">Lifehacker</a> for <a href="http://lifehacker.com/5809636/the-harder-i-work-the-luckier-i-get" target="_blank">bringing this quote</a> — one of my Dad's favorites — to mind.
   </p>
 </div>
 

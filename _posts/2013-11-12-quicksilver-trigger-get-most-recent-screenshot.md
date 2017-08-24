@@ -1,6 +1,6 @@
 ---
 id: 2422
-title: 'Quicksilver Trigger: Get Most Recent Screenshot'
+title: "Quicksilver Trigger: Get Most Recent Screenshot"
 date: 2013-11-12T11:03:24+00:00
 author: n8henrie
 excerpt: Use this Python script as a Quicksilver trigger to quickly get the most recent screenshot.
@@ -19,7 +19,7 @@ categories:
 ---
 **Bottom Line:** Use this Python script as a Quicksilver trigger to quickly get the most recent screenshot.<!--more-->
 
-This is one of the more useful Python scripts I’ve written in a while. It simply returns to Quicksilver the most recently modified file with a given extension in a given directory. I use it to grab my most recent screenshot from a Dropbox folder I have set up to receive them. Set it up as a Quicksilver trigger with a hotkey, and it makes the process of
+This is one of the more useful Python scripts I've written in a while. It simply returns to Quicksilver the most recently modified file with a given extension in a given directory. I use it to grab my most recent screenshot from a Dropbox folder I have set up to receive them. Set it up as a Quicksilver trigger with a hotkey, and it makes the process of
 
   * taking a screenshot
   * pulling it up into Quicksilver

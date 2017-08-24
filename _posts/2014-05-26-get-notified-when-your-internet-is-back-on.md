@@ -19,9 +19,9 @@ categories:
 ---
 **Bottom Line:** This is my method for getting a push notification on my phone when my internet comes back on.<!--more-->
 
-If any of you happen to have the same ISP as me, you may have frequent internet outages. Sometimes, it may take several days to get the internet fixed. Other times, the internet will come and go during the course of a day. (FWIW, I have had the same ISP in multiple houses with numerous changes of routers, cable modems, and lines, with the same issues — so I’m pretty sure it’s not me.)
+If any of you happen to have the same ISP as me, you may have frequent internet outages. Sometimes, it may take several days to get the internet fixed. Other times, the internet will come and go during the course of a day. (FWIW, I have had the same ISP in multiple houses with numerous changes of routers, cable modems, and lines, with the same issues — so I'm pretty sure it's not me.)
 
-Because I rely on the internet to get much of my work done, whenever there’s internet trouble I have to go to the local library. I can think of a few ways to remotely check whether or not my house has connectivity (so I can go back home), but this is my favorite way so far.
+Because I rely on the internet to get much of my work done, whenever there's internet trouble I have to go to the local library. I can think of a few ways to remotely check whether or not my house has connectivity (so I can go back home), but this is my favorite way so far.
 
 My method relies on
 
@@ -32,7 +32,7 @@ My method relies on
   2. A <a target="_blank" href="https://pushover.net/" title="Pushover: Simple Notifications for Android, iOS, and Desktop">Pushover</a> account and their mobile app
   3. A mobile device that can upload a file to Dropbox
 
-If you’ve read [my “Dropbox and Hazel” post](http://n8henrie.com/2011/06/dropvox-dropbox-hazel-and-omnifocus/ "DropVox, DropBox, Hazel, and OmniFocus - n8henrie.com") from a few years back, you can probably see where this is going. Basically, the idea is:
+If you've read [my "Dropbox and Hazel" post](http://n8henrie.com/2011/06/dropvox-dropbox-hazel-and-omnifocus/ "DropVox, DropBox, Hazel, and OmniFocus - n8henrie.com") from a few years back, you can probably see where this is going. Basically, the idea is:
 
   1. Use cellular data on your mobile device to upload a very small file to a Dropbox folder that syncs to your Mac.
   2. Once internet connectivity is restored to your Mac, Dropbox will sync that file relatively quickly.
@@ -43,7 +43,7 @@ Simple as that.
 
 ### The Trigger File
 
-My trigger file is an empty text file named `Internet Working.txt`. It sits in a folder called “LaunchFiles” in my Dropbox. I use <a target="_blank" href="https://itunes.apple.com/us/app/goodreader-4/id777310222?mt=8&uo=4&at=10l5H6" title="GoodReader 4">Goodreader</a> on my iPhone to move the file from `LaunchFiles` to another folder, `Launch`.
+My trigger file is an empty text file named `Internet Working.txt`. It sits in a folder called "LaunchFiles" in my Dropbox. I use <a target="_blank" href="https://itunes.apple.com/us/app/goodreader-4/id777310222?mt=8&uo=4&at=10l5H6" title="GoodReader 4">Goodreader</a> on my iPhone to move the file from `LaunchFiles` to another folder, `Launch`.
 
 ### The Launch Folder
 
@@ -54,7 +54,7 @@ Hazel monitors `Launch` for this file (among many others), and upon detecting it
 
 ### Pushover
 
-This could probably be accomplished through Growl and its Pushover action, but I find a shell script just as easy with Pushover’s excellent API. First, you’ll need to buy Pushover and set up an account, then make a new Pushover app and get its credentials. Insert your credentials and `cacert` path into the script below. If you don’t know about the `cacert`, I believe you can omit the `--cacert` line as long as you also get rid of the `-s` in `curl -s \`, and it should still work. Don’t forget to `chmod +x pushover.sh`.
+This could probably be accomplished through Growl and its Pushover action, but I find a shell script just as easy with Pushover's excellent API. First, you'll need to buy Pushover and set up an account, then make a new Pushover app and get its credentials. Insert your credentials and `cacert` path into the script below. If you don't know about the `cacert`, I believe you can omit the `--cacert` line as long as you also get rid of the `-s` in `curl -s \`, and it should still work. Don't forget to `chmod +x pushover.sh`.
 
 ```bash
 #!/bin/bash
@@ -89,4 +89,4 @@ curl -s \
 #sound (optional) - set to the name of one of the sounds supported by device clients to override the user's default sound choice
 ```
 
-That’s it! If any of you have clever ideas for improving the script I’d love to hear it — preferably in the comments section below.
+That's it! If any of you have clever ideas for improving the script I'd love to hear it — preferably in the comments section below.

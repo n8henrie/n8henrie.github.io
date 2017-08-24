@@ -1,6 +1,6 @@
 ---
 id: 29
-title: 'Stoli’s New Shoes'
+title: "Stoli's New Shoes"
 date: 2012-02-13T05:04:00+00:00
 author: n8henrie
 layout: post

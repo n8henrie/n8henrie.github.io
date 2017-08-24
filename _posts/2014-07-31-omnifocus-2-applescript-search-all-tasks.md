@@ -1,6 +1,6 @@
 ---
 id: 2579
-title: 'OmniFocus 2: AppleScript to Search All Tasks'
+title: "OmniFocus 2: AppleScript to Search All Tasks"
 date: 2014-07-31T11:00:42+00:00
 author: n8henrie
 excerpt: A few tweaks to my OmniFocus 2 "Search All Tasks" AppleScript.
@@ -19,15 +19,15 @@ tags:
 categories:
 - tech
 ---
-**Bottom Line:** A few tweaks to my OmniFocus 2 “Search All Tasks” AppleScript.<!--more-->
+**Bottom Line:** A few tweaks to my OmniFocus 2 "Search All Tasks" AppleScript.<!--more-->
 
-Most of my readers know I’m a big fan of [OmniFocus](http://n8henrie.com/tag/omnifocus/ "OmniFocus - n8henrie.com"). Lately I’ve been trying to get used to <a target="_blank" href="https://itunes.apple.com/us/app/omnifocus-2/id867299399?mt=12&uo=4&at=10l5H6" title="OmniFocus 2">OmniFocus 2</a>, with a few little bumps along the way. One issue was that I had an AppleScript to search all tasks that I used all the time in OmniFocus (1) that quit working.
+Most of my readers know I'm a big fan of [OmniFocus](http://n8henrie.com/tag/omnifocus/ "OmniFocus - n8henrie.com"). Lately I've been trying to get used to <a target="_blank" href="https://itunes.apple.com/us/app/omnifocus-2/id867299399?mt=12&uo=4&at=10l5H6" title="OmniFocus 2">OmniFocus 2</a>, with a few little bumps along the way. One issue was that I had an AppleScript to search all tasks that I used all the time in OmniFocus (1) that quit working.
 
-The script is a standalone AppleScript that I run with a <a target="_blank" href="http://qsapp.com/" title="Quicksilver — Mac OS X at your Fingertips">Quicksilver</a> trigger, but would work equally well with whatever hotkey / keyboard shortcut setup you prefer. Because the script first activates OmniFocus, I can invoked this from whatever screen or app I’m using, and it appropriately bring OmniFocus into focus and finds the task in question. It’s without a doubt my most used OmniFocus script, so having it broken was a bummer.
+The script is a standalone AppleScript that I run with a <a target="_blank" href="http://qsapp.com/" title="Quicksilver — Mac OS X at your Fingertips">Quicksilver</a> trigger, but would work equally well with whatever hotkey / keyboard shortcut setup you prefer. Because the script first activates OmniFocus, I can invoked this from whatever screen or app I'm using, and it appropriately bring OmniFocus into focus and finds the task in question. It's without a doubt my most used OmniFocus script, so having it broken was a bummer.
 
-Luckily for me, a few of the kind folks at the new OmniGroup forums <a target="_blank" href="https://discourse.omnigroup.com/t/applescript-request-one-click-search-all/3693">helped me out</a> and got it mostly working again. However, today I realized that, presumably due to the new way OmniFocus 2 separates the inbox from projects, the script was appropriately searching “all projects” but missing tasks in the inbox — which didn’t used to be a problem.
+Luckily for me, a few of the kind folks at the new OmniGroup forums <a target="_blank" href="https://discourse.omnigroup.com/t/applescript-request-one-click-search-all/3693">helped me out</a> and got it mostly working again. However, today I realized that, presumably due to the new way OmniFocus 2 separates the inbox from projects, the script was appropriately searching "all projects" but missing tasks in the inbox — which didn't used to be a problem.
 
-I decided to tinker around a bit, and as usual got frustrated with AppleScript (Python just makes everything else seem so difficult). Then, I realized that instead of trying to script all of the view options to ensure all tasks were visible (including the inbox), I could just make a new perspective, set all my view options with the GUI. Then, all I had to do was figure out how to activate the perspective in the script, which wasn’t too bad.
+I decided to tinker around a bit, and as usual got frustrated with AppleScript (Python just makes everything else seem so difficult). Then, I realized that instead of trying to script all of the view options to ensure all tasks were visible (including the inbox), I could just make a new perspective, set all my view options with the GUI. Then, all I had to do was figure out how to activate the perspective in the script, which wasn't too bad.
 
 I added two new perspectives, one to search all tasks (including completed), and one to search only remaining tasks (default). As currently written, **you have to name the perspective the same thing as the button names in the script** (`Search Remaining` and `Search All` as currently written), but that could easily be changed if you wanted. The settings I used for my perspectives are in the comments at the top of the script.
 

@@ -29,15 +29,15 @@ tags:
 categories:
 - tech
 ---
-If you have a paid Prime membership (the free student ones don’t work, the $39 student ones will), you can borrow one book per month for free from the Kindle Lending Library. 
+If you have a paid Prime membership (the free student ones don't work, the $39 student ones will), you can borrow one book per month for free from the Kindle Lending Library. 
 
-I’ve identified a couple catches.  This only works if you have a Kindle (the Kindle apps for iOS / Mac / etc. won’t work as far as I know).  Also, Amazon has made it a little difficult to browse the books that are available for free.  However, I found a post describing a workaround for the second problem.  Seems to work great.
+I've identified a couple catches.  This only works if you have a Kindle (the Kindle apps for iOS / Mac / etc. won't work as far as I know).  Also, Amazon has made it a little difficult to browse the books that are available for free.  However, I found a post describing a workaround for the second problem.  Seems to work great.
 
   1. Go to <a href="http://www.amazon.com/" target="_blank">www.amazon.com</a> .
-  2. Select “Books” in the drop-down menu for the main search box.
-  3. Leaving the search box empty, click on the “Go” button. 
-  4. Click “Kindle Edition.”
-  5. Scroll down on the left hand side and click the “Prime Eligible” filter.
+  2. Select "Books" in the drop-down menu for the main search box.
+  3. Leaving the search box empty, click on the "Go" button. 
+  4. Click "Kindle Edition."
+  5. Scroll down on the left hand side and click the "Prime Eligible" filter.
   6. Pick a book and get reading.
 
 <div>

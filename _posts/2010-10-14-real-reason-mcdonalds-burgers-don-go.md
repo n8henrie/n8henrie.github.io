@@ -1,6 +1,6 @@
 ---
 id: 89
-title: 'The Real Reason McDonalds Burgers Don’t Go Bad'
+title: "The Real Reason McDonalds Burgers Don't Go Bad"
 date: 2010-10-14T02:03:00+00:00
 author: n8henrie
 layout: post

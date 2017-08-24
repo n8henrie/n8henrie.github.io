@@ -17,21 +17,21 @@ categories:
 ---
 **Bottom Line:** A brief look at `pip` and a few _sweet_ python3 modules.<!--more-->
 
-This post started out as an email to a close buddy of mine, but I realized it would also make a pretty good post with a few small tweaks. He has a computer science background and is thinking about giving Python a shot (with my persistent nagging). I’ve already emailed him about my recommended way of installing Python (<a target="_blank" href="http://brew.sh/">homebrew</a>, since he’s on OSX), and my recommended version of Python (<a target="_blank" href="https://docs.python.org/3/">python3</a>).
+This post started out as an email to a close buddy of mine, but I realized it would also make a pretty good post with a few small tweaks. He has a computer science background and is thinking about giving Python a shot (with my persistent nagging). I've already emailed him about my recommended way of installing Python (<a target="_blank" href="http://brew.sh/">homebrew</a>, since he's on OSX), and my recommended version of Python (<a target="_blank" href="https://docs.python.org/3/">python3</a>).
 
-The best way to install modules is with `pip`, which will be symlinked from `pip3` if you’re using a `python3` installation from homebrew. You used to have to install it separately (`brew install python3-pip` or `sudo apt-get python3-pip` or `sudo pacman -S python-pip` (since Arch uses python3 as default)), but it should now be pre-installed as of 3.4 or later.
+The best way to install modules is with `pip`, which will be symlinked from `pip3` if you're using a `python3` installation from homebrew. You used to have to install it separately (`brew install python3-pip` or `sudo apt-get python3-pip` or `sudo pacman -S python-pip` (since Arch uses python3 as default)), but it should now be pre-installed as of 3.4 or later.
 
-Once you have it, you can `pip search` and it will search <a target="_blank" href="https://pypi.python.org/pypi">PyPI</a> (the python package index?), then you can `pip install` whatever package you’re interested in (e.g. `pip install requests`). You can also `pip uninstall`, which is a big advantage over `easy_install` or several other Python package installation solutions — it keeps track of your installed packages. For that same reason, you can also `pip list --outdated` to see what packages have available updates, then `pip install -U` a specific package to update. Don’t forget that you’ll probably need to replace `pip` with `pip3` in all of these examples, assuming you installed from homebrew.
+Once you have it, you can `pip search` and it will search <a target="_blank" href="https://pypi.python.org/pypi">PyPI</a> (the python package index?), then you can `pip install` whatever package you're interested in (e.g. `pip install requests`). You can also `pip uninstall`, which is a big advantage over `easy_install` or several other Python package installation solutions — it keeps track of your installed packages. For that same reason, you can also `pip list --outdated` to see what packages have available updates, then `pip install -U` a specific package to update. Don't forget that you'll probably need to replace `pip` with `pip3` in all of these examples, assuming you installed from homebrew.
 
-To avoid breaking things, it’s probably better to upgrade individually, but you can also do a little bash scripting to batch upgrade all outdated packages. For example
+To avoid breaking things, it's probably better to upgrade individually, but you can also do a little bash scripting to batch upgrade all outdated packages. For example
 
 ```shell_session
 pip3 list --outdated | ack "\(Current.*?\d+\)" | cut -d ' ' -f 1 | xargs -I{} bash -c "pip3 install -U {} || true"
 ```
 
-<a target="_blank" href="http://beyondgrep.com/" title="Beyond grep: ack 2.12, a source code search tool for programmers">ack</a> is pretty great (`brew install ack`), but `grep` would also work. Here I’m just using it to filter out error messages from the pip output and only grab the lines that should reflect an upgradeable package. The `cut` strips out just the package name, and the rest upgrades the packages while always returning True (because otherwise `xargs` will stop the entire process if one of the packages has an error.
+<a target="_blank" href="http://beyondgrep.com/" title="Beyond grep: ack 2.12, a source code search tool for programmers">ack</a> is pretty great (`brew install ack`), but `grep` would also work. Here I'm just using it to filter out error messages from the pip output and only grab the lines that should reflect an upgradeable package. The `cut` strips out just the package name, and the rest upgrades the packages while always returning True (because otherwise `xargs` will stop the entire process if one of the packages has an error.
 
-So, with that behind, here are a handful of my favorite packages, including links, and even a little code snippet for several showing why they’re so awesome. (Sorry to the devs if I get your capitalization wrong.)
+So, with that behind, here are a handful of my favorite packages, including links, and even a little code snippet for several showing why they're so awesome. (Sorry to the devs if I get your capitalization wrong.)
 
 ### <a target="_blank" href="http://docs.python-requests.org/" title="Requests: HTTP for Humans — Requests 2.2.1 documentation">Requests</a>
 
@@ -77,7 +77,7 @@ links[3].find_next('p')
 
 ### <a target="_blank" href="https://pypi.python.org/pypi/keyring" title="keyring 3.7 : Python Package Index">Keyring</a>
 
-Provides access to the OSX Keychain, so you can keep your secure / encrypted passwords out of your scripts. Especially handy if you’re sharing the code with others — you don’t have to worry about editing out your passwords.
+Provides access to the OSX Keychain, so you can keep your secure / encrypted passwords out of your scripts. Especially handy if you're sharing the code with others — you don't have to worry about editing out your passwords.
 
 ```python
 # Set a password, either from the IDE or from a script, however you want.
@@ -98,7 +98,7 @@ pass = keyring.get_password('example.com', user)
 
 ### <a target="_blank" href="http://ipython.org/" title="Announcements — IPython">iPython</a>
 
-I have a hard time describing it, but it’s fundamental to my workflow. iPython provides an excellent IDE with code completion, history, autoindentation, access to the shell, logging your work (at any point `%logstart ~/Desktop/my_script.py` and your hard work will be preserved). The iPython Notebook is entirely different, but even more exciting — provides the in-browser IDE that you can work on piece by piece, running each segment of your script to get it right, displaying images and plots inline… just unreal. Then you can export your entire masterpiece as html and share it in a way that anyone can not only read like any other website, but if they also have iPython (and you provide a link to the notebook) they can also execute and tweak the code you used to make it. I probably read the thoughts of a hundred people trying to explain why they thought it was so awesome before I finally gave it a shot… and it to me it really every bit as amazing as they tried to convey.
+I have a hard time describing it, but it's fundamental to my workflow. iPython provides an excellent IDE with code completion, history, autoindentation, access to the shell, logging your work (at any point `%logstart ~/Desktop/my_script.py` and your hard work will be preserved). The iPython Notebook is entirely different, but even more exciting — provides the in-browser IDE that you can work on piece by piece, running each segment of your script to get it right, displaying images and plots inline... just unreal. Then you can export your entire masterpiece as html and share it in a way that anyone can not only read like any other website, but if they also have iPython (and you provide a link to the notebook) they can also execute and tweak the code you used to make it. I probably read the thoughts of a hundred people trying to explain why they thought it was so awesome before I finally gave it a shot... and it to me it really every bit as amazing as they tried to convey.
 
 ### <a target="_blank" href="http://pandas.pydata.org/" title="Python Data Analysis Library — pandas: Python Data Analysis Library">Pandas</a> (including its implementations of matplotlib, numpy, etc.)
 
@@ -136,7 +136,7 @@ The basis from my <a target="_blank" href="http://icsConverterWebapp.n8henrie.co
 
 ### <a target="_blank" href="https://pypi.python.org/pypi/mutagenx" title="mutagenx 1.22.1 : Python Package Index">mutagenx</a>
 
-Manipulate audio file metadata. _Really_ nice for batch file renaming when you have 300 files from some podcast that are all named `file_1.mp3 file_2.mp3`… and yet in iTunes you can **see** that they have descriptive titles embedded in the file somewhere…
+Manipulate audio file metadata. _Really_ nice for batch file renaming when you have 300 files from some podcast that are all named `file_1.mp3 file_2.mp3`... and yet in iTunes you can **see** that they have descriptive titles embedded in the file somewhere...
 
 ```python
 from mutagex.easyid3 import EasyID3

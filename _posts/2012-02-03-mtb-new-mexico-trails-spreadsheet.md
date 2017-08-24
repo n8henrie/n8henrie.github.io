@@ -26,9 +26,9 @@ categories:
 ---
 **This is a work in progress**, and hopefully will always be that way.
 
-On the embedded sheet, I’ll include GPS data for trails I’ve ridden. I generally record with either <a target="_blank" href="http://runkeeper.com">Runkeeper</a> or <a target="_blank" href="http://www.everytrail.com/">Everytrail</a> on my iPhone 4, do a little cleaning up of the data in <a target="_blank" href="http://www.google.com/earth/">Google Earth</a>, then upload and host the GPS data on Everytrail.
+On the embedded sheet, I'll include GPS data for trails I've ridden. I generally record with either <a target="_blank" href="http://runkeeper.com">Runkeeper</a> or <a target="_blank" href="http://www.everytrail.com/">Everytrail</a> on my iPhone 4, do a little cleaning up of the data in <a target="_blank" href="http://www.google.com/earth/">Google Earth</a>, then upload and host the GPS data on Everytrail.
 
-Many of these trails I’ve found through 2 excellent trail guides, one of which I received as a Christmas present from a family that knows me well.  The books are: 
+Many of these trails I've found through 2 excellent trail guides, one of which I received as a Christmas present from a family that knows me well.  The books are: 
 
   * [Mountain Biking Northern New Mexico](http://www.amazon.com/gp/product/0762728027/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0762728027)
   * [Mountain Biking Albuquerque](http://www.amazon.com/gp/product/156044746X/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=156044746X)

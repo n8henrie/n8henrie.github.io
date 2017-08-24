@@ -35,31 +35,31 @@ categories:
 </div>
 
 <div>
-  I stick all these scripts into a specific folder (which I keep in my <a href="https://www.dropbox.com/">Dropbox</a> to sync across devices and keep a version history), and I use <a href="http://qsapp.com/">QuickSilver</a> to call them.  With this one, for example, I can just call QuickSilver and type “Sync iOS” (which is what I named the script) and push enter.  Significantly easier than 
+  I stick all these scripts into a specific folder (which I keep in my <a href="https://www.dropbox.com/">Dropbox</a> to sync across devices and keep a version history), and I use <a href="http://qsapp.com/">QuickSilver</a> to call them.  With this one, for example, I can just call QuickSilver and type "Sync iOS" (which is what I named the script) and push enter.  Significantly easier than 
 </div>
 
 <div>
 </div>
 
   1. running iTunes
-  2. switching windows from whatever I’m doing
+  2. switching windows from whatever I'm doing
   3. clicking on my phone
-  4. clicking “sync”
+  4. clicking "sync"
   5. clicking on my iPad
-  6. clicking “sync”
+  6. clicking "sync"
   7. returning to whatever window I was working in
 
 <div>
-  As an additional benefit, I can schedule this script to run at a given time, when triggered by another program, or however I want with tools like <a href="http://code.google.com/p/cronnix/">Cronnix</a>, <a href="http://www.noodlesoft.com/hazel.php">Hazel</a>, etc.  Anyways, here’s the script:
+  As an additional benefit, I can schedule this script to run at a given time, when triggered by another program, or however I want with tools like <a href="http://code.google.com/p/cronnix/">Cronnix</a>, <a href="http://www.noodlesoft.com/hazel.php">Hazel</a>, etc.  Anyways, here's the script:
 </div>
 
-> tell application “iTunes”  
+> tell application "iTunes"  
 > repeat with s in sources  
 > if (kind of s is iPod) then update s  
 > end repeat  
 > end tell
 
-Oh, one last thing.  If you copy this script into ~/library/itunes/scripts (this folder might not exist, I had to create it), it will conveniently show up in your iTunes menu (see below).  Because this folder won’t be indexed in QuickSilver, you can either just put an _extra_ copy there and keep the other somewhere that QuickSilver searches, or add that folder in your QuickSilver catalog. 
+Oh, one last thing.  If you copy this script into ~/library/itunes/scripts (this folder might not exist, I had to create it), it will conveniently show up in your iTunes menu (see below).  Because this folder won't be indexed in QuickSilver, you can either just put an _extra_ copy there and keep the other somewhere that QuickSilver searches, or add that folder in your QuickSilver catalog. 
 
 <div style="clear: both; text-align: center;">
   <a href="{{ site.url }}/uploads/2012/09/ScreenShot2011-12-09at5.16.27PM.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="31" src="{{ site.url }}/uploads/2012/09/ScreenShot2011-12-09at5.16.27PM.jpg" width="320" /></a>

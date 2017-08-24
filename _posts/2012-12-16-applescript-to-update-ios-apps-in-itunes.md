@@ -26,25 +26,25 @@ tags:
 categories:
 - tech
 ---
-**Bottom Line:** If you don’t like having to manually update iOS apps, here’s an AppleScript to automate the process.
+**Bottom Line:** If you don't like having to manually update iOS apps, here's an AppleScript to automate the process.
 
 <!--more-->
 
-I’ve been thinking of trying to put together a script like this for a while. Unless I’m jailbroken, which I’m not at the moment, I really don’t ever hesitate to update my iOS apps. There are good reasons why you should not, on occasion (a buggy release that hasn’t been updated yet, a new version that loses features you need), so don’t go implementing this script without making sure you are okay with automatic app updates.
+I've been thinking of trying to put together a script like this for a while. Unless I'm jailbroken, which I'm not at the moment, I really don't ever hesitate to update my iOS apps. There are good reasons why you should not, on occasion (a buggy release that hasn't been updated yet, a new version that loses features you need), so don't go implementing this script without making sure you are okay with automatic app updates.
 
-Additionally, the script is mostly using user interface (IU) scripting, which means it’s just telling OSX “where to click” and “what to type” instead of really telling it what to do programatically. This type of scripting is easy to break with updates, and doesn’t always work. For example, it’s the rough equivalent of telling your Mac “Okay, next go a little right. Now a little up. A little more right. Okay, click there!” and if any other application suddenly steals the screen’s focus, it can click in the wrong place. For these reasons, there are a lot of “delay” commands in this script (to give iTunes a chance to complete each step), and I’ve repeated a line to activate iTunes before nearly every action (to make sure it’s the frontmost app at the time of the click). As you can imagine, these UI Scripts don’t always work.
+Additionally, the script is mostly using user interface (IU) scripting, which means it's just telling OSX "where to click" and "what to type" instead of really telling it what to do programatically. This type of scripting is easy to break with updates, and doesn't always work. For example, it's the rough equivalent of telling your Mac "Okay, next go a little right. Now a little up. A little more right. Okay, click there!" and if any other application suddenly steals the screen's focus, it can click in the wrong place. For these reasons, there are a lot of "delay" commands in this script (to give iTunes a chance to complete each step), and I've repeated a line to activate iTunes before nearly every action (to make sure it's the frontmost app at the time of the click). As you can imagine, these UI Scripts don't always work.
 
-That said, it’s working for my in my testing. If you can improve on it (shouldn’t be hard), let me know.
+That said, it's working for my in my testing. If you can improve on it (shouldn't be hard), let me know.
 
 I guess the other things to mention are:
 
   * After running this (and giving some time for the updated apps to download), I run a different script to automate syncing them over to my iPhone: [Applescript to Sync iOS Devices in iTunes](http://www.n8henrie.com/2011/12/applescript-to-sync-ios-devices-in/)
-  * Both of these are included in my “GoodMorning.app” routine that I’ve put together with Automator, which I’ll briefly post about in a few minutes
+  * Both of these are included in my "GoodMorning.app" routine that I've put together with Automator, which I'll briefly post about in a few minutes
   * To run an external AppleScript in Automator, I use this (as an embedded AppleScript)
 
 ```applescript
 try
-    run script “/POSIX/Path/To/Script.scpt”
+    run script "/POSIX/Path/To/Script.scpt"
 end try
 ```
 

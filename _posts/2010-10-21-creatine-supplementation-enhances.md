@@ -26,7 +26,7 @@ categories:
 ---
 <div>
   <div>
-    Hearing that “creatine supplementation doesn't increase muscle Cr-P content” gets old.  It does.
+    Hearing that "creatine supplementation doesn't increase muscle Cr-P content" gets old.  It does.
   </div>
   
   <p>

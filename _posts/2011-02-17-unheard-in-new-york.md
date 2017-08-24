@@ -29,7 +29,7 @@ categories:
   </p>
   
   <p>
-    If you’d like to follow along, they are: <span style="color: #474747; line-height: 21px;">Danny (<a href="http://twitter.com/putodanny" target="_blank">@putodanny</a>), Derrick (@awitness2011), Albert (<a href="http://twitter.com/albert814" target="_blank">@albert814</a>) and Carlos (@jessie550)</span>
+    If you'd like to follow along, they are: <span style="color: #474747; line-height: 21px;">Danny (<a href="http://twitter.com/putodanny" target="_blank">@putodanny</a>), Derrick (@awitness2011), Albert (<a href="http://twitter.com/albert814" target="_blank">@albert814</a>) and Carlos (@jessie550)</span>
   </p>
   
   <p>
@@ -45,7 +45,7 @@ categories:
   </p>
   
   <p>
-    <span style="color: #474747;"><span style="line-height: 21px;"><span style="color: #474747;">Looks like their tweets may a little difficult to decipher at first, but I think this is incredible.  What an opportunity to get inight into their lives!  According to the site, unemployment in NYC increased by 1/3 during 2009.  I haven’t taken the time to verify if this is true or not (Step 1 of my boards is tomorrow), but I thought I’d take a quick minute to post this.  More thoughts later.</span></span></span>
+    <span style="color: #474747;"><span style="line-height: 21px;"><span style="color: #474747;">Looks like their tweets may a little difficult to decipher at first, but I think this is incredible.  What an opportunity to get inight into their lives!  According to the site, unemployment in NYC increased by 1/3 during 2009.  I haven't taken the time to verify if this is true or not (Step 1 of my boards is tomorrow), but I thought I'd take a quick minute to post this.  More thoughts later.</span></span></span>
   </p>
 </div>
 

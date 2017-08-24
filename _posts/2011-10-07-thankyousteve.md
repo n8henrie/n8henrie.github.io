@@ -1,6 +1,6 @@
 ---
 id: 48
-title: '#ThankYouSteve'
+title: "#ThankYouSteve"
 date: 2011-10-07T04:28:00+00:00
 author: n8henrie
 layout: post
@@ -23,7 +23,7 @@ categories:
 - nontech
 ---
 <div>
-  “The world has lost a visionary. And there may be no greater tribute to Steve’s success than the fact that much of the world learned of his passing on a device he invented.” -Barack Obama
+  "The world has lost a visionary. And there may be no greater tribute to Steve's success than the fact that much of the world learned of his passing on a device he invented." -Barack Obama
 </div>
 
 <div>

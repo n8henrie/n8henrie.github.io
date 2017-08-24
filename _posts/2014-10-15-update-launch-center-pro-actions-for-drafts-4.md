@@ -19,19 +19,19 @@ tags:
 categories:
 - tech
 ---
-**Bottom Line:** Here’s how to use my lcp_export script to batch update your Launch Center Pro actions to work with the new Drafts 4.<!--more-->
+**Bottom Line:** Here's how to use my lcp_export script to batch update your Launch Center Pro actions to work with the new Drafts 4.<!--more-->
 
 <a href="https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8&uo=4&at=10l5H6" target="_blank" title="Drafts 4 - Quickly Capture Notes, Share Anywhere!">Drafts 4</a> is out, and it looks pretty sweet. It does <a href="https://agiletortoise.zendesk.com/hc/en-us/articles/202771400-Drafts-URL-Schemes" target="_blank">change the URL scheme</a> slightly but predictably, from `drafts:`to `drafts4:`, or from `drafts://x-callback-url/` to `x-drafts4://x-callback-url/`, respectively.
 
-If you’re reading this, I’m guessing you have a fair number of <a href="https://itunes.apple.com/us/app/launch-center-pro/id532016360?mt=8&uo=4&at=10l5H6" target="_blank" title="Launch Center Pro">Launch Center Pro</a> actions that need to be updated to use Drafts 4. You’re in luck — my [lcp_export](http://n8henrie.com/2014/06/lcp_url_schemes_on_macbook/) script seems to take most of the work out and lets you make the changes on your Mac. You’ll probably want to review that post to remind yourself how it works. Here’s how I did mine.
+If you're reading this, I'm guessing you have a fair number of <a href="https://itunes.apple.com/us/app/launch-center-pro/id532016360?mt=8&uo=4&at=10l5H6" target="_blank" title="Launch Center Pro">Launch Center Pro</a> actions that need to be updated to use Drafts 4. You're in luck — my [lcp_export](http://n8henrie.com/2014/06/lcp_url_schemes_on_macbook/) script seems to take most of the work out and lets you make the changes on your Mac. You'll probably want to review that post to remind yourself how it works. Here's how I did mine.
 
-This assumes you have `lcp_export.py` installed from the post linked above. `file.lcpbackup` and `file.json` are placeholders, obviously, so you’ll need to modify the commands to match your filenames. Also note that this won’t update for any URL incompatibilities introduced by Drafts 4 — it just changes the x-callback-url prefix.
+This assumes you have `lcp_export.py` installed from the post linked above. `file.lcpbackup` and `file.json` are placeholders, obviously, so you'll need to modify the commands to match your filenames. Also note that this won't update for any URL incompatibilities introduced by Drafts 4 — it just changes the x-callback-url prefix.
 
   1. Make two backups from LCP `Settings` -> `Backups` -> `Back Up Now`. One is a spare just to play it safe.
   2. Get the backup onto your computer, presumably through Dropbox.
   3. `cd` to the directory of the backup file, and `python3 /path/to/lcp_export.py -read file.lcpbackup`. Make note of the `.json` file it outputs.
   4. Use <a href="http://beyondgrep.com/" target="_blank" title="Beyond grep: ack 2.14, a source code search tool for programmers">`ack`</a> (or `grep`) to take a look at the actions in question: `grep "drafts:" file.json`.
-  5. Use <a href="http://stackoverflow.com/questions/26210596/best-way-to-test-perl-pi-e-one-liner-before-execution" target="_blank" title="regex - Best way to test perl -pi -e one-liner before execution? - Stack Overflow">this perl regex</a> to preview the changes: `perl -ne 'if (s#\"drafts:(//|\")#\"x-drafts4:\1#g) { print "$ARGV\t"; print }' file.json` . Compare with the `grep` output to make sure you’re changing all the URLs but none of the names or actions.
+  5. Use <a href="http://stackoverflow.com/questions/26210596/best-way-to-test-perl-pi-e-one-liner-before-execution" target="_blank" title="regex - Best way to test perl -pi -e one-liner before execution? - Stack Overflow">this perl regex</a> to preview the changes: `perl -ne 'if (s#\"drafts:(//|\")#\"x-drafts4:\1#g) { print "$ARGV\t"; print }' file.json` . Compare with the `grep` output to make sure you're changing all the URLs but none of the names or actions.
   6. If everything looks good, save the regex but get rid of the `print` statement and use <a href="http://technosophos.com/2009/05/21/perl-pie-if-you-only-learn-how-do-one-thing-perl-it.html" target="_blank" title="TechnoSophos: Perl Pie: If you only learn how to do one thing with ...">`perl pie`</a> instead to make the changes. `perl -pi -e 's#\"drafts:(//|\")#\"x-drafts4:\1#g' file.json`
   7. Verify the changes: `grep "x-drafts4:" file.json`
   8. Re-write the lcpbackup file: `python3 /path/to/lcp_export.py -write file.json`

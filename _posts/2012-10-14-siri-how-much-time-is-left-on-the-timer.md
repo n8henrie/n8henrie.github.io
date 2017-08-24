@@ -1,6 +1,6 @@
 ---
 id: 1780
-title: 'Siri: How much time is left on the timer?'
+title: "Siri: How much time is left on the timer?"
 date: 2012-10-14T15:53:40+00:00
 author: n8henrie
 layout: post
@@ -28,12 +28,12 @@ tags:
 categories:
 - tech
 ---
-I’m going to start posting screenshots when I discover a new Siri trick that impresses me. I think the screenshot is key to show _exactly_ how I spoke the command, and the result.
+I'm going to start posting screenshots when I discover a new Siri trick that impresses me. I think the screenshot is key to show _exactly_ how I spoke the command, and the result.
   
 <!--more-->
 
 
   
-For this one, I had my phone in my pocket and was hoping Siri would actually “say” the time (which she didn’t), but I still think this will be handy. “Remember…” (with OmniFocus integration) and “set a timer for…” are probably my top 2 Siri features, so quickly displaying the timer is nice. 
+For this one, I had my phone in my pocket and was hoping Siri would actually "say" the time (which she didn't), but I still think this will be handy. "Remember..." (with OmniFocus integration) and "set a timer for..." are probably my top 2 Siri features, so quickly displaying the timer is nice. 
 
 [<img src="{{ site.url }}/uploads/2012/10/20121014-155258.jpg" alt="20121014-155258.jpg" class="alignnone size-full" />]({{ site.url }}/uploads/2012/10/20121014-155258.jpg)

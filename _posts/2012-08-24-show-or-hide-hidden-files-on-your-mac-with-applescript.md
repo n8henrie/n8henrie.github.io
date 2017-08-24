@@ -31,6 +31,6 @@ As some of you might know, Mac OSX has hidden files whose filename starts with a
 
 I wrote up a quick Applescript that runs simply runs this Terminal command and relaunches Finder to get them to show up. It has a popup prompt for you to tell it to show or hide the files (or cancel). I index it with <a href="http://qsapp.com/" title="Quicksilver" target="_blank">Quicksilver</a> to make launching as simple as possible. The only issue I have is that sometimes I have to run it a couple times to get the hidden files to actually show up — not sure why this is. If anyone has any ideas, let me know in the comments.
 
-The actual code is below, and <a href="http://cl.ly/1s0K0k0F2b07" title="Show or Hide HIdden Files" target="_blank">here’s another link to a downloadable copy of the script</a>.
+The actual code is below, and <a href="http://cl.ly/1s0K0k0F2b07" title="Show or Hide HIdden Files" target="_blank">here's another link to a downloadable copy of the script</a>.
 
 <script src="http://pastebin.com/embed_js.php?i=rWVC0Hzf"></script>

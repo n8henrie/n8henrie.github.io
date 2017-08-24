@@ -1,6 +1,6 @@
 ---
 id: 78
-title: '… imagine a puddle'
+title: "... imagine a puddle"
 date: 2011-01-31T19:20:00+00:00
 author: n8henrie
 layout: post
@@ -28,7 +28,7 @@ categories:
 <div>
   <blockquote>
     <p>
-      <span style="font-family: Verdana, Tahoma, Arial, sans-serif;"> <strong>… imagine a puddle</strong> waking up one morning and thinking, ‘This is an interesting world I find myself in — an interesting hole I find myself in — fits me rather neatly, doesn’t it? In fact it fits me staggeringly well, must have been made to have me in it!’ This is such a powerful idea that as the sun rises in the sky and the air heats up and as, gradually, the puddle gets smaller and smaller, it’s still frantically hanging on to the notion that everything’s going to be alright, because this world was meant to have him in it, was built to have him in it; so the moment he disappears catches him rather by surprise.</span>
+      <span style="font-family: Verdana, Tahoma, Arial, sans-serif;"> <strong>... imagine a puddle</strong> waking up one morning and thinking, ‘This is an interesting world I find myself in — an interesting hole I find myself in — fits me rather neatly, doesn't it? In fact it fits me staggeringly well, must have been made to have me in it!' This is such a powerful idea that as the sun rises in the sky and the air heats up and as, gradually, the puddle gets smaller and smaller, it's still frantically hanging on to the notion that everything's going to be alright, because this world was meant to have him in it, was built to have him in it; so the moment he disappears catches him rather by surprise.</span>
     </p>
   </blockquote>
   
@@ -49,12 +49,12 @@ categories:
   </p>
   
   <p>
-    <strong><span style="font-size: medium;">Unfortunately</span></strong>, “<em>understanding of death</em>” and “<em>insight into extinction</em>” are not characteristics under any selective pressure, as far as I know.  The process of staying alive and reproducing really doesn’t care much about dying.  So we’re left with something of a Catch-22:
+    <strong><span style="font-size: medium;">Unfortunately</span></strong>, "<em>understanding of death</em>" and "<em>insight into extinction</em>" are not characteristics under any selective pressure, as far as I know.  The process of staying alive and reproducing really doesn't care much about dying.  So we're left with something of a Catch-22:
   </p>
   
   <ul>
     <li>
-      People that don’t believe in an afterlife are likely confused or frightened by death… which is exactly what one might predict if 
+      People that don't believe in an afterlife are likely confused or frightened by death... which is exactly what one might predict if 
     </li>
   </ul>
   
@@ -65,7 +65,7 @@ categories:
           there were no afterlife and therefore no reason to understand it, and 
         </li>
         <li>
-          if death were the humble end of an individual’s existence, and therefore nobody (or at least very few) had ever passed on genes to help us understand.
+          if death were the humble end of an individual's existence, and therefore nobody (or at least very few) had ever passed on genes to help us understand.
         </li>
       </ol>
     </li>
@@ -87,11 +87,11 @@ categories:
   </ul>
   
   <p>
-    In either of these cases, the individual may justify their position based on a rather arbitrary decision regarding whether or not to believe.  If nothing else, their beliefs would not be confounded by logical conflicts within this “closed system”… on either side.
+    In either of these cases, the individual may justify their position based on a rather arbitrary decision regarding whether or not to believe.  If nothing else, their beliefs would not be confounded by logical conflicts within this "closed system"... on either side.
   </p>
   
   <p>
-    <a href="http://www.nizkor.org/features/fallacies/appeal-to-consequences.html">Caveat emptor</a>… <a href="http://en.wikipedia.org/wiki/Russell's_teapot">absence of a logical conflict</a> is not <a href="http://www.nizkor.org/features/fallacies/burden-of-proof.html">sufficient justification</a> to claim that one’s beliefs make sense.
+    <a href="http://www.nizkor.org/features/fallacies/appeal-to-consequences.html">Caveat emptor</a>... <a href="http://en.wikipedia.org/wiki/Russell's_teapot">absence of a logical conflict</a> is not <a href="http://www.nizkor.org/features/fallacies/burden-of-proof.html">sufficient justification</a> to claim that one's beliefs make sense.
   </p>
   
   <p>
@@ -104,7 +104,7 @@ categories:
   
   <blockquote>
     <p>
-      <span style="font-family: sans-serif; line-height: 19px;">“Death means nothing to us…when we exist, death is not yet present, and when death is present, then we do not exist,” </span>
+      <span style="font-family: sans-serif; line-height: 19px;">"Death means nothing to us...when we exist, death is not yet present, and when death is present, then we do not exist," </span>
     </p>
   </blockquote>
   
