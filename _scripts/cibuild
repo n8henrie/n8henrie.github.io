@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# http://jekyllrb.com/docs/continuous-integration/travis-ci/
+
+set -e
+
+bundle exec jekyll build
+bundle exec htmlproofer ./_site
