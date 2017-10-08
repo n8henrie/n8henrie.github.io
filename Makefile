@@ -8,7 +8,7 @@ GREP := $(shell command -v ggrep || command -v grep)
 help:
 	@$(GREP) --only-matching --word-regexp '^[^[:space:].]*:' Makefile | sed 's|:[:space:]*||'
 
-develop:
+develop: clean
 	bundle exec guard -i &
 	DISABLE_WHITELIST=true bundle exec jekyll serve --config _config.yml,_config_dev.yml --incremental --watch &
 	-open "http://localhost:4000"
