@@ -26,4 +26,4 @@ stop:
 	-pkill -f _guard-core
 	-pkill -f jekyll
 
-.PHONY: all
+.PHONY: help develop clean build rebuild stop
