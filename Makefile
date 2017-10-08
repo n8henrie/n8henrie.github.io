@@ -10,7 +10,7 @@ help:
 
 develop: clean
 	bundle exec guard -i &
-	DISABLE_WHITELIST=true bundle exec jekyll serve --config _config.yml,_config_dev.yml --incremental --watch &
+	DISABLE_WHITELIST=true bundle exec jekyll serve --config _config.yml,_config_dev.yml --incremental --watch --drafts &
 	-open "http://localhost:4000"
 
 clean:

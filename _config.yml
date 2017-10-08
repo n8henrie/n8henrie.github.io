@@ -41,4 +41,4 @@ defaults:
 
 paginate: 8
 
-exclude: [tmp,import_versions,Makefile,todo.md,vendor]
+exclude: [tmp,import_versions,Makefile,todo.md,vendor,_drafts/template.md]
