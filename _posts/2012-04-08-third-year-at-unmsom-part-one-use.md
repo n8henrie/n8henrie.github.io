@@ -31,13 +31,11 @@ tags:
 categories:
 - nontech
 ---
-_This series of posts is a collection of concrete, actionable tips based on my experiences as a third year student at UNMSOM. Please read my <a href="http://www.n8henrie.com/2012/04/third-year-at-unmsom-introduction/" target="_blank" title="Third Year at UNMSOM: Introduction">introductory post</a> for background and disclaimer information, as well as links to each part in the series. Additionally, here are links to the previous and next posts in this series. The "next" one obviously won't work until I publish it.</p> 
 
-Previous: [Third Year at UNMSOM: Introduction](http://www.n8henrie.com/2012/04/third-year-at-unmsom-introduction/ "Third Year at UNMSOM: Introduction")  
-Next: </em>_[Third Year at UNMSOM Part Two: Comp books and Amazon](http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-two-comp/)_  
-_  
-_ 
-  
+This series of posts is a collection of concrete, actionable tips based on my experiences as a third year student at UNMSOM. Please read my <a href="/2012/04/third-year-at-unmsom-introduction/" target="_blank" title="Third Year at UNMSOM: Introduction">introductory post</a> for background and disclaimer information, as well as links to each part in the series. Additionally, here are links to the previous and next posts in this series. The "next" one obviously won't work until I publish it.
+
+Previous: [Third Year at UNMSOM: Introduction](/2012/04/third-year-at-unmsom-introduction/ "Third Year at UNMSOM: Introduction")  
+Next: [Third Year at UNMSOM Part Two: Comp books and Amazon](/2012/04/third-year-at-unmsom-part-two-comp/)
 
 
 ## Tip #1: Start using a tasklist right now. Here are a few good options.
@@ -61,9 +59,4 @@ Paper systems are great, too. I prefer my phone, because I never go anywhere wit
 
 One last component I want to comment on is the idea of "universal capture" (or I think that's what they call it). Basically, it's okay if circumstances prevent you from getting an idea from your head directly into your tasklist as long as you have a reliable method of getting it there eventually. For example, you can't jot something down if you're driving. Along the same lines, I have to warn you that the whole of our society has not yet completely warmed up to smartphones, and you should assume that every time you whip out your phone to make a task or open <a href="http://www.micromedex.com/" target="_blank">Micromedex</a>, _your residents and attending will assume you're texting or playing WWF._ This brings me to my next tip... but I'm going to save that post for tomorrow. This one is too long already, and I seriously want you to pick out and start using some kind of tasklist _now._ That way, you can make tasks to follow up on any of the other tips you want to try. Until next time! 
 
-_Next: __[Third Year at UNMSOM Part Two: Comp books and Amazon](http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-two-comp/)_  
-_  
-_ 
-
-<div>
-</div>
+Next: [Third Year at UNMSOM Part Two: Comp books and Amazon](/2012/04/third-year-at-unmsom-part-two-comp/)

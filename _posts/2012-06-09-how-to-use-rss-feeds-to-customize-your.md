@@ -29,7 +29,7 @@ tags:
 categories:
 - tech
 ---
-**Bottom line:** RSS feeds are an _excellent_ way to make a personalized newsfeed to keep on your favorite blogs and topics of interest. <a name="more"></a> I'm planning on this being a three part series.  I'll put links here and at the end of the article to the other parts as they're posted.  For a few years now, I've really enjoyed using RSS feeds to get updates from my favorite sites.  Recently, however, Twitter has started to serve the same function in many ways, with a lot of other cool features.  However, it also comes with extra stuff that can get in the way, so the series will include this post on RSS feeds, a second post on [<a href="http://n8henrie.com/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">why you should use Twitter</a>], <del datetime="2013-07-14T21:22:26+00:00">and a third comparing the two [future link here]</del>.  Enjoy! **Update Jul 14, 2013:** With the recent demise of Google Reader, I've decided to indefinitely postpone the planned third post. While several strong companies have stepped up to fill the void, I'm afraid the days of RSS may be numbered.
+**Bottom line:** RSS feeds are an _excellent_ way to make a personalized newsfeed to keep on your favorite blogs and topics of interest. <a name="more"></a> I'm planning on this being a three part series.  I'll put links here and at the end of the article to the other parts as they're posted.  For a few years now, I've really enjoyed using RSS feeds to get updates from my favorite sites.  Recently, however, Twitter has started to serve the same function in many ways, with a lot of other cool features.  However, it also comes with extra stuff that can get in the way, so the series will include this post on RSS feeds, a second post on [<a href="/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">why you should use Twitter</a>], <del datetime="2013-07-14T21:22:26+00:00">and a third comparing the two [future link here]</del>.  Enjoy! **Update Jul 14, 2013:** With the recent demise of Google Reader, I've decided to indefinitely postpone the planned third post. While several strong companies have stepped up to fill the void, I'm afraid the days of RSS may be numbered.
 
 ## RSS Feeds
 
@@ -148,7 +148,7 @@ Have other ways you use RSS? Trouble getting set up? Have a better alternative t
 
 Other posts in this series:
 
-  * [<a href="http://n8henrie.com/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">Why You Should Be on Twitter</a>]
+  * [<a href="/2013/07/to-tweet-or-not-to-tweet-why-you-should-be-on-twitter" target="_blank">Why You Should Be on Twitter</a>]
   * Twitter vs RSS for News <del datetime="2013-08-29T21:01:21+00:00">future link here</del> **indefinitely postponed**
 
 <div>

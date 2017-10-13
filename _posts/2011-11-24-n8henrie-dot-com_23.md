@@ -22,13 +22,7 @@ tags:
 categories:
 - tech
 ---
-<div>
-  <div style="margin: 8px;">
-    <p>
-      New address, new look, same old blog. <br /><a href="http://www.n8henrie.com">www.n8henrie.com</a>
-    </p></p>
-  </div></p>
-</div>
 
-<div>
-</div>
+New address, new look, same old blog.
+
+[n8henrie.com](https://n8henrie.com)

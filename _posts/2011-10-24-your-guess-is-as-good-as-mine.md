@@ -26,7 +26,7 @@ categories:
 ---
 <div>
   <p>
-    A few days ago I was listening to a lecture on common congenital cardiac problems, taught by a veteran lecturer skilled in soliciting participation from the audience.  A mainstay of getting an audience involved is to ask questions, and he did a great job of encouraging participation by making it feel good to get a question right without making it feel bad to get a question wrong.  This can be considered something of an art; one doesn't have to actively chastise incorrect responses to punish the mistaken student.  Better said, the student may *feel* punished even without action on the part of the lecturer (for example, see <a href="http://www.n8henrie.com/2010/12/on-carrots-sticks-and-attention-seeking/" title="On carrots, sticks, and attention-seeking behavior" target="_blank">my thoughts</a> on dog training and attention-seeking behavior).
+    A few days ago I was listening to a lecture on common congenital cardiac problems, taught by a veteran lecturer skilled in soliciting participation from the audience.  A mainstay of getting an audience involved is to ask questions, and he did a great job of encouraging participation by making it feel good to get a question right without making it feel bad to get a question wrong.  This can be considered something of an art; one doesn't have to actively chastise incorrect responses to punish the mistaken student.  Better said, the student may *feel* punished even without action on the part of the lecturer (for example, see <a href="/2010/12/on-carrots-sticks-and-attention-seeking/" title="On carrots, sticks, and attention-seeking behavior" target="_blank">my thoughts</a> on dog training and attention-seeking behavior).
   </p>
   
   <p>

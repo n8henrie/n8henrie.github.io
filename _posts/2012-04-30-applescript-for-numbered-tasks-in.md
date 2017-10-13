@@ -31,7 +31,7 @@ tags:
 categories:
 - tech
 ---
-I've <a href="http://www.n8henrie.com/search/label/OmniFocus" target="_blank">written a few times about OmniFocus</a>, my task manager of choice.  One of the things I love about it is that you can expand its impressive toolset with <a href="https://en.wikipedia.org/wiki/Applescript" target="_blank">Applescript</a>, which comes built-in to every Mac.  You can drag and drop your scripts into ~/Library/Scripts/Applications/OmniFocus and OmniFocus will even make them into handy buttons that you can put on your toolbar.
+I've <a href="/search/label/OmniFocus" target="_blank">written a few times about OmniFocus</a>, my task manager of choice.  One of the things I love about it is that you can expand its impressive toolset with <a href="https://en.wikipedia.org/wiki/Applescript" target="_blank">Applescript</a>, which comes built-in to every Mac.  You can drag and drop your scripts into ~/Library/Scripts/Applications/OmniFocus and OmniFocus will even make them into handy buttons that you can put on your toolbar.
 
 For example, in my medical school rotations, I am frequently assigned tasks that I have to accomplish a certain number of times.  To keep track of my progress, what I've previously done is the following.
 

@@ -32,9 +32,9 @@ categories:
 <div style="clear: both; text-align: center;">
 </div>
 
-_This series of posts is a collection of concrete, actionable tips based on my experiences as a third year student at UNMSOM. Please read my <a href="http://www.n8henrie.com/2012/04/third-year-at-unmsom-introduction/" target="_blank" title="Third Year at UNMSOM: Introduction">introductory post</a> for background and disclaimer information, as well as links to each part in the series. Additionally, here are links to the previous and next posts in this series. The "next" one obviously won't work until I publish it._  
-_Previous: [Third Year at UNMSOM Part One: Use a Tasklist](http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-one-use/ "Third Year at UNMSOM Part One: Use a Tasklist")  
-Next: __[Third Year at UNMSOM Part Three: Checklists and @Simplenoteapp](http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-three/)_
+_This series of posts is a collection of concrete, actionable tips based on my experiences as a third year student at UNMSOM. Please read my <a href="/2012/04/third-year-at-unmsom-introduction/" target="_blank" title="Third Year at UNMSOM: Introduction">introductory post</a> for background and disclaimer information, as well as links to each part in the series. Additionally, here are links to the previous and next posts in this series. The "next" one obviously won't work until I publish it._  
+_Previous: [Third Year at UNMSOM Part One: Use a Tasklist](/2012/04/third-year-at-unmsom-part-one-use/ "Third Year at UNMSOM Part One: Use a Tasklist")  
+Next: __[Third Year at UNMSOM Part Three: Checklists and @Simplenoteapp](/2012/04/third-year-at-unmsom-part-three/)_
 
 ## Tip #2: Don't even _look_ like you're texting.
 
@@ -55,7 +55,7 @@ This tip goes and and hand with the above. Sometimes whipping out the phone-base
 
 As with yesterday's post, the overarching theme here is to _never forget anything._ During the day, I have a notepad in my pocket that I can whip out to jot down to-dos that cross my mind at the oddest times, which I indicate with an "A" with a circle around it (for "Action"). As soon as that task is either accomplished or transferred into OmniFocus alongside all my other tasks, I cross off the A. For useful factoids that I pick up from my team, I put a circled "N" (for "Note"), and only cross these off when I've imported them into my note-taking app (or made a task to do so). When I get home at the end of each day, I pull the sheets with pending notes / tasks off (they tear out easily, another bonus for these particular notepads) and set the sheet on my computer. This ensures that the first thing I do when I get on my computer is put those tasks and notes somewhere that I _absolutely_ will not forget them – my trust tasklist. 
 
-My only other suggestion here is that you buy these things in bulk. They're super cheap, and they're always out of stock when I need a new one. Buy 10 or 15 the first chance you get. <a href="http://www.amazon.com/gp/product/B003I869CO/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003I869CO" target="_blank">This is pretty much the kind I get</a>, the "Marble Memo" kind have the easy tear-out pages. I encourage you to import to your main tasklist daily and then rip out pages as you go, so you'll never waste time shuffling, looking for a particular note or a new blank page. One idea I never implemented was to use one notepad per rotation and include useful phone numbers on the inside cover (my residents' numbers, the team pager, the number for surg path, etc.). 
+My only other suggestion here is that you buy these things in bulk. They're super cheap, and they're always out of stock when I need a new one. Buy 10 or 15 the first chance you get. <a href="https://www.amazon.com/gp/product/B003I869CO/ref=as_li_ss_tl?ie=UTF8&tag=n8henriecom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003I869CO" target="_blank">This is pretty much the kind I get</a>, the "Marble Memo" kind have the easy tear-out pages. I encourage you to import to your main tasklist daily and then rip out pages as you go, so you'll never waste time shuffling, looking for a particular note or a new blank page. One idea I never implemented was to use one notepad per rotation and include useful phone numbers on the inside cover (my residents' numbers, the team pager, the number for surg path, etc.). 
 
 ## Tip #4: Get an Amazon Prime student membership
 
@@ -65,7 +65,7 @@ Amazon sells just about everything you can think of, from clothing to hardware t
   * video streaming Netflix-style (but no iOS apps and poor selection)
   * Kindle owners can check out a book per month for free from a large library
 
-As a student, you can get a free trail for 6 months (used to be a year), and afterwards I got around a 50% discount on a year membership. Here is the <a href="http://www.amazon.com/Off-to-College-Supplies/b/?_encoding=UTF8&node=668781011&tag=n8henriecom-20&linkCode=ur2&camp=1789&creative=390957" target="_blank">Amazon Student signup link</a>. I don't think the student membership gets the video streaming or Kindle benefits, but the free 2-day shipping is the important part – at the very least, it's worth giving the free trial a shot.
+As a student, you can get a free trail for 6 months (used to be a year), and afterwards I got around a 50% discount on a year membership. Here is the <a href="https://www.amazon.com/Off-to-College-Supplies/b/?_encoding=UTF8&node=668781011&tag=n8henriecom-20&linkCode=ur2&camp=1789&creative=390957" target="_blank">Amazon Student signup link</a>. I don't think the student membership gets the video streaming or Kindle benefits, but the free 2-day shipping is the important part – at the very least, it's worth giving the free trial a shot.
 
 I can't tell you how many times Prime has saved my bacon when I was too tired or busy to {get a wedding gift, buy a new belt, run to Smith's for some protein bars}. I'm not really talking about big, expensive stuff – it's the small stuff that make the Prime membership worthwhile. Instead of spending an hour to drive to Walmart, park, hunt down the $0.50 binder clip you need, wait in line, check out, and drive home... you spend 30 seconds to find one eligible for Prime chipping and click a button. I think we don't usually consider this as an option, since we'd be paying a buck or two in shipping for a $0.50 item (and then waiting a week to get it). But when the shipping is free and it will be at your door in 2 days... **Worth it.**
 
@@ -75,8 +75,4 @@ An additional bonus I've gotten out of my Prime membership is that I have a sort
 
 Okay, bed time.
 
-_Next: _<span style="color: #0000ee;"><i><u><a href="http://www.n8henrie.com/2012/04/third-year-at-unmsom-part-three/">Third Year at UNMSOM Part Three: Checklists and @Simplenoteapp</a></u></i></span>  
-<span style="color: #0000ee;"><i><br /></i></span> 
-
-<div>
-</div>
+Next: [Third Year at UNMSOM Part Three: Checklists and @Simplenoteapp](/2012/04/third-year-at-unmsom-part-three/)
