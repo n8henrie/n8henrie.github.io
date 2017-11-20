@@ -63,7 +63,7 @@ That's all there is to it! Worked like a charm for me. Now, for a few bonus poin
       * You can <a href="http://blog.qsapp.com/post/7413266835/putting-in-a-shift" target="_blank">set up Quicksilver to recognize a different action for a capital letter versus lower case</a>.
       * I set mine up sow that CMD + Shift + J automatically runs "Run Javascript" for the selected first pane.
       * This makes it so I can trigger _any_ bookmarklet (whichever is in the first pane) faster.
-  * For your _favorite_bookmarklets, you can set up a special trigger that only runs one specific bookmarklet. 
+  * For your *favorite* bookmarklets, you can set up a special trigger that only runs one specific bookmarklet. 
       * Again in Quicksilver preferences, go to Triggers (up top).
       * Click the "+" down bottom to add a new trigger.
       * In the popup box, select the trigger you want, then tab to the second pane and "Run Javascript".
