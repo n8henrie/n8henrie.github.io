@@ -9,7 +9,8 @@ categories:
 excerpt: "Short answer: about:config -> browser.urlbar.filter.javascript"
 # grep -oP '(?<=>Posts tagged with ).*?(?=<)' ~/git/n8henrie.com/_site/tags/index.html
 tags:
--
+- bugfix
+- firefox
 ---
 **Bottom Line:** Firefox filters out javascript bookmarklets unless you change
 a setting in `about:config`.

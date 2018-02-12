@@ -6,11 +6,11 @@ layout: post
 permalink: /2017/11/plotting-us-census-data-with-python-and-geopandas/
 categories:
 - tech
-- python
 excerpt: "Here's a simple way to plot some of the US Census data."
 # grep -oP '(?<=>Posts tagged with ).*?(?=<)' ~/git/n8henrie.com/_site/tags/index.html
 tags:
--
+- python
+- datascience
 ---
 **Bottom Line:** Here's a simple way to plot some of the US Census data.
 <!--more-->
