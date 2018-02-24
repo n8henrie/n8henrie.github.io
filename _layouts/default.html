@@ -10,24 +10,24 @@
         <div class="page-content">
             <div class="wrapper">
                 <div class="content-wrapper">
-                    <!--
+                    {% comment %}
                     <div class="feature banner top">
                         {% include banner.html %}
                     </div>
-                    -->
+                    {% endcomment %}
                     <div class="content">
                         {{ content }}
                     </div>
-                    <!--
+                    {% comment %}
                     <div class="feature banner bottom">
                         {% include banner.html %}
                     </div>
-                    -->
+                    {% endcomment %}
                     {% include comments.html %}
                 </div>
-                <!--
+                {% comment %}
                 {% include sidebar.html %}
-                -->
+                {% endcomment %}
             </div>
         </div>
 
