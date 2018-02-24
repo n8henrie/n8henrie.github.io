@@ -23,6 +23,6 @@
   <!-- SEO Plugin -->
   {% seo %}
 
-  <!-- Auto Ads -->
-  {% include auto.html %}
+  <!-- Auto Ads on posts -->
+  {% if page.layout | downcase == "post" %}{% include auto.html %}{% endif %}
 </head>
