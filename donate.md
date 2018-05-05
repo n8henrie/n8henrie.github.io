@@ -3,7 +3,7 @@ title: Buy Me a Coffee
 date: 2018-01-13T14:11:44-07:00
 author: n8henrie
 layout: page
-nav: true
+nav: false
 ---
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PU74QEEFZ2JCW"><img src="/assets/img/paypal.svg" width="100px"></a>
 
