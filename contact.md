@@ -8,8 +8,7 @@ nav: true
 If it’s short and public:
 
   * Twitter: <a href="https://twitter.com/n8henrie" title="@n8henrie on Twitter" target="_blank">@n8henrie</a>
-  * App.net: <a href="https://alpha.app.net/n8henrie" title="@n8henrie on App.net" target="_blank">@n8henrie</a>
 
 If it’s long or private:
 
-<img title="My Email Address" src="{{ site.url }}/uploads/2012/10/20121021-ScreenShot-36.jpg" alt="" width="127" height="18" />
+* <img title="My Email Address" src="{{ site.url }}/uploads/2012/10/20121021-ScreenShot-36.jpg" alt="" width="127" height="18" />
