@@ -15,7 +15,7 @@ tags:
 search history.
 <!--more-->
 Using Google Takeout, you can download every Google search you've made (and
-every result you've clicked) while logged into your account.
+every result you've clicked) while logged in to your account.
 
 1. Go to [https://takeout.google.com/settings/takeout][1]
 1. Select `My Activity`
