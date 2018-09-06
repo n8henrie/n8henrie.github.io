@@ -60,15 +60,19 @@ This is the hardest and most important step. In order for step 3 to work, you ha
   * <a target="_blank" href="http://cl.ly/1R2f0g3l3v023v2G3I2S">download in Excel format</a>
   * <a target="_blank" href="https://docs.google.com/spreadsheets/d/1k0eJMoytqFNn6G2QS3cEo2Of350lKF6x3gbEvbfMnkA/copy">make a copy in Google Docs</a>
 
-Please note that the Numbers.app version also has some embedded instructions in rough draft format (nothing not posted here). I think these also show up in the Excel version, but not in the GDocs version.
+Please note that the Numbers.app version also has some embedded instructions in
+rough draft format (nothing not posted here). I think these also show up in the
+Excel version, but not in the GDocs version.
 
-Basically, it's just a spreadsheet with the headers that Google Calendar will recognize. These are:
+Basically, it's just a spreadsheet with the headers that Google Calendar will
+recognize (<a target="_blank"
+href="https://support.google.com/calendar/bin/answer.py?hl=en&answer=45656">source</a>).
+These are:
 
+```csv
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+```
 
-
-> Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private </p>
->
-> [<a target="_blank" href="https://support.google.com/calendar/bin/answer.py?hl=en&answer=45656">source</a>]
 
 You should take your spreadsheet schedule and copy and paste the information into the appropriate columns. Keep in mind that Numbers can convert date and time formats pretty well by selecting the column in question and opening up Inspector ("command option i" or view -> inspector) to "cells" (a box with "42" on my version). Makes converting a bunch of "Jan 5 2002" to "01/05/2002" a snap. Leave the columns in the order you found them. Other formatting info:
 
