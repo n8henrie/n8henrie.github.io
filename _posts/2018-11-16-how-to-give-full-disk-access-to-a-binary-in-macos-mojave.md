@@ -56,7 +56,7 @@ There are a few ways to accomplish #1 --
 [Platypus](https://www.sveinbjorn.org/platypus) (`brew install platypus`)
 provides an easy CLI that does the job in a single command:
 
-```ShellSession
+```console
 $ cat <<'EOF' > runrestic.sh
 #!/usr/local/bin/bash
 
@@ -97,7 +97,7 @@ $ pkill restic
 Unfortunately, running the embedded script directly for some reason won't work
 (does not seem to inherit the FDA access):
 
-```Shellsession
+```console
 $ rm -r /tmp/restic
 $ /Applications/Runrestic.app/Contents/Resources/script
 created restic repository 4585354284 at /tmp/restic
