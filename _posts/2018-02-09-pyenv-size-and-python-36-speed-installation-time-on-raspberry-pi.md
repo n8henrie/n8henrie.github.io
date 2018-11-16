@@ -59,7 +59,7 @@ All of the below is run on a Raspberry Pi 3 (BCM2835) unless noted otherwise.
 
 For comparison, it looks like the python3 package takes about 68 MB:
 
-```shellsession
+```console
 $ sudo apt-get --assume-no autoremove python3
 Reading package lists... Done
 Building dependency tree       

@@ -39,7 +39,7 @@ Finally, I ran across a few links that were instrumental to me figuring everythi
 
 Basically, I followed their instructions to turn on telnet access (making sure to turn it off again afterwards), and ran the below commands (either / or — they should give you the same password).
 
-```shell_session
+```console
 telnet 192.168.0.1
 ps
 # Look for the far left number (process id) of the line that has `ppp` somewhere in it
@@ -49,7 +49,7 @@ cat proc/process_id/cmdline
 
 or, alternatively:
 
-```shell_session
+```console
 telnet 192.168.0.1
 sh
 /usr/bin/pidstat -l -C pppd
@@ -63,7 +63,7 @@ python3 -c 'import base64; import sys; print(base64.b64decode(sys.argv[1]).decod
 
 but I later realized I could have saved myself some typing and just done this:
 
-```shell_session
+```console
 echo "encoded_password" | base64 --decode
 ```
 

@@ -33,7 +33,7 @@ The data has been collected in a few different ways:
 To get the few hundred kb of download data out of my several hundred mb Home
 Asisstant database, I shut down the hass server and ran the following:
 
-```shell_session
+```console
 $ sqlite3 -csv config/home-assistant_v2.db \
      'select state, created from states
       where entity_id is "sensor.fastcom_download"' \

@@ -113,7 +113,7 @@ PATH`)
 
 As a sanity check, here's what I ended up with:
 
-```shell_session
+```console
 $ /opt/nodejs/bin/node --version
 v4.5.0
 $ /opt/nodejs/bin/npm --version
@@ -124,7 +124,7 @@ drwxr-sr-x 7 n8henrie n8henrie 4096 Sep 6 12:05 /opt/nodejs
 
 ## Step 3: Install homebridge
 
-```shell_session
+```console
 # Install homebridge and homebridge-rcswitch-gpiomem
 sudo apt-get install libavahi-compat-libdnssd-dev
 /opt/nodejs/bin/npm install -g homebridge
@@ -132,7 +132,7 @@ sudo apt-get install libavahi-compat-libdnssd-dev
 
 ## Step 4: Configure and test homebridge
 
-```shell_session
+```console
 # Add an account for `homebridge` to avoid needing to run as root
 sudo useradd -r -s /bin/false homebridge
 
@@ -147,7 +147,7 @@ sudo chown homebridge /etc/homebridge
 
 I _highly_ recommend that you do another "sanity check" at this point by installing a fake Homebridge accessory and making sure that everything is working. If things aren't working right at this point, you'll drive yourself nuts trying to figure out where the problem is if you keep going. I think the easiest way is to install the <a href="https://github.com/nfarina/homebridge-dummy" target="_blank">`homebridge-dummy`</a> package. I've made <a href="https://gist.github.com/n8henrie/639c7f5d72b4202cce7e" target="_blank">a config file</a> that you should be able to just `wget` and test (**NB:** this will overwrite your existing config, so back it up somewhere before you use the `wget` step below).
 
-```shell_session
+```console
 # Install homebridge-dummy
 /opt/nodejs/bin/npm install --global homebridge-dummy
 
@@ -200,7 +200,7 @@ To install `homebridge-rcswitch-gpiomem`: `/opt/nodejs/bin/npm install -g homebr
 
 FYI, `homebridge-rcswitch-gpiomem` depends on (and automatically installs) <a href="https://github.com/n8henrie/node-rcswitch-gpiomem" target="_blank">`rcswitch-gpiomem`</a>, which you can also install and use independently like so:
 
-```shell_session
+```console
 $ export NODE_PATH=/opt/nodejs/lib/node_modules
 $ /opt/nodejs/bin/npm install --global rcswitch-gpiomem
 $ /opt/nodejs/bin/node
@@ -213,7 +213,7 @@ $ /opt/nodejs/bin/node
 
 After installing, you'll need to edit the `config.json`, and once again you can start out with my sample:
 
-```shell_session
+```console
 sudo rm -rf /etc/homebridge/persist
 sudo wget https://raw.githubusercontent.com/n8henrie/homebridge-rcswitch-gpiomem/master/config-sample.json -O /etc/homebridge/config.json
 sudo vim /etc/homebridge/config.json
@@ -230,7 +230,7 @@ If you want to use the "high priority" feature:
 
 At this point, you should probably run again in debug mode to see if everything worked — you'll likely need to delete the `persist` folder and set up your iOS app from scratch. With any luck, you'll see your switches in the iOS app and be able to control them from there and with Siri!
 
-```shell_session
+```console
 sudo rm -rf /etc/homebridge/persist
 sudo -u homebridge DEBUG=* /opt/nodejs/bin/homebridge -D -U /etc/homebridge
 ```
@@ -259,7 +259,7 @@ WantedBy=multi-user.target
 
 Then to load and start it:
 
-```shell_session
+```console
 sudo systemctl daemon-reload
 sudo systemctl enable homebridge.service
 sudo systemctl start homebridge.service

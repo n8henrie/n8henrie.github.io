@@ -71,7 +71,7 @@ You'll need to know the **RF codes** that your remote uses to communicate with t
 You shouldn't have any trouble using `RF_Sniffer` to find them on your Pi, but if you wanted, you could also get them from an Arduino. First, install the <a href="https://github.com/sui77/rc-switch" target="_blank">rc-switch Arduino library</a> into your Arduino libraries folder (in your Arduino sketchbook, which you can find in your Arduino preferences). You can manually download and extract the .zip file, or in Terminal:
 
 
-```shell_session
+```console
 # First quit Arduino.app, and replace your sketchbook path below
 cd $ARDUINO_SKETCHBOOK/libraries
 git clone https://github.com/sui77/rc-switch

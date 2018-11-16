@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
 Using the output acquired from Wireshark:
 
-```shellsession
+```console
 $ python3 decrypt.py fc0f28cf5edc72e3afe5e523f9974f2299a6e356fd9d96c21d57f6f9864636d39e2367fe5f16aa7b33df5d7a147329627b80696dbf781669f28426bf552dad32
 
 wan_device

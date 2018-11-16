@@ -199,7 +199,7 @@ if __name__ == '__main__':
 
 Unfortunately, I didn't have much luck debugging things with `logging` or `print()` statements, so in my testing I resorted to making my example script open and write a timestamp to a local file (make sure you have proper permissions for this, especially if you are running the daemon as a separate user). Initially I did a lot of testing by actually sending a text to the Pi, but this ended up using up my small allotment of prepaid texts pretty quickly. I found that I could simulate an incoming text for Gammu by setting some environmental variables and running the script like so:
 
-```shell_session
+```console
 sudo -u gammu \
     SMS_MESSAGES=1 \
     SMS_1_TEXT='Turn off the lamp' \

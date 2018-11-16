@@ -39,7 +39,7 @@ This assumes you have `lcp_export.py` installed from the post linked above. `fil
 
 All the commands together in a possibly more readable code section:
 
-```shell_session
+```console
 python3 /path/to/lcp_export.py -read file.lcpbackup
 grep "drafts:" file.json
 perl -ne 'if (s#\"drafts:(//|\")#\"x-drafts4:\1#g) { print "$ARGV\t"; print }' file.json

@@ -34,7 +34,7 @@ Here's my proposed solution, which only requires free software and doesn't requi
   4. Open Terminal.app and `cd` to the directory containing `Contacts.sqlite` (e.g. `cd ~/Desktop`)
   5. Run the following code, line by line:
 
-```shell_session
+```console
 sqlite3 Contacts.sqlite
 .headers on
 .mode csv
