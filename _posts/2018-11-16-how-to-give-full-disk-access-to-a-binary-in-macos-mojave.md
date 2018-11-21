@@ -40,6 +40,10 @@ Of note, I've also found the following command to reset the relevant
 permissions helpful in digging through this: `tccutil reset
 SystemPolicyAllFiles` Sources: [1], [2]
 
+**Update 20181121:** I think I've found a much better route for anybody that
+can write a simple script in a compiled language like Go -- see the update
+section [below](#Update 20181121).
+
 ## How to Access these Files
 
 If you do the following, you can get access to the protected files:
@@ -230,13 +234,74 @@ The only workaround I've figured out so far is to:
 
 This seems really sloppy, and I'd love to hear suggestions from other readers.
 
+## <a name="Update 20181121"></a>Update 20181121
+
+After some preliminary testing, it seems like a much cleaner solution to all of
+the above (including running with root privileges) is to just make a binary (in
+a compiled language) that runs your script, then add that binary to Full Disk
+Access.
+
+Note that this doesn't work for something like a shell script; you can't add
+the script to Full Disk Access (even if you `chmod +x`). You can only add the
+e.g. `bash` binary that *runs* the script, but that means that *any* process
+spawned by `bash` can access all your files. That seems like a *huge* security
+vulnerability.
+
+Anyway, here is some example code in Go that runs a bash script named
+`restic-backup.sh` in the directory containing the resulting go binary.
+
+```go
+// Runrestic provides a binary to run my restic backup script in MacOS Mojave
+// with Full Disk Access
+package main
+
+import (
+    "log"
+    "os"
+    "os/exec"
+    "path/filepath"
+)
+
+func main() {
+    ex, err := os.Executable()
+    if err != nil {
+        log.Fatal(err)
+    }
+    dir := filepath.Dir(ex)
+    script := filepath.Join(dir, "restic-backup.sh")
+    cmd := exec.Command("/usr/local/bin/bash", script)
+    if err := cmd.Run(); err != nil {
+        log.Fatal(err)
+    }
+}
+```
+
+You can add this binary to Full Disk Access and the spawned processes
+(including the shell script it calls) should inherit Full Disk Access. Don't
+forget that if you make *any* changes to the Go binary, you need to remove it
+from FDA and then add it back.
+
+Also note that this seems to work great for scripts requiring root access;
+instead of all the hacky mess above, just have your root-owned
+`/Library/LaunchDaemons` plist call this binary. In this case, I'd highly
+recommend that you secure both the binary and the shell script it calls, since
+otherwise an attacker could easily overwrite either one with something
+malicious and it would get called with root privileges. An example of a few
+simple steps may be to `sudo chown root` both of these files, `sudo chmod 0700`
+the Go binary, and `sudo chmod 0640` the shell script (keeping yourself in the
+group so you can still add it to VCS if desired).
+
+I've had a few promising leads on this problem that haven't panned out, so I'll
+update in a few days if this stops working, but it seems to be doing the trick
+for now.
+
 ## Further Reading
 
-- https://github.com/restic/restic/issues/2051
-- https://forums.developer.apple.com/thread/107546
-- https://c-command.com/eaglefiler/help/security-privacy-acce
-- https://bombich.com/kb/ccc5/granting-full-disk-access-ccc-and-its-helper-tool
-- https://www.backblaze.com/blog/mojave-permissions/
+- <https://github.com/restic/restic/issues/2051>
+- <https://forums.developer.apple.com/thread/107546>
+- <https://c-command.com/eaglefiler/help/security-privacy-acce>
+- <https://bombich.com/kb/ccc5/granting-full-disk-access-ccc-and-its-helper-tool>
+- <https://www.backblaze.com/blog/mojave-permissions/>
 
 [1]: https://bitsplitting.org/2018/07/11/reauthorizing-automation-in-mojave/
 [2]: https://www.felix-schwarz.org/blog/2018/08/new-apple-event-apis-in-macos-mojave
