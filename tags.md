@@ -17,10 +17,10 @@ http://stackoverflow.com/questions/40830392/how-to-remove-the-white-space-in-jek
 {% capture unique_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
 {% assign site_tags_downcase = unique_tags | downcase | split:'|' | sort %}
 {% assign unique_tags = unique_tags | split:'|' %}
-{% capture tag_words %}{% for tag_downcase in site_tags_downcase %}{% for tag in unique_tags %}{% assign t = tag | downcase %}{% if t == tag_downcase %}{{ tag }}{% unless forloop.last %}|{% endunless %}{% endif %}{% endfor %}{% endfor %}{% endcapture %}
-
+{% capture tag_words %}{% for tag_downcase in site_tags_downcase %}{% for tag in unique_tags %}{% assign t = tag | downcase %}{% if t == tag_downcase %}{{ tag }}|{% endif %}{% endfor %}{% endfor %}{% endcapture %}
 
 {% assign tag_words = tag_words | split:'|' %}
+
 <div id="tag-column">
     <ul>
         {% for this_word in tag_words %}
