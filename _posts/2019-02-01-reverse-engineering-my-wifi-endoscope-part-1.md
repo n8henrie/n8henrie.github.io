@@ -46,7 +46,7 @@ ended up being far more difficult to take apart the small plastic box than I
 anticipated; I think it may have been glued together. Inside, I found this
 board:
 
-![](/uploads/2019/01/IMG_6181.jpg)
+![](/uploads/2019/02/IMG_6181.jpg)
 
 At the bottom, you can see 5 ports labeled `TX2`, `RX2`, `RX1`, `TX1`, and
 `GND`.
