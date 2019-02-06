@@ -15,9 +15,9 @@ tags:
 **Bottom Line:** I got root on a WiFi Endoscope.
 <!--more-->
 
-- Part 1: [Introduction and Serial Debug Port to Get WiFi
-  Password](/2018/10/reverse-engineering-my-wifi-endoscope-part-1/)
-- Part 2: Reading Flash to Get Telnet Password
+- [Part 1: Introduction and Serial Debug Port to Get WiFi
+  Password](/2019/02/reverse-engineering-my-wifi-endoscope-part-1)
+- [Part 2: Reading Flash to Get Telnet Password](/2019/02/reverse-engineering-my-wifi-endoscope-part-2)
 - Part 3: Using WireShark to Decode UDP and Video Protocol
 
 A few months ago, I bought a [THZY WiFi endoscope][1] to help me find a bolt
@@ -107,9 +107,10 @@ BusyBox v1.12.1 (2017-04-22 17:33:57 CST) built-in shell (ash)
 ```
 
 Thankfully, I was able to use the password it printed out to regain access to
-its network, restoring my ability to use the endoscope. In part 2 of the
-series, I'll go through how I used a combination of tools like nmap, binwalk,
-and a [bus pirate][5] to get root access on the device via telnet.
+its network, restoring my ability to use the endoscope. In [part 2 of the
+series](/2019/02/reverse-engineering-my-wifi-endoscope-part-2), I'll go through
+how I used a combination of tools like nmap, binwalk, and a [bus pirate][5] to
+get root access on the device via telnet.
 
 Boot log:
 
