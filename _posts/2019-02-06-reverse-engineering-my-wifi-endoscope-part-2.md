@@ -18,7 +18,10 @@ tags:
 - [Part 1: Introduction and Serial Debug Port to Get WiFi
   Password](/2019/02/reverse-engineering-my-wifi-endoscope-part-1)
 - [Part 2: Reading Flash to Get Telnet Password](/2019/02/reverse-engineering-my-wifi-endoscope-part-2)
-- Part 3: Using WireShark to Decode UDP and Video Protocol
+- [Part 3: Using WireShark to Decode UDP Protocol](/2019/02/reverse-engineering-my-wifi-endoscope-part-3)
+- Part 4: Using Netcat to Decode Video Protocol
+
+# Part 2: Reading Flash to Get Telnet Password
 
 Part 1 review: I bought [this WiFi endoscope][1]and accidentally locked myself out of the
 WiFi network it creates, but I was able to find the WiFi password in its boot log
