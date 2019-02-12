@@ -19,7 +19,7 @@ tags:
   Password](/2019/02/reverse-engineering-my-wifi-endoscope-part-1)
 - [Part 2: Reading Flash to Get Telnet Password](/2019/02/reverse-engineering-my-wifi-endoscope-part-2)
 - [Part 3: Using WireShark to Decode UDP Protocol](/2019/02/reverse-engineering-my-wifi-endoscope-part-3)
-- Part 4: Using Netcat to Decode Video Protocol
+- [Part 4: Using Netcat to Decode Video Protocol](/2019/02/reverse-engineering-my-wifi-endoscope-part-4)
 
 # Part 3: Using WireShark to Decode UDP Protocol
 
