@@ -1,5 +1,5 @@
 ---
-title: Reverse Engineering My WiFI Endoscope Part 3
+title: Reverse Engineering My WiFi Endoscope Part 3
 date: 2019-02-10T14:40:00-06:00
 author: n8henrie
 layout: post
