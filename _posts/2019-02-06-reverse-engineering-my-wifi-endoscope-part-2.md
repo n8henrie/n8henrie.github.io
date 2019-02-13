@@ -179,8 +179,9 @@ if __name__ == '__main__':
 For a little under 300 files, each of which is about 4 MB, it takes about three
 and a half minutes to run. Thankfully, the resulting file is extracted
 beautifully by binwalk. I've uploaded a [copy of the
-gzipped eeprom](/uploads/2019/02/W25Q32_endoscope_merged.eeprom) for anybody interested
-in checking it out; md5 of the gzipped file is `35d014b329d8e94318b59247a41139f6`.
+gzipped eeprom](/uploads/2019/02/W25Q32_endoscope_merged.eeprom.gz) for anybody
+interested in checking it out; md5 of the gzipped file is
+`35d014b329d8e94318b59247a41139f6`.
 
 Here are the results of `binwalk`:
 
