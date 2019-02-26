@@ -19,6 +19,14 @@ tags:
 script on MacOS Mojave
 <!--more-->
 
+### Update 20190226
+
+As noted in the restic issue linked below, this process is no longer working
+for new binaries. For some reason, the binaries that I created at the time of
+publishing this post **continue to work** without permissions errors, even now,
+but I can't get this process to work with any new ones. Very odd. If you have
+any insights or suggestions, I'd love to hear them in the comments below.
+
 ## The Problem
 
 MacOS Mojave has new privacy protection features in place that prevent
