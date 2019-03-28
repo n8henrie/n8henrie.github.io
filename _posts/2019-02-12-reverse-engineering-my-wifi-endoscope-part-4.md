@@ -104,6 +104,34 @@ sending commands over UDP, and figured out how to stream the video feed without
 requiring the app, I consider this project wrapped up. I hope you've enjoyed
 this writeup of my first adventure in reverse engineering an electronic device!
 
+### <a name="UPDATE 20190328"></a>UPDATE 20190328
+
+After many hours of fiddling, I finally figured out how to stream the video
+through VLC, and how to record video through ffmpeg, both of which may be more
+user-friendly than the python / opencv solution presented above.
+
+After lots of experimenting with `--codec=mjpeg` and `--demux=mjpeg` and
+`http://` vs `tcp://`, based on [this SO
+answer](https://stackoverflow.com/a/841271/1588795) I finally came up with a
+VLC command that works:
+
+```console
+$ vlc 'tcp://192.168.10.123:7060/stream.mjpeg'
+```
+
+Instead of `/stream.mjpeg`, you can use `/file.mjpeg` or even just `/.mjpeg` if
+you want, the `.mjpeg` just seems to be the prompting that VLC needs to get the
+filetype right.
+
+Alternatively, using the VLC GUI you can go to `File` -> `Open Network` and
+paste in `tcp://192.168.10.123:7060/stream.mjpeg`.
+
+To record to the file `out.mov` instead, this seems to work:
+
+```console
+$ ffmpeg -i 'tcp://192.168.10.123:7060' -c:v copy out.mov
+```
+
 [1]: https://amzn.to/2pXlelm
 [2]: https://amzn.to/2GcJw4t
 [3]: https://sourceforge.net/projects/netcat/
