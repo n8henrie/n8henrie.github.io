@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -Eeuf -o pipefail
+
+
+HAS_METADATA=()
+FAIL_THRESHOLD=30
+while read -r f; do
+  if [ "$(exiftool "$f" | wc -l)" -gt "${FAIL_THRESHOLD}" ]; then
+    HAS_METADATA+=("$f")
+  fi
+done < <(git diff --cached --name-only --diff-filter=ACMR | \
+  grep -i \
+    -e '.jpe\?g$'\
+    -e '.png$'\
+    -e '.tiff$'\
+    -e '.gif$'\
+    )
+
+if [ "${#HAS_METADATA[@]}" -gt 0 ]; then
+  echo "Refusing to commit media files with > $FAIL_THRESHOLD lines of metadata:"
+  printf "%s\n" "${HAS_METADATA[@]}"
+  exit 1
+fi
