@@ -35,5 +35,6 @@ update:
 	gem install bundler
 	-rm Gemfile.lock
 	bundle update
+	sed -i "s/^rvm: [[:digit:]\.]\+/rvm: $(cat .ruby-version)/" .travis.yml 
 
 .PHONY: help develop clean build rebuild stop update
