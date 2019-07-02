@@ -28,4 +28,12 @@ stop:
 	-pkill -f _guard-core
 	-pkill -f jekyll
 
-.PHONY: help develop clean build rebuild stop
+update:
+	rbenv install "$(cat .ruby-version)"
+	-rm ~/.rbenv/shims/.rbenv-shim
+	rbenv rehash
+	gem install bundler
+	-rm Gemfile.lock
+	bundle update
+
+.PHONY: help develop clean build rebuild stop update
