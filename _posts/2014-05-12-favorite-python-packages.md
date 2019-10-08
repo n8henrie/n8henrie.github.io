@@ -132,7 +132,7 @@ len(graph.get('me/friends')['data'])
 
 ### <a target="_blank" href="https://pypi.python.org/pypi/icalendar/3.6.2" title="icalendar 3.6.2 : Python Package Index">icalendar</a>
 
-The basis from my <a target="_blank" href="http://icsConverterWebapp.n8henrie.com">icsConverterWebapp</a> stuff. Lets me import / manipulate / export iCalendar files (the file format, not talking about Apple iCal).
+The basis of my <a target="_blank" href="http://icw.n8henrie.com">icsConverterWebapp</a> stuff. Lets me import / manipulate / export iCalendar files (the file format, not talking about Apple iCal).
 
 ### <a target="_blank" href="https://pypi.python.org/pypi/mutagenx" title="mutagenx 1.22.1 : Python Package Index">mutagenx</a>
 

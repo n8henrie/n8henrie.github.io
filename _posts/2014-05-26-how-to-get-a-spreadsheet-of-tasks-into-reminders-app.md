@@ -21,7 +21,7 @@ categories:
 
 I don't really use Reminders.app as a tasklist, but I _do_ use it for other things. Its integration with iOS apps like <a target="_blank" href="http://n8h.me/1k3MCmB" title="Drafts">Drafts</a> and <a target="_blank" href="https://itunes.apple.com/us/app/omnifocus-2-for-iphone/id690305341?mt=8&at=10l5H6" title="OmniFocus 2 for iPhone">OmniFocus</a> make it actually fairly useful. For example, I use it to get <a target="_blank" href="https://www.omnigroup.com/blog/omnifocus_is_now_on_speaking_terms/" title="OmniFocus is now on speaking terms... - The Omni Group">Siri to add tasks to OmniFocus</a>.
 
-Because Reminders.app uses an iCalendar format for syncing, a commenter [recently asked me](http://n8henrie.com/2013/05/spreadsheet-to-calendar/#comment-1404817065) if there is a way to use my <a target="_blank" href="http://icsconverterwebapp.n8henrie.com/" title="icsConverterWebapp - n8henrie.com">icsConverter</a> with Reminders. An interesting question!
+Because Reminders.app uses an iCalendar format for syncing, a commenter [recently asked me](http://n8henrie.com/2013/05/spreadsheet-to-calendar/#comment-1404817065) if there is a way to use my <a target="_blank" href="http://icw.n8henrie.com/" title="icsConverterWebapp - n8henrie.com">icsConverter</a> with Reminders. An interesting question!
 
 Right now, there isn't a way to use it directly. However, with a few (okay, several) extra steps, it seems like it wouldn't be too difficult to batch convert a large spreadsheet of tasks and import into Reminders.app.
 
@@ -49,7 +49,7 @@ For tasks _without_ "reminder times":
   * Set `All Day Event` to `TRUE`
   * Leave `End Date` and `End Time` blank
 
-When you're done editing, `download as` or export to `.csv` and run it through <a target="_blank" href="http://icsconverterwebapp.n8henrie.com/">icsConverterWebapp</a>. If you're confused or have problems, please read through my [icsConverter instructional post](http://n8henrie.com/2013/05/spreadsheet-to-calendar/) before contacting me for help. If you've been through this post a time or two and still can't figure it out, I'm happy to help you as time permits.
+When you're done editing, `download as` or export to `.csv` and run it through <a target="_blank" href="http://icw.n8henrie.com/">icsConverterWebapp</a>. If you're confused or have problems, please read through my [icsConverter instructional post](http://n8henrie.com/2013/05/spreadsheet-to-calendar/) before contacting me for help. If you've been through this post a time or two and still can't figure it out, I'm happy to help you as time permits.
 
 Next, after you've downloaded the converted `.ics` file, you'll need to open it up in a text editor that supports regex find and replace. I highly recommend <a target="_blank" href="http://www.barebones.com/products/textwrangler/" title="Bare Bones Software - TextWrangler">TextWrangler</a>, and my examples will be regexes in TextWrangler format.
 
