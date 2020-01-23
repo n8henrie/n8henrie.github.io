@@ -56,8 +56,8 @@ This process _requires_ a <a target="_blank" href="https://accounts.google.com/S
 
 This is the hardest and most important step. In order for step 3 to work, you have to get the spreadsheet set up correctly. First, open up a copy of my spreadsheet template, which you can
 
-  * <a target="_blank" href="http://cl.ly/131e3z420Y3v3P2N101G">download in Numbers.app format</a>
-  * <a target="_blank" href="http://cl.ly/1R2f0g3l3v023v2G3I2S">download in Excel format</a>
+  * <a target="_blank" href="/uploads/2012/07/Spreadsheet%20to%20CSV%20to%20Calendar%20Template.numbers">download in Numbers.app format</a>
+  * <a target="_blank" href="/uploads/2012/07/Spreadsheet%20to%20CSV%20to%20Calendar%20Template.xls">download in Excel format</a>
   * <a target="_blank" href="https://docs.google.com/spreadsheets/d/1k0eJMoytqFNn6G2QS3cEo2Of350lKF6x3gbEvbfMnkA/copy">make a copy in Google Docs</a>
 
 Please note that the Numbers.app version also has some embedded instructions in
