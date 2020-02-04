@@ -132,9 +132,19 @@ To record to the file `out.mov` instead, this seems to work:
 $ ffmpeg -i 'tcp://192.168.10.123:7060' -c:v copy out.mov
 ```
 
+### <a name="UPDATE 20200204"></a>UPDATE 20200204
+
+A couple months ago, Matthew Plough emailed me to share [further work he's
+done][5] with the video stream of a similar IOT device; notably, he's
+found ways to clear up the video stream and has open-sourced code to help
+others do so. His write-up is a pleasure to read, fascinating, and demonstrates
+much better technical knowledge of this territory than I possess. I highly
+encourage you to read it!
+
 [1]: https://amzn.to/2pXlelm
 [2]: https://amzn.to/2GcJw4t
 [3]: https://sourceforge.net/projects/netcat/
 [4]: https://amzn.to/2GukcH9
 [WireShark]: https://www.wireshark.org/
 [OpenCV]: https://opencv.org/
+[5]: https://mplough.github.io/2019/12/14/borescope.html
