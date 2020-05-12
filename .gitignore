@@ -7,3 +7,4 @@ _sass.bak/
 tmp/
 _config_dev.yml
 .ipynb_checkpoints
+import_versions.zip
