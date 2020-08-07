@@ -22,7 +22,7 @@ kramdown:
 
 show_drafts: false
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
