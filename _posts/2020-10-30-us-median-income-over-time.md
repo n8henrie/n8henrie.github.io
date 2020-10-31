@@ -801,6 +801,6 @@ The number of Americans making more than $50 million per year is low, and is
 increasing by about 6% per year (small denominator, this is less than 8
 people). Each of them make as much per year as about 42,000 people in the
 lowest bracket combined. The count of people in the lowest bracket is
-decreasing by less than 2% per year. Hpefully this represents improvement in
+decreasing by less than 2% per year. Hopefully this represents improvement in
 their standard of living, though I suppose it could also be people dropping out
 of the workforce completely.
