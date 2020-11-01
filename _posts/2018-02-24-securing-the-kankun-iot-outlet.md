@@ -30,7 +30,7 @@ finding them available at
 The Kankun switches have SSH open, with `root` access available using the
 password `p9z34c` by default. There are lots of posts and projects about things
 you can tweak with this switch once you establish access -- my favorite is
-https://github.com/homedash/kankun-json, which provides both a nice user
+<https://github.com/homedash/kankun-json>, which provides both a nice user
 interface as well as JSON API for interacting with the switch.
 
 The switch also comes with an iOS app that can be used to set up WiFi and
