@@ -31,7 +31,7 @@ A couple months ago I decided to refresh my trusty '09 Macbook Pro with an SSD u
 
 I won't bore you with all the details, since simply linking you to the parts and instructions I used will probably do just as much good. I will, however, show you a video I made comparing the before-and-after, because it's astounding. (I apologize in advanced for having recorded the videos by hand instead of using a tripod, they're pretty awful. Hope nobody gets motion sick easily.) Oh, and my old HDD ran at 5400 rpm, so my results may be more dramatic than someone that runs at 7200.
 
-<iframe width="100%" height="360" src="http://www.youtube.com/embed/TcaQNMQ8cCI" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="//www.youtube.com/embed/TcaQNMQ8cCI" frameborder="0" allowfullscreen></iframe>
 
 I tried to control for as much as possible by following the same protocol before both test runs:
 
