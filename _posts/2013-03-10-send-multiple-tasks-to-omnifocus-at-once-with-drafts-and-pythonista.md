@@ -52,7 +52,7 @@ I've also [recently started playing](http://n8henrie.com/tag/pythonista/) with <
 
 Here's a quick video example of how it works. Apologies for the shoddy editing.
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/JC-_Gq0XAWk?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/JC-_Gq0XAWk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 #### Setup
 

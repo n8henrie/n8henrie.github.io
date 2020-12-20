@@ -55,7 +55,7 @@ On one hand, it doesn't really make intuitive sense to me why cordless operation
 
 The scanning speed is pretty good. It's not instantaneous, and if you scan several sheets in rapid succession you might have to give it a second or two before it's ready for another, but overall I was impressed that such a small unit could scan in 8.5×11 sheets at about 8 seconds per page. Here's a quick video so you can see what 8 seconds per page looks like.
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/-Upadbyyatg?list=UUKTMezsEarDEsy8QGB3qsyQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/-Upadbyyatg?list=UUKTMezsEarDEsy8QGB3qsyQ" frameborder="0" allowfullscreen></iframe>
 
 #### Software {#software}
 

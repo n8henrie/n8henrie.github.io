@@ -29,4 +29,4 @@ categories:
 
 Made a quick screencast on how to mount Goodreader in Finder on a Mac.  Makes batch transferring files a breeze!
 
-<iframe src="http://www.youtube.com/embed/z6QQ-3cHDaU?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe>
+<iframe src="//www.youtube.com/embed/z6QQ-3cHDaU?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe>
