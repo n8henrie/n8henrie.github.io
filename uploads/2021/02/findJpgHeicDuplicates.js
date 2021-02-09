@@ -28,13 +28,17 @@
 // end up with numerous duplicate photos as a result -- half .jpg and half
 // .heic -- which nullifies the space savings.
 //
-// This script uses `criteria` in the `CUSTOMIZE` section to find likely
-// .heic/.jpg duplicates from a selected set of photos in MacOS Photos.app. If
-// it finds a likely duplicate with at least one copy of the desired extension,
-// it then moves all copies of the UNdesired filetype to an album named by the
-// unix timestamp at the time of running within a folder named `Duplicates`.
-// These can then be inspected, and if desired batch deleted with `command` +
-// `delete`.
+// This script uses filename (sans extension), the photo's timestamp*, and
+// configurable fields in `criteria` (found in the `CUSTOMIZE` section) to find
+// likely .heic/.jpg duplicates from a selected set of photos in MacOS
+// Photos.app. If it finds a likely duplicate with at least one copy of the
+// desired extension, it then moves all copies of the UNdesired filetype to an
+// album named by the unix timestamp at the time of running within a folder
+// named `Duplicates`. These can then be inspected, and if desired batch
+// deleted with `command` + `delete`.
+//
+// * +/- 10 seconds, since most of my `.heic` files are timestamped ~1 second
+//   after the `.jpg`
 //
 // Note that if adding many photos to an album at once, Photos.app may prompt
 // for confirmation before doing so. Therefore, if you leave this script
