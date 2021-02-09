@@ -32,6 +32,9 @@ shebang, which allows you to store these scripts in a regular old `.js` file
 +x`, then you can run it from the command line like any other script. Works
 great and really helpful for keeping in version control!
 
+[Download the script](/uploads/2021/02/find_duplicate_photos.js) (may need to
+right click and "save as")
+
 ```javascript
 #!/usr/bin/osascript -l JavaScript
 // find_duplicate_photos.js
@@ -39,6 +42,7 @@ great and really helpful for keeping in version control!
 //
 // Quickstart:
 //   - Copy this into a file, e.g. `find_duplicate_photos.js`
+//      - Alternatively, check the post above for a download link
 //   - Make executable: `chmod +x find_duplicate_photos.js`
 //   - Optionally change criteria that suggests a duplicate in `getDetails`
 //   - Select a set of photos in Photos.app
