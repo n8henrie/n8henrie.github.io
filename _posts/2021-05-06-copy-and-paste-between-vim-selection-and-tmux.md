@@ -42,3 +42,14 @@ yanked text.
 vnoremap <leader>tc y<cr>:call system("tmux load-buffer -", @0)<cr>gv
 nnoremap <leader>tp :let @0 = system("tmux save-buffer -")<cr>"0p<cr>g;
 ```
+
+I use visual mode frequently, but vim gurus might scoff at this habit and note
+that the mapping above *requires* a visual selection to work, which means that
+you can't use it to yank to tmux with a movement (e.g. `y3j` to yank the next 3
+lines). If this were really important, it would probably be easy to modify the
+copy mapping to something like (untested) `nnoremap <leader>tc :call system("tmux
+load-buffer -", @0)`, which would just copy the most recently yanked text once
+one is back in normal mode after a yank. The advantage here would be that
+normal vim movement-yank would work without first requiring a visual selection,
+the disadvantage is that if one already has a visual selection it would require
+two steps (yank then `tc`) instead of just one.
