@@ -31,11 +31,11 @@ pretty handy for the time being.
 ```javascript
 (() => {
     const music = Application("Music")
-	
-	// `doShellScript` gives a permission error if I try to run it from
-	// anything other than `Application.currentApplication()`
-	const app = Application.currentApplication()
-	app.includeStandardAdditions = true
+    
+    // `doShellScript` gives a permission error if I try to run it from
+    // anything other than `Application.currentApplication()`
+    const app = Application.currentApplication()
+    app.includeStandardAdditions = true
 
     let myTopRated = music.playlists.whose({
         name: {
@@ -51,14 +51,14 @@ pretty handy for the time being.
         let score = scorecard[artist] || 0
         scorecard[artist] = score + 1
     }
-	
-	// Convert object into array of [Artist, Count]
+    
+    // Convert object into array of [Artist, Count]
     var entries = Object.entries(scorecard)
-	
-	// Reverse sort by favorite count
+    
+    // Reverse sort by favorite count
     entries.sort((a, b) => b[1] - a[1])
-	let output = entries.map(entry => entry[0] + ": " + entry[1]).join("\n")
-	app.doShellScript("cat <<'EOF' > ~/Desktop/MusicFavs.txt\n" + output + "\nEOF\n")
+    let output = entries.map(entry => entry[0] + ": " + entry[1]).join("\n")
+    app.doShellScript("cat <<'EOF' > ~/Desktop/MusicFavs.txt\n" + output + "\nEOF\n")
 })()
 ```
 
