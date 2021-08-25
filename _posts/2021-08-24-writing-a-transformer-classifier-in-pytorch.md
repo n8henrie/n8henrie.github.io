@@ -597,3 +597,40 @@ There are *lots* of ways to improve and go from here, and relying on the
 PyTorch-provided `TransformerEncoder` and `PositionalEncoding` modules makes it
 anything but "from scratch," but I was glad to create a basic architecture in
 pure PyTorch that could learn a simple NLP classification task.
+
+
+### Addendum:
+
+I'm getting a few questions about my use of `vocab_size` instead of `max_len`
+in `PositionalEncoding`.
+
+Here is the archived version of the pytorch tutorial I was using at the time of
+writing this code. I have updated the link above:
+<https://web.archive.org/web/20200506194819/https://pytorch.org/tutorials/beginner/transformer_tutorial.html>.
+
+It looks like I just used a different variable name that I found more
+descriptive; I use `def __init__(self, d_model, vocab_size=5000,
+dropout=0.1):`, they use `def __init__(self, d_model, dropout=0.1,
+max_len=5000):`.
+
+As you can see in the archived link:
+
+> The positional encodings have the same dimension as the embeddings so that
+the two can be summed
+
+If you search the page, you'll see that they call the vocab size `ntokens`
+initially, which gets passed to `TransformerModel` as `ntoken`, then they
+initialize `nn.Embedding(ntoken, ninp)` (where `ninp` is `emsize`), and pass
+`ninp` to `PositionalEncoding` as the first positional argument (`d_model`).
+
+They then set `pe = torch.zeros(max_len, d_model)`. So if the positional
+embedding and the word embeddings need to have the same dimensions, then the
+shapes of `nn.Embedding(ntoken, ninp)` and `torch.zeros(max_len, d_model)` will
+need to be the same (we already know that `ninp` and `d_model` are the same).
+
+I'm not sure why the PyTorch example uses `max_len=5000` and then does not
+override this default argument; for me, it made more sense to give it a name
+that told me where that dimension was coming from.
+
+Hopefully this helps provide more context. Feel free to comment below if I'm
+thinking about this wrong, or if there's a better approach I should consider.
