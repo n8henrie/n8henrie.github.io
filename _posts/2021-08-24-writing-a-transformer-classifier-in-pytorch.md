@@ -176,7 +176,7 @@ class PositionalEncoding(nn.Module):
     https://pytorch.org/tutorials/beginner/transformer_tutorial.html
     """
 
-    def __init__(self, d_model, vocab_size=5000, dropout=0.1, batch_size=100):
+    def __init__(self, d_model, vocab_size=5000, dropout=0.1):
         super().__init__()
         self.dropout = nn.Dropout(p=dropout)
 
