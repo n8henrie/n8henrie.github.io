@@ -50,6 +50,10 @@ to the posts above, some of the most heplful links and discussion that I ran
 across include:
 
 - <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
+    - EDIT: The tutorial above has changed since I wrote this code; here's a 
+      [wayback machine
+      link](https://web.archive.org/web/20200506194819/https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
+      to the version I was using at the time
 - <https://github.com/jensjepsen/imdb-transformer>
 - <https://github.com/pbloem/former>
 
