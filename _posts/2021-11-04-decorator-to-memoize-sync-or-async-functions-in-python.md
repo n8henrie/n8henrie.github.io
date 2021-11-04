@@ -63,7 +63,7 @@ import time
 def memoize(func):
     """
     (c) 2021 Nathan Henrie, MIT License
-    https://n8henire.com/2021/11/decorator-to-memoize-sync-or-async-functions-in-python/
+    https://n8henrie.com/2021/11/decorator-to-memoize-sync-or-async-functions-in-python/
     """
     cache = {}
 
