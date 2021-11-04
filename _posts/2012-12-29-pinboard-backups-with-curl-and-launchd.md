@@ -15,6 +15,7 @@ disqus_identifier: 1872 http://n8henrie.com/?p=1872
 tags:
 - automation
 - dropbox
+- bash
 - Mac OSX
 - repost
 - Terminal

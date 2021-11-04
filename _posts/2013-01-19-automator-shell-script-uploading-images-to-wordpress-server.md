@@ -23,6 +23,7 @@ disqus_identifier: 1915 http://n8henrie.com/?p=1915
 tags:
 - Mac OSX
 - photo
+- bash
 - Quicksilver
 - Terminal
 - webapp

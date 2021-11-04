@@ -12,6 +12,7 @@ dsq_thread_id:
 disqus_identifier: 2532 http://n8henrie.com/?p=2532
 tags:
 - automation
+- bash
 - dropbox
 - Mac OSX
 categories:

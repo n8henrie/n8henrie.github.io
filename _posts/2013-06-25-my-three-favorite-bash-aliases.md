@@ -12,8 +12,9 @@ dsq_thread_id:
 disqus_identifier: 2296 http://n8henrie.com/?p=2296
 tags:
 - Mac OSX
-- nix
+- bash
 - Terminal
+- bash
 categories:
 - tech
 ---

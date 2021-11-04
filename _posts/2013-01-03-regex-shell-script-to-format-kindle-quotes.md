@@ -19,6 +19,7 @@ disqus_identifier: 1881 http://n8henrie.com/?p=1881
 tags:
 - automation
 - eBooks
+- bash
 - Kindle
 - Mac OSX
 - quotes
@@ -40,4 +41,11 @@ This script should take your file of Kindle highlights and bookmarks, filter out
 
 Here's the script. Remember to replace "$1" if you're not using <a target="_blank" href="http://www.noodlesoft.com/hazel.php">Hazel</a> and insert your own [username] in the file path.
 
-<script src="http://pastebin.com/embed_js.php?i=yf3CZbGb"></script>
+```
+#!/bin/bash
+#relevant post found here: http://n8henrie.com/2013/01/regex-shell-script-to-format-kindle-quotes
+tr -s '\r\n' '\t' < "$1" |
+    perl -pe 's|(==========)|\n|g' |
+    grep -Po "\S.*?Highlight\ Loc\.\ .*?$" |
+    perl -pe 's/(.*?)\t- Highlight Loc. .*? (Added on .*?), \d\d:\d\d (A|P)M\t(.*?)\t$/<blockquote>\4<\/blockquote><p>-\1, \2<\/p>\n/g' >"/Users/[username]/Desktop/KindleQuotesFormatted.txt"
+```
