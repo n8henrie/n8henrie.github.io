@@ -34,6 +34,14 @@ script to find them you can remove them all at one fell swoop by selecting all
 [Download the script](/uploads/2021/02/findJpgHeicDuplicates.js) (may need to
 right click and "save as")
 
+**UPDATE 20211203**: I started getting `Error: Error: Can't get object.` errors
+with this script on Monterey; it ends up that Photos has a new option under
+`View` that seems to default to `Yours & Shared`; it looks like the `Shared`
+photos are actually *not* downloaded locally (if you can identify one that
+causes an error, right click on the photo and you'll see an option to save it
+locally). Once I changed the setting to `View -> Your Photos Only`, the script
+again ran without errors.
+
 ```javascript
 #!/usr/bin/osascript -l JavaScript
 // findJpgHeicDuplicates.js
