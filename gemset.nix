@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "15pwg27li00rrzq4drmxx9l4w8fmxapnigvhh9m4xl0asmy1k207";
+      sha256 = "0yqr0k878n4s70myxr36n7sz3y5faydy173vqlq98bhqf70zjp8g";
       type = "gem";
     };
-    version = "6.0.4.7";
+    version = "6.0.5";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -293,10 +293,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ajijz7jjcmkp8wxmiya8pv7rkwyafwi2pr1r0gsg7p4g17yhmck";
+      sha256 = "1c7m5hmhgscn59pddaam6kg1mr1sdqpngzfwc64b3yi2fqgs3aa7";
       type = "gem";
     };
-    version = "225";
+    version = "226";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -358,10 +358,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1lsx1ga63wjw61dadq8xwr2gyix7qz0lsk1v9r6853lrlrnjnjzf";
+      sha256 = "0bm6imnqik9fw8w7nsp21wwvd2qirrimcwn1pk5bqw823iij1547";
       type = "gem";
     };
-    version = "3.19.3";
+    version = "3.19.4";
   };
   "http_parser.rb" = {
     groups = ["default" "jekyll_plugins"];
@@ -390,10 +390,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ci1v1mpad36191vzbm1050dxccwv6ky4yhdyvskmqxa6cf6v21j";
+      sha256 = "0wzb3ysr43f9acpdfhnndnqh1ypir01w4s4clzi38l9mxkfc4d75";
       type = "gem";
     };
-    version = "3.9.0";
+    version = "3.9.2";
   };
   jekyll-avatar = {
     dependencies = ["jekyll"];
@@ -795,10 +795,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0jdbcjv4v7sj888bv3vc6d1dg4ackkh7ywlmn9ln2g9alk7kisar";
+      sha256 = "0757lqaq593z8hzdv98nai73ag384dkk7jgj3mcq2r6ix7130ifb";
       type = "gem";
     };
-    version = "2.3.1";
+    version = "2.3.2";
   };
   kramdown-parser-gfm = {
     dependencies = ["kramdown"];
@@ -929,10 +929,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1g43ii497cwdqhfnaxfl500bq5yfc5hfv5df1lvf6wcjnd708ihd";
+      sha256 = "11w59ga9324yx6339dgsflz3dsqq2mky1qqdwcg6wi5s1bf2yldi";
       type = "gem";
     };
-    version = "1.13.4";
+    version = "1.13.6";
   };
   notiffany = {
     dependencies = ["nenv" "shellany"];
