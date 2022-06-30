@@ -16,6 +16,7 @@ tags:
 - automation
 - dropbox
 - bash
+- launchd
 - Mac OSX
 - repost
 - Terminal

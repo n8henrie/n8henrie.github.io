@@ -9,14 +9,16 @@ categories:
 excerpt: ""
 # grep -oP '(?<=>Posts tagged with ).*?(?=<)' ~/git/n8henrie.com/_site/tags/index.html
 tags:
--
+- launchd
+- MacOS
+- security
 ---
 **Bottom Line:** Here's how I fixed `Connection reset by peer` on MacOS
 Monterey.
 <!--more-->
 
 After updating to MacOS Monterey (12.0) a couple of days ago, I found that my
-SSH access was no longer working. 
+SSH access was no longer working.
 
 My SSH access is set up on a custom port, which helps reduce the burden of
 constant port scanning (though is definitely "security through obscurity");

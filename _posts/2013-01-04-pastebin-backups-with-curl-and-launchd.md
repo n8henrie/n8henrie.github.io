@@ -14,6 +14,7 @@ dsq_thread_id:
 disqus_identifier: 1888 http://n8henrie.com/?p=1888
 tags:
 - automation
+- launchd
 - Mac OSX
 - Terminal
 categories:
