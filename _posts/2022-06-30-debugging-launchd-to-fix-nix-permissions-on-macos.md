@@ -205,6 +205,35 @@ $ launchctl submit -l foo -o "${PWD}"/out.txt -e "${PWD}"/err.txt -- \
 
 After confirming access, everything works as expected.
 
+## BONUS, 20220705
+
+I just wrote a little Makefile (to this toy
+project: <https://github.com/n8henrie/runner-rs>) that tries to give a binary launchctl
+permissions to access Desktop, Documents, and Downloads, thought it might be a
+helpful template for others:
+
+
+```make
+PROJECT=runner
+
+.PHONY: install
+install: src/*.rs
+	-. config.env
+	cargo install --path .
+	TMPDIR=$$(mktemp -d) bash -c '\
+			trap "launchctl remove $(PROJECT)_tmp" EXIT; \
+			launchctl submit -l $(PROJECT)_tmp -o "$${TMPDIR}"/out.txt -e "$${TMPDIR}"/err.txt \
+				-- ~/.cargo/bin/$(PROJECT) _ \
+				ls ~/Desktop ~/Downloads ~/Documents; \
+			until test -s "$${TMPDIR}"/out.txt; do sleep 0.1; done; \
+			'
+```
+
+Running `make` in this project should build and install the binary, then submit
+a launchd job that gives the binary access to the projected directories, wait
+for this access to succeed (you should see 3 prompts), and then cleans up when
+it exits.
+
 [nix]: https://nixos.org/
 [0]: https://n8henrie.com/tags/#launchd-ref
 [1]: https://discourse.nixos.org/t/basic-flake-run-existing-python-bash-script
