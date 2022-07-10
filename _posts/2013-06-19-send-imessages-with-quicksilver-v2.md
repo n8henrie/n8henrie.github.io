@@ -19,7 +19,10 @@ categories:
 ---
 **Bottom Line:** An improvement on my [AppleScript action](http://n8henrie.com/2013/03/template-for-writing-quicksilver-actions-in-applescript/) for [sending iMessages with Quicksilver](http://n8henrie.com/2013/04/send-imessage-messages-with-quicksilver/) that allows sending to a name instead of having to "arrow in" to manually choose a phone number.<!--more-->
 
-Update 20140330: As Noam Ross has pointed out in the comments below, I have incorrectly described being able to "arrow in" to a contact in the third pane. This doesn't work; Quicksilver doesn't seem to allow third pane arrow-ins. I have the script set so that you can arrow in to select a valid email / phone from the _first_ pane. To use the "text in first pane, contact in third pane" you have to set up a dictionary file like I've described below, which just takes the name from the third pane contact and searches for the appropriate number from the file. Sorry for the confusion!
+**Update 20140330**: As Noam Ross has pointed out in the comments below, I have incorrectly described being able to "arrow in" to a contact in the third pane. This doesn't work; Quicksilver doesn't seem to allow third pane arrow-ins. I have the script set so that you can arrow in to select a valid email / phone from the _first_ pane. To use the "text in first pane, contact in third pane" you have to set up a dictionary file like I've described below, which just takes the name from the third pane contact and searches for the appropriate number from the file. Sorry for the confusion!
+
+**Update 20220710**: Minor updates for the modern AppleScript terminology,
+still seems to work.
 
 ## Contents
 

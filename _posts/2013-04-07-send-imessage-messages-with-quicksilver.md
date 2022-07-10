@@ -39,6 +39,9 @@ So to use it, I select a contact in Quicksilver's <del datetime="2013-04-27T02:2
 
 > **Update Jun 19, 2013:** I've made a second version of this script that allows you to make a "phonebook" that avoids the need to "arrow in" to contacts. Read more [here](http://n8henrie.com/2013/06/send-imessages-with-quicksilver-v2/).
 
+**Update 20220710**: Minor updates for the modern AppleScript terminology,
+still seems to work.
+
 In the second pane, select "Send with Messages" as the action, then in the <del datetime="2013-04-27T02:20:26+00:00">third</del> first pane hit period "." to enter text mode and type in your message. Hit enter and it should send! If Messages.app is not running it will launch, if it is running, the message will send in the background without interrupting what you're doing.
 
 > ^^ Going to leave this mostly as is (except the two strikeouts) because the info is still mostly correct. Just reread the paragraphs in reverse order if you're confused. First pane: text. Second pane: YourActionName.scpt. Third pane: Contact name -> iMessage number / address.
