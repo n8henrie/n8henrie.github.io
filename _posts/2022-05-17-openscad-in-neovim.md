@@ -77,6 +77,8 @@ filetype?` and see `filetype=openscad` at the bottom.
 request to get this into ALE; hopefully it can be merged soon!
 <https://github.com/dense-analysis/ale/pull/4205>
 
+**Update 20220808:** The pull request has been merged!
+
 Next, I wanted to figure out how to hook up [ALE] with [SCA2d] so that I could
 see warnings and errors as usual. This ended up being a litte bigger task than
 I realized at the time. I found a [very helpful post][1] that walked me through
