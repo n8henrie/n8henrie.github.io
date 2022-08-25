@@ -29,12 +29,7 @@ stop:
 	-pkill -f jekyll
 
 update:
-	rbenv install "$(cat .ruby-version)"
-	-rm ~/.rbenv/shims/.rbenv-shim
-	rbenv rehash
-	gem install bundler
-	-rm Gemfile.lock
-	bundle update
-	sed -i "s/^rvm: [[:digit:]\.]\+/rvm: $(cat .ruby-version)/" .travis.yml 
+	rm Gemfile.lock
+	nix run 'nixpkgs#bundix' -- --lock
 
 .PHONY: help develop clean build rebuild stop update
