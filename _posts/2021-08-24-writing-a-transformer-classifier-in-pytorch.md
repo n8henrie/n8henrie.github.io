@@ -50,7 +50,7 @@ to the posts above, some of the most heplful links and discussion that I ran
 across include:
 
 - <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
-    - EDIT: The tutorial above has changed since I wrote this code; here's a 
+    - EDIT: The tutorial above has changed since I wrote this code; here's a
       [wayback machine
       link](https://web.archive.org/web/20200506194819/https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
       to the version I was using at the time
@@ -267,7 +267,7 @@ the dataset, so comparing labels and predictions ends up being off by one:
 ```
 
 I am sure there is a better way to do this, but for this simple example just
-manually accounting for the offset seemed to work ¯\\_(ツ)_/¯.
+manually accounting for the offset seemed to work ¯\\\_(ツ)_/¯.
 
 ```python
 epochs = 50
