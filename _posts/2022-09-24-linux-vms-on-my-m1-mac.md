@@ -146,7 +146,8 @@ $ virsh start nixos
 ```
 
 From here, to complete the installation, you can connect graphically to VNC
-using the built-in `Screen Sharing` app by connecting to `vnc://:PASSWORD@localhost:5900`
+using the built-in `Screen Sharing` app by connecting to
+`vnc://:PASSWORD@localhost:5900` through a variety of means:
 
 - Opening the app: `/System/Library/CoreServices/Applications/Screen
   Sharing.app`
