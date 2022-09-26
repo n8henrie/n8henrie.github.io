@@ -173,16 +173,21 @@ was able to get all three working with minimal issues:
   at `/boot`
 
 Additionally, if you're as new to `libvirt` as me, you'll want to be familiar
-with a few additional commands, such as:
+with a few additional commands. For example, using a machine defined in
+`mynixos.xml` which specifies `<name>nixos</name>`:
 
-- Using a machine named `x` based on config `y`:`virsh define y.xml`
-    - Do this again after making changes to config
-- Start / stop the vm: `virsh start x`, `virsh stop x`
-- Shutdown the machine: `virsh shutdown x`
-    - In most cases I had to specify `virsh shutdown --mode=acpi x`
-- Hard reboot (if `virsh reboot --mode=acpi x` isn't working): `virsh reset x`
-- `virsh console x`
-- Check the status: `virsh list`
+- Tell `libvirt` about the VM: `virsh define mynixos.xml`
+    - Do this again after making changes to the config file
+- Start / stop the vm: `virsh start nixos`, `virsh stop nixos`
+- Shutdown the machine: `virsh shutdown nixos`
+    - In most cases I had to specify `virsh shutdown --mode=acpi nixos`
+- Hard reboot (if `virsh reboot --mode=acpi nixos` isn't working): `virsh reset
+  nixos`
+- `virsh console nixos`
+- Check the status of all VMs: `virsh list`
+
+As I've noted a few times I'm fairly new to this, so if you have suggestions
+please leave them in the comments below!
 
 [0]: https://www.naut.ca/blog/2021/12/09/arm64-vm-on-macos-with-libvirt-qemu
 [1]: https://libvirt.org/
