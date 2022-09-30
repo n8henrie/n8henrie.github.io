@@ -34,5 +34,5 @@ stop:
 
 .PHONY: update
 update:
-	rm Gemfile.lock
+	rm -f Gemfile.lock
 	BUNDLE_FORCE_RUBY_PLATFORM=true nix run nixpkgs#bundix -- --lock
