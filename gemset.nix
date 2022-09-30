@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1r8lsn429xx4c16g943mimfqrka6drgsvjgdb7mmi7wvlvj68b2q";
+      sha256 = "091qjiv0mvmn5k9krqkv1lfg8983mgcmrf11gxa6xkchh74csr6a";
       type = "gem";
     };
-    version = "6.0.5.1";
+    version = "6.0.6";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -67,10 +67,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1a3mcbjjbk6l2fzxh8ajn8nvny16b20wg6zg1gi1d2x8v836paj7";
+      sha256 = "0f3v6ffikj694h925zvfzgx995q6l1ixnqpph3qpnjdsyjpsmbn8";
       type = "gem";
     };
-    version = "0.23.5";
+    version = "0.23.6";
   };
   concurrent-ruby = {
     groups = ["default" "jekyll_plugins"];
@@ -267,10 +267,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0nq9hzahmp39pbyk3kippzylvicjdxawpiv1h5i2390c7b1yg1ak";
+      sha256 = "0av7v6jg1fiqnl3b5ldkmxb9wc77a0vvgs58wga94a9wkwqkb6lz";
       type = "gem";
     };
-    version = "4.4.0";
+    version = "4.4.1";
   };
   "http_parser.rb" = {
     groups = ["default" "jekyll_plugins"];
@@ -771,6 +771,16 @@
     };
     version = "1.0.0";
   };
+  mini_portile2 = {
+    groups = ["default" "jekyll_plugins"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0rapl1sfmfi3bfr68da4ca16yhc0pp93vjwkj7y3rdqrzy3b41hy";
+      type = "gem";
+    };
+    version = "2.8.0";
+  };
   minima = {
     dependencies = ["jekyll" "jekyll-feed" "jekyll-seo-tag"];
     groups = ["default" "jekyll_plugins"];
@@ -813,7 +823,7 @@
     version = "0.3.0";
   };
   nokogiri = {
-    dependencies = ["racc"];
+    dependencies = ["mini_portile2" "racc"];
     groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
@@ -912,10 +922,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06c50pvxib7wqnv6q0f3n7gzfcrp5chi3sa48hxpkfxc3hhy11fm";
+      sha256 = "1zmf31rnpm8553lqwibvv3kkx0v7majm1f341xbxc0bk5sbhp423";
       type = "gem";
     };
-    version = "0.11.1";
+    version = "0.11.2";
   };
   rb-inotify = {
     dependencies = ["ffi"];

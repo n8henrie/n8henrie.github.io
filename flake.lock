@@ -2,13 +2,13 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-HHZTzHgLuoOmTrHckl9eGG8UWTp32pYXmCoOjgQYIB4=",
+        "narHash": "sha256-CVcZs8QP0Y2NbsizhgI/P42FqdeqXNe4h11W1Wk1aFY=",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/860b56be91fb874d48e23a950815969a7b832fbc.tar.gz"
+        "url": "https://github.com/NixOS/nixpkgs/archive/5e15d5da4abb74f0dd76967044735c70e94c5af1.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/860b56be91fb874d48e23a950815969a7b832fbc.tar.gz"
+        "url": "https://github.com/NixOS/nixpkgs/archive/5e15d5da4abb74f0dd76967044735c70e94c5af1.tar.gz"
       }
     },
     "root": {

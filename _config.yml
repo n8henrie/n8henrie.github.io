@@ -41,4 +41,16 @@ defaults:
 
 paginate: 8
 
-exclude: [tmp,import_versions,Makefile,todo.md,vendor,_drafts/template.md]
+exclude:
+  - tmp
+  - import_versions
+  - Makefile
+  - todo.md
+  - vendor
+  - _drafts/template.md
+  - gemset.nix
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - flake.nix
+  - flake.lock
