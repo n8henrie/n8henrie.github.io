@@ -1,4 +1,4 @@
-SHELL := /bin/bash
+SHELL := /usr/bin/env bash
 DATE=$(shell date +"%Y%m%d" | tr -d '\n')
 PWD := $(shell pwd)
 GREP := $(shell command -v ggrep || command -v grep)
