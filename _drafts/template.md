@@ -7,7 +7,7 @@ permalink: {{ .Date.Format "/2006/01/" }}{{ .Stub }}/
 categories:
 - tech
 excerpt: ""
-# grep -oP '(?<=>Posts tagged with ).*?(?=<)' ~/git/n8henrie.com/_site/tags/index.html | fzf --layout=reverse -m | pbcopy
+# grep -oP '(?<=>Posts tagged with ).*?(?=<)' ~/git/n8henrie.com/_site/tags/index.html | sk --layout=reverse -m | pbcopy
 tags:
 -
 ---
