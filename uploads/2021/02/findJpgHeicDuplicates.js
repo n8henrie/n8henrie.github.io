@@ -55,14 +55,16 @@
 //
 // Runs in about 19 minutes for my library of 20,233 pictures on my 2014 MBA.
 //
-// Tested on MacOS 11.1, Photos 6.0
+// Tested on:
+// - MacOS 11.1, Photos 6.0
+// - MacOS 13, Photos 8.0
 
 'use strict'
 
 // CUSTOMIZE
 let getRidOfExtension = "jpg" // Only get rid of photos with this extension
 let dupFolderName = "Duplicates"
-let logInterval = 1000
+let logInterval = 100
 
 let criteria = [
     // "favorite",
@@ -77,6 +79,10 @@ let criteria = [
     // "name", // often not set, not the same as filename
 ]
 // END CUSTOMIZE
+
+function log(obj) {
+    console.log(JSON.stringify(obj))
+}
 
 function getDetails(photo) {
     let properties = photo.properties()
@@ -112,8 +118,13 @@ function run(argv) {
         }
         let photo = selection[selectionIdx]
 
+        // Skip it we can't get the filename; this can happen with photostream
+        // items that are in your library because they were shared with you
+        // (which you didn't take yourself)
+        let filename
+        try { filename = photo.filename() } catch (e) { continue }
+
         // This script only intended for jpg and heic
-        let filename = photo.filename()
         let lowername = filename.toLowerCase()
         if (!(lowername.endsWith(".jpg") || lowername.endsWith(".heic"))) {
             continue
