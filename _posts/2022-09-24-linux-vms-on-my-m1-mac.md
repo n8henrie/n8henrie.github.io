@@ -34,6 +34,14 @@ keep the larger files like the disk images and installation ISOs
 
 Next, use [Homebrew](https://brew.sh/) to install and start some dependencies:
 
+**Update 20221111:** My first-ever [pull request to
+nipxkgs](https://github.com/NixOS/nixpkgs/pull/200106#event-7787673955) got
+merged which fixes issues with EFI booting and `libvirt` on M1 Macs, so `nix`
+users should soon be able to use `nixpkgs#libvirt` instead of homebrew. To do
+so, once `libvirt` is installed, you'll need to change the `emulator` path to
+`/run/current-system/sw/bin/qemu-system-aarch64` in the XML config file below,
+and possibly rerun the `virsh define` step.
+
 ```console
 $ brew install qemu libvirt gcc
 $ cat <<'EOF' >> /opt/homebrew/etc/libvirt/qemu.conf
