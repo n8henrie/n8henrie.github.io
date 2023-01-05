@@ -6,20 +6,20 @@ layout: post
 permalink: /2023/01/crosscompiling-rust-from-aarch64darwin-to-x8664freebsd/
 categories:
 - tech
-excerpt: "To build rust for x86_64-freebsd from M1 Macs, try `cross-rs`."
+excerpt: "To build Rust for x86_64-freebsd from M1 Macs, try `cross-rs`."
 tags:
 - MacOS
 - rust
 - tech
 ---
-**Bottom Line:** To build rust for x86_64-freebsd from M1 Macs, try `cross-rs`.
+**Bottom Line:** To build Rust for x86_64-freebsd from M1 Macs, try `cross-rs`.
 <!--more-->
 
 I started using [pfSense][0] as my home router / firewall a few months ago and
 have been generally pretty happy. Last week I decided to make a simple tool
-that I wanted to run as a scheduled task on the router, and I figured It would
-try to build it in rust. I haven't done a *whole* lot of cross-compilation in
-rust, but I didn't think it would be too difficult, even though I'm building on
+that I wanted to run as a scheduled task on the router, and I figured I would
+try to build it in Rust. I haven't done a *whole* lot of cross-compilation in
+Rust, but I didn't think it would be too difficult, even though I'm building on
 an M1 Mac.
 
 I was wrong.
@@ -46,7 +46,7 @@ $ file hello-world-pfsense-go
 hello-world-pfsense-go: ELF 64-bit LSB executable, x86-64, version 1 (FreeBSD), statically linked, Go BuildID=Z28o7oeyPtvBK_5PtRat/rrqLEVcYpz6TRemoEBw6/CKtjgYiTl36zk0WHzVqz/8Zb3Xo6ZzG3NTDrESVXO, with debug_info, not stripped
 $ scp hello-world-pfsense-go router:/tmp
 hello-world-pfsense-go    100% 1165KB   1.7MB/s   00:00
-$ ssh router: /tmp/hello-world-pfsense-go
+$ ssh router /tmp/hello-world-pfsense-go
 hello from go
 ```
 
@@ -134,7 +134,7 @@ friendly `Hello, world!`. Success!
 
 However, the familiar docker warnings about my architechture made me suspect I
 was leaving some performance on the table. After a `docker image prune` and
-*lots* of prusing issues and tinkering, I seem to have gotten a proper ARM64
+*lots* of browsing issues and tinkering, I seem to have gotten a proper ARM64
 host image with the following:
 
 ```console
@@ -145,6 +145,12 @@ $ cargo build-docker-image \
     --platform=aarch64-unknown-linux-gnu \
     x86_64-unknown-freebsd \
     --tag local
+```
+
+After that, I can change back to the directory with my test project and
+proceed:
+
+```console
 $ cat <<'EOF' > Cross.toml
 [target.x86_64-unknown-freebsd]
 image.name = "ghcr.io/cross-rs/x86_64-unknown-freebsd:local"
@@ -163,17 +169,12 @@ Phew!
 ### Notes
 
 For `cross` to work, I had to use the current `main` (`cross 0.2.4 (1d9d310
-2023-01-05)`), installed from github as shown above, and I had to put the
+2023-01-05)`), installed from GitHub as shown above, and I had to put the
 config into `Cross.toml` instead of using
 `[package.metadata.cross.target.x86_64-unknown-freebsd]` in `Cargo.toml`, which
 I *think* should have worked. More info and [issue here][3].
-
-I'm also unclear if my approach with zig should have been expected to work, I
-raised an [issue here][4] which may have more information by the time you read
-this.
 
 [0]: https://www.pfsense.org/
 [1]: https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/
 [2]: https://github.com/cross-rs/cross/
 [3]: https://github.com/cross-rs/cross/issues/1182
-[4]: https://github.com/ziglang/zig/issues/14212
