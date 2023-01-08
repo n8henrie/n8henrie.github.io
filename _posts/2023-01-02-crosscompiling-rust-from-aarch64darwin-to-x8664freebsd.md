@@ -151,8 +151,8 @@ After that, I can change back to the directory with my test project and
 proceed:
 
 ```console
-$ cat <<'EOF' > Cross.toml
-[target.x86_64-unknown-freebsd]
+$ cat <<'EOF' >> Cargo.toml
+[package.metadata.cross.target.x86_64-unknown-freebsd]
 image.name = "ghcr.io/cross-rs/x86_64-unknown-freebsd:local"
 image.toolchain = ["linux/arm64/v8=aarch64-unknown-linux-gnu"]
 EOF
@@ -173,6 +173,10 @@ For `cross` to work, I had to use the current `main` (`cross 0.2.4 (1d9d310
 config into `Cross.toml` instead of using
 `[package.metadata.cross.target.x86_64-unknown-freebsd]` in `Cargo.toml`, which
 I *think* should have worked. More info and [issue here][3].
+
+UPDATE: The `cross` maintainers fixed this issue promptly, so the current
+`main` branch works with config in `Cargo.toml`; I've updated the post above to
+reflect this.
 
 [0]: https://www.pfsense.org/
 [1]: https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/
