@@ -11,6 +11,8 @@ tags:
 - MacOS
 - rust
 - tech
+- freebsd
+- pfsense
 ---
 **Bottom Line:** To build Rust for x86_64-freebsd from M1 Macs, try `cross-rs`.
 <!--more-->
