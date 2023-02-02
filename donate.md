@@ -7,6 +7,8 @@ nav: false
 ---
 <a href="https://github.com/sponsors/n8henrie">GitHub Sponsors</a> <- GitHub will match your contribution!
 
+<a href="https://www.patreon.com/n8henrie">Patreon</a>
+
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PU74QEEFZ2JCW"><img src="/assets/img/paypal.svg" width="100px"></a>
 
 <a href="bitcoin:1GbDM4qKshfXtrJZkfJqgRRBxheShL2v7G?label=n8henrie.com"><img src="/assets/img/n8henrie_bitcoin.svg" width="280px"></a>
