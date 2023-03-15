@@ -110,9 +110,9 @@ from the beginning:
 Without further delay, starting in the pfSense CLI:
 
 1. Follow the [FreeBSD.org instructions][3] to ensure your CPU is compatible
-   [and](and) the prior bios settings are enabled. My [pre-built device][0] was
-   ready to rock, but my Lenovo device did not have the approach bios settings.
-   If the below `awk` script prints `OK` you should be set.
+   and the prior bios settings are enabled. My [pre-built device][0] was ready
+   to rock, but my Lenovo device did not have the approach bios settings. If
+   the below `awk` script prints `OK` you should be set.
 ```console
 $ awk < /var/run/dmesg.boot '
     /Features2.*POPCNT/ { popcnt=1 }
