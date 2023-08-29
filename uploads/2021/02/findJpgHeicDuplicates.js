@@ -118,7 +118,7 @@ function run(argv) {
         }
         let photo = selection[selectionIdx]
 
-        // Skip it we can't get the filename; this can happen with photostream
+        // Skip if we can't get the filename; this can happen with photostream
         // items that are in your library because they were shared with you
         // (which you didn't take yourself)
         let filename
