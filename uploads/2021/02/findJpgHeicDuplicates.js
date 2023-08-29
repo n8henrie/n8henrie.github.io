@@ -87,7 +87,7 @@ function log(obj) {
 function getDetails(photo) {
     let properties = photo.properties()
 
-    var details = {
+    let details = {
         "extension": properties["filename"].toLowerCase().split(".").slice(-1)[0],
         "timestamp": properties["date"].getTime() / 1000, // in seconds
     }
@@ -110,8 +110,8 @@ function run(argv) {
 
     let getRidOfExtensionLower = getRidOfExtension.toLowerCase()
     // { filename-sans-extension: [ {'selectionIdx': idx1, 'timestamp': ts, "extension": ext } ] }
-    var photomap = {}
-    var duplicates = []
+    let photomap = {}
+    let duplicates = []
     for (let selectionIdx in selection) {
         if (selectionIdx % logInterval == 0) {
             console.log("Processing " + selectionIdx + " of " + selectionLength)
@@ -129,8 +129,8 @@ function run(argv) {
         if (!(lowername.endsWith(".jpg") || lowername.endsWith(".heic"))) {
             continue
         }
-
-        var details = getDetails(photo)
+        ``
+        let details = getDetails(photo)
         details['selectionIdx'] = selectionIdx
 
         let stem = filename.replace(/(\.JPG$)|(\.HEIC$)/i, "")
