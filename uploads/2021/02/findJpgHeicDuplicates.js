@@ -133,7 +133,7 @@ function run(argv) {
         let details = getDetails(photo)
         details['selectionIdx'] = selectionIdx
 
-        let stem = filename.replace(/(\.JPG$)|(\.HEIC$)/i, "")
+        let stem = filename.replace(/(D?\.JPG$)|(\.HEIC$)/i, "")
         if (!(stem in photomap)) {
             photomap[stem] = [details]
             continue
