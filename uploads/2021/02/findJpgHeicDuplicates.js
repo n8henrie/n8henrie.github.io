@@ -183,7 +183,7 @@ function run(argv) {
                     .map(details => {
                         let sidx = details['selectionIdx']
                         duplicates.push(selection[sidx])
-                })
+                    })
             )
         }
     }
@@ -195,12 +195,12 @@ function run(argv) {
 
     let duplicatesFolder = photos.folders.byName(dupFolderName)
     if (!duplicatesFolder.exists()) {
-        photos.make({new: "folder", named: dupFolderName})
+        photos.make({ new: "folder", named: dupFolderName })
     }
     let album = duplicatesFolder.albums.byName(tsForAlbum)
     if (!album.exists()) {
-        photos.make({new: "album", named: tsForAlbum, at: duplicatesFolder})
+        photos.make({ new: "album", named: tsForAlbum, at: duplicatesFolder })
     }
-    photos.add(duplicates, {to: album})
+    photos.add(duplicates, { to: album })
     console.log("Duplicates added to " + dupFolderName + "/" + tsForAlbum)
 }
