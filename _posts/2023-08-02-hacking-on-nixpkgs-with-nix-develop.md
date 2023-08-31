@@ -31,6 +31,8 @@ derivation already has it.
 
 (SPOILER: I was not successful, but I did learn a few things along the way.)
 
+I start by cloning nixpkgs, and for the sake of reproducibility for readers in
+years to come (one of the big advantages of nix!) we'll checkout a specific
 commit (though one would normally stay on `master` in order to contribute a
 PR).
 
