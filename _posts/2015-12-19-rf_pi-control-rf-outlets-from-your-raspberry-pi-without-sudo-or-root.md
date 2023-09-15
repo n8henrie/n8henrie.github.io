@@ -51,7 +51,7 @@ For starters, here are some links to the original tools that I've included in th
 
   * <a href="http://www.amazon.com/gp/product/B00LPESRUK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LPESRUK&linkCode=as2&tag=o5284-20" target="_blank" title="Raspberry-Pi-Model-512MB-Computer">Raspberry Pi model B+</a> (likely possible with other models, but only tested on B+)
   * Optimized to run on **Raspbian Jessie** (`cat /etc/issue` and look for `GNU/Linux 8`), but also working on Raspbian Wheezy
-  * <a href="http://n8h.me/1HWwr7E" target="_blank">433 MHz RF transmitter</a>
+  * <a href="https://www.amazon.com/HiLetgo-Wireless-Transmitter-Receiver-Raspberry/dp/B01DKC2EY4?keywords=433+MHz+RF+transmitter&qid=1694813516&sr=8-2&linkCode=ll1&tag=o5284-20&linkId=454a0af1205f3f43a52d93ec695e661e&language=en_US&ref_=as_li_ss_tl" target="_blank">433 MHz RF transmitter</a>
   * <a href="http://www.amazon.com/gp/product/B00DQELHBS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DQELHBS&linkCode=as2&tag=o5284-20" target="_blank" title="Etekcity-Wireless-Electrical-Household-Appliances">433 MHz remote controlled outlets</a>
   * Optional: 433 MHz remote for outlets (needed if you don't know your RF codes, included in the outlet kit linked above)
   * Optional: 433 MHz RF receiver (needed if you don't know your RF codes, included in the transmitter kit I linked above)
