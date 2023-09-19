@@ -7,6 +7,9 @@ nav: true
 ---
 If it’s short and public:
 
+  * [@n8henrie@mastodon.social](https://mastodon.social/@n8henrie)
+  * [@n8henrie@fosstodon.org](https://fosstodon.org/@n8henrie)
+  * [@KI5AYO@mastodon.radio](https://mastodon.radio/@KI5AYO)
   * Twitter: <a href="https://twitter.com/n8henrie" title="@n8henrie on Twitter" target="_blank">@n8henrie</a>
 
 If it’s long or private:
