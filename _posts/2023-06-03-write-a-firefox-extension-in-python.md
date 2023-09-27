@@ -50,7 +50,7 @@ To try out the toy extension:
 
 In short, I found that you can import `pyodide.js` in your `manifest.json`
 using a local path. That defines a function `loadPyodide`, which can accept an
-object with an `indexURL` argument. `manifest.json` then load a local
+object with an `indexURL` argument. `manifest.json` then loads a local
 JavaScript file, `hello.js`, which calls `loadPyodide` with `indexURL` set to
 a local path to the rest of the necessary files.
 
