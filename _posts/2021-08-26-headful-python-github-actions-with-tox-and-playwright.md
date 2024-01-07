@@ -146,6 +146,10 @@ which seems to be doing the trick.
 
 Phew.
 
+**Update 20240105:** Tox 4 no longer uses `TOX_TESTENV_PASSENV`; a similar
+workaround can be configured using `TOX_OVERRIDE='testenv.pass_env+=FOO,BAR'`,
+see [here](https://github.com/tox-dev/tox/discussions/2681) for more details.
+
 [0]: https://github.com/n8henrie/pycookiecheat
 [1]: https://github.com/microsoft/playwright-python
 [2]: https://github.com/n8henrie/pycookiecheat/blob/3458862a4c99c83ae9017fe52ae6ec49216c745d/tests/test_pycookiecheat.py#L40
