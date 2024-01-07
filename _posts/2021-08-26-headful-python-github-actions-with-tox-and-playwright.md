@@ -105,7 +105,7 @@ locally:
   want without having to waste CI minutes
 - the [Docker image](https://github.com/catthehacker/docker_images) I
   configured to be used by `act`, which I could run directly and attach an
-  interactive shell to be able to tweak settings in real time 
+  interactive shell to be able to tweak settings in real time
     - NB: I used the `catthehacker/ubuntu:runner-20.04` image
 
 Knowing that I could successfully `xvfb-run -- python -m pytest` but not
