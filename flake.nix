@@ -58,6 +58,18 @@
               open "http://localhost:4000"
           '';
         };
+
+        apps.update = {
+          type = "app";
+          program =
+            let
+              script = pkgs.writeShellScriptBin "update" ''
+                	rm -f Gemfile.lock
+                	BUNDLE_FORCE_RUBY_PLATFORM=true ${with pkgs; lib.getExe bundix} --lock
+              '';
+            in
+            pkgs.lib.getExe script;
+        };
       }
     );
 }
