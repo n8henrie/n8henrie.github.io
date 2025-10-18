@@ -1,55 +1,56 @@
 {
   description = "Reproducible setup for n8henrie.com via GitHub Pages";
-  inputs = {
-    # ruby 2.7.4
-    # https://pages.github.com/versions/
-    # https://lazamar.co.uk/nix-versions/?channel=nixpkgs-unstable&package=ruby
-    nixpkgs.url = "https://github.com/NixOS/nixpkgs/archive/5e15d5da4abb74f0dd76967044735c70e94c5af1.tar.gz";
-  };
-
-  outputs = { self, nixpkgs }:
+  # ruby 3.3.4
+  # https://pages.github.com/versions.json
+  # https://lazamar.co.uk/nix-versions/?channel=nixpkgs-unstable&package=ruby
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/ab7b6889ae9d484eed2876868209e33eb262511d";
+  # inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+  outputs =
+    { nixpkgs, ... }:
     let
       systems = [
         "aarch64-darwin"
         "aarch64-linux"
       ];
+      eachSystem =
+        with nixpkgs.lib;
+        f: foldAttrs mergeAttrs { } (map (s: mapAttrs (_: v: { ${s} = v; }) (f s)) systems);
     in
-    {
-      devShell = builtins.listToAttrs
-        (map
-          (system:
-            let
-              pkgs = import nixpkgs {
-                inherit system;
+    eachSystem (
+      system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+        jekyll_ruby = pkgs.ruby_3_3;
+      in
+      {
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            bundix
+            (bundlerEnv {
+              ruby = jekyll_ruby;
+              name = "n8henrie.com";
+              gemdir = ./.;
+              gemConfig.nokogiri = attrs: {
+                buildInputs = [ pkgs.zlib ];
+                buildFlags = [
+                  "--with-iconv-dir=${libiconv}"
+                  "--with-opt-include=${libiconv}/include"
+                ];
               };
-              gems = pkgs.bundlerEnv {
-                ruby = pkgs.ruby;
-                name = "n8henrie.com";
-                gemdir = ./.;
-
-                gemConfig.nokogiri = attrs: {
-                  buildInputs = [ pkgs.zlib ];
-                };
+              gemConfig.ffi = attrs: {
+                buildInputs = [ pkgs.libffi ];
               };
-            in
-            {
-              name = system;
-              value = with pkgs;
-                mkShell {
-                  buildInputs = [
-                    bundix
-                    gems
-                    libffi
-                    pkgconfig
-                    ruby
-                  ];
-                  shellHook = ''
-                    export LANG="en_US.UTF-8"
-                    make develop
-                  '';
-                };
-            }
-          )
-          systems);
-    };
+            })
+            # iconv
+            # libffi
+            pkg-config
+            jekyll_ruby
+          ];
+          # shellHook = ''
+          #   export LANG="en_US.UTF-8"
+          #   make develop
+          # '';
+        };
+      }
+    );
 }
