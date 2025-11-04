@@ -17,6 +17,8 @@ tags:
 with vm-bhyve.
 <!--more-->
 
+**20251104 Update**: Changed `/boot/loader.conf` to `/boot/loader.conf.local` thanks to @gmipf, based on <https://docs.netgate.com/pfsense/en/latest/config/advanced-tunables.html>
+
 If you're trying to get a Linux VM running under bhyve on pfSense, I strongly
 recommend that you start with [my first post on the topic][0]. Once you have
 things running interactively, it's time to try to get the VM to start and run
@@ -45,11 +47,7 @@ You'll probably want to keep [vm-bhyve's GitHub page][vm-bhyve] open to
 references its documentation.
 
 1. Install `vm-bhyve` with `pkg install vm-bhyve`
-1. Using the web interface, configure pfSense to load the necessary kernel
-   modules on boot by adding the following to `/boot/loader.conf` (following
-   the [official FreeBSD
-   instructions](https://people.freebsd.org/~blackend/doc/handbook/virtualization-host-bhyve.html),
-   though I didn't need `nmdm_load`):
+1. Using the web interface, configure pfSense to load the necessary kernel modules on boot by adding the following to `/boot/loader.conf.local` (following the [official FreeBSD instructions](https://people.freebsd.org/~blackend/doc/handbook/virtualization-host-bhyve.html), though I didn't need `nmdm_load`):
 ```
 vmm_load="YES"
 if_bridge_load="YES"
