@@ -68,3 +68,12 @@ echo "encoded_password" | base64 --decode
 ```
 
 Once I had my decoded password, I plugged it into my Airport Extreme with the username from the XML config file `lastname_firstname@qwest.net` and it worked like a charm.
+
+**Update 20260322**:
+Amazing! Commenter Martin Atkins points out:
+
+> I'm sure that, since you posted this nine years ago at the time I'm writing this comment, you've long since moved on from this question, but just in case it's helpful to someone else who finds themselves here trying to achieve the same thing:
+>
+> On the current latest firmware for the CenturyLink-branded C1100Z (CZW008-4.16.013.4), the special "shell password" it requires you to type when you enter "sh" to get to the busybox shell is the fixed prefix C1100Z!# followed by the last six digits of your device's serial number. After entering that password on my device I was able to access the BusyBox shell prompt.
+
+Copying this comment into the post for visibility, and because I hope to ditch Disqus at some point (due to privacy concerns and ideologically preferring open source projects, preferably written in languages I know). Thanks Martin!
