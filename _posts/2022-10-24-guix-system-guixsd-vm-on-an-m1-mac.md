@@ -255,9 +255,17 @@ have feedback or recommendations, please let me know! Like the others, I was
 able to build it from my Ubuntu VM, `scp` it back to my M1 MacBook host, and
 run it with `libvirt` without issues.
 
+**Update 20260322**:
+As a few commenters have pointed out, Guix 1.5.0 has been released, and it includes a downloadable aarch64 VM image that works well.
+My config below has a few minor updates for 1.5.0 compatibility.
+Anyone needing access to the config originally contained in this post can find it [here](https://github.com/n8henrie/n8henrie.github.io/blob/f03cb4aa5c7e362220b2c722c5de2d891c20a96e/_posts/2022-10-24-guix-system-guixsd-vm-on-an-m1-mac.md).
+
 ```scheme
+; guix system image --system=aarch64-linux --image-type=uncompressed-iso9660 ./guix.scm
+
 (use-modules (gnu)
              (guix)
+             (gnu system image)
              (guix download))
 (use-service-modules networking ssh)
 (use-package-modules certs
@@ -272,16 +280,25 @@ run it with `libvirt` without issues.
   (timezone "America/Denver")
   (locale "en_US.utf8")
 
+  ;; Boot in "legacy" BIOS mode, assuming /dev/sdX is the
+  ;; target hard disk, and "my-root" is the label of the target
+  ;; root file system.
   (bootloader (bootloader-configuration
                 (bootloader grub-efi-bootloader)
                 (targets '("/boot/efi"))
                 (terminal-outputs '(console))))
+  (file-systems (cons* (file-system
+                         (mount-point "/")
+                         (device (file-system-label root-label))
+                         (type "ext4"))
+                       (file-system
+                         (mount-point "/boot/efi")
+                         (device (file-system-label "GNU-ESP"))
+                         (type "vfat")) %base-file-systems))
 
-  (file-systems (cons (file-system
-                        (mount-point "/")
-                        (device "/dev/vda1")
-                        (type "ext4")) %base-file-systems))
-
+  ;; This is where user accounts are specified.  The "root"
+  ;; account is implicit, and is initially created with the
+  ;; empty password.
   (users (cons (user-account
                  (name "n8henrie")
                  ;; https://www.gnu.org/software/libc/manual/html_node/Passphrase-Storage.html#Passphrase-Storage
@@ -290,28 +307,37 @@ run it with `libvirt` without issues.
                  (supplementary-groups '("wheel" "audio" "video")))
                %base-user-accounts))
 
-  (sudoers-file (plain-file "sudoers"
-                            "root ALL=(ALL) ALL\n%wheel ALL=NOPASSWD: ALL\n"))
+  ;; Our /etc/sudoers file.  Since 'guest' initially has an empty password,
+  ;; allow for password-less sudo.
+  (sudoers-file (plain-file "sudoers" "root ALL=(ALL) ALL
+%wheel ALL=NOPASSWD: ALL
+"))
 
-  (packages (append (list tmux nss-certs vim wget) %base-packages))
+  ;; Globally-installed packages.
+  (packages (append (list git helix tmux vim wget) %base-packages))
 
+  ;; Add services to the baseline: a DHCP client and
+  ;; an SSH server.
   (services
-   (append (list (service dhcp-client-service-type)
+   (append (list (service dhcpcd-service-type)
                  (service openssh-service-type
                           (openssh-configuration (openssh openssh-sans-x)
                                                  (password-authentication? #f)
                                                  (port-number 22)
                                                  (authorized-keys `(("n8henrie" ,(origin
 
+
                                                                                    (method
                                                                                     url-fetch)
+
 
                                                                                    (uri
                                                                                     "https://github.com/n8henrie.keys")
 
+
                                                                                    (sha256
                                                                                     (base32
-                                                                                     "1zhq1r83v6sbrlv1zh44ja70kwqjifkqyj1c258lki2dixqfnjk7")))))))))
+                                                                                     "1whpdhi9nwdwgbjkk87033s1jprpn5zlsdswh7s14kw82ya4n2qc")))))))))
            %base-services))
   (name-service-switch %mdns-host-lookup-nss))
 ```
